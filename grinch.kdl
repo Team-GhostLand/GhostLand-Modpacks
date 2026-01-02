@@ -1,31 +1,50 @@
-format-version 3
+format-version 4
 
-default-modpack "GhostRunCM"
+default-modpack "GhostRun_Winter2025_26"
 
 modpacks {
-    modpack "GhostLand7" path="./modpack" preferred-name="GhostLand" {
-        version-prefix "7."
+    modpack "GhostLand7" path="./modpack" {
         description "Paczka na siódmą edycję GhostLanda"
-        ingame-name "GhostLand 7.0.10"
-        /-files {
-            allow "config/*" "mods/*" "shaderpacks/*"
-            expect "config/" "mods/" "shaderpacks/" "datapacks/" "resourcepacks/" "defaultconfigs/" "moddata/" "options.txt"
-            disallowed ".fabric" "crash-reports" "CustomSkinLoader" "data" "fancymenu_data" "frozenlib_cape_cache" "ldlib" "logs" "ModTranslations" "saves" "schematics" "stackdeobf_mappings" "xaero" "irisUpdateInfo.json" 
-        }
+		names {
+			default "GhostLand %V"
+			quick "Internal Grinch representation (so you probably dont want this one) of GhostLand %V as of %D"
+			dev "DevExport of GhostLand %V as of %D"
+			slim "GhostLand %V - Slim Edition"
+			tweakable "GhostLand %V - Tweakable Edition"
+			git "GhostLand 7.0.10"
+		}
     }
-    modpack "GhostRun" path="./grun" preferred-name="GhostRun" {
-        version-prefix "0."
-        description "GhostRun: Paczka serwerowa GhostLanda, na czas między-edycjowy. Edycja zimowa 2025/26."
-        ingame-name "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]"
+    modpack "GhostRun_Winter2025_26" path="./grun" {
+        description "GhostRun: Paczka GhostLanda na czas między-edycjowy. Edycja zimowa 2025/26. [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]"
+		names {
+			default "GhostRun %V"
+			quick "Internal Grinch representation (so you probably dont want this one) of GhostRun %V as of %D"
+			dev "DevExport of GhostRun %V as of %D"
+			slim "GhostRun %V - Slim Edition"
+			tweakable "GhostRun %V - Tweakable Edition"
+			git "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]"
+		}
     }
-    modpack "GhostRunJIF0" path="./grun-jifo" preferred-name="GhostRun Jiffed" {
-        version-prefix "J0."
-        description "GhostRun: Paczka serwerowa GhostLanda, na czas między-edycjowy. Edycja zimowa 2025/26."
-        ingame-name "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]"
+    modpack "GhostRunJIF0_Winter2025_26" path="./grun-jifo" {
+        description "GhostRun: Paczka GhostLanda na czas między-edycjowy. Edycja zimowa 2025/26 w oryginalnej wersji od JIF0. [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]"
+		names {
+			default "GhostRun %V - Jiffed Edition"
+			quick "Internal Grinch representation (so you probably dont want this one) of GhostRun %V as of %D - Jiffed Edition"
+			dev "DevExport of GhostRun %V as of %D - Jiffed Edition"
+			slim "GhostRun %V - SlimJiffed Edition"
+			tweakable "GhostRun %V - TweakableJiffed Edition"
+			git "GhostRun 2025 [PACZKA SERWEROWA! Prawdopodobnie to nie jej chcesz używać u siebie na kliencie.]"
+		}
     }
-    modpack "GhostRunCM" path="./grun-cm" preferred-name="CraftMine" {
-    	version-prefix "1.2."
-        description "GhostRun: Paczka serwerowa (opcj. klientowa) GhostLanda, na czas między-edycjowy. Wersja CraftMine."
-        ingame-name "GhostRun CM"
+    modpack "CraftMine_Winter2025_26" path="./grun-cm" {
+        description "GhostRun: Paczka GhostLanda na czas między-edycjowy. Edycja zimowa 2025/26 w wersji CraftMine."
+		names {
+			default "CraftMine %V"
+			quick "Internal Grinch representation (so you probably dont want this one) of CraftMine %V as of %D"
+			dev "DevExport of CraftMine %V as of %D"
+			slim "CraftMine %V - Slim Edition"
+			tweakable "CraftMine %V - Tweakable Edition"
+			git "GhostRun CM"
+		}
     }
 }
