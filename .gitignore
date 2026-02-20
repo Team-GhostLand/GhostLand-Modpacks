@@ -3,27 +3,27 @@
 **.mrpack
 
 # Leaks local world names: (which isn't really a „leak” as in a „security issue”, but this has caused Windows incompatibilities (lol) in the past)
-modpack/overrides/config/inventoryprofilesnext
+ghostland7/overrides/config/inventoryprofilesnext
 
 # Leaks usernames/IDs:
-modpack/overrides/config/sounds/chat.json
-modpack/overrides/config/skinrestorer/mojang_profile_cache.json
-modpack/overrides/config/sodium-fingerprint.json
-modpack/overrides/config/jade/usernamecache.json
-modpack/overrides/config/roughlyenoughitems/hints.json
-modpack/overrides/config/voicechat/username-cache.json
+ghostland7/overrides/config/sounds/chat.json
+ghostland7/overrides/config/skinrestorer/mojang_profile_cache.json
+ghostland7/overrides/config/sodium-fingerprint.json
+ghostland7/overrides/config/jade/usernamecache.json
+ghostland7/overrides/config/roughlyenoughitems/hints.json
+ghostland7/overrides/config/voicechat/username-cache.json
 
 # Temproary files
-modpack/overrides/config/spark/tmp
+ghostland7/overrides/config/spark/tmp
 
 # Copyright violations lol
-modpack/overrides/config/analog/records
+ghostland7/overrides/config/analog/records
 
 # Distant Horizons interprets values differently on different devices - better to remove its configs and have everything set to default; it's server-version is in server-overrides
-#modpack/overrides/config/DistantHorizons.toml
+#ghostland7/overrides/config/DistantHorizons.toml
 
 # Leaks personal access tokens; it's server-version is in server-overrides
-modpack/overrides/config/PacketAuth/config.yml
+ghostland7/overrides/config/PacketAuth/config.yml
 
 # It's server-version is in server-overrides
-modpack/overrides/config/discord_chat_mod-common.toml
+ghostland7/overrides/config/discord_chat_mod-common.toml
