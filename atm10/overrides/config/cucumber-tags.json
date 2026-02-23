@@ -1,0 +1,8 @@
+{
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "c:dusts/niter": "eternal_starlight:saltpeter_powder",
+  "c:ingots/graphite": "bigreactors:graphite_ingot",
+  "c:rubbers": "null",
+  "c:gems/apatite": "null",
+  "c:dusts/saltpeter": "eternal_starlight:saltpeter_powder"
+}

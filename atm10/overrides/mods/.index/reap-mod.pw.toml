@@ -1,0 +1,17 @@
+filename = 'reap-neoforge-1.21.1-1.1.2.jar'
+name = 'Reap Mod'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '[NEOFORGE][1.21.1] Reap Mod 1.21.1-1.1.2'
+
+[download]
+hash = 'c57c3bcfdaf55e4719cc785b72631a794e5381fc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5608983
+project-id = 244256

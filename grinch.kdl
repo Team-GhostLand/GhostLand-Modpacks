@@ -58,4 +58,15 @@ modpacks {
 			git "GhostRun CM"
 		}
     }
+	modpack "All the Mods 10" path="./atm10" {
+        description "All the Mods"
+		names {
+			default "All the Mods %V"
+			quick "Internal Grinch representation (so you probably dont want this one) of All the Mods %V as of %D"
+			dev "DevExport of All the Mods %V as of %D"
+			slim "All the Mods %V - Slim Edition"
+			tweakable "All the Mods %V - Tweakable Edition"
+			git "All the Mods 10 Forked"
+		}
+    }
 }

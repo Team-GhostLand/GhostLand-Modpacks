@@ -1,0 +1,17 @@
+filename = 'connectivity-1.21.1-7.6.jar'
+name = 'Connectivity'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'connectivity-1.21.1-7.6.jar'
+
+[download]
+hash = '6adebe84f745dec8fa33bc3982383bc1cc24d49e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7367221
+project-id = 470193

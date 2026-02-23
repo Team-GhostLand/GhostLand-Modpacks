@@ -1,0 +1,17 @@
+filename = 'cristellib-neoforge-1.21.1-3.0.2.1.jar'
+name = 'Cristel Lib'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'cristellib-neoforge-1.21.1-3.0.2.1.jar'
+
+[download]
+hash = 'e35d8fd602ed89228e7cf9ef2ff47da7a37833de'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7233453
+project-id = 856996

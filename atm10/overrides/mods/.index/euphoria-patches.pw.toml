@@ -1,0 +1,31 @@
+filename = 'EuphoriaPatcher-1.7.8-r5.6.1-neoforge.jar'
+name = 'Euphoria Patches'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.10',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'EuphoriaPatcher 1.7.8-r5.6.1-neoforge'
+
+[download]
+hash = '75d8dfd62c79af485095adcc30351612024454fd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7236770
+project-id = 915902

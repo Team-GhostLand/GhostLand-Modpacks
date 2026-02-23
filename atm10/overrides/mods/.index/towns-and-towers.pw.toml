@@ -1,0 +1,17 @@
+filename = 't_and_t-neoforge-fabric-1.13.7+1.21.1.jar'
+name = 'Towns and Towers'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '(1.21.1) Towns and Towers 1.13.7 (NeoForge/Fabric)'
+
+[download]
+hash = 'eb7666961fb0b0d0ff8bc01ff62194952f6b6b8c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7112985
+project-id = 626761

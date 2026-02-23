@@ -1,0 +1,17 @@
+filename = 'ExtraDisks-1.21.1-4.0.14.jar'
+name = 'Extra Disks'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'ExtraDisks-1.21.1-4.0.14.jar'
+
+[download]
+hash = 'f5e54198246beaf7268d19c2cf8502b0ba419ce1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7032487
+project-id = 351491

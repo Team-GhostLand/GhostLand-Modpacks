@@ -1,0 +1,17 @@
+filename = 'ExtraStorage-1.21.1-5.0.8.jar'
+name = 'ExtraStorage'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ExtraStorage-1.21.1-5.0.8'
+
+[download]
+hash = '33a00bfbc3fda32d60cfd2f78dbeb470876781bc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7379767
+project-id = 410168

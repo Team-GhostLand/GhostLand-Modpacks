@@ -1,0 +1,17 @@
+filename = 'universalgrid-neoforge-1.21.1-0.2.4.jar'
+name = 'Universal Grid'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'universalgrid-neoforge-1.21.1-0.2.4.jar'
+
+[download]
+hash = 'ec3913691c88bade111cf9f53b3b8b85c9594d59'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7312375
+project-id = 536160

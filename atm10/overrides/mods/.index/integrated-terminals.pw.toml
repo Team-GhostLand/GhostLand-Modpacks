@@ -1,0 +1,17 @@
+filename = 'integratedterminals-1.21.1-neoforge-1.6.24.jar'
+name = 'Integrated Terminals'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'integratedterminals-1.21.1-neoforge-1.6.24.jar'
+
+[download]
+hash = '9860ef2a027f9b4ca9bf826fcb46d8afdd3b1bcf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7473420
+project-id = 295910

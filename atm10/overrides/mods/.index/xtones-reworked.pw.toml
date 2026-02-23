@@ -1,0 +1,17 @@
+filename = 'xtonesreworked-1.1.1-1.21.1.jar'
+name = 'Xtones Reworked'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'xtonesreworked-1.1.1-1.21.1.jar'
+
+[download]
+hash = '2daa001d39b43ba379991b944e022ab365c74cfd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7032490
+project-id = 694231

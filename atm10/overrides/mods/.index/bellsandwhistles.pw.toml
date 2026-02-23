@@ -1,0 +1,17 @@
+filename = 'bellsandwhistles-0.4.7-1.21.1.jar'
+name = 'Create: Bells & Whistles'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'bellsandwhistles-0.4.7-1.21.1.jar'
+
+[download]
+hash = '85944080f8bd47dad64a8193a70662cd9ddbb200'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6299879
+project-id = 905040

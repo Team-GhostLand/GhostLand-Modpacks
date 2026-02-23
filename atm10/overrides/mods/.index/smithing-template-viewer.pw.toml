@@ -1,0 +1,17 @@
+filename = 'smithingtemplateviewer-1.0.4.jar'
+name = 'Smithing Template Viewer for JEI/EMI'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'smithingtemplateviewer-1.0.4.jar'
+
+[download]
+hash = '4fea33926fafbd59f7434d1e4e64938ddee5d5db'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7452053
+project-id = 1133580

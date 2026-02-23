@@ -1,0 +1,17 @@
+filename = 'industrialization_overdrive-1.10.7+1.21.1.jar'
+name = 'Industrialization Overdrive'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'industrialization_overdrive-1.10.7+1.21.1.jar'
+
+[download]
+hash = 'd942fe79f64c969ca17d9a452f6c8edb62d8de08'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7281011
+project-id = 1089065

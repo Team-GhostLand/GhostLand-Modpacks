@@ -1,0 +1,17 @@
+filename = 'not_enough_glyphs-1.21.1-4.2.4.jar'
+name = 'Not Enough Glyphs'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'not_enough_glyphs-1.21.1-4.2.4.jar'
+
+[download]
+hash = '5df4da78ddabcda8d5d1cdd64f2ed238b12d162a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7442375
+project-id = 1023517

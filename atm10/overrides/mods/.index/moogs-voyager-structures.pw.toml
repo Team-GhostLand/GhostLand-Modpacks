@@ -1,0 +1,30 @@
+filename = 'MoogsVoyagerStructures-1.21-5.0.5.jar'
+name = "MVS - Moog's Voyager Structures"
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21.1',
+    '1.21.10',
+    '1.21.11',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MVS 5.0.5-1.21 [UNIVERSAL]'
+
+[download]
+hash = '6335b4caf8d5f969c948b5a2ce6c675d367a600b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7541010
+project-id = 656977

@@ -1,0 +1,17 @@
+filename = 'allthetweaks-1.21.1-2.8.2.jar'
+name = 'All The Tweaks'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'allthetweaks-1.21.1-2.8.2.jar'
+
+[download]
+hash = 'a78eccdfde69daf808498b523396e0dda731016a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7551716
+project-id = 364120

@@ -1,0 +1,17 @@
+filename = 'shrink-2.0.1.47-neoforge.jar'
+name = 'Shrink.'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21-2.0.1.47 [NeoForge]'
+
+[download]
+hash = '17407b525c0c70a0f6f03a08024a14058f645d01'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6194054
+project-id = 426386

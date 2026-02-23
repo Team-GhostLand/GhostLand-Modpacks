@@ -1,0 +1,17 @@
+filename = 'hardenedarmadillos-1.21.1-0.2.0.jar'
+name = 'Hardened Armadillos'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'hardenedarmadillos-1.21.1-0.2.0.jar'
+
+[download]
+hash = '1c9a37d6fe172580af5142c66b9157d21aa6c5f7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5939448
+project-id = 1001266

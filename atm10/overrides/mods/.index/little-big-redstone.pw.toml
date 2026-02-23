@@ -1,0 +1,17 @@
+filename = 'little-big-redstone-1.4.16-beta-1.21.1.jar'
+name = 'Little Big Redstone'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'little-big-redstone-1.4.16-beta-1.21.1.jar'
+
+[download]
+hash = '956e4c439c3cdf843b2e6e276e9182ab15001062'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7529548
+project-id = 1180560

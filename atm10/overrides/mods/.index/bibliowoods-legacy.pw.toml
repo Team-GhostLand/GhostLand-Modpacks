@@ -1,0 +1,17 @@
+filename = 'bibliowoods-1.21.1-1.6.0.jar'
+name = 'Bibliowoods Legacy'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'bibliowoods-1.21.1-1.6.0.jar'
+
+[download]
+hash = 'e0cc0de9a7e5a60fcbdb8a344e9a925a3771428f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6800961
+project-id = 1122764

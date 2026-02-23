@@ -1,0 +1,17 @@
+filename = 'moredragoneggs-5.0.jar'
+name = 'More Dragon Eggs'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'moredragoneggs-5.0.jar'
+
+[download]
+hash = 'c9b26ad977aaa6c2d1bd1ad681edd77cf466537d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5746086
+project-id = 358700

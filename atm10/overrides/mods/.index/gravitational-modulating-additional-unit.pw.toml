@@ -1,0 +1,17 @@
+filename = 'GravitationalModulatingAdditionalUnit-1.21.1-6.4.jar'
+name = 'Gravitational Modulating Additional Unit'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-6.4'
+
+[download]
+hash = '244d8b57aa7d34e247f3dd09cacf647a9ba1cfab'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6895172
+project-id = 656136

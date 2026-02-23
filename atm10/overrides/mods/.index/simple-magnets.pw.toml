@@ -1,0 +1,17 @@
+filename = 'simplemagnets-1.1.12c-neoforge-mc1.21.jar'
+name = 'Simple Magnets'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Simple Magnets 1.1.12c for NeoForge 1.21'
+
+[download]
+hash = 'abba7efcee3ae31bd3512147053279422e866ebf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6316527
+project-id = 394140

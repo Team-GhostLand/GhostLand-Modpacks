@@ -1,0 +1,17 @@
+filename = 'pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar'
+name = "Pam's HarvestCraft 2 - Food Extended"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar'
+
+[download]
+hash = '0cf7f668fdedef93446f33215484913991185102'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6221521
+project-id = 402231

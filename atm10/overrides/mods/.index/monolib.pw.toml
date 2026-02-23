@@ -1,0 +1,17 @@
+filename = 'monolib-neoforge-1.21.1-2.1.0.jar'
+name = 'MonoLib'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'monolib-neoforge-1.21.1-2.1.0'
+
+[download]
+hash = 'e618e28647fcbf931143f81bcd905d7c9c61f27b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6544086
+project-id = 968432

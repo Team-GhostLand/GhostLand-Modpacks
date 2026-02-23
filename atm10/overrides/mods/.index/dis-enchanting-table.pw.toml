@@ -1,0 +1,17 @@
+filename = 'disenchanting_table-merged-1.21.1-5.0.2.jar'
+name = 'Dis-Enchanting Table'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Neo/Fabric] Dis-Enchanting Table - MC 1.21.1 - 5.0.2'
+
+[download]
+hash = 'c054a8bef63addff4d4a9520ec4c7a915c3fc1d1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6581607
+project-id = 933354

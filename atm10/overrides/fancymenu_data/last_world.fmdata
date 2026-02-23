@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/mrydu/AppData/Roaming/ModrinthApp/profiles/ATM10/saves/New World
+}
+

@@ -1,0 +1,17 @@
+filename = 'refined-types-1.21.1-0.2.9.jar'
+name = 'Refined Types'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'refined-types-1.21.1-0.2.9.jar'
+
+[download]
+hash = '9c5e8fa5b9fde13b42868d1a6612cde446418467'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7282158
+project-id = 1327983

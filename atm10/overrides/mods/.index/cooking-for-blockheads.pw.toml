@@ -1,0 +1,17 @@
+filename = 'cookingforblockheads-neoforge-1.21.1-21.1.17.jar'
+name = 'Cooking for Blockheads'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'cookingforblockheads-neoforge-1.21.1-21.1.17.jar'
+
+[download]
+hash = 'c58cbf6290c29990c9af5b20e7ab4703c21290cd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6975904
+project-id = 231484

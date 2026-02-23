@@ -1,0 +1,17 @@
+filename = 'wirelesschargers-1.0.9a-neoforge-mc1.21.jar'
+name = 'Wireless Chargers'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Wireless Chargers 1.0.9a for NeoForge 1.21'
+
+[download]
+hash = '129e88001446f07d8d7c790d169f26814346befb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5551798
+project-id = 510656

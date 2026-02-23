@@ -1,0 +1,17 @@
+filename = 'herbsandharvest-1.21.1-2.jar'
+name = "Mama's Herbs and Harvest"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'herbsandharvest-1.21.1-2.jar'
+
+[download]
+hash = '97992d4df2faab7616e21ffe8d557cd0afdb7075'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6987886
+project-id = 1130473

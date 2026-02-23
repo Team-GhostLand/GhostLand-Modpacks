@@ -1,0 +1,17 @@
+filename = 'MysticalCustomization-1.21.1-6.0.1.jar'
+name = 'Mystical Customization'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MysticalCustomization-1.21.1-6.0.1.jar'
+
+[download]
+hash = 'aa209e738d452bf777c1400e99505d077c82f245'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7397754
+project-id = 280441
