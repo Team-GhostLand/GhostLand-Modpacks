@@ -1,0 +1,17 @@
+filename = 'novillagerdm-1.21.1-6.0.0.jar'
+name = 'No Villager Death Messages'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'novillagerdm-1.21.1-6.0.0.jar'
+
+[download]
+hash = '284694712ae9c5a17dfff4c0830048574996a229'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5812197
+project-id = 451682

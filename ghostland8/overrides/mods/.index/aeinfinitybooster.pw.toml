@@ -1,0 +1,17 @@
+filename = 'aeinfinitybooster-neoforge-1.21.1-1.0.0.54.jar'
+name = 'AEInfinityBooster'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'AEInfinityBooster 1.21.1-1.0.0.54'
+
+[download]
+hash = 'd00daf281a852358022b936a21ae272578f00afd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7402808
+project-id = 559313

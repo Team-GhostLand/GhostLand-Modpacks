@@ -1,0 +1,17 @@
+filename = 'mekmm-1.21.1-1.2.3.jar'
+name = 'Mekanism:More Machine'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mekmm-1.21.1-1.2.3.jar'
+
+[download]
+hash = '5d3eba436c0f34f207f6df0d5802919dc98610dc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7498280
+project-id = 1275257

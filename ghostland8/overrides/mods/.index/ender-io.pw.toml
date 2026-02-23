@@ -1,0 +1,17 @@
+filename = 'enderio-8.1.1-beta.jar'
+name = 'Ender IO'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Ender IO - 8.1.1-beta'
+
+[download]
+hash = '26b7d074e56ea950a61aa077d37f5194ea7b95ff'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7548278
+project-id = 64578

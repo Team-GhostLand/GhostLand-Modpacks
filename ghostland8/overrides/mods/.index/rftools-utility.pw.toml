@@ -1,0 +1,17 @@
+filename = 'rftoolsutility-1.21-7.0.10.jar'
+name = 'RFTools Utility'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'RFToolsUtility - 1.21-7.0.10'
+
+[download]
+hash = 'b4eae11cdfe7b26eb4217c926514b2919d51a887'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7263408
+project-id = 342466

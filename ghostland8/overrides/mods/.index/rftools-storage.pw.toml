@@ -1,0 +1,17 @@
+filename = 'rftoolsstorage-1.21-6.0.4.jar'
+name = 'RFTools Storage'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'RFToolsStorage - 1.21-6.0.4'
+
+[download]
+hash = '2ba2a45383876c373ee475f634fcde9f22b5dc58'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7041247
+project-id = 350006

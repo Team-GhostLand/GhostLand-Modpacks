@@ -1,0 +1,17 @@
+filename = 'bibliocraft-1.21.1-1.6.2.jar'
+name = 'Bibliocraft Legacy'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'bibliocraft-1.21.1-1.6.2'
+
+[download]
+hash = 'ef517e019b1ec9057e21875b0698f310531d2f05'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7055118
+project-id = 1122260

@@ -5,13 +5,15 @@
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage.normal_amount": 9,
+    "energy_storage.style": "PROGRESS_BAR",
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
+    "next_entity_drop": true,
     "energy_storage": true,
-    "entity_armor.max_for_render": 40,
+    "entity_armor.max_for_render": 20,
     "breaking_progress": true,
     "tnt_stability": true,
     "item_storage.items_per_line": 9,
@@ -26,15 +28,14 @@
     "mob_spawner": true,
     "redstone": true,
     "fluid_storage": true,
-    "chicken_egg": true,
     "jukebox": true,
     "brewing_stand": true,
     "energy_storage.detailed": false,
     "note_block": true,
+    "fluid_storage.style": "PROGRESS_BAR",
     "beehive": true,
     "item_storage.detailed_amount": 54,
     "player_head": true,
-    "block_states": false,
     "lectern": true,
     "entity_armor": true,
     "harvest_tool.creative": false,
@@ -51,52 +52,46 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "gtceu": {
-    "auto_output_info": true,
-    "primitive_pump": true,
-    "workable_provider": true,
-    "transformer": true,
-    "ldp_endpoint": true,
-    "controllable_provider": true,
-    "energy_converter_provider": true,
-    "exhaust_vent_info": true,
-    "me_pattern_buffer": true,
-    "me_pattern_buffer_proxy": true,
-    "multiblock_structure": true,
-    "recipe_logic_provider": true,
-    "maintenance_info": true,
-    "machine_mode": true,
-    "battery_info": true,
-    "steam_boiler_info": true,
-    "electric_container_provider": true,
-    "recipe_output_info": true,
-    "stained_color": true,
-    "hazard_cleaner_provider": true,
-    "data_bank": true,
-    "cable_info": true,
-    "parallel_info": true
+  "tempad": {
+    "chronon": true,
+    "rudimentary": true,
+    "anchor": true,
+    "metronome": true,
+    "workstation": true,
+    "timedoor": true
   },
-  "bettergtae": {
-    "extend_me_pattern_buffer": true,
-    "extend_me_pattern_buffer_proxy": true
+  "apothic_spawners": {
+    "spawner": true
   },
-  "supplementaries": {
-    "hat_stand": true
+  "entangled": {
+    "entangled_block_component": true
+  },
+  "mekanismcovers": {
+    "cover_component": true
+  },
+  "ftbquests": {
+    "barrier": true
+  },
+  "immersiveengineering": {
+    "multiblock_icon": true
   },
   "jade": {
     "coordinates.rel": false,
+    "registry_name.special": false,
+    "block_states": false,
     "distance": false,
     "block_face": false,
     "coordinates": false,
     "registry_name": "OFF",
+    "block_properties": false,
     "mod_name": true
   },
-  "expatternprovider": {
+  "allthemodium": {
+    "teleport_pad": true
+  },
+  "extendedae": {
     "jade_chamber": true,
     "jade_wireless": true
-  },
-  "balm": {
-    "jade": true
   },
   "ae2": {
     "part_icon": true,
@@ -109,5 +104,171 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "easy_villagers": {
+    "villager": true,
+    "converter": true,
+    "breeder": true
+  },
+  "pipez": {
+    "pipe": true
+  },
+  "productivemetalworks": {
+    "casting": true
+  },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "gravestone": {
+    "grave": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "securitycraft": {
+    "showowner": true,
+    "showmodules": true,
+    "entity_info": true,
+    "block_info": true,
+    "showcustomname": true
+  },
+  "treetap": {
+    "tap": true
+  },
+  "evilcraft": {
+    "box_of_eternal_closure": true,
+    "broom": true
+  },
+  "framedblocks": {
+    "framed_item_frame": true,
+    "framed_block_generic": true
+  },
+  "dimstorage": {
+    "dim_block_base": true,
+    "dim_tank": true
+  },
+  "compactmachines": {
+    "show_owner": false,
+    "bound_machine": true
+  },
+  "railcraft": {
+    "signals": true,
+    "track_component": true,
+    "locomotive": true,
+    "switch_track": true
+  },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  "tombstone": {
+    "decorative_graves": true,
+    "player_graves": true
+  },
+  "oritech": {
+    "machine_core_controller": true
+  },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
+  },
+  "extrastorage": {
+    "advanced_crafter": true
+  },
+  "apotheosis": {
+    "adventure": true
+  },
+  "modern_industrialization": {
+    "overclock": true,
+    "pipe": true
+  },
+  "occultism": {
+    "foliot": true,
+    "sacrificial": true
+  },
+  "iceandfire": {
+    "dragon_egg_entity": true,
+    "multipart": true,
+    "dragon": true,
+    "dragon_egg_block": true
+  },
+  "apothic_enchanting": {
+    "ench": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "functionalstorage": {
+    "armory": true,
+    "drawer": true
+  },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
+  },
+  "productivebees": {
+    "bee": true,
+    "solitary_nest": true,
+    "canvas_beehive": true,
+    "bee_attributes": true
+  },
+  "modularrouters": {
+    "router": true
+  },
+  "xycraft": {
+    "energy_pipe_debug": true,
+    "tank_component": true,
+    "extractor_component": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
+  "crystalix": {
+    "crystalix_block": true
+  },
+  "twilightforest": {
+    "drying_rack": true,
+    "chiseled_bookshelf_spawner": true,
+    "quest_ram_wool": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
   }
 }

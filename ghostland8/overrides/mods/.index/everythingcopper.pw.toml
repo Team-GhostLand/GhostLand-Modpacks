@@ -1,0 +1,17 @@
+filename = 'everythingcopper-1.21.1-2.4.5.jar'
+name = 'Everything is Copper'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'everythingcopper-1.21.1-2.4.5.jar'
+
+[download]
+hash = 'b1e47814467032ed8d24f5a2ce3f466e44be9239'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6958511
+project-id = 579545

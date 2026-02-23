@@ -1,0 +1,30 @@
+filename = 'formationsoverworld-1.0.5-mc1.21+.jar'
+name = 'Formations Overworld'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.21',
+    '1.21.1',
+    '1.21.10',
+    '1.21.11',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Formations Overworld 1.0.5 For Minecraft 1.21'
+
+[download]
+hash = 'edbc169c78f9f1cdf5233e996f12b21e7e1cdf18'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6792381
+project-id = 915324

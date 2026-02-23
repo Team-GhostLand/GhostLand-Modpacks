@@ -1,0 +1,17 @@
+filename = 'mekanisticrouters-1.2.0.jar'
+name = 'Mekanistic Routers'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mekanisticrouters-1.2.0.jar'
+
+[download]
+hash = 'a3506c0c37f92a390f021affa752cf55cc0a0b12'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7511369
+project-id = 1148201

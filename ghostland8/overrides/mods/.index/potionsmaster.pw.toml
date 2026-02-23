@@ -1,0 +1,17 @@
+filename = 'potionsmaster-21.1.113-0.7.1-packdev.jar'
+name = 'Potions Master'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'potionsmaster-21.1.113-0.7.1-packdev.jar'
+
+[download]
+hash = '0d16e805e506c389288c3216b0eff7c7b5703491'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6826199
+project-id = 356801

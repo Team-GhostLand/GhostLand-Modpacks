@@ -1,0 +1,17 @@
+filename = 'artifacts-neoforge-13.2.0.jar'
+name = 'Artifacts'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'artifacts-neoforge-13.2.0.jar'
+
+[download]
+hash = '01e4df6f6a0d8d73190c0fc4a5493db79fa5386c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7468997
+project-id = 312353

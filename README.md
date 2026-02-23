@@ -3,6 +3,7 @@
 This repo contains multiple Grinch-managed Minecraft modpack variants plus shared tooling/config.
 
 ## What is included
+- atm10/ - Original All the Mods 10 (for gl8).
 - ghostland7/ - GhostLand 7 pack (full pack contents, overrides, server overrides).
 - ghostland8/ - GhostLand 8 pack (alpha).
 - grun/ - GhostRun Winter 2025/26 server-focused pack.

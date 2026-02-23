@@ -1,0 +1,17 @@
+filename = 'rebind_narrator-1.21.1-neoforge-2025.12.23.jar'
+name = 'Rebind Narrator'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'rebind_narrator-1.21.1-neoforge-2025.12.23.jar'
+
+[download]
+hash = '3e28da451f5d7eecb35d195fb08bfe4d7f9022ec'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7370951
+project-id = 296996

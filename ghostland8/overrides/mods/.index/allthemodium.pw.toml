@@ -1,0 +1,17 @@
+filename = 'allthemodium-3.0.0_mc_1.21.1.jar'
+name = 'Allthemodium'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'allthemodium-3.0.0_mc_1.21.1.jar'
+
+[download]
+hash = '2956e0e6055c21e4b7fc1fc407dbeae30d7bb949'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7468993
+project-id = 364466

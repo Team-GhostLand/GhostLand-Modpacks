@@ -1,0 +1,17 @@
+filename = 'aether-1.21.1-1.5.10-neoforge.jar'
+name = 'The Aether'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'The Aether - 1.21.1-1.5.10-neoforge'
+
+[download]
+hash = '5b5592989c6d2aabf80a9f100e18c258813db497'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7043502
+project-id = 255308

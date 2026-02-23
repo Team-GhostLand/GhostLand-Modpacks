@@ -1,0 +1,17 @@
+filename = 'cabletiers-neoforge-1.21.1-0.6.9.jar'
+name = 'Cable Tiers'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'cabletiers-neoforge-1.21.1-0.6.9.jar'
+
+[download]
+hash = '2b34e6c6c48e6fcf411351d19c6cc18f483e5b9b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7277758
+project-id = 454382

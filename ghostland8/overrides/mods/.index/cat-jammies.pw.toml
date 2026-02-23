@@ -1,0 +1,17 @@
+filename = 'catjammies-1.21-1.7.1.jar'
+name = 'Cat Jammies'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'catjammies-1.21-1.7.1.jar'
+
+[download]
+hash = '9ce39347637e6209e031402e054d7cc93b1e1a03'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5806687
+project-id = 430906

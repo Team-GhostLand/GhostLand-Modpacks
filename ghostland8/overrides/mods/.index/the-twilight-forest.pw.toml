@@ -1,0 +1,17 @@
+filename = 'twilightforest-1.21.1-4.8.3287-universal.jar'
+name = 'The Twilight Forest'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Twilight Forest - MC 1.21.1 - 4.8.3287'
+
+[download]
+hash = 'bd9102af8374a971b8f66cd0751de0c17a29f598'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7398100
+project-id = 227639

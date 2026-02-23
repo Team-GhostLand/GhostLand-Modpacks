@@ -1,4 +1,3 @@
-
 [guides]
 	#Never load translated guide pages for your current language.
 	ignoreTranslatedGuides = false
@@ -14,4 +13,3 @@
 [debug]
 	#Show debugging overlays in GUI on mouse-over.
 	showDebugGuiOverlays = false
-

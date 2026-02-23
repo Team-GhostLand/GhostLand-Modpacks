@@ -1,0 +1,17 @@
+filename = 'DungeonCrawl-NeoForge-1.21-2.3.15.jar'
+name = 'Dungeon Crawl'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mc1.21-2.3.15'
+
+[download]
+hash = '63dd4b4e73b400582540c2045f6a6ed12839a492'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6047162
+project-id = 324973

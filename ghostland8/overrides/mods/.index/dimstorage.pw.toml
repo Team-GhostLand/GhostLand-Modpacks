@@ -1,0 +1,17 @@
+filename = 'DimStorage-1.21.1-9.1.1.jar'
+name = 'DimStorage'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DimStorage-1.21.1-9.1.1'
+
+[download]
+hash = 'b2b89b7ce8f44c957935e26399cbdafc186b6b9b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7333077
+project-id = 353882

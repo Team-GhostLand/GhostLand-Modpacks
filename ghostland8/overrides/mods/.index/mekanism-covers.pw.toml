@@ -1,0 +1,17 @@
+filename = 'mekanismcovers-1.3-BETA+1.21.jar'
+name = 'Mekanism Covers'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Mekanism Covers 1.3-BETA'
+
+[download]
+hash = '1cfb68fcc9b833af7b992024943dc1e8d45799af'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6071684
+project-id = 1119874

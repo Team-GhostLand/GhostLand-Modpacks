@@ -1,0 +1,17 @@
+filename = 'redstonepen-1.21-neoforge-1.11.42.jar'
+name = 'Redstone Pen'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'redstonepen-1.21-neoforge-1.11.42.jar'
+
+[download]
+hash = '4c9a706061c0e303a02431905a4fbb63c28d14be'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6102752
+project-id = 461710

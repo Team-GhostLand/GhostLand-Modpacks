@@ -1,0 +1,17 @@
+filename = 'formations-1.0.4-neoforge-mc1.21.jar'
+name = 'Formations (Structure Library)'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Formations 1.0.4 for NeoForge 1.21'
+
+[download]
+hash = '3845f96c9304f6956688f7a35205e9354bf411b0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6789388
+project-id = 915115

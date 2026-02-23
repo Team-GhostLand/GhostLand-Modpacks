@@ -1,0 +1,17 @@
+filename = 'uranus-2.4-1.21.1-neoforge.jar'
+name = 'Uranus'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'uranus-2.4-1.21.1-neoforge.jar'
+
+[download]
+hash = '757d8dd20bf22c7157e275c2a7643cde76984e4d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6979353
+project-id = 1010827

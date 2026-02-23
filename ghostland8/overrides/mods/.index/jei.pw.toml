@@ -1,0 +1,17 @@
+filename = 'jei-1.21.1-neoforge-19.27.0.340.jar'
+name = 'Just Enough Items (JEI)'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '19.27.0.340 for NeoForge 1.21.1'
+
+[download]
+hash = '27d0d85e7e32e926fc3664ab6815df5cdabb7941'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7420587
+project-id = 238222

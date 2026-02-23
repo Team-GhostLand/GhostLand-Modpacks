@@ -1,0 +1,5 @@
+[General]
+	#Chance for a mob to spawn as shiny
+	# Default: 0.002
+	# Range: 0.0 ~ 1.0
+	shinySpawnChance = 0.002

@@ -1,0 +1,17 @@
+filename = 'deimos-1.21.1-neoforge-2.5.jar'
+name = 'Deimos Lib'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'deimos-1.21.1-neoforge-2.5'
+
+[download]
+hash = '8a4e197b3ee958b7ef6e0ff374a6afa04941cbc0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7226097
+project-id = 1158094

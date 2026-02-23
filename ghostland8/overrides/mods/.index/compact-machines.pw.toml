@@ -1,0 +1,17 @@
+filename = 'compactmachines-neoforge-7.0.80.jar'
+name = 'Compact Machines'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'compactmachines-neoforge-7.0.80.jar'
+
+[download]
+hash = '1e52ed569e1e42782d70e612806021ba97f5e5af'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7549284
+project-id = 224218

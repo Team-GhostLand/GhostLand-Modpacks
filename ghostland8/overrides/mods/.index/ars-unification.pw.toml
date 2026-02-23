@@ -1,0 +1,17 @@
+filename = 'ars_unification-1.2.18.jar'
+name = 'Ars Unification'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ars Unification 1.2.18 for 1.21.1'
+
+[download]
+hash = '7e1ed50f6f29dcbf04c08363c5b2174adcb205e4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7433366
+project-id = 1165429

@@ -1,0 +1,17 @@
+filename = 'memorysettings-1.21-5.9.jar'
+name = 'Memory Settings[Neo/Forge/Fabric]'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'memorysettings-1.21-5.9.jar'
+
+[download]
+hash = '46358f0310ea43fb23de2f831ddba6628dcb5f94'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6120516
+project-id = 526901

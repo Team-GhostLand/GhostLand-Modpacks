@@ -1,0 +1,17 @@
+filename = 'keybindbundles-1.4.0.jar'
+name = 'KeyBind Bundles'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'keybindbundles-1.4.0.jar'
+
+[download]
+hash = '02a9c2a3faf06eb46a0ec56cc2df7302e568ce27'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7508312
+project-id = 1172594

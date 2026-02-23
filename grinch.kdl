@@ -15,14 +15,14 @@ modpacks {
 		}
     }
 	modpack "GhostLand8" path="./ghostland8" {
-        description "Paczka na ósmą edycję GhostLanda"
+        description "Paczka na ósmą edycję GhostLanda, fork ATM"
 		names {
 			default "GhostLand %V"
 			quick "Internal Grinch representation (so you probably dont want this one) of GhostLand %V as of %D"
 			dev "DevExport of GhostLand %V as of %D"
 			slim "GhostLand %V - Slim Edition"
 			tweakable "GhostLand %V - Tweakable Edition"
-			git "GhostLand 8 Alpha 8a1"
+			git "GhostLand 8 Alpha 8a2"
 		}
     }
     modpack "GhostRun_Winter2025_26" path="./grun" {

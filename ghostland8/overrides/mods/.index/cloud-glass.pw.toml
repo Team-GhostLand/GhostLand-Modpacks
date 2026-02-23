@@ -1,0 +1,17 @@
+filename = 'CloudGlass-1.21.1-1.0.1.jar'
+name = 'Cloud Glass'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CloudGlass-1.21.1-1.0.1.jar'
+
+[download]
+hash = '1bde608928fedaa2ac6ffa58470f1a28f6724156'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6011555
+project-id = 1157074

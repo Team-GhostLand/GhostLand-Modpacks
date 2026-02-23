@@ -1,0 +1,17 @@
+filename = 'omegaconfig-neoforge-1.5.1.jar'
+name = 'Omega Config'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'omegaconfig-neoforge-1.5.1.jar'
+
+[download]
+hash = '0840af96e66e88d4322ce4bb5c11c1b05a28ea56'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6857924
+project-id = 558000

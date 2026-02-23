@@ -1,0 +1,17 @@
+filename = 'Powah-6.2.8.jar'
+name = 'Powah! (Rearchitected)'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NEOFORGE 1.21.1] v6.2.8'
+
+[download]
+hash = 'cddbf8d2a6adfbcd8f73c13515af0da9c8139179'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7503293
+project-id = 633483

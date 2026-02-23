@@ -1,0 +1,17 @@
+filename = 'mffs-5.4.27.jar'
+name = 'Modular Force Field Systems (MFFS)'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MFFS 1.21.1-5.4.27'
+
+[download]
+hash = 'd43b2a586cddde88345f80440af28f71c72e46f0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7370783
+project-id = 238546

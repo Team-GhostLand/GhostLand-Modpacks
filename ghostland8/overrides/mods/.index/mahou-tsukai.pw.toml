@@ -1,0 +1,17 @@
+filename = 'mahoutsukai-1.21.1-v1.36.23.jar'
+name = 'Mahou Tsukai'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mahoutsukai-1.21.1-v1.36.23.jar'
+
+[download]
+hash = 'e25cdbde9bdac58b88a56ab5bdfaba432dd6b666'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7432265
+project-id = 342543

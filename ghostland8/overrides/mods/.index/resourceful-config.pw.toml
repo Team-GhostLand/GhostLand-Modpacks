@@ -1,0 +1,17 @@
+filename = 'resourcefulconfig-neoforge-1.21-3.0.11.jar'
+name = 'Resourceful Config'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NeoForge] Resourceful Config 3.0.11'
+
+[download]
+hash = '6bf2b6ea9c071c00a2abcdc552667fb6f7d21031'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6467772
+project-id = 714059

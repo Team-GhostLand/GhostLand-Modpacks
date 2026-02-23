@@ -1,0 +1,17 @@
+filename = 'overloadedarmorbar-neoforge-1.21-2.jar'
+name = 'Overloaded Armor Bar'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'overloadedarmorbar-neoforge-1.21-2.jar'
+
+[download]
+hash = '250b3f1a34bcaee383545761f102834475e86819'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5537850
+project-id = 314002

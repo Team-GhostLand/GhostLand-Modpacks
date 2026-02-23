@@ -1,0 +1,17 @@
+filename = 'theurgy-1.21.1-neoforge-1.68.0.jar'
+name = 'Theurgy'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'theurgy-1.21.1-neoforge-1.68.0.jar'
+
+[download]
+hash = '9bf9a12c0e2f91dc31b3d4a2c2ab30bba48a77e2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7199045
+project-id = 430636
