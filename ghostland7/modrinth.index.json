@@ -1,8 +1,8 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "7.1.1",
-  "name": "GhostLand 7.1.1",
+  "versionId": "7.1.2",
+  "name": "GhostLand 7.1.2",
   "summary": "Paczka na siódmą edycję GhostLanda",
   "files": [
     {
@@ -3034,21 +3034,6 @@
         "https://cdn.modrinth.com/data/SRlzjEBS/versions/M6EFtrdy/audioplayer-fabric-1.20.1-1.13.2.jar"
       ],
       "fileSize": 781487
-    },
-    {
-      "path": "mods/GR_CLX_create-track-map-1.5+mc1.20.1-fabric.jar",
-      "hashes": {
-        "sha1": "e97d4665911990b38405f8dc1a47114453e62cfd",
-        "sha512": "db6e1a32732f72b6cbaff0b9a90973f844c4b778a65a2a4e161bf97bfa45973270f3e91536c72562cf2169e01849ecc715d2b756e61da9564e5d41d2e58a1ea7"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/NHRXB9Bi/versions/Yg2kWNNU/create-track-map-1.5%2Bmc1.20.1-fabric.jar"
-      ],
-      "fileSize": 5322897
     },
     {
       "path": "mods/GR_CLX_dimensionalsyncfixes-fabric-1.20.1-0.0.2.jar",

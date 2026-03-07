@@ -11,7 +11,7 @@ modpacks {
 			dev "DevExport of GhostLand %V as of %D"
 			slim "GhostLand %V - Slim Edition"
 			tweakable "GhostLand %V - Tweakable Edition"
-			git "GhostLand 7.1.1"
+			git "GhostLand 7.1.2"
 		}
     }
 	modpack "GhostLand8" path="./ghostland8" {
