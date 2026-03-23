@@ -1,8 +1,8 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8a2",
-  "name": "GhostLand 8",
+  "versionId": "8a3",
+  "name": "GhostLand 8 Alpha 8a3",
   "summary": "Paczka na ósmą edycję GhostLanda, fork ATM",
   "files": [
     {
@@ -229,6 +229,21 @@
         "https://cdn.modrinth.com/data/ziOp6EO8/versions/nQqU8c1K/Corgilib-NeoForge-1.21.1-5.0.0.7.jar"
       ],
       "fileSize": 310185
+    },
+    {
+      "path": "mods/CraftPresence-2.7.1+1.21.1-neoforge.jar",
+      "hashes": {
+        "sha1": "a0629a26ec41099fad1c0f6143d15b5b2c4f3ab2",
+        "sha512": "d032b1699a5c83c144155c44909207bd9e2c4cfe0bc7d0703ecd48a793f6ad792821c68007ae9f8378e88e7a2c2844887edb0f2fce94ecbf9d880b5dfb1529e9"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/DFqQfIBR/versions/tjZKI2uh/CraftPresence-2.7.1%2B1.21.1-neoforge.jar"
+      ],
+      "fileSize": 1306084
     },
     {
       "path": "mods/CrashAssistant-neoforge-1.20.6-1.21.4-1.10.28.jar",
@@ -1161,6 +1176,66 @@
       "fileSize": 45291718
     },
     {
+      "path": "mods/UniLib-1.2.1+1.21.1-neoforge.jar",
+      "hashes": {
+        "sha1": "4833a5685125ece15fed1108a5a7064527dc9d69",
+        "sha512": "6036a114ea386edb99e25314d36090ea9b2378c77526ec060a3dcea86c464e46ac9b3cc10cf061a1d6df475c2f80b40aaed7f4233af5da8902a497ce97a5512e"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/nT86WUER/versions/ClsEQJGw/UniLib-1.2.1%2B1.21.1-neoforge.jar"
+      ],
+      "fileSize": 1583972
+    },
+    {
+      "path": "mods/WhitelistSync-2.8.3-neoforge-1.21.1.jar",
+      "hashes": {
+        "sha1": "1eaaa20dc1cf7246671dfdf112e06c0cbb8b023d",
+        "sha512": "4e50c9b5c09aa66c90a3735d4f657207a7111edca66dc3bfc6fc54cc4d7b1ec4f946296af58028d35c57c3e6df77f5c0a32946a9b3504b0c31ba971497d41038"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/DcCsQ8S5/versions/IOlnqh6i/WhitelistSync-2.8.3-neoforge-1.21.1.jar"
+      ],
+      "fileSize": 25725489
+    },
+    {
+      "path": "mods/XaeroPlus-2.30.10+neoforge-1.21.1-WM1.40.11-MM25.3.10.jar",
+      "hashes": {
+        "sha1": "bd7b8f45db1d95f05c65c6238d04c99cc508f86d",
+        "sha512": "30bf247670f37ee08cdcacc5a87171265cc09512aaad01cfb91b2918bc7c9187ded15626359ae59aca33fc68aa7cc3a3d7cd425ecf83591cc4f128c1c42ca266"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/EnPUzSTg/versions/ml4l3Ba4/XaeroPlus-2.30.10%2Bneoforge-1.21.1-WM1.40.11-MM25.3.10.jar"
+      ],
+      "fileSize": 7836144
+    },
+    {
+      "path": "mods/XaeroZoomout-NeoForge-1.21-2.0.0.jar",
+      "hashes": {
+        "sha1": "e0f98bc1ecbacb987eeabb829d6d7d20ff8bba4e",
+        "sha512": "14bd6060d16308d2dea89ce20c485025092789b83f00efb406f0becd4090d6ad31519d02c019fc20c73eb07827b5d74f5146f4d3e4e32af2f51154e1c768de95"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/T6oqPfxF/versions/3fOhT5TB/XaeroZoomout-NeoForge-1.21-2.0.0.jar"
+      ],
+      "fileSize": 23448
+    },
+    {
       "path": "mods/YungsApi-1.21.1-NeoForge-5.1.6.jar",
       "hashes": {
         "sha1": "e1c394779fb9e038e4f7a1b4558d0432607d263b",
@@ -1926,6 +2001,21 @@
       "fileSize": 3104793
     },
     {
+      "path": "mods/chat_heads-0.15.0-neoforge-1.21.jar",
+      "hashes": {
+        "sha1": "a2c3744ededab5614bb8ecb71e058fdd3ba24638",
+        "sha512": "1426bf3e9d094a370e134f0ab864d0ec8c2df4bc047a26779d5dd28c64adb2a2a6ceb792b67dc6d61bd49d3c77d72c980076313fd06f61a2e9f0573c166e649c"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/JsI8Calw/chat_heads-0.15.0-neoforge-1.21.jar"
+      ],
+      "fileSize": 89489
+    },
+    {
       "path": "mods/chipped-neoforge-1.21.1-4.0.2.jar",
       "hashes": {
         "sha1": "6f5395f58139802edfde7cb9170279f92f291971",
@@ -2166,6 +2256,21 @@
       "fileSize": 1595173
     },
     {
+      "path": "mods/createrailwaysnavigator-neoforge-1.21.1-alpha-0.9.0-C6+2.jar",
+      "hashes": {
+        "sha1": "50cafde2da86ee5d881c1fb87f4ff2e1fdb9aa11",
+        "sha512": "be4464a131a7fbbdb1e5219679d4d25625e005a09ee5671a0f32d9a749ea69e533b2bf48ebf3540e72f55644d223e72826b79c5b836d58b7a8a4a11ef03673c0"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Dq3STxps/versions/9tbJbgG6/createrailwaysnavigator-neoforge-1.21.1-alpha-0.9.0-C6%2B2.jar"
+      ],
+      "fileSize": 2035302
+    },
+    {
       "path": "mods/cristellib-neoforge-1.21.1-3.0.2.1.jar",
       "hashes": {
         "sha1": "e35d8fd602ed89228e7cf9ef2ff47da7a37833de",
@@ -2241,6 +2346,21 @@
       "fileSize": 49360
     },
     {
+      "path": "mods/discord_chat_mod-neoforge-1.21.1-2.6.2.jar",
+      "hashes": {
+        "sha1": "f9d0ef0105211799676c0e3fd6f145dbe77d5f96",
+        "sha512": "9845b1e9c5dba4135071e5a0934969a3d2ba55ede6f23d26c5f0df3806b18b933c7f63650ec87c467cfbe1e3c15594386e1f4cec8f7c1844989193ecf0fb9bfa"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/yIWYj2mo/versions/GQi04Aka/discord_chat_mod-neoforge-1.21.1-2.6.2.jar"
+      ],
+      "fileSize": 19073879
+    },
+    {
       "path": "mods/disenchanting_table-merged-1.21.1-5.0.2.jar",
       "hashes": {
         "sha1": "c054a8bef63addff4d4a9520ec4c7a915c3fc1d1",
@@ -2254,6 +2374,21 @@
         "https://cdn.modrinth.com/data/9BgYgXE4/versions/UzZnJKSR/disenchanting_table-merged-1.21.1-5.0.2.jar"
       ],
       "fileSize": 306197
+    },
+    {
+      "path": "mods/dragonlib-neoforge-1.21.1-beta-3.0.24.jar",
+      "hashes": {
+        "sha1": "eacbdeabe5271b46aacb4c15d9a44915ab953831",
+        "sha512": "f12aad125f79b50b8670d3100293663b482e22c819435b64867a8c8beee83e48b3c2f5a8ed60e4cad6215bfad06f8a24f23d6cded2c003d91bf32e74749f7955"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/sbIsGaOV/versions/M6CMBAur/dragonlib-neoforge-1.21.1-beta-3.0.24.jar"
+      ],
+      "fileSize": 2097048
     },
     {
       "path": "mods/drippyloadingscreen_neoforge_3.1.0_MC_1.21.1.jar",
@@ -2284,6 +2419,171 @@
         "https://cdn.modrinth.com/data/Adega8YN/versions/l7knRSW7/dummmmmmy-1.21-2.0.11-neoforge.jar"
       ],
       "fileSize": 218920
+    },
+    {
+      "path": "mods/dungeons-and-taverns-ancient-city-overhaul-v2.jar",
+      "hashes": {
+        "sha1": "85142817ffd180c2867db39d313b2d1f80635bc9",
+        "sha512": "970968c358f5fcd43d06f29711d10960108bbbdcd1c76aa4ff2d216d0f4029ab50c2ad0b8b6d8a3f31934a0362fcdc04ae844f1d169edd8a8a34620296f86f28"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/DNuNq5bb/versions/sI52k2jg/dungeons-and-taverns-ancient-city-overhaul-v2.jar"
+      ],
+      "fileSize": 945778
+    },
+    {
+      "path": "mods/dungeons-and-taverns-desert-temple-replacement-v1.2.jar",
+      "hashes": {
+        "sha1": "93ed4116568023c8992fa8f81eab871158c797fb",
+        "sha512": "7cf39c892417940f8d4dc4efd9ac4ec42af9e8d4ab443356766898ed1a8d4af76cacb4accb1a2c86da536e97263db366e3270fc83b19a63f46a329812c7a1b5e"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/7JTDDmRT/versions/jwKNecIA/dungeons-and-taverns-desert-temple-replacement-v1.2.jar"
+      ],
+      "fileSize": 870482
+    },
+    {
+      "path": "mods/dungeons-and-taverns-jungle-temple-replacement-v1.2.jar",
+      "hashes": {
+        "sha1": "00e16584bc706f9760d8f91cee05897f6cb251c2",
+        "sha512": "d2fcac25cda8bcc5f925516f94525651276d5f353e34d3762b6f07407c8ae98ad41c1d6459d5091dbd7901e5eeb8929b13c6931a5ff282ee359b0115f99b13c9"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/oHjYCS0f/versions/8Xxj6Gaj/dungeons-and-taverns-jungle-temple-replacement-v1.2.jar"
+      ],
+      "fileSize": 510766
+    },
+    {
+      "path": "mods/dungeons-and-taverns-nether-fortress-overhaul-v2.4.jar",
+      "hashes": {
+        "sha1": "d67696f0b02512243387b8bba9d7d1376eaa8150",
+        "sha512": "f4a391c76f29b4bb4f10c18882ff085ce518bc936fbd01c7ca406267788bc70591c0b1ed53f26b3b77dbf746b17a45b6eccf3092d9eb2024b0a8de0b463c9bfc"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/8Dbnvm77/versions/gFOIlzcw/dungeons-and-taverns-nether-fortress-overhaul-v2.4.jar"
+      ],
+      "fileSize": 1774665
+    },
+    {
+      "path": "mods/dungeons-and-taverns-ocean-monument-replacement-v1.2.jar",
+      "hashes": {
+        "sha1": "2f10fbffa319a2f47e12d137a6a2368ee9bf77d1",
+        "sha512": "aabae342dc96074464c1b0672d99efdb13fb79cfcb0c6b9cfee474207505cca0bb8924a85014391736f6a9c65fbc470a6e8999ca775c024b4905b5874042d559"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/z6GJ3ycD/versions/SFXYDC6X/dungeons-and-taverns-ocean-monument-replacement-v1.2.jar"
+      ],
+      "fileSize": 1282124
+    },
+    {
+      "path": "mods/dungeons-and-taverns-pillager-outpost-overhaul-v2.2.jar",
+      "hashes": {
+        "sha1": "bba5591cf6a494fa734ce6a21ae00662eb7223b0",
+        "sha512": "9ea0eda10a3399f4f51f8cfae64b047abdd2b8ae8d516337c1d5b5ed1f3cba76883c71b710c2380ff1e6175d86d8ef50ea81e91a804cf414b0622d00118d7f64"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/QIt10I7z/versions/4XIbhTdE/dungeons-and-taverns-pillager-outpost-overhaul-v2.2.jar"
+      ],
+      "fileSize": 516323
+    },
+    {
+      "path": "mods/dungeons-and-taverns-stronghold-overhaul-v2.1.f.jar",
+      "hashes": {
+        "sha1": "0c4e1c959a37e024c01be6f8a70f53aac399dad4",
+        "sha512": "39a70d5a1b4f18c782dee0e0193be966d7c5b2de78c4c3241450caacf7a11372303c4bfa8cf7fa01dd432cba5f9eb8d4fd60d5fa8adf27500ed49017941f1c1c"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/rYocd2LE/versions/6PYBSejs/dungeons-and-taverns-stronghold-overhaul-v2.1.f.jar"
+      ],
+      "fileSize": 3128192
+    },
+    {
+      "path": "mods/dungeons-and-taverns-swamp-hut-overhaul-v2.jar",
+      "hashes": {
+        "sha1": "bb1ba40b6089571f761ad443cc49543d5f645bdd",
+        "sha512": "fb5ce420a4772c6957f0148b1e84411c8671ab2f6737edc514baaab0e943121bcb2f27b617b5eea17ffc13006eaa9aac400b1b29db1f90ab77673128825d1f3b"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/nWSeFpQt/versions/XJq4ei5a/dungeons-and-taverns-swamp-hut-overhaul-v2.jar"
+      ],
+      "fileSize": 112184
+    },
+    {
+      "path": "mods/dungeons-and-taverns-v4.4.4.jar",
+      "hashes": {
+        "sha1": "249a5bdd0e8622b8a11f88758e6f5fd5fda036a3",
+        "sha512": "83069dc336bcc212059f753923373d9522aa5953bf4b4fe2a8cfa666b4e28d2d017daa66c4b35e315c3be8d1ad60c2872879dd47cc1f47665ebbfd102da76976"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/tpehi7ww/versions/BYUUUeZA/dungeons-and-taverns-v4.4.4.jar"
+      ],
+      "fileSize": 24859622
+    },
+    {
+      "path": "mods/dungeons-and-taverns-woodland-mansion-replacement-v1.2.jar",
+      "hashes": {
+        "sha1": "fbf5a14273a59efacbef3d23ab358eafa69ab13d",
+        "sha512": "3cf6db9880c73281aae73640c414b88d08a9f33658fd6db772bf4f56b9327696bee5850b1fcce092893a575f81b2a6a6817ad34587a3bd32e83f55b2eca30619"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/3GfxWFCy/versions/LEkxbqdY/dungeons-and-taverns-woodland-mansion-replacement-v1.2.jar"
+      ],
+      "fileSize": 4687725
+    },
+    {
+      "path": "mods/e4mc-neoforge-6.0.6.jar",
+      "hashes": {
+        "sha1": "7167f033b7b6f708d30d29d8095dc8b04b0cf7f6",
+        "sha512": "3a687f49d09639c65e35646572be3dd2ac4fbaf20fa2f4edf629c508bed2eca6f83cf164cad905bb49fdf5977f2ae7b975a1e579cdb08707fce83b04f9e9f8fd"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/qANg5Jrr/versions/Ne2Q3vB5/e4mc-neoforge-6.0.6.jar"
+      ],
+      "fileSize": 649425
     },
     {
       "path": "mods/elevatorid-neoforge-1.21.1-1.11.4.jar",
@@ -2721,6 +3021,36 @@
       "fileSize": 4157
     },
     {
+      "path": "mods/immersive_melodies-neoforge-0.6.2+1.21.1.jar",
+      "hashes": {
+        "sha1": "b854ee1c181eb1da9cd9999aa656b3bbcee29c1e",
+        "sha512": "5d12643ad9b515577c2e6bc6f4dccd41de1f6e1876fed29372b48e383e4121dc28c55e095f789e9640ad3f266a8754e73f020b0cb5a5405a67a89e9de62e34c5"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/TaSmHw8V/versions/YfqFZc6N/immersive_melodies-neoforge-0.6.2%2B1.21.1.jar"
+      ],
+      "fileSize": 5520152
+    },
+    {
+      "path": "mods/immersive_paintings-neoforge-1.21.1-0.7.6.jar",
+      "hashes": {
+        "sha1": "0f2acb69a6a7a8694de296ac5785dc13e814e413",
+        "sha512": "b6ce9659c431e20c1062caf0a53a37abe1663f468f9738a170829517e1548910bf7e82a92eef89a3ab25ba814d4fdcf28a189a8e164432d4797dbc43ca3455fe"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/6txNkua3/versions/cEaVxjXh/immersive_paintings-neoforge-1.21.1-0.7.6.jar"
+      ],
+      "fileSize": 5350777
+    },
+    {
       "path": "mods/industrial-foregoing-souls-1.21.1-1.10.7.jar",
       "hashes": {
         "sha1": "ff5def0fd52ac755103a4871aafcf0b80f5a1a51",
@@ -2884,6 +3214,21 @@
         "https://cdn.modrinth.com/data/XbiLGMMU/versions/m2itNS7Z/jupiter-2.3.4-1.21.1-neoforge.jar"
       ],
       "fileSize": 276194
+    },
+    {
+      "path": "mods/just_blahaj-3.1.0-neoforge-1.21.1.jar",
+      "hashes": {
+        "sha1": "aeee2a3b4a65dc7813551eae92c2dea9f64af429",
+        "sha512": "f7594096dc9f2b1fe298b43dce64b6d775cd7110a0637a8e4f6c48d680346cf3fcc131a1abeb70bc321e0fdac5b7d5a9976328cd4f3c8ad20318f9db71ee45bb"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/NcD25WXU/versions/igMakno0/just_blahaj-3.1.0-neoforge-1.21.1.jar"
+      ],
+      "fileSize": 375334
     },
     {
       "path": "mods/justenoughbreeding-neoforge-1.21-1.21.1-1.6.2.jar",
@@ -3696,6 +4041,21 @@
       "fileSize": 1571893
     },
     {
+      "path": "mods/powergrid-mc1.21.1-0.5.4.jar",
+      "hashes": {
+        "sha1": "7ffcaa416b5e5e8dcbb70bc6909e0b1775811da7",
+        "sha512": "abae023220fe1a11a80a110e28a830ad253f598a795edd09bfbc4a5c8fcbdd1b1eb29e89f7166fa3255213b54164d5d1f70739857d6ba27c2be481f6f84402f8"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/eWiBLJ9R/versions/bli22EIb/powergrid-mc1.21.1-0.5.4.jar"
+      ],
+      "fileSize": 6117871
+    },
+    {
       "path": "mods/prickle-neoforge-1.21.1-21.1.11.jar",
       "hashes": {
         "sha1": "5174059ecf97340a0de5ef211b938de26c4eaa36",
@@ -3754,6 +4114,21 @@
         "https://cdn.modrinth.com/data/rO6kKst6/versions/BrIwB6GH/railcraft-reborn-1.21.1-1.2.10.jar"
       ],
       "fileSize": 5290986
+    },
+    {
+      "path": "mods/railwaysuntold-neoforge-1.1.4.jar",
+      "hashes": {
+        "sha1": "9008fbe0b06b63519d36a4e57e2393248b1190b2",
+        "sha512": "4a8b8f0bd3ad5412c21e16d0c3acb3ef7bb637f63871581746c167518e6bbac69fc90b5ea4a2cfdf3e0aa8d832b420df0bb6ad831696a23664b213e8f651981b"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/R7r9n6Wu/versions/ttOmD4dz/railwaysuntold-neoforge-1.1.4.jar"
+      ],
+      "fileSize": 1182208
     },
     {
       "path": "mods/rarcompat-1.21-0.9.7.jar",
@@ -4026,6 +4401,36 @@
       "fileSize": 146262
     },
     {
+      "path": "mods/skinlayers3d-neoforge-1.10.2-mc1.21.1.jar",
+      "hashes": {
+        "sha1": "0a4fede95e0369bd54c45c6e1b8ceb90071315f6",
+        "sha512": "f520d93a336b835e90da1667a2a14aa32dccd38544a2f0aaf382927b9521afb0df6d9fa909404dae9c63dc53657ed79ce8fbe0309064b1831beed74db3ca35c8"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/zV5r3pPn/versions/vj8UV3SS/skinlayers3d-neoforge-1.10.2-mc1.21.1.jar"
+      ],
+      "fileSize": 1967305
+    },
+    {
+      "path": "mods/smallships-neoforge-1.21.1-2.0.0-b2.1.jar",
+      "hashes": {
+        "sha1": "aa586dc4339d49db1c988497415d197195849fb9",
+        "sha512": "e5f9e7efd537330e41253696827d72de0662fd46b83a4a3b2983b2de105718125af53e237af5047c1660c45a872486278375a65a71ce39788632993907900120"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/rGWEHQrP/versions/6poGZvvr/smallships-neoforge-1.21.1-2.0.0-b2.1.jar"
+      ],
+      "fileSize": 1914804
+    },
+    {
       "path": "mods/smithingtemplateviewer-1.0.4.jar",
       "hashes": {
         "sha1": "4fea33926fafbd59f7434d1e4e64938ddee5d5db",
@@ -4144,6 +4549,21 @@
         "https://cdn.modrinth.com/data/DjLobEOy/versions/E4Wy3O8Y/t_and_t-neoforge-fabric-1.13.7%2B1.21.1.jar"
       ],
       "fileSize": 3641681
+    },
+    {
+      "path": "mods/tectonic-3.0.19-neoforge-1.21.1.jar",
+      "hashes": {
+        "sha1": "ceec0993d51f383053244cad204769b27dff2965",
+        "sha512": "ad08192af9177ac69a2f1c4633d24ea3dbe70caca4179a9319d9eed9a49fe6dd7c2202ce450ce6f88b68e3836c515a2a91706985e15ad63b78f5c98fed222da2"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/lWDHr9jE/versions/yVMzCWaH/tectonic-3.0.19-neoforge-1.21.1.jar"
+      ],
+      "fileSize": 322646
     },
     {
       "path": "mods/tempad-1.21.1-3.0.4-all.jar",
@@ -4356,6 +4776,21 @@
       "fileSize": 241257
     },
     {
+      "path": "mods/voicechat-neoforge-1.21.1-2.6.12.jar",
+      "hashes": {
+        "sha1": "afd194f9a97924c1958c8ef90acab00eb3922a39",
+        "sha512": "e7ce05aa487ed1487f34e8300bba77e4c091d928912adc664f72a10862b222d84ee0f8193441392087d7ac907f6b5afad1faeee8e6089bc0081e435197043736"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/9eGKb6K1/versions/WxJDv3oM/voicechat-neoforge-1.21.1-2.6.12.jar"
+      ],
+      "fileSize": 4890490
+    },
+    {
       "path": "mods/wirelesschargers-1.0.9a-neoforge-mc1.21.jar",
       "hashes": {
         "sha1": "129e88001446f07d8d7c790d169f26814346befb",
@@ -4384,6 +4819,51 @@
         "https://cdn.modrinth.com/data/AVo2esap/versions/pNHwZjEV/wits-1.3.0%2B1.21-neoforge.jar"
       ],
       "fileSize": 12231
+    },
+    {
+      "path": "mods/xaerominimap-neoforge-1.21.1-25.3.10.jar",
+      "hashes": {
+        "sha1": "d4828332dd831455429156b6cfa24aa9bd99dd77",
+        "sha512": "97dbc7ddc8b86edead71f60e3257175abe9e05e94387447aad2467cfcf0a5211ed848ee3df9bb3c308183405f997f8acd508ac01f8ee374f08d9af00729fc1d8"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/1bokaNcj/versions/CatMvRfN/xaerominimap-neoforge-1.21.1-25.3.10.jar"
+      ],
+      "fileSize": 2137784
+    },
+    {
+      "path": "mods/xaeros-map-server-utils-1.1.0.jar",
+      "hashes": {
+        "sha1": "b6f70ed932ac5bde687eb56e3929a89266c9a485",
+        "sha512": "d0619c18ed2032c0bbfba8268dd0284b4a4b858d1573308550cf95c81e774dc088bdf471fd1475db775eaff3fb02fc0d40317819863363d9309f0ca38aa14829"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/YJgkgKMm/versions/E7slFfkn/xaeros-map-server-utils-1.1.0.jar"
+      ],
+      "fileSize": 18846
+    },
+    {
+      "path": "mods/xaeroworldmap-neoforge-1.21.1-1.40.11.jar",
+      "hashes": {
+        "sha1": "c6f596bb6bc7d734100b7dbc8a57f69a5fb549a3",
+        "sha512": "a4bb890dbac27937411f570432ebc5a4cc5df9562c22e7c3d6a6516ff303bfcb7f35fb39d2ce42a51591a4b2a5b5debfc933fda3f5a552560442fe69f8828b0b"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/NcUtCpym/versions/arbQPyvf/xaeroworldmap-neoforge-1.21.1-1.40.11.jar"
+      ],
+      "fileSize": 1386001
     },
     {
       "path": "mods/yeetusexperimentus-neoforge-87.0.0.jar",

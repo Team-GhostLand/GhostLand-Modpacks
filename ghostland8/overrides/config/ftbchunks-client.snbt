@@ -133,26 +133,26 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"variantsandventures:gelid": true
-			"minecraft:zombie_villager": true
-			"minecraft:stray": true
-			"minecraft:cat": true
-			"irons_spellbooks:necromancer": true
-			"minecraft:iron_golem": true
-			"minecraft:creeper": true
-			"productivebees:mason_bee": true
-			"minecraft:bat": true
-			"artifacts:mimic": true
-			"minecraft:cow": true
 			"minecraft:spider": true
-			"minecraft:villager": true
-			"ars_nouveau:whirlisprig": true
-			"minecraft:rabbit": true
-			"ars_nouveau:starbuncle": true
-			"creeperoverhaul:cave_creeper": true
-			"ars_nouveau:drygmy": true
+			"minecraft:cat": true
+			"minecraft:zombie_villager": true
+			"minecraft:creeper": true
+			"minecraft:iron_golem": true
 			"minecraft:glow_squid": true
 			"minecraft:squid": true
+			"ars_nouveau:starbuncle": true
+			"ars_nouveau:drygmy": true
+			"minecraft:stray": true
+			"minecraft:cow": true
+			"creeperoverhaul:cave_creeper": true
+			"artifacts:mimic": true
+			"minecraft:villager": true
+			"minecraft:rabbit": true
+			"variantsandventures:gelid": true
+			"minecraft:bat": true
+			"irons_spellbooks:necromancer": true
+			"productivebees:mason_bee": true
+			"ars_nouveau:whirlisprig": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

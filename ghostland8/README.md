@@ -13,6 +13,28 @@ https://discord.com/channels/966397518445412413/1261662618230460446
 
 ## Changelogs
 
+### 8a3
+- Removed unwanted mods
+    - Waystones
+    - JourneyMap -> Xaero's
+    - e4mc
+- Add wanted mods
+    - Create Power Grid
+    - WhlSync 2
+    - SmallShips
+    - Immersive Melodies
+    - Immersive Paintings
+    - Dungeons and Taverns
+    - Just Blahaj (very important)
+    - Tectonic
+    - Craft Presence
+    - 3D Skin Layers
+    - SVC
+    - Chat Heads
+    - Discord Chat Connect
+    - Railways Untold
+- Resourcepack from GL7
+
 ### 8a2
 - We decided that using an existing modpack would be easier so we will be using All the Mods
 - NeoForge 1.21.1
@@ -32,21 +54,6 @@ https://discord.com/channels/966397518445412413/1261662618230460446
     - Remove ugly biomes
     - Remove progression from deleted mods
 - Keybinds
-- Remove unwanted mods
-    - Waystones
-    - JourneyMap -> Xaero's
-    - e4mc
-- Add wanted mods
-    - Sodium
-    - Create addons
-    - WhlSync 2
-    - SmallShips
-    - Immersive Aircrafts?
-    - Immersive Melodies
-    - Immersive paintings
-    - Dungeons and Taverns
-    - Just Blahaj (very important)
-    - Tectonic?
 - GhostLand branding
 
 ## Configs
