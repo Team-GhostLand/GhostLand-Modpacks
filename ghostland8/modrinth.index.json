@@ -1,8 +1,8 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8a3",
-  "name": "GhostLand 8 Alpha 8a3",
+  "versionId": "8a4",
+  "name": "GhostLand 8 Alpha 8a4",
   "summary": "Paczka na ósmą edycję GhostLanda, fork ATM",
   "files": [
     {
@@ -259,6 +259,21 @@
         "https://cdn.modrinth.com/data/ix1qq8Ux/versions/dQRtGn7v/CrashAssistant-neoforge-1.20.6-1.21.4-1.10.28.jar"
       ],
       "fileSize": 1230854
+    },
+    {
+      "path": "mods/CreateNumismatics-1.0.19+neoforge-mc1.21.1.jar",
+      "hashes": {
+        "sha1": "cfc4b7dd2b715658b513671df871a394ee67cd01",
+        "sha512": "1a94cef25f3adeb95f3a6c195e2ff1c8494cf48fcdf952fe7a7f99a23de735ae7d94af826111771c7fefd84cfa297bcce795f9cc2c8c760a0c7449ccf3271f92"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Jdbbtt0i/versions/KMFhYqZ9/CreateNumismatics-1.0.19%2Bneoforge-mc1.21.1.jar"
+      ],
+      "fileSize": 693373
     },
     {
       "path": "mods/CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
@@ -1761,6 +1776,21 @@
       "fileSize": 66319
     },
     {
+      "path": "mods/balm-neoforge-1.21.1-21.0.56.jar",
+      "hashes": {
+        "sha1": "635e706136bb228e6a72d41d86dec495f812ccb5",
+        "sha512": "08ab4483999bee8f4a13b0069e09565255336375542af498188219e1509e2b58eaf281bfe75c7e135c8d5e2804c0982538cbf5d7cf02a5dec1bd8be8f9b075e6"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/MBAkmtvl/versions/Yoii3Xj6/balm-neoforge-1.21.1-21.0.56.jar"
+      ],
+      "fileSize": 739709
+    },
+    {
       "path": "mods/baubley-heart-canisters-1.21.1-1.3.1.jar",
       "hashes": {
         "sha1": "0787b52b1e303913daaf2b3faaa9fd12104ef445",
@@ -2151,6 +2181,21 @@
       "fileSize": 819976
     },
     {
+      "path": "mods/copycats-3.0.4+mc.1.21.1-neoforge.jar",
+      "hashes": {
+        "sha1": "6a11d5806bcf521e08faba1ee6ef5f31af55ca0f",
+        "sha512": "ecc98e659be66a71af0aee66a9f4c7c8838f4f0101402644929079ce7280a572a000e7e417905e1869a51d6e49ebbd601008f54585e07ee4ed01f2c4bc752bfe"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/UT2M39wf/versions/kecZ0sl7/copycats-3.0.4%2Bmc.1.21.1-neoforge.jar"
+      ],
+      "fileSize": 1791747
+    },
+    {
       "path": "mods/crafting_on_a_stick-1.21.0.4.jar",
       "hashes": {
         "sha1": "9ea4bcce2d468b13e20871789dde525d49454076",
@@ -2239,6 +2284,21 @@
         "https://cdn.modrinth.com/data/ATDdrG1y/versions/ft1NGwjJ/create_hypertube-0.3.0-NEOFORGE.jar"
       ],
       "fileSize": 391585
+    },
+    {
+      "path": "mods/create_waystones_recipes-3.0.0-NeoForge-1.21.1.jar",
+      "hashes": {
+        "sha1": "5d8c3285a92b50baa1db1e04679f6ce2c1b29d3d",
+        "sha512": "156a67e3ce2e6836e23878545768868807455819cf83c46639872cb5b059107ced6f54b2ae24be21be3741bf9140cde081fdd5edbe0c87dfed5943a47c71f671"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/wQpKGqNJ/versions/RLFXmYNg/create_waystones_recipes-3.0.0-NeoForge-1.21.1.jar"
+      ],
+      "fileSize": 115975
     },
     {
       "path": "mods/createaddition-1.5.10.jar",
@@ -2614,6 +2674,66 @@
         "https://cdn.modrinth.com/data/sk9rgfiA/versions/J7b96IEd/embeddium-1.0.15%2Bmc1.21.1.jar"
       ],
       "fileSize": 1048745
+    },
+    {
+      "path": "mods/emi-1.1.22+1.21.1+neoforge.jar",
+      "hashes": {
+        "sha1": "cbbd038194cd63249db185c53b1d50a1767f80a3",
+        "sha512": "6b4f2b93ccd40bbbf3d1f368a9d92b43777543c44243a76ed4010bd563a7f9658decdd58a3d79a3cdc04a288bf98e327a1cce93a5a9d2b8840306578fe633bca"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/fRiHVvU7/versions/ouSj7NfF/emi-1.1.22%2B1.21.1%2Bneoforge.jar"
+      ],
+      "fileSize": 1038248
+    },
+    {
+      "path": "mods/emi_enchanting-0.1.2+1.21+neoforge.jar",
+      "hashes": {
+        "sha1": "02ad74769ffcec259fd9bb14a1760593f6182b5c",
+        "sha512": "90944c8ff897fa98d0323fe94e4053fb89f43cbaf4fd28d6ad58134cea1469c9398e0c0edd4328a5530e1578ad2286ec5822292bf9c587182e5606dbfff218be"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/wbWoo11W/versions/ZyJ6TKvh/emi_enchanting-0.1.2%2B1.21%2Bneoforge.jar"
+      ],
+      "fileSize": 15680
+    },
+    {
+      "path": "mods/emi_loot-0.7.9+1.21+neoforge.jar",
+      "hashes": {
+        "sha1": "bd0326eeda721c87a29efd78f9a52f46d572392c",
+        "sha512": "9c67ff502da7a94ef7707c144deb4ec6472f445e99cc8eab30b77f22d886a86b8793338452fe394296f3132ed4d37271d475af184e3a9519ddebdad1a82eecf7"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/qbbO7Jns/versions/QXkODMCT/emi_loot-0.7.9%2B1.21%2Bneoforge.jar"
+      ],
+      "fileSize": 465870
+    },
+    {
+      "path": "mods/emi_ores-1.2+1.21.1+neoforge.jar",
+      "hashes": {
+        "sha1": "2326620a11ad9ca463ef3a8cfa7d8f5ae169b756",
+        "sha512": "7b01dd29400802a18e3f23bcc2057e12070d28529bf358306758b462d69ab0532aa392a4b683cb0f5cf1a20f09e5f0d965f90923e72fb2fd6476f63a55a210a7"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/sG4TqDb8/versions/1jY6MIrK/emi_ores-1.2%2B1.21.1%2Bneoforge.jar"
+      ],
+      "fileSize": 111317
     },
     {
       "path": "mods/enchdesc-neoforge-1.21.1-21.1.9.jar",
@@ -3289,6 +3409,21 @@
         "https://cdn.modrinth.com/data/J81TRJWm/versions/stJDU839/konkrete_neoforge_1.9.9_MC_1.21.jar"
       ],
       "fileSize": 618842
+    },
+    {
+      "path": "mods/kotlinforforge-5.11.0-all.jar",
+      "hashes": {
+        "sha1": "4d83e8a8e8cb06b306d2cea1e903680fe513f1f3",
+        "sha512": "b32faa6d616511aff4f8b32197877c53b9f8bee103884ec37c632b5d017bb59a498ec971b68d8d94787043b0c5be666a330b61d285033c341bff83ac28a90992"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ordsPcFz/versions/NrSebcsG/kotlinforforge-5.11.0-all.jar"
+      ],
+      "fileSize": 6869790
     },
     {
       "path": "mods/laserbridges-1.21.1-neoforge-5.3.jar",
@@ -4221,6 +4356,21 @@
       "fileSize": 513816
     },
     {
+      "path": "mods/reestrogen-2.1.0-neoforge-1.21.1.jar",
+      "hashes": {
+        "sha1": "e9fb96532b5653d2152fa54f1b2f4d513d9fd939",
+        "sha512": "6c7296ce8255291cbeb7047b43a86b1f159a719c12bacc1583794561178cd77b6b0c0b2c05ed868e4f743a31bbc550729aef16e342908d57e9a50ab591044105"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/BGUYUAbf/versions/8E83Q84q/reestrogen-2.1.0-neoforge-1.21.1.jar"
+      ],
+      "fileSize": 8873003
+    },
+    {
       "path": "mods/refined-types-1.21.1-0.2.9.jar",
       "hashes": {
         "sha1": "9c5e8fa5b9fde13b42868d1a6612cde446418467",
@@ -4791,6 +4941,21 @@
       "fileSize": 4890490
     },
     {
+      "path": "mods/waystones-neoforge-1.21.1-21.1.29.jar",
+      "hashes": {
+        "sha1": "7bd06fb7dfd6904a0f4ec5b9b46da2325e247aa3",
+        "sha512": "87230fd132e281ba66baa40d2f367a584deb78ac6e693aa97355c90f26ef2607365621c297e29c180a289b93aedc84fa92aa37d350e358a3220ef21b1cc45a30"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/LOpKHB2A/versions/Ayolso4x/waystones-neoforge-1.21.1-21.1.29.jar"
+      ],
+      "fileSize": 876329
+    },
+    {
       "path": "mods/wirelesschargers-1.0.9a-neoforge-mc1.21.jar",
       "hashes": {
         "sha1": "129e88001446f07d8d7c790d169f26814346befb",
@@ -4864,6 +5029,21 @@
         "https://cdn.modrinth.com/data/NcUtCpym/versions/arbQPyvf/xaeroworldmap-neoforge-1.21.1-1.40.11.jar"
       ],
       "fileSize": 1386001
+    },
+    {
+      "path": "mods/xmxw-2.7.4+1.21.1-neoforge.jar",
+      "hashes": {
+        "sha1": "f448252c43e40f4a50557a0e9942740da86d328b",
+        "sha512": "594086c7c1db62fd840fed9e0f05b0019a4c65bf4afd8ae56f6b254feffce31395c18d769e28c8fe0cde4daefa561fda24952c2a2fbf327aaa5f72606382a3a7"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/iv2jCzkP/versions/kqwkPx3F/xmxw-2.7.4%2B1.21.1-neoforge.jar"
+      ],
+      "fileSize": 111427
     },
     {
       "path": "mods/yeetusexperimentus-neoforge-87.0.0.jar",

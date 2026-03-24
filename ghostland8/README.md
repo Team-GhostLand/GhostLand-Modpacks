@@ -13,6 +13,13 @@ https://discord.com/channels/966397518445412413/1261662618230460446
 
 ## Changelogs
 
+### 8a4
+- Numismatics
+- Waystones
+- Copycats+
+- ReEstrogen
+- EMI
+
 ### 8a3
 - Removed unwanted mods
     - Waystones
