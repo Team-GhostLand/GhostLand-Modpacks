@@ -1,8 +1,8 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8a4",
-  "name": "GhostLand 8 Alpha 8a4",
+  "versionId": "8a5",
+  "name": "GhostLand 8 Alpha 8a5",
   "summary": "Paczka na ósmą edycję GhostLanda, fork ATM",
   "files": [
     {
@@ -274,6 +274,21 @@
         "https://cdn.modrinth.com/data/Jdbbtt0i/versions/KMFhYqZ9/CreateNumismatics-1.0.19%2Bneoforge-mc1.21.1.jar"
       ],
       "fileSize": 693373
+    },
+    {
+      "path": "mods/CreativeCore_NEOFORGE_v2.13.36_mc1.21.1.jar",
+      "hashes": {
+        "sha1": "83af278fd8da376480d7847204c3e124bda94add",
+        "sha512": "654ba22a2bed66dfd95ca4ecd38db11649ca41495b9283554a795c433c9508f6f515a02594d7ab68c45ed1e3b99b124010c936227206bd67e85aa2247ce250bf"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/OsZiaDHq/versions/tXZudQfR/CreativeCore_NEOFORGE_v2.13.36_mc1.21.1.jar"
+      ],
+      "fileSize": 1213893
     },
     {
       "path": "mods/CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
@@ -2181,6 +2196,21 @@
       "fileSize": 819976
     },
     {
+      "path": "mods/connector-2.0.0-beta.14+1.21.1-full.jar",
+      "hashes": {
+        "sha1": "930067497b5c1249e51b3e33620ab4e72dc92f4c",
+        "sha512": "6ed3168c2c7dad2606ada1fdf63ee412bb8bb5620718a702f6ac51310e671f2f93ab46fc96400e258f4433e51b96f9dd21441e1a8963d8b356c75b578e156dcc"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/u58R1TMW/versions/1i8teo7m/connector-2.0.0-beta.14%2B1.21.1-full.jar"
+      ],
+      "fileSize": 4526785
+    },
+    {
       "path": "mods/copycats-3.0.4+mc.1.21.1-neoforge.jar",
       "hashes": {
         "sha1": "6a11d5806bcf521e08faba1ee6ef5f31af55ca0f",
@@ -2899,6 +2929,21 @@
         "https://cdn.modrinth.com/data/MdlnLS7Q/versions/fNjxgZPH/forbidden_arcanus-2.6.1.jar"
       ],
       "fileSize": 3402083
+    },
+    {
+      "path": "mods/forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar",
+      "hashes": {
+        "sha1": "459b5f4c7297b2f7649d43137f3e5a069b69b707",
+        "sha512": "858acb32a79e7ed1f37472bd7c50e3d2f47c7d7f6e734a8cece3800eb30d565a09580c261778ea73a0ae25e10e9eb9b16866012fe61d24f671b0ffe3ae2377dd"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Aqlf1Shp/versions/7nHK7hMg/forgified-fabric-api-0.116.7%2B2.2.4%2B1.21.1.jar"
+      ],
+      "fileSize": 5569793
     },
     {
       "path": "mods/formations-1.0.4-neoforge-mc1.21.jar",
@@ -4476,6 +4521,21 @@
       "fileSize": 484332
     },
     {
+      "path": "mods/roadweaver-neoforge-2.2.1-1.21.1.jar",
+      "hashes": {
+        "sha1": "cdc4a4af535dababaca4b5b0ca7b9eb89a04c83e",
+        "sha512": "5a4054affd8add66c4a70d9ce2806cf1d3fbfa9facdf9807ffe9195f939c5a951543f7c48ea3c901d6e2660492d9f994ad9b6d079260fc081b661f142cbf6e59"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/6jk8Pote/versions/kDDwgs93/roadweaver-neoforge-2.2.1-1.21.1.jar"
+      ],
+      "fileSize": 5527137
+    },
+    {
       "path": "mods/sawmill-1.21-1.7.2-neoforge.jar",
       "hashes": {
         "sha1": "877389e2bb3b462b8180d4fc998799adbce6ada1",
@@ -4939,6 +4999,66 @@
         "https://cdn.modrinth.com/data/9eGKb6K1/versions/WxJDv3oM/voicechat-neoforge-1.21.1-2.6.12.jar"
       ],
       "fileSize": 4890490
+    },
+    {
+      "path": "mods/waterframes-NEOFORGE-mc1.21.1-v2.1.22.jar",
+      "hashes": {
+        "sha1": "ac128b9c58a31ff19beda29b1cf1b6d16fffc287",
+        "sha512": "b619c079c3d520d5894fe4f346545c0f7f1b2951bc2d0f342416dc46544bf196c811e72249e073fdec2af6f177cadd601a01b46a5334898b1e6621f4818856f0"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/eBzFuVTM/versions/p6zqgIqr/waterframes-NEOFORGE-mc1.21.1-v2.1.22.jar"
+      ],
+      "fileSize": 255204
+    },
+    {
+      "path": "mods/watermedia-2.1.37.jar",
+      "hashes": {
+        "sha1": "4a91d20d9a3aa8d66e01f7962d77c974ad538f4f",
+        "sha512": "d2bdadbb352c415e04aecf130759949f1081f8f410a4019b3b885a4e05a6ce9f6144dfb7c707685dad0f9b26c04e4a26dff5c3897d057b96cf4cec1384a148bb"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/G922NeHS/versions/fB0LmHnR/watermedia-2.1.37.jar"
+      ],
+      "fileSize": 37046674
+    },
+    {
+      "path": "mods/watermedia_youtube_plugin-2.1.2.jar",
+      "hashes": {
+        "sha1": "1f4d208ed9292189dd99147a9dae7c1d4bc95ad5",
+        "sha512": "9dd01e3768a10358d5262cd279227a622a7caf5fef67a66ba95d71b336403421cfd8c804b09c4bd0cc8fbac707ce1a403c69c8f46c62ae42534e801a2e235b86"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/P0w3IrnX/versions/rDtJujm2/watermedia_youtube_plugin-2.1.2.jar"
+      ],
+      "fileSize": 3830072
+    },
+    {
+      "path": "mods/watervision-NF-mc1.21.1-v0.1.0-alpha.jar",
+      "hashes": {
+        "sha1": "3fc5620a518583b8a7ea293a6d79584861e75335",
+        "sha512": "747551417e2dcf82671062dda8028b340d4b4ca9ee02de081679e51a1966b996d50ba10a52232ed4e1c4db7d011a2268fbdae14633a485794df529b4c5460be3"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/dGGbEGoV/versions/fYHfGRbK/watervision-NF-mc1.21.1-v0.1.0-alpha.jar"
+      ],
+      "fileSize": 78233
     },
     {
       "path": "mods/waystones-neoforge-1.21.1-21.1.29.jar",

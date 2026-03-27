@@ -44,7 +44,7 @@ if [ ! -d libraries ]; then
 fi
 
 if [ ! -e server.properties ]; then
-    printf "allow-flight=true\nmotd=All the Mods 10\nmax-tick-time=180000" > server.properties
+    printf "allow-flight=true\nmotd=GhostLand 8\nmax-tick-time=180000" > server.properties
 fi
 
 if [ "${ATM10_INSTALL_ONLY:-false}" = "true" ]; then

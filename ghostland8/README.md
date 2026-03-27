@@ -13,6 +13,15 @@ https://discord.com/channels/966397518445412413/1261662618230460446
 
 ## Changelogs
 
+### 8a5
+- Biomes removed from Biomes we've Gone:
+    - Dead Sea
+    - Lush Stacks
+- Tried to change some ATM propaganda into GL propaganda
+- Renamed our resourcepack to GhostPack
+- Added RoadWeaver
+- Added Watermedia + Waterframes
+
 ### 8a4
 - Numismatics
 - Waystones
@@ -58,16 +67,17 @@ https://discord.com/channels/966397518445412413/1261662618230460446
 - Remove ATM10 ads
 - Custom fancymenu
 - Configs
-    - Remove ugly biomes
     - Remove progression from deleted mods
+    - Waystones and Numismatics bullshit
 - Keybinds
 - GhostLand branding
 
 ## Configs
-nothing here yet
+- Removed Dead Sea and Lush Stacks from BWG
 
 ## Guides
 read the main readme and you are probably fine
 
 ## Credits/Licensing
 I don't really care yet - MidnightSP
+yyy uses ATM modpack so it's not legally ours
