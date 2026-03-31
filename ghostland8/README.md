@@ -43,6 +43,7 @@ https://discord.com/channels/966397518445412413/1261662618230460446
 	- Moved the 2 new mods as server-only: JLine (cuz it *is* a server mod) and Create: Dynlight (it TECHNICALLY should be installed on both sides for the best experience (tho it works both server-only (it just won't respond to your local dynamic lights mod blocklist, and it's gonna be light-block based, so a bit choppy) and client-only (it just won't react to environment, by eg. preventing spawns)), but client-side wasn't working without Sodium Dynamic Lights (see: it should respond to its settings), but we're using LambdynamicLights because Sodium's were breaking C2ME)
 	- Moved server-related configs and the icon to `server-overrides`, and set some early `REMOVALS.txt`
 	- No more stupid scripts that we'll not use, anyway.
+	- Marked shaders and resourcepacks as client-only
 - Settings changed:
 	- Some random graphics stuff that HOPEFULLY will be non-controversial (eg. no viniette, no fullscreen by default, no FPS cap, some dynamic lights and culling changes, FPS counter on the right to avoid minimap conflicts, shadowy paths, other various stuff)
 	- Reduced default graphics-intense stuff (only 2 chunks render, 5 chunks simulation, no shaders). The rationale behind low defaults is that if someone with a beefy PC notices that the defaults are ass, they can just increase them. On the other hand, someone with an ass PC can unknowingly implode their computer if they join without lowering the settings first.
