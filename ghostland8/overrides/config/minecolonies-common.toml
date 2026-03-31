@@ -1,9 +1,9 @@
-#All configuration items related to the core gameplay
+#Wszystkie elementy konfiguracji związane z podstawową rozgrywką
 [gameplay]
-	#Whether to generate supply ships and camps in loot chests. [Default: true]
+	#Czy generować statki zaopatrzeniowe i obozy w skrzyniach z łupami. [Default: true]
 	generatesupplyloot = true
 
-#All configurations related to the request system
+#Wszystkie ustawienia związane z systemem zapytań
 [requestsystem]
-	#Should the request system show debug information in the debug.log? Useful if malfunctioning. [Default: false]
+	#Czy system żądań powinien wyświetlać informacje o debugowniu w debug.log? Przydatne, jeśli działa nieprawidłowo. [Default: false]
 	enabledebuglogging = false

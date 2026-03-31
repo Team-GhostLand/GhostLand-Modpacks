@@ -323,6 +323,54 @@
       ]
     },
     {
+      "id": "aether:ruined_portal",
+      "displayName": "Ruined Portal",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "aether:ruined_portal_aether",
+      "displayName": "Ruined Portal Aether",
+      "isVanilla": false,
+      "dimensions": [
+        "aether:the_aether"
+      ]
+    },
+    {
+      "id": "aether:ruined_portal_desert",
+      "displayName": "Ruined Portal Desert",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "aether:ruined_portal_jungle",
+      "displayName": "Ruined Portal Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "aether:ruined_portal_mountain",
+      "displayName": "Ruined Portal Mountain",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "aether:ruined_portal_swamp",
+      "displayName": "Ruined Portal Swamp",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
       "id": "aether:silver_dungeon",
       "displayName": "Silver Dungeon",
       "isVanilla": false,
@@ -446,6 +494,206 @@
     {
       "id": "ars_nouveau:stalker_wilden_den",
       "displayName": "Stalker Wilden Den",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:archeologist_camp_grassy",
+      "displayName": "Archeologist Camp Grassy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:archeologist_camp_redsand",
+      "displayName": "Archeologist Camp Redsand",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:archeologist_camp_sand",
+      "displayName": "Archeologist Camp Sand",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:buried_ruins_sand",
+      "displayName": "Buried Ruins Sand",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:catacombs",
+      "displayName": "Catacombs",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:desert_obelisk",
+      "displayName": "Desert Obelisk",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:fossil_chicken",
+      "displayName": "Fossil Chicken",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:fossil_chicken_birch",
+      "displayName": "Fossil Chicken Birch",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:fossil_creeper",
+      "displayName": "Fossil Creeper",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:fossil_jungle_0",
+      "displayName": "Fossil Jungle 0",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:fossil_jungle_1",
+      "displayName": "Fossil Jungle 1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:fossil_sheep_0",
+      "displayName": "Fossil Sheep 0",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:fossil_wolf",
+      "displayName": "Fossil Wolf",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:light_temple",
+      "displayName": "Light Temple",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:mesa_ruins",
+      "displayName": "Mesa Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:mott",
+      "displayName": "Mott",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:ruins_sand",
+      "displayName": "Ruins Sand",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:stonehenge_grassy",
+      "displayName": "Stonehenge Grassy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:temple_jungle",
+      "displayName": "Temple Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:tumulus_grassy",
+      "displayName": "Tumulus Grassy",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:underwater_0",
+      "displayName": "Underwater 0",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:underwater_1",
+      "displayName": "Underwater 1",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:underwater_2",
+      "displayName": "Underwater 2",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:underwater_3",
+      "displayName": "Underwater 3",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "betterarcheology:villager_grave",
+      "displayName": "Villager Grave",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld"
@@ -906,6 +1154,218 @@
     {
       "id": "cataclysm:sunken_city",
       "displayName": "Sunken City",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:big_windmill",
+      "displayName": "Big Windmill",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:birch_structures",
+      "displayName": "Birch Structures",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:cave_ruins",
+      "displayName": "Cave Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "create_ltab:cherry_house",
+      "displayName": "Cherry House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:dark_forest_house",
+      "displayName": "Dark Forest House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:dungeon_desert",
+      "displayName": "Dungeon Desert",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:dungeon_jungle",
+      "displayName": "Dungeon Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:dungeon_plains",
+      "displayName": "Dungeon Plains",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:dungeon_snow",
+      "displayName": "Dungeon Snow",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:grot",
+      "displayName": "Grot",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "create_ltab:jungle_well",
+      "displayName": "Jungle Well",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:mangrove_structures",
+      "displayName": "Mangrove Structures",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:nether_roof_house",
+      "displayName": "Nether Roof House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "create_ltab:oak_house",
+      "displayName": "Oak House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:oil_rig",
+      "displayName": "Oil Rig",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:pillage",
+      "displayName": "Pillage",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:plains_small",
+      "displayName": "Plains Small",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:quarry",
+      "displayName": "Quarry",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:railroad",
+      "displayName": "Railroad",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:ruins",
+      "displayName": "Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "create_ltab:sand_house",
+      "displayName": "Sand House",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:snow_fort",
+      "displayName": "Snow Fort",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:spruce_structures",
+      "displayName": "Spruce Structures",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:the_caretakersbunker",
+      "displayName": "The Caretakersbunker",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld",
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "create_ltab:thecastle",
+      "displayName": "Thecastle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "create_ltab:water_pre",
+      "displayName": "Water Pre",
       "isVanilla": false,
       "dimensions": [
         "minecraft:overworld"
@@ -3429,174 +3889,6 @@
       "isVanilla": false,
       "dimensions": [
         "minecraft:the_nether"
-      ]
-    },
-    {
-      "id": "mostructures:air_balloon",
-      "displayName": "Air Balloon",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:barn_house",
-      "displayName": "Barn House",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:big_pyramid",
-      "displayName": "Big Pyramid",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:desert_abandoned_church",
-      "displayName": "Desert Abandoned Church",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:ice_tower",
-      "displayName": "Ice Tower",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:jungle_pyramid",
-      "displayName": "Jungle Pyramid",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:killer_bunny_castle",
-      "displayName": "Killer Bunny Castle",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:lighthouse",
-      "displayName": "Lighthouse",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:moai",
-      "displayName": "Moai",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:pillager_factory",
-      "displayName": "Pillager Factory",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:pillager_mines",
-      "displayName": "Pillager Mines",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:pirate_ship",
-      "displayName": "Pirate Ship",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:plains_abandoned_church",
-      "displayName": "Plains Abandoned Church",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:savanna_abandoned_church",
-      "displayName": "Savanna Abandoned Church",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:snowy_abandoned_church",
-      "displayName": "Snowy Abandoned Church",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:sphinx",
-      "displayName": "Sphinx",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:taiga_abandoned_church",
-      "displayName": "Taiga Abandoned Church",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:tavern",
-      "displayName": "Tavern",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:the_castle_in_the_sky",
-      "displayName": "The Castle In The Sky",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:villager_market",
-      "displayName": "Villager Market",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
-      ]
-    },
-    {
-      "id": "mostructures:villager_tower",
-      "displayName": "Villager Tower",
-      "isVanilla": false,
-      "dimensions": [
-        "minecraft:overworld"
       ]
     },
     {
@@ -7246,6 +7538,316 @@
       ]
     },
     {
+      "id": "totw_modded:abydos",
+      "displayName": "Abydos",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:aether",
+      "displayName": "Aether",
+      "isVanilla": false,
+      "dimensions": [
+        "aether:the_aether"
+      ]
+    },
+    {
+      "id": "totw_modded:alfheim",
+      "displayName": "Alfheim",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:apalachia",
+      "displayName": "Apalachia",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:arcana",
+      "displayName": "Arcana",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:arcanmira",
+      "displayName": "Arcanmira",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:astral",
+      "displayName": "Astral",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:badlands",
+      "displayName": "Badlands",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "totw_modded:bumblezone",
+      "displayName": "Bumblezone",
+      "isVanilla": false,
+      "dimensions": [
+        "the_bumblezone:the_bumblezone"
+      ]
+    },
+    {
+      "id": "totw_modded:cavum_tenebrae",
+      "displayName": "Cavum Tenebrae",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:darwin_iv",
+      "displayName": "Darwin Iv",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:derelict",
+      "displayName": "Derelict",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "totw_modded:derelict_grass",
+      "displayName": "Derelict Grass",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "totw_modded:desert",
+      "displayName": "Desert",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "totw_modded:eden",
+      "displayName": "Eden",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:end",
+      "displayName": "End",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_end"
+      ]
+    },
+    {
+      "id": "totw_modded:everbright",
+      "displayName": "Everbright",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:everdawn",
+      "displayName": "Everdawn",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:gaia",
+      "displayName": "Gaia",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:glacio",
+      "displayName": "Glacio",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:icaria",
+      "displayName": "Icaria",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:ice",
+      "displayName": "Ice",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "totw_modded:iceika",
+      "displayName": "Iceika",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:jungle",
+      "displayName": "Jungle",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "totw_modded:mars",
+      "displayName": "Mars",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:mercury",
+      "displayName": "Mercury",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:midnight",
+      "displayName": "Midnight",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:moon",
+      "displayName": "Moon",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:mortum",
+      "displayName": "Mortum",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:mythica",
+      "displayName": "Mythica",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:nether",
+      "displayName": "Nether",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:the_nether"
+      ]
+    },
+    {
+      "id": "totw_modded:ocean",
+      "displayName": "Ocean",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "totw_modded:ocean_warm",
+      "displayName": "Ocean Warm",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "totw_modded:otherside",
+      "displayName": "Otherside",
+      "isVanilla": false,
+      "dimensions": [
+        "deeperdarker:otherside"
+      ]
+    },
+    {
+      "id": "totw_modded:permafrost",
+      "displayName": "Permafrost",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:ratlantis",
+      "displayName": "Ratlantis",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:regular",
+      "displayName": "Regular",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
+      "id": "totw_modded:setback",
+      "displayName": "Setback",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:skythern",
+      "displayName": "Skythern",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:tofu",
+      "displayName": "Tofu",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:tw_canopy",
+      "displayName": "Tw Canopy",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "totw_modded:tw_mangrove",
+      "displayName": "Tw Mangrove",
+      "isVanilla": false,
+      "dimensions": [
+        "twilightforest:twilight_forest"
+      ]
+    },
+    {
+      "id": "totw_modded:undergarden",
+      "displayName": "Undergarden",
+      "isVanilla": false,
+      "dimensions": [
+        "undergarden:undergarden"
+      ]
+    },
+    {
+      "id": "totw_modded:venus",
+      "displayName": "Venus",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:vethea",
+      "displayName": "Vethea",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
+      "id": "totw_modded:wildwood",
+      "displayName": "Wildwood",
+      "isVanilla": false,
+      "dimensions": []
+    },
+    {
       "id": "towns_and_towers:exclusives/pillager_outpost_classic",
       "displayName": "Exclusives/pillager Outpost Classic",
       "isVanilla": false,
@@ -8519,6 +9121,27 @@
       ]
     },
     {
+      "tagId": "structory:all_structory_structures",
+      "displayName": "#All Structory Structures",
+      "structureIds": [
+        "structory:abandoned_camp",
+        "structory:abandoned_chapel",
+        "structory:boat",
+        "structory:dense_forest_ruin",
+        "structory:firetower",
+        "structory:graveyard",
+        "structory:jungle_ruin",
+        "structory:northern_ruin",
+        "structory:old_manor",
+        "structory:outcast_villager_desert",
+        "structory:outcast_villager_grassy",
+        "structory:ruin_grassy",
+        "structory:swamp_ruin",
+        "structory:taiga_ruin_surface",
+        "structory:taiga_ruin_underground"
+      ]
+    },
+    {
       "tagId": "ars_additions:ancient_city",
       "displayName": "#Ancient City",
       "structureIds": [
@@ -8666,6 +9289,15 @@
       "displayName": "#Better Strongholds",
       "structureIds": [
         "betterstrongholds:stronghold"
+      ]
+    },
+    {
+      "tagId": "create_ltab:big_structures_plains",
+      "displayName": "#Big Structures Plains",
+      "structureIds": [
+        "create_ltab:big_windmill",
+        "create_ltab:oak_house",
+        "create_ltab:railroad"
       ]
     },
     {
@@ -9362,6 +9994,13 @@
       ]
     },
     {
+      "tagId": "create_ltab:grot",
+      "displayName": "#Grot",
+      "structureIds": [
+        "create_ltab:grot"
+      ]
+    },
+    {
       "tagId": "nova_structures:hamlet",
       "displayName": "#Hamlet",
       "structureIds": [
@@ -9919,29 +10558,6 @@
       ]
     },
     {
-      "tagId": "mostructures:no_lakes",
-      "displayName": "#No Lakes",
-      "structureIds": [
-        "mostructures:barn_house",
-        "mostructures:big_pyramid",
-        "mostructures:desert_abandoned_church",
-        "mostructures:ice_tower",
-        "mostructures:jungle_pyramid",
-        "mostructures:killer_bunny_castle",
-        "mostructures:lighthouse",
-        "mostructures:moai",
-        "mostructures:pillager_factory",
-        "mostructures:plains_abandoned_church",
-        "mostructures:savanna_abandoned_church",
-        "mostructures:snowy_abandoned_church",
-        "mostructures:sphinx",
-        "mostructures:taiga_abandoned_church",
-        "mostructures:tavern",
-        "mostructures:villager_market",
-        "mostructures:villager_tower"
-      ]
-    },
-    {
       "tagId": "repurposed_structures:no_lakes",
       "displayName": "#No Lakes",
       "structureIds": [
@@ -10148,6 +10764,13 @@
       ]
     },
     {
+      "tagId": "betterarcheology:on_catacombs_explorer_map",
+      "displayName": "#On Catacombs Explorer Map",
+      "structureIds": [
+        "betterarcheology:catacombs"
+      ]
+    },
+    {
       "tagId": "ars_additions:on_explorer_warp_scroll",
       "displayName": "#On Explorer Warp Scroll",
       "structureIds": [
@@ -10215,6 +10838,13 @@
       "displayName": "#On Jungle Temple Explorer Maps",
       "structureIds": [
         "betterjungletemples:jungle_temple"
+      ]
+    },
+    {
+      "tagId": "betterarcheology:on_light_explorer_map",
+      "displayName": "#On Light Explorer Map",
+      "structureIds": [
+        "betterarcheology:light_temple"
       ]
     },
     {
@@ -11011,6 +11641,19 @@
       "displayName": "#Village Witch",
       "structureIds": [
         "villagesandpillages:village_witch"
+      ]
+    },
+    {
+      "tagId": "lvn:villagelike",
+      "displayName": "#Villagelike",
+      "structureIds": [
+        "minecraft:bastion_remnant",
+        "minecraft:end_city",
+        "minecraft:fortress",
+        "minecraft:igloo",
+        "minecraft:mansion",
+        "minecraft:pillager_outpost",
+        "minecraft:swamp_hut"
       ]
     },
     {

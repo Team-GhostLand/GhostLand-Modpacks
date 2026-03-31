@@ -1,6 +1,11 @@
+# == GENERAL ==
+
 # Grinch local workspace stuff
 **.gr-workspace
 **.mrpack
+
+
+# == GHOSTLAND 7 ==
 
 # Leaks local world names: (which isn't really a „leak” as in a „security issue”, but this has caused Windows incompatibilities (lol) in the past)
 ghostland7/overrides/config/inventoryprofilesnext
@@ -27,3 +32,12 @@ ghostland7/overrides/config/PacketAuth/config.yml
 
 # It's server-version is in server-overrides
 ghostland7/overrides/config/discord_chat_mod-common.toml
+
+
+# == GHOSTLAND 8 ==
+
+# Sinytra processed JAR cache (MAY be a good idea to include it (once it generated, my game startup time dropped from ~570s to ~230s), but not yet, as more JARs for Grinch to munch on will only increase dev times)
+ghostland8/overrides/mods/.connector
+
+#Ars Nouveau search cache - gets updated on every launch, so putting it into dev just makes tracking changes more annoying.
+#<--- UNCOMMENT ON NEXT PUSH (this one needed to be commented-out, so that the deletion is remembered by Git) ghostland8/overrides/config/ars_nouveau/search_index

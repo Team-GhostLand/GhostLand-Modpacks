@@ -1,0 +1,8 @@
+#Please see Documentation! (WIP, please ask on #help channel in the CSOS Discord!)
+#General Syntax: [Syntax of Value for mode 7, Syntax of Value for mode 8], etc.
+#Names of added modes (Syntax: "modename")
+names = [""]
+#Offset from the Pipe (Syntax: [offsetX, offsetY, offsetZ])
+offset = [[0, 0, 0]]
+#The facing of the link (Syntax: "away", "towards", "right", "left", "up", "down")
+facing = [""]
