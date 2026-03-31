@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8a6",
+  "versionId": "8a7",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda, fork ATM",
   "files": [
@@ -6133,7 +6133,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/ti9KkMHm/versions/BFqp4P2V/Simple%20Grass%20Flowers%20v1.9.6.zip"
@@ -6148,7 +6148,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/yfDziwn1/versions/hffJNAo4/SodiumTranslations.zip"
@@ -6163,7 +6163,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/Q1vvjJYV/versions/NDEQ77pU/BSL_v10.1.1.zip"
@@ -6178,7 +6178,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/HVnmMxH1/versions/836bPNGo/ComplementaryReimagined_r5.7.1.zip"
@@ -6193,7 +6193,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/R6NEzAwj/versions/d8rcvDTp/ComplementaryUnbound_r5.7.1.zip"
@@ -6208,7 +6208,7 @@
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/izsIPI7a/versions/20OMmWR5/MakeUp-UltraFast-9.4c.zip"

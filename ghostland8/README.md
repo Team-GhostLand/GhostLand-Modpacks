@@ -13,6 +13,39 @@ https://discord.com/channels/966397518445412413/1261662618230460446
 
 ## Changelogs
 
+### 8a7
+- Configured almost all Waystones settings, except for making sure that you can't craft/drop them (that's done with datapacks), sharing (I think it still needs some nuance; just a blanket-setting for `"GLOBAL"` might be a bit broken, in terms of eg. name edits), and cost - for which I have prepared the following algorithm, but I didn't paste it yet because I'm not sure what would be our base currency unit in the Cebulion system (see at the bottom):
+```waystones
+Disallowed TP methods:
+[target_is_not_waystone, target_is_not_warp_plate] refuse(Sorki, na GhostLandzie można teleportować się tylko do portstoneów, zwykłych Waystoneów lub scrolli powrotu/powiązania, albo płytka-płytka. Wybrany przez Ciebie cel teleportu nie jest dozwolony.)
+[source_is_sharestone] refuse(Sorki, na GhostLandzie można teleportować się tylko do portstoneów, zwykłych Waystoneów lub scrolli powrotu/powiązania, albo płytka-płytka. Wybrane przez Ciebie źródło teleportu, Sharestone, nie jest dozwolone.) #Sharestones are too private (despite the name - they're color-coded, unlike „single-channel” Waystones)
+[source_is_warp_scroll] refuse(Sorki, na GhostLandzie można teleportować się tylko do portstoneów, zwykłych Waystoneów lub scrolli powrotu/powiązania, albo płytka-płytka. Wybrane przez Ciebie źródło teleportu, Warp Scroll, nie jest dozwolone.) #Too OP: Multiple-choice destination
+[source_is_warp_stone] refuse(Sorki, na GhostLandzie można teleportować się tylko do portstoneów, zwykłych Waystoneów lub scrolli powrotu/powiązania, albo płytka-płytka. Wybrane przez Ciebie źródło teleportu, Warp Stone, nie jest dozwolone.) #Too OP: Multiple-choice destination
+[source_is_inventory_button] refuse(Inventory Button do teleportu nie powienien w ogóle być włączony. Jeśli widzisz tą wiadomość, zgłoś to Administracji.)
+
+Mixed signals:
+[source_is_warp_plate, target_is_not_warp_plate] refuse(Za pomocą płytek można teleportować się tylko płytka-płytka, a nie z płytki do gdziekolwiek-próbowałeś.)
+[source_is_not_warp_plate, target_is_warp_plate] refuse(Za pomocą płytek można teleportować się tylko płytka-płytka, a nie do płytki z gdziekolwiek-próbowałeś.)
+
+Extra restrictions:
+[is_with_leashed] refuse(Hej hej hej, ale transport zwierząt tylko w wagonie do bydła! Jedź pociągiem nie Waystonem.) #We could just disabled TP-with-leashed, but it's more funny when the Waystone gets upset with you.
+[is_on_any_vehicle] refuse(Siedzisz już na pojeździe/wierzchowcu - jedź se nim. Po co ci waystone?)
+[is_wearing_any_armor, source_is_not_return_scroll, source_is_not_warp_plate, target_is_not_warp_plate] refuse(Sorki, ze względu na kontrolę graniczną teleportacja w zbroi jest niemożliwa. Wyskakuj z gaci!)
+[is_not_interdimensional, is_not_within_distance(300), source_is_warp_plate, target_is_warp_plate] refuse(Płytki służą tylko do krótko-dystansowej nawigacji, na przykład z jednego piętra bazy na inne, jak winda. Na dłuższy dystans proszę użyć jakiegoś bardziej zaawansowanego środka transportu.)
+[is_interdimensional, source_is_warp_plate, target_is_warp_plate] refuse(Płytki służą tylko do krótko-dystansowej nawigacji, na przykład z jednego piętra bazy na inne, jak winda. Na między-wymiarowy dystans proszę użyć jakiegoś bardziej zaawansowanego środka transportu.)
+[is_not_interdimensional, is_within_distance(800), source_is_not_bound_scroll, source_is_not_return_scroll, source_is_not_warp_plate, target_is_not_warp_plate] refuse(Teleportujesz się na mniej niż 800 kratek, serio? Weź ty już lepiej pieszo idź lub metrem jedź. Co, mamusia nóżek nie dała?)
+[is_not_interdimensional, is_not_within_distance(3000), source_is_not_bound_scroll, source_is_not_return_scroll] refuse(Ponad 3000 kratek to za daleko dla teleportu bez scrolla. Sorki.)
+
+
+Cost calculations:
+[source_is_waystone, is_not_interdimensional] scaled_add_item_cost(distance, [CURRENCY], 0.01) #8-30
+min_item_cost([CURRENCY], 10)
+max_item_cost([CURRENCY], 16)
+[source_is_waystone, is_interdimensional] add_item_cost([CURRENCY], 24)
+[is_with_pets] add_item_cost([CURRENCY], 2)
+```
+- Begun serious work on FancyMenu (gave it our logo and redone the buttons). Now it's only missing background audio and background images.
+
 ### 8a6
 - Added mods:
 	- LibVilNam (as a JAR for now, but hopefully Modrinth will approve until full release)
@@ -126,7 +159,7 @@ https://discord.com/channels/966397518445412413/1261662618230460446
 
 ## Configs
 - Removed Dead Sea and Lush Stacks from BWG
-- See: 8a6
+- See: 8a6 and 8a7 (they were mostly configs, so I'm not reposting them here)
 
 ## Guides
 read the main readme and you are probably fine
