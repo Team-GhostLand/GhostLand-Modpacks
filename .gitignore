@@ -40,4 +40,4 @@ ghostland7/overrides/config/discord_chat_mod-common.toml
 ghostland8/overrides/mods/.connector
 
 #Ars Nouveau search cache - gets updated on every launch, so putting it into dev just makes tracking changes more annoying.
-#<--- UNCOMMENT ON NEXT PUSH (this one needed to be commented-out, so that the deletion is remembered by Git) ghostland8/overrides/config/ars_nouveau/search_index
+ghostland8/overrides/config/ars_nouveau/search_index
