@@ -13,6 +13,17 @@ https://discord.com/channels/966397518445412413/1261662618230460446
 
 ## Changelogs
 
+### 8a9
+- Removed Railways Untold (it will be added back if it's bugs will be fixed)
+- Removed Create Waystone Recipes
+- Removed Create Design'n'Decor
+- Removed Amendments
+- Removed everything Xaero
+- Added Keybind Bundles
+
+### 8a8
+What happens in Vegas stays in Vegas
+
 ### 8a7
 - Configured almost all Waystones settings, except for making sure that you can't craft/drop them (that's done with datapacks), sharing (I think it still needs some nuance; just a blanket-setting for `"GLOBAL"` might be a bit broken, in terms of eg. name edits), and cost - for which I have prepared the following algorithm, but I didn't paste it yet because I'm not sure what would be our base currency unit in the Cebulion system (see at the bottom):
 ```waystones
@@ -150,10 +161,8 @@ max_item_cost([CURRENCY], 16)
 - Configs
 	- Remove progression from deleted mods
 	- Waystones and Numismatics bullshit
-	- Railways Untold
 - Quests for some of our additions, maybe?
 - Fix our custom packs (datapack: apparently, will not get loaded by Minecraft Docker unless it's a ZIP (so it needs repackaging), and also (if we decide to install some planes mod) it'd be cool to port Jifo's plane rebalance; resourcepack: see note at 8a5, and also maybe we'd want to remove the Silesian translation, now that out 1 (one) user of Silesian is no longer with us)
-- Let FTB Chunks and Xaero cooperate (or, more likely, have Xaero fully overshadow FTB and maybe even nuke FTB Chunks outright - unless the trains map only works in FTB, in which case Xaero can go fuck itself and its proprietary bullshit, we'll switch to FTB, and Tymuś will have to side-load Xaero if he really wants it)
 - Keybinds
 - GhostLand branding in BCC and CrPr
 
