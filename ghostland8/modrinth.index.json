@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8a9",
+  "versionId": "8a10",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda, fork ATM",
   "files": [
@@ -1191,6 +1191,21 @@
       "fileSize": 35602
     },
     {
+      "path": "mods/PatPat-1.2.4+1.21.1+neoforge.jar",
+      "hashes": {
+        "sha1": "8966f991f98021a8e9798724c50c6bf33197dde1",
+        "sha512": "ab8c52e0c13e5090c2ec9e3bbc453f8ddde0c791e2732438d404f6240e9c52bc160619b2edac04da6f00f4e0ea868dc370c711885b8e0806204e55d39dc099ba"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/dw7LChq9/versions/4AbDTwoo/PatPat-1.2.4%2B1.21.1%2Bneoforge.jar"
+      ],
+      "fileSize": 1181725
+    },
+    {
       "path": "mods/Patchouli-1.21.1-92-NEOFORGE.jar",
       "hashes": {
         "sha1": "97ae42096ee4a0a242cd8468dde293017f3cc39c",
@@ -1716,6 +1731,21 @@
       "fileSize": 293343
     },
     {
+      "path": "mods/animatedlogo-2.1+1.21-neoforge.jar",
+      "hashes": {
+        "sha1": "fbd0b9eebfa71c50c57c1972211b8ce1ec0b4d9c",
+        "sha512": "9dea22a58eaa5e36312c5cf0d04566e77a52565afe6dda2f1d4a15befde165138a09c008b44153902c4b79614a0d921b64ed53ad40a715f4cc508a8c408a6990"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/cGHt9WgV/versions/denSjOB2/animatedlogo-2.1%2B1.21-neoforge.jar"
+      ],
+      "fileSize": 3321168
+    },
+    {
       "path": "mods/anvianslib-neoforge-1.21-1.4.2.jar",
       "hashes": {
         "sha1": "b955b065375dd6486138aed28c8442b7495f1c4f",
@@ -1924,21 +1954,6 @@
         "https://cdn.modrinth.com/data/LUIHK4LD/versions/XnVulO4o/async-locator-refined-neoforge-1.21.1-1.5.2-hotfix.jar"
       ],
       "fileSize": 272352
-    },
-    {
-      "path": "mods/async-neoforge-0.2.0+alpha-1.21.1.jar",
-      "hashes": {
-        "sha1": "2fd84ae873d8fb6263fa86417b9cede2baa3c58b",
-        "sha512": "73ebe65ddc0ef6e2a6cbbaeee91b7beada7e70f45f334cde8fad9f6fe88b1489244747577c31d1ebb804cf5383e0b87e845ad153e50362f9b74c1d3941c42161"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/vEC2jm6I/versions/pP8zrgTu/async-neoforge-0.2.0%2Balpha-1.21.1.jar"
-      ],
-      "fileSize": 339507
     },
     {
       "path": "mods/athena-neoforge-1.21-4.0.2.jar",
@@ -4041,21 +4056,6 @@
       "fileSize": 199979
     },
     {
-      "path": "mods/lionfishapi-2.6.jar",
-      "hashes": {
-        "sha1": "3d9059ea05839e0daab926848d91ecb14ca5a4d4",
-        "sha512": "87167d2c54f6a5539c30ed5ae12cdfe407c608ca32d6b864b27f3d1c994134687b0e4aba42aced0d204fba1d72452906dcc02bb5b17ba9f6e8951834d4758202"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/FoVacERa/versions/RdsxgL41/lionfishapi-2.6.jar"
-      ],
-      "fileSize": 92312
-    },
-    {
       "path": "mods/lithium-neoforge-0.15.3+mc1.21.1.jar",
       "hashes": {
         "sha1": "9fd5fa9076044180ae7f51672de74669196ec72e",
@@ -4159,6 +4159,21 @@
         "https://cdn.modrinth.com/data/v8pgbyzm/versions/4GevHoQn/luminax-1.3.1_neoforge_1.21.1.jar"
       ],
       "fileSize": 704672
+    },
+    {
+      "path": "mods/lvn-0.1.jar",
+      "hashes": {
+        "sha1": "645730ea463b0e5292b47197a8e41aeabd9c7bb9",
+        "sha512": "77dd999b8e20a7e828fd84bb6ac407cd2daf24c559c66637ea8ba084bd99faf44ce0011c80dcee6c7b451dadf91e50a1ca3fe9491c1862da96bc649e06bcc8d1"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/xSL86cA9/versions/a5CffrkI/lvn-0.1.jar"
+      ],
+      "fileSize": 62791
     },
     {
       "path": "mods/mcw-bridges-3.1.1-mc1.21.1neoforge.jar",

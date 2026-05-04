@@ -13,6 +13,12 @@ https://discord.com/channels/966397518445412413/1261662618230460446
 
 ## Changelogs
 
+### 8a10
+- Removed Async
+- Added Soulless (YIPPIEEEEEEE!!!!!!!!!!!!!!!!!!!!!)
+- Added PatPat
+- Added Animated loading screen
+
 ### 8a9
 - Removed Railways Untold (it will be added back if it's bugs will be fixed)
 - Removed Create Waystone Recipes

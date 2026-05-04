@@ -6924,6 +6924,14 @@
       ]
     },
     {
+      "id": "soulless:ruins",
+      "displayName": "Ruins",
+      "isVanilla": false,
+      "dimensions": [
+        "minecraft:overworld"
+      ]
+    },
+    {
       "id": "structory:abandoned_camp",
       "displayName": "Abandoned Camp",
       "isVanilla": false,
@@ -11109,6 +11117,13 @@
       "structureIds": [
         "ars_additions:ruined_portal",
         "ars_additions:ruined_portal_large"
+      ]
+    },
+    {
+      "tagId": "soulless:ruins",
+      "displayName": "#Ruins",
+      "structureIds": [
+        "soulless:ruins"
       ]
     },
     {
