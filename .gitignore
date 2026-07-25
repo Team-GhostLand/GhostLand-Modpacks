@@ -4,10 +4,14 @@
 **.gr-workspace
 **.mrpack
 
+# For everyone who stores Grinch locally in the workspace
+grinch
+grinch.exe
+
 
 # == GHOSTLAND 7 ==
 
-# Leaks local world names: (which isn't really a „leak” as in a „security issue”, but this has caused Windows incompatibilities (lol) in the past)
+# Leaks local world names: (which isn't really a „leak” as in a „security issue” (there's nothing insecure about your world name, unless you're insecure about the silly way you call your worlds), but this has caused Windows incompatibilities (lol) in the past)
 ghostland7/overrides/config/inventoryprofilesnext
 
 # Leaks usernames/IDs:
@@ -24,13 +28,13 @@ ghostland7/overrides/config/spark/tmp
 # Copyright violations lol
 ghostland7/overrides/config/analog/records
 
-# Distant Horizons interprets values differently on different devices - better to remove its configs and have everything set to default; it's server-version is in server-overrides
+# Distant Horizons interprets values differently on different devices - better to remove its configs and have everything set to default; its server-version is in server-overrides
 #ghostland7/overrides/config/DistantHorizons.toml
 
-# Leaks personal access tokens; it's server-version is in server-overrides
+# Leaks personal access tokens; its server-version is in server-overrides
 ghostland7/overrides/config/PacketAuth/config.yml
 
-# It's server-version is in server-overrides
+# Its server-version is in server-overrides
 ghostland7/overrides/config/discord_chat_mod-common.toml
 
 
