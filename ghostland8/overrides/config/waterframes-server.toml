@@ -37,6 +37,10 @@
 		#Or if the audio isn't working, disable this option should help
 		#(This option is called VSEureka because valkirienskies is too long, and VS may be misleading)
 		vsEurekaCompat = true
+		#Enables compatibility with Sable (used by Create: Simulated / Aeronautics contraptions)
+		#Projects sub-level block positions to global space so audio attenuates correctly from contraption-mounted displays
+		#Disable if sable misbehaves or audio stops working while using it
+		sableCompat = true
 
 		[waterframes.multimedia.watermedia]
 			#Enables VLC/FFMPEG usage for multimedia processing like videos and music (support added by WATERMeDIA)

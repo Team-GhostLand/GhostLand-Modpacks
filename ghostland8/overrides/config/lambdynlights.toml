@@ -7,7 +7,7 @@ chunk_rebuild_scheduler = "culling"
 # Light sources settings.
 [light_sources]
 	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
-	water_sensitive_check = false
+	water_sensitive_check = true
 	# Enables dynamic lighting of beacon or end gateway beams.
 	beam = true
 	# Enables dynamic lighting of firefly particles from Firefly Bushes.
@@ -19,582 +19,13 @@ chunk_rebuild_scheduler = "culling"
 	# Enable first-person player light source.
 	self = true
 	# TNT lighting mode. May be off, simple or fancy.
-	tnt = "fancy"
+	tnt = "off"
 	# Enables dynamic lighting of the Warden's sonic boom attack particles.
 	sonic_boom = true
 	# Creeper lighting mode. May be off, simple or fancy.
-	creeper = "fancy"
+	creeper = "simple"
 	# Enables dynamic lighting of Guardian's lasers. This also can be toggled off by disabling Guardian dynamic lighting.
-	guardian_laser = true
-
-			[light_sources.settings.entities.createnuclear]
-				irradiated_wolf = true
-				irradiated_cat = true
-				irradiated_chicken = true
-
-			[light_sources.settings.entities.createbigcannons]
-				smoke_emitter = true
-				ap_shot = true
-				drop_mortar_shell = true
-				smoke_shell = true
-				primed_propellant = true
-				cannon_carriage = true
-				gas_cloud = true
-				pitch_contraption = true
-				traffic_cone = true
-				flak_autocannon = true
-				ap_shell = true
-				shot = true
-				ap_autocannon = true
-				shrapnel_burst = true
-				fluid_blob_burst = true
-				fluid_shell = true
-				flak_burst = true
-				mortar_stone = true
-				shrapnel_shell = true
-				grapeshot_burst = true
-				machine_gun_bullet = true
-				bag_of_grapeshot = true
-				he_shell = true
-
-			[light_sources.settings.entities.rootsclassic]
-				phantom_skeleton = true
-				entity_accelerator = true
-				tile_accelerator = true
-
-			[light_sources.settings.entities.amendments]
-				medium_dragon_fireball = true
-				falling_lantern = true
-				medium_fireball = true
-
-			[light_sources.settings.entities.variantsandventures]
-				gelid = true
-				murk = true
-				verdant = true
-				thicket = true
-
-			[light_sources.settings.entities.aether]
-				slider = true
-				poison_dart = true
-				sun_spirit = true
-				zephyr = true
-				flying_cow = true
-				whirlwind = true
-				golden_dart = true
-				poison_needle = true
-				floating_block = true
-				skyroot_boat = true
-				mimic = true
-				thunder_crystal = true
-				valkyrie_queen = true
-				sentry = true
-				zephyr_snowball = true
-				cockatrice = true
-				hammer_projectile = true
-				golden_swet = true
-				skyroot_chest_boat = true
-				fire_crystal = true
-				fire_minion = true
-				evil_whirlwind = true
-				golden_parachute = true
-				blue_swet = true
-				cloud_minion = true
-				valkyrie = true
-				phyg = true
-				aerbunny = true
-				lightning_knife = true
-				aerwhale = true
-				cold_parachute = true
-				enchanted_dart = true
-				ice_crystal = true
-				sheepuff = true
-				aechor_plant = true
-				moa = true
-				cloud_crystal = true
-				tnt_present = true
-
-			[light_sources.settings.entities.biomeswevegone]
-				pumpkin_warden = true
-				oddion = true
-				man_o_war = true
-				chest_boat = true
-				wreath = true
-				boat = true
-
-			[light_sources.settings.entities.ae2]
-				tiny_tnt_primed = true
-
-			[light_sources.settings.entities.dyenamics]
-				sheep = true
-
-			[light_sources.settings.entities.dyenamicsandfriends]
-				chromacarvings_cherenkov_snow_golem = true
-				chromacarvings_mint_snow_golem = true
-				chromacarvings_wine_snow_golem = true
-				chromacarvings_maroon_snow_golem = true
-				chromacarvings_aquamarine_snow_golem = true
-				chromacarvings_bubblegum_snow_golem = true
-				chromacarvings_navy_snow_golem = true
-				chromacarvings_honey_snow_golem = true
-				chromacarvings_amber_snow_golem = true
-				chromacarvings_conifer_snow_golem = true
-				chromacarvings_lavender_snow_golem = true
-				chromacarvings_ultramarine_snow_golem = true
-				chromacarvings_icy_blue_snow_golem = true
-				chromacarvings_peach_snow_golem = true
-				chromacarvings_rose_snow_golem = true
-				chromacarvings_spring_green_snow_golem = true
-				chromacarvings_fluorescent_snow_golem = true
-				chromacarvings_persimmon_snow_golem = true
-
-			[light_sources.settings.entities.not_enough_glyphs]
-				trail = true
-				missile = true
-
-			[light_sources.settings.entities.draconicevolution]
-				guardian_projectile = true
-				draconic_guardian = true
-				guardian_wither = true
-				draconic_arrow = true
-				guardian_crystal = true
-
-			[light_sources.settings.entities.bibliocraft]
-				seat = true
-				fancy_armor_stand = true
-
-			[light_sources.settings.entities.mekanism]
-				robit = true
-				flame = true
-
-			[light_sources.settings.entities.create]
-				carriage_contraption = true
-				seat = true
-				stationary_contraption = true
-				package = true
-				contraption = true
-				gantry_contraption = true
-				super_glue = true
-				crafting_blueprint = true
-				potato_projectile = true
-
-			[light_sources.settings.entities.artifacts]
-				mimic = true
-
-			[light_sources.settings.entities.evilcraft]
-				werewolf = true
-				item_dark_stick = true
-				necromancers_head = true
-				controlled_zombie = true
-				weather_container = true
-				broom = true
-				attack_vengeance_beam = true
-				item_undespawnable = true
-				lightning_grenade = true
-				anti_vengeance_beam = true
-				vengeance_spirit = true
-				poisonous_libelle = true
-				biome_extract = true
-				redstone_grenade = true
-				item_empowerable = true
-				blood_pearl = true
-				lightning_bomb_primed = true
-				netherfish = true
-
-			[light_sources.settings.entities.everythingcopper]
-				copper_golem = true
-
-			[light_sources.settings.entities.gateways]
-				endless_gateway = true
-				normal_gateway = true
-
-			[light_sources.settings.entities.powah]
-				charged_snowball = true
-
-			[light_sources.settings.entities.powergrid]
-				cord = true
-				block_wire = true
-				string_light_cord = true
-				hanging_wire = true
-				zap_projectile = true
-
-			[light_sources.settings.entities.farmingforblockheads]
-				merchant = true
-
-			[light_sources.settings.entities.pneumaticcraft]
-				logistics_frame_default_storage = true
-				vortex = true
-				ring = true
-				transfer_gadget = true
-				logistics_frame_requester = true
-				logistics_frame_passive_provider = true
-				drone = true
-				spawner_agitator = true
-				tumbling_block = true
-				programmable_controller = true
-				micromissile = true
-				guard_drone = true
-				logistics_drone = true
-				crop_support = true
-				logistics_frame_storage = true
-				amadrone = true
-				heat_frame = true
-				collector_drone = true
-				logistics_frame_active_provider = true
-				harvesting_drone = true
-
-			[light_sources.settings.entities.oritech]
-				portal_entity = true
-
-			[light_sources.settings.entities.sophisticatedbackpacks]
-				everlasting_backpack_item = true
-
-			[light_sources.settings.entities.createdieselgenerators]
-				chemical_sprayer_projectile = true
-
-			[light_sources.settings.entities.apotheosis]
-				tiered_gateway = true
-
-			[light_sources.settings.entities.relics]
-				death_essence = true
-				shadow_glaive = true
-				block_simulation = true
-				life_essence = true
-				chair = true
-				stalactite = true
-				thrown_relic_experience_bottle = true
-				solid_snowball = true
-				spore = true
-				relic_experience_orb = true
-				shockwave = true
-				dissection = true
-
-			[light_sources.settings.entities.iceandfire]
-				dread_lich_skull = true
-				amphithere_arrow = true
-				dread_ghoul = true
-				siren = true
-				hippogryph_egg = true
-				dread_scuttler = true
-				chain_tie = true
-				dread_lich = true
-				ice_dragon_charge = true
-				cylcops_multipart = true
-				dragon_arrow = true
-				dread_horse = true
-				hydra = true
-				stymphalian_feather = true
-				dragon_multipart = true
-				dragon_egg = true
-				sea_serpent = true
-				pixie = true
-				dread_beast = true
-				dread_thrall = true
-				gorgon = true
-				hippogryph = true
-				fire_dragon = true
-				dread_knight = true
-				stymphalian_arrow = true
-				cockatrice_egg = true
-				ice_dragon = true
-				deathworm = true
-				multipart = true
-				stone_statue = true
-				hydra_breath = true
-				lightning_dragon_charge = true
-				stymphalian_bird = true
-				sea_serpent_arrow = true
-				lightning_dragon = true
-				fire_dragon_charge = true
-				hydra_multipart = true
-				ghost = true
-				mob_skull = true
-				cyclops = true
-				pixie_charge = true
-				cockatrice = true
-				sea_serpent_bubbles = true
-				hippocampus = true
-				ghost_sword = true
-				hydra_arrow = true
-				troll = true
-				tide_trident = true
-				deathworm_egg = true
-				dragon_skull = true
-				amphithere = true
-
-			[light_sources.settings.entities.mahoutsukai]
-				gun_beam_projectile_entity = true
-				kodoku_entity = true
-				gate_weapon_projectile_entity = true
-				lightning_entity = true
-				beam_mahoujin_entity = true
-				explosion_mahoujin_entity = true
-				rho_aias_entity = true
-				beam_projectile_entity = true
-				fallen_down_entity = true
-				rhongomyniad_entity = true
-				weapon_projectile_entity = true
-				authority_entity = true
-				gandr_entity = true
-				gun_entity = true
-				william_entity = true
-				mental_displacement_entity = true
-				familiar_entity = true
-				aoe_explosion_mahoujin_entity = true
-				replica_teleport_entity = true
-				butterfly_entity = true
-				morgan_ball_entity = true
-				gate_chain_entity = true
-				fae_entity = true
-				spatial_disorientation_entity = true
-				fallen_down_beam_entity = true
-				lightning_bolt_entity = true
-				smite_entity = true
-
-			[light_sources.settings.entities.starbunclemania]
-				starby_mount = true
-
-			[light_sources.settings.entities.railways]
-				conductor = true
-				benchcart = true
-				jukeboxcart = true
-
-			[light_sources.settings.entities.ars_nouveau]
-				follow_proj = true
-				an_lightning = true
-				arcing_spell_proj = true
-				bookwyrm = true
-				scryer_camera = true
-				wilden_boss = true
-				spike = true
-				dummy = true
-				animated_block = true
-				enchanted_head_block = true
-				animated_head = true
-				spell_arrow = true
-				orbit = true
-				cinder = true
-				cascading_weald_walker = true
-				starbuncle = true
-				ritual = true
-				flying_item = true
-				summon_horse = true
-				blazing_weald_walker = true
-				spell_proj = true
-				gift_starby = true
-				enchanted_mage_block = true
-				ice_shard = true
-				wilden_stalker = true
-				summon_wolf = true
-				wixie = true
-				familiar_drygmy = true
-				homing_spell_proj = true
-				familiar_starbuncle = true
-				summon_skeleton = true
-				wilden_guardian = true
-				enchanters_hook = true
-				familiar_bookwyrm = true
-				amethyst_golem = true
-				bubble = true
-				enchanted_falling_block = true
-				familiar_amethyst_golem = true
-				linger = true
-				alakarkinos = true
-				drygmy = true
-				nook = true
-				whirlisprig = true
-				wilden_hunter = true
-				fangs = true
-				ally_vex = true
-				lily = true
-				flourishing_weald_walker = true
-				familiar_whirlisprig = true
-				familiar_wixie = true
-				wall = true
-				vexing_weald_walker = true
-
-			[light_sources.settings.entities.utilitarian]
-				rising_block = true
-
-			[light_sources.settings.entities.trophymanager]
-				player = true
-
-			[light_sources.settings.entities.dummmmmmy]
-				target_dummy = true
-
-			[light_sources.settings.entities.twilightforest]
-				slider = true
-				quest_ram = true
-				death_tome = true
-				kobold = true
-				loyal_zombie = true
-				redcap_sapper = true
-				boar = true
-				hydra = true
-				lich = true
-				thrown_wep = true
-				hydra_mortar = true
-				unstable_ice_core = true
-				mist_wolf = true
-				falling_ice = true
-				dwarf_rabbit = true
-				winter_wolf = true
-				charm_effect = true
-				fire_beetle = true
-				carminite_golem = true
-				helmet_crab = true
-				lower_goblin_knight = true
-				king_spider = true
-				squirrel = true
-				maze_slime = true
-				moonworm_shot = true
-				slime_blob = true
-				ice_crystal = true
-				lich_bolt = true
-				tiny_bird = true
-				ur_ghast = true
-				yeti = true
-				lich_bomb = true
-				chain_block = true
-				pinch_beetle = true
-				rising_zombie = true
-				deer = true
-				harbinger_cube = true
-				hedge_spider = true
-				thrown_block = true
-				lich_minion = true
-				carminite_ghastguard = true
-				skeleton_druid = true
-				slime_beetle = true
-				magic_painting = true
-				seeker_arrow = true
-				ice_snowball = true
-				carminite_ghastling = true
-				armored_giant = true
-				minoshroom = true
-				cube_of_annihilation = true
-				blockchain_goblin = true
-				knight_phantom = true
-				swarm_spider = true
-				carminite_broodling = true
-				nature_bolt = true
-				adherent = true
-				raven = true
-				redcap = true
-				wand_bolt = true
-				troll = true
-				upper_goblin_knight = true
-				towerwood_borer = true
-				hostile_wolf = true
-				thrown_ice = true
-				mosquito_swarm = true
-				tome_bolt = true
-				stable_ice_core = true
-				plateau_boss = true
-				ice_arrow = true
-				protection_box = true
-				minotaur = true
-				wraith = true
-				alpha_yeti = true
-				giant_miner = true
-				snow_queen = true
-				roving_cube = true
-				snow_guardian = true
-				naga = true
-				penguin = true
-				bighorn_sheep = true
-
-			[light_sources.settings.entities.supplementaries]
-				dispenser_minecart = true
-				slingshot_projectile = true
-				brick_projectile = true
-				plunderer = true
-				falling_sack = true
-				pearl_marker = true
-				hat_stand = true
-				bomb = true
-				falling_ash = true
-				cannonball = true
-				falling_urn = true
-				red_merchant = true
-				cannon_boat = true
-				rope_arrow = true
-				slimeball_projectile = true
-
-			[light_sources.settings.entities.eternal_starlight]
-				sonar_bomb = true
-				energized_flame = true
-				frozen_tube = true
-				thirst_walker = true
-				starlight_golem = true
-				grimstone_golem = true
-				shattered_blade = true
-				gatekeeper_fireball = true
-				gleech = true
-				starfire_bird = true
-				lunar_thorn = true
-				permafrost_cloud = true
-				freeze = true
-				pungency_fruit_spear = true
-				tangled_husk = true
-				aethersent_arrow = true
-				crest = true
-				twilight_gaze = true
-				lunar_monstrosity = true
-				frozen_bomb = true
-				chain_of_souls = true
-				rookfish = true
-				aurora_deer = true
-				luminofish = true
-				lunar_spore = true
-				tiny_creteor = true
-				permafrost = true
-				air_sac_arrow = true
-				boarwarf = true
-				energy_spark = true
-				yeti = true
-				shadow_snail = true
-				creteor = true
-				aethersent_golem = true
-				malarite_arrow = true
-				crystallized_moth = true
-				tangled_skull = true
-				permafrost_spit = true
-				crystal_cluster = true
-				eye_of_seeking = true
-				amaramber_arrow = true
-				lonestar_skeleton = true
-				aethersent_meteor = true
-				thioquartz_arrow = true
-				the_gatekeeper = true
-				ratlin = true
-				tear_bomb = true
-				ashen_snowball = true
-				lunar_monstrosity_breath = true
-				gleech_egg = true
-				zombified_ratlin = true
-				wilted_petal = true
-				energy_boomerang = true
-				tear_bomb_minecart = true
-				ent = true
-				nightfall_spider = true
-				chest_boat = true
-				soulit_spectator = true
-				boat = true
-				aetherstrike_rocket = true
-				falling_block = true
-				glacite_arrow = true
-				tangled = true
-				astral_golem = true
-				stranghoul = true
-				shimmer_lacewing = true
-				painting = true
-				thioquartz_shard = true
-				voracious_arrow = true
-				golem_laser_beam = true
-				luminaris = true
-				malarite_spear = true
-				shot_seeds = true
-				starfire = true
+	guardian_laser = false
 
 			[light_sources.settings.entities.minecraft]
 				zombie_horse = true
@@ -607,8 +38,8 @@ chunk_rebuild_scheduler = "culling"
 				mule = true
 				bat = true
 				husk = true
-				experience_bottle = true
 				camel = true
+				experience_bottle = true
 				rabbit = true
 				firework_rocket = true
 				silverfish = true
@@ -620,9 +51,9 @@ chunk_rebuild_scheduler = "culling"
 				vindicator = true
 				minecart = true
 				spectral_arrow = true
-				mooshroom = true
 				llama_spit = true
-				glow_item_frame = true
+				mooshroom = true
+				glow_item_frame = false
 				tnt = true
 				snowball = true
 				parrot = true
@@ -631,37 +62,37 @@ chunk_rebuild_scheduler = "culling"
 				tadpole = true
 				ravager = true
 				evoker_fangs = true
-				tropical_fish = true
 				chest_minecart = true
+				tropical_fish = true
 				slime = true
 				pillager = true
 				area_effect_cloud = true
-				piglin = true
 				blaze = true
-				endermite = true
+				piglin = true
 				end_crystal = true
-				ender_pearl = true
+				endermite = true
 				zombie = true
+				ender_pearl = true
 				item_display = true
 				breeze_wind_charge = true
 				guardian = true
 				fireball = true
 				illusioner = true
-				wither_skull = true
 				eye_of_ender = true
+				wither_skull = true
 				wolf = true
-				zombie_villager = true
-				tnt_minecart = true
 				block_display = true
+				tnt_minecart = true
+				zombie_villager = true
 				elder_guardian = true
 				chest_boat = true
-				small_fireball = true
 				boat = true
+				small_fireball = true
 				strider = true
 				cave_spider = true
 				cod = true
-				witch = true
 				snow_golem = true
+				witch = true
 				spider = true
 				command_block_minecart = true
 				panda = true
@@ -680,10 +111,10 @@ chunk_rebuild_scheduler = "culling"
 				stray = true
 				shulker = true
 				turtle = true
-				vex = true
-				wither_skeleton = true
-				wandering_trader = true
 				salmon = true
+				vex = true
+				wandering_trader = true
+				wither_skeleton = true
 				piglin_brute = true
 				breeze = true
 				ocelot = true
@@ -694,8 +125,8 @@ chunk_rebuild_scheduler = "culling"
 				leash_knot = true
 				evoker = true
 				marker = true
-				warden = true
 				glow_squid = true
+				warden = true
 				squid = true
 				shulker_bullet = true
 				enderman = true
@@ -717,8 +148,8 @@ chunk_rebuild_scheduler = "culling"
 				potion = true
 				trident = true
 				villager = true
-				skeleton_horse = true
 				ominous_item_spawner = true
+				skeleton_horse = true
 				fishing_bobber = true
 				text_display = true
 				polar_bear = true
@@ -728,850 +159,149 @@ chunk_rebuild_scheduler = "culling"
 				interaction = true
 				wither = true
 
-			[light_sources.settings.entities.industrialforegoing]
-				trident_entity = true
-				infinity_nuke = true
-				launcher_projectile_entity = true
-
 			[light_sources.settings.entities.farmersdelight]
 				rotten_tomato = true
 
-			[light_sources.settings.entities.handcrafted]
+			[light_sources.settings.entities.createbigcannons]
+				smoke_emitter = true
+				ap_shot = true
+				drop_mortar_shell = true
+				primed_propellant = true
+				smoke_shell = true
+				cannon_carriage = true
+				gas_cloud = true
+				pitch_contraption = true
+				traffic_cone = true
+				flak_autocannon = true
+				ap_shell = true
+				shot = true
+				ap_autocannon = true
+				shrapnel_burst = true
+				fluid_blob_burst = true
+				fluid_shell = true
+				flak_burst = true
+				mortar_stone = true
+				shrapnel_shell = true
+				grapeshot_burst = true
+				machine_gun_bullet = true
+				bag_of_grapeshot = true
+				he_shell = true
+
+			[light_sources.settings.entities.simulated]
+				launched_plunger = true
+				honey_glue = true
+				contraption_diagram = true
+
+			[light_sources.settings.entities.sophisticatedbackpacks]
+				everlasting_backpack_item = true
+
+			[light_sources.settings.entities.connectiblechains]
+				chain_knot = true
+				chain_collision = true
+
+			[light_sources.settings.entities.amendments]
+				medium_dragon_fireball = true
+				falling_lantern = true
+				medium_fireball = true
+
+			[light_sources.settings.entities.bits_n_bobs]
+				inert_stationary_contraption = true
+
+			[light_sources.settings.entities.another_furniture]
 				seat = true
-				fancy_painting = true
-
-			[light_sources.settings.entities.tempad]
-				timedoor = true
-
-			[light_sources.settings.entities.livingthings]
-				shark = true
-				mantaray = true
-				snail = true
-				thrown_ostrich_egg = true
-				monkey = true
-				koala = true
-				ostrich = true
-				owl = true
-				ancient_blaze = true
-				baby_ender_dragon = true
-				shroomie = true
-				lion = true
-				flamingo = true
-				nether_knight = true
-				raccoon = true
-				giraffe = true
-				peacock = true
-				elephant = true
-				crab = true
-				penguin = true
-				seahorse = true
-
-			[light_sources.settings.entities.endermanoverhaul]
-				flower_fields_enderman = true
-				coral_enderman = true
-				ender_bullet = true
-				windswept_hills_enderman = true
-				icy_pearl = true
-				summoner_pearl = true
-				nether_wastes_enderman = true
-				soul_pearl = true
-				mushroom_fields_enderman = true
-				snowy_enderman = true
-				soulsand_valley_enderman = true
-				axolotl_pet_enderman = true
-				hammerhead_pet_enderman = true
-				savanna_enderman = true
-				ice_spikes_enderman = true
-				desert_enderman = true
-				spirit = true
-				ancient_pearl = true
-				end_enderman = true
-				corrupted_pearl = true
-				bubble_pearl = true
-				crimson_forest_enderman = true
-				warped_pearl = true
-				cave_enderman = true
-				dark_oak_enderman = true
-				crimson_pearl = true
-				end_islands_enderman = true
-				scarab = true
-				swamp_enderman = true
-				badlands_enderman = true
-				warped_forest_enderman = true
-				pet_enderman = true
-
-			[light_sources.settings.entities.regions_unexplored]
-				chest_boat = true
-				boat = true
-
-			[light_sources.settings.entities.immersiveengineering]
-				explosive = true
-				sawblade = true
-				fusilier = true
-				skyline_hook = true
-				chemthrower_shot = true
-				bulwark = true
-				commando = true
-				railgun_shot = true
-				revolver_shot_wolfpack = true
-				fluorescent_tube = true
-				cart_reinforcedcrate = true
-				revolver_shot_flare = true
-				cart_woodencrate = true
-				revolver_shot_homing = true
-				cart_woodenbarrel = true
-				revolver_shot = true
-				cart_metalbarrel = true
-
-			[light_sources.settings.entities.allthemodium]
-				piglich = true
-				alloy_trident = true
-
-			[light_sources.settings.entities.forbidden_arcanus]
-				dark_trader = true
-				enchanted_lost_soul = true
-				aureal_bottle = true
-				crimson_lightning_bolt = true
-				energy_ball = true
-				corrupt_lost_soul = true
-				aureal_missile = true
-				chest_boat = true
-				lost_soul = true
-				boat = true
-				boom_arrow = true
-				draco_arcanus_arrow = true
-
-			[light_sources.settings.entities.silentgear]
-				slingshot_projectile = true
-				arrow = true
-				thrown_trident = true
-				fishing_hook = true
-
-			[light_sources.settings.entities.theurgy]
-				follow_projectile = true
-
-			[light_sources.settings.entities.stevescarts]
-				modular_cart = true
-				cake = true
-
-			[light_sources.settings.entities.sushigocrafting]
-				tuna = true
-				shrimp = true
-
-			[light_sources.settings.entities.enderio]
-				painted_sand = true
-
-			[light_sources.settings.entities.actuallyadditions]
-				worm = true
-
-			[light_sources.settings.entities.cataclysm]
-				urchinkin = true
-				void_shard = true
-				portal_abyss_blast = true
-				the_leviathan_tongue = true
-				urchin_spike = true
-				tidal_hook = true
-				bolt_strike = true
-				octo_ink = true
-				deepling_brute = true
-				dimensional_rift = true
-				lightning_area_effect = true
-				wither_missile = true
-				scylla_ceraunus = true
-				clawdian = true
-				ender_golem = true
-				wither_howitzer = true
-				screen_shake = true
-				lionfish_spike = true
-				ignis_fireball = true
-				void_howitzer = true
-				the_prowler = true
-				deepling_priest = true
-				cindaria = true
-				poison_dart = true
-				abyss_orb = true
-				ignited_revenant = true
-				spark = true
-				abyss_mark = true
-				ignited_berserker = true
-				sandstorm_projectile = true
-				netherite_monstrosity = true
-				the_leviathan = true
-				phantom_arrow = true
-				lionfish = true
-				deepling = true
-				kobolediator = true
-				blazing_bone = true
-				ender_guardian_bullet = true
-				flame_strike = true
-				wither_smoke_effect = true
-				brontes = true
-				ancient_desert_stele = true
-				laser_beam = true
-				coral_bardiche = true
-				ender_guardian = true
-				deepling_warlock = true
-				lightning_storm = true
-				maledictus = true
-				wall_watcher = true
-				cm_falling_block = true
-				amethyst_crab = true
-				deepling_angler = true
-				lightning_spear = true
-				coral_spear = true
-				ignis_abyss_fireball = true
-				abyss_blast_portal = true
-				royal_draugr = true
-				water_spear = true
-				wither_homing_missile = true
-				the_harbinger = true
-				drowned_host = true
-				death_laser_beam = true
-				mini_abyss_blast = true
-				lava_bomb = true
-				void_scatter_arrow = true
-				axe_blade = true
-				player_ceraunus = true
-				storm_serpent = true
-				ancient_remnant = true
-				earthquake = true
-				coral_golem = true
-				modern_remnant = true
-				abyss_blast = true
-				sky_color = true
-				draugr = true
-				void_rune = true
-				flame_jet = true
-				netherite_ministrosity = true
-				ignis = true
-				koboleton = true
-				ashen_breath = true
-				eye_of_dungeon = true
-				sandstorm = true
-				endermaptera = true
-				elite_draugr = true
-				the_watcher = true
-				wave = true
-				flare_bomb = true
-				accretion = true
-				cursed_sandstorm = true
-				aptrgangr = true
-				abyss_mine = true
-				void_vortex = true
-				coralssus = true
-				wadjet = true
-				abyss_portal = true
-				the_baby_leviathan = true
-				scylla = true
-				amethyst_cluster_projectile = true
-				symbiocto = true
-				hippocamtus = true
-				tidal_tentacle = true
-				phantom_halberd = true
-
-			[light_sources.settings.entities.reliquary]
-				thrown_potion = true
-				blaze_shot = true
-				ender_staff_projectile = true
-				exorcism_shot = true
-				sand_shot = true
-				buster_shot = true
-				storm_shot = true
-				aphrodite_potion = true
-				kraken_slime = true
-				glowing_water = true
-				neutral_shot = true
-				tipped_arrow = true
-				fertile_potion = true
-				ender_shot = true
-				seeker_shot = true
-				holy_hand_grenade = true
-				lyssa_hook = true
-				special_snowball = true
-				concussive_shot = true
-
-			[light_sources.settings.entities.integrateddynamics]
-				item_targetted = true
-
-			[light_sources.settings.entities.gravestone]
-				player_ghost = true
-
-			[light_sources.settings.entities.securitycraft]
-				imsbomb = true
-				securitycamera = true
-				bouncingbetty = true
-				bullet = true
-				security_sea_boat = true
-				sentry = true
-
-			[light_sources.settings.entities.ars_elemental]
-				siren_entity = true
-				summon_direwolf = true
-				lerp = true
-				summon_vhex = true
-				dripstone_spike = true
-				summon_camel = true
-				summon_dolphin = true
-				summon_wskeleton = true
-				firenando_entity = true
-				summon_skelehorse = true
-				flashing_weald_walker = true
-				conjured_dripstone = true
-				earth_mage = true
-				siren_familiar = true
-				conjured_ice_spike = true
-				firenando_familiar = true
-				air_mage = true
-				ice_spike = true
-				flashjack_familiar = true
-				linger_magnet = true
-				fire_mage = true
-				summon_strider = true
-				flashjack_entity = true
-				water_mage = true
-				flash_lightning = true
-
-			[light_sources.settings.entities.irons_spellbooks]
-				dragon_breath = true
-				cultist = true
-				summoned_sword = true
-				eldritch_blast = true
-				devour_jaw = true
-				blood_slash = true
-				thrown_item = true
-				guiding_bolt = true
-				magic_missile = true
-				firefly_swarm = true
-				cryomancer = true
-				wisp = true
-				portal = true
-				electrocute = true
-				pyromancer = true
-				citadel_keeper = true
-				small_magic_arrow = true
-				catacombs_zombie = true
-				fire_breath = true
-				firebolt = true
-				frozen_humanoid = true
-				fire_eruption = true
-				chain_lightning = true
-				ice_tomb = true
-				arrow_volley = true
-				blood_needle = true
-				poison_cloud = true
-				ball_lightning = true
-				spectral_hammer = true
-				dragon_breath_pool = true
-				sunbeam = true
-				summoned_claymore = true
-				snowball = true
-				fire_boss = true
-				sculk_tentacle = true
-				magic_arrow = true
-				shield = true
-				creeper_head = true
-				ice_block_projectile = true
-				apothecarist = true
-				poison_breath = true
-				summoned_skeleton = true
-				debug_wizard = true
-				target_area = true
-				lightning_lance = true
-				dead_king_corpse = true
-				magehunter_vindicator = true
-				spear = true
-				fiery_dagger = true
-				cursed_armor_stand = true
-				magma_ball = true
-				comet = true
-				root = true
-				fire_arrow = true
-				black_hole = true
-				wall_of_fire = true
-				frost_field = true
-				fireball = true
-				thunderstep_orb = true
-				poison_splash = true
-				earthquake_aoe = true
-				wither_skull = true
-				poison_arrow = true
-				archevoker = true
-				necromancer = true
-				acid_orb = true
-				priest = true
-				fire_field = true
-				ice_spider = true
-				small_fireball = true
-				lightning_strike = true
-				echoing_strike = true
-				ice_spike = true
-				dead_king = true
-				summoned_zombie = true
-				cone_of_cold = true
-				summoned_polar_bear = true
-				healing_aoe = true
-				stomp_aoe = true
-				summoned_rapier = true
-				summoned_vex = true
-				visual_falling_block = true
-				icicle = true
-				ray_of_frost = true
-				spectral_steed = true
-				gust = true
-
-			[light_sources.settings.entities.immersive_paintings]
-				glow_graffiti = true
-				painting = true
-				graffiti = true
-				glow_painting = true
-
-			[light_sources.settings.entities.tiab]
-				accelerator = true
-
-			[light_sources.settings.entities.railcraft]
-				creative_locomotive = true
-				void_chest_minecart = true
-				energy_minecart = true
-				tank_minecart = true
-				electric_locomotive = true
-				firestone = true
-				track_undercutter = true
-				world_spike_minecart = true
-				track_layer = true
-				tunnel_bore = true
-				track_relayer = true
-				steam_locomotive = true
-				track_remover = true
-				cargo_minecart = true
-
-			[light_sources.settings.entities.betterarcheology]
-				bombentity = true
-
-			[light_sources.settings.entities.ars_technica]
-				arcane_fusion_entity = true
-				arcane_polish_entity = true
-				arcane_press_entity = true
-				item_projectile_entity = true
-				arcane_hammer_entity = true
-				arcane_whirl_entity = true
-
-			[light_sources.settings.entities.chromacarvings]
-				light_gray_snow_golem = true
-				orange_snow_golem = true
-				brown_snow_golem = true
-				gray_snow_golem = true
-				white_snow_golem = true
-				lime_snow_golem = true
-				purple_snow_golem = true
-				light_blue_snow_golem = true
-				pink_snow_golem = true
-				black_snow_golem = true
-				green_snow_golem = true
-				magenta_snow_golem = true
-				yellow_snow_golem = true
-				blue_snow_golem = true
-				cyan_snow_golem = true
-				red_snow_golem = true
-
-			[light_sources.settings.entities.minecolonies]
-				pirate = true
-				amazonspearman = true
-				mercenary = true
-				campdrownedpirate = true
-				norsemenarcher = true
-				mummy = true
-				shieldmaiden = true
-				campdrownedchiefpirate = true
-				archerpirate = true
-				camppirate = true
-				drownedpirate = true
-				campnorsemenchief = true
-				pharao = true
-				campchiefpirate = true
-				spear = true
-				cavalry_horse = true
-				amazonchief = true
-				chiefpirate = true
-				firearrow = true
-				druidpotion = true
-				campbarbarian = true
-				campshieldmaiden = true
-				campamazonchief = true
-				sittingentity = true
-				campdrownedarcherpirate = true
-				campchiefbarbarian = true
-				citizen = true
-				barbarian = true
-				norsemenchief = true
-				campnorsemenarcher = true
-				campamazon = true
-				camparchermummy = true
-				mcnormalarrow = true
-				camppharao = true
-				archerbarbarian = true
-				campamazonspearman = true
-				archermummy = true
-				drownedchiefpirate = true
-				amazon = true
-				mcminecart = true
-				campmummy = true
-				fishhook = true
-				drownedarcherpirate = true
-				visitor = true
-				camparcherpirate = true
-				chiefbarbarian = true
-				camparcherbarbarian = true
-
-			[light_sources.settings.entities.naturesaura]
-				light_projectile = true
-				structure_finder = true
-				effect_inhibitor = true
-				mover_cart = true
-
-			[light_sources.settings.entities.deeperdarker]
-				shattered = true
-				sludge = true
-				stalker = true
-				shriek_worm = true
-				sculk_centipede = true
-				sculk_leech = true
-				chest_boat = true
-				angler_fish = true
-				boat = true
-				sculk_snapper = true
-
-			[light_sources.settings.entities.creeperoverhaul]
-				swamp_creeper = true
-				bamboo_creeper = true
-				jungle_creeper = true
-				cave_creeper = true
-				beach_creeper = true
-				savannah_creeper = true
-				hills_creeper = true
-				spruce_creeper = true
-				birch_creeper = true
-				snowy_creeper = true
-				badlands_creeper = true
-				ocean_creeper = true
-				dark_oak_creeper = true
-				desert_creeper = true
-				dripstone_creeper = true
-				mushroom_creeper = true
 
 			[light_sources.settings.entities.lootr]
 				lootr_minecart = true
 				item_frame = true
 
-			[light_sources.settings.entities.occultism]
-				wild_hunt_skeleton = true
-				wild_silverfish = true
-				iesnium_golem = true
-				wild_zombie = true
-				guardian_familiar = true
-				possessed_phantom = true
-				djinni = true
-				mummy_familiar = true
-				wild_skeleton = true
-				dragon_familiar = true
-				possessed_elder_guardian = true
-				possessed_weak_shulker = true
-				wild_husk = true
-				possessed_evoker = true
-				goat_familiar = true
-				bat_familiar = true
-				possessed_breeze = true
-				deer_familiar = true
-				wild_spider = true
-				shub_niggurath_familiar = true
-				possessed_guardian = true
-				headless_familiar = true
-				foliot = true
-				wild_horde_creeper = true
-				chimera_familiar = true
-				possessed_warden = true
-				wild_stray = true
-				devil_familiar = true
-				possessed_hoglin = true
-				wild_horde_drowned = true
-				possessed_witch = true
-				cthulhu_familiar = true
-				possessed_bee = true
-				wild_cave_spider = true
-				thrown_sword = true
-				possessed_strong_breeze = true
-				possessed_skeleton = true
-				blacksmith_familiar = true
-				mercy_goat = true
-				marid = true
-				possessed_enderman = true
-				wild_slime = true
-				beaver_familiar = true
-				wondering_trader = true
-				possessed_shulker = true
-				otherworld_bird = true
-				beholder_familiar = true
-				wild_bogged = true
-				marid_unbound = true
-				afrit = true
-				wild_hunt_wither_skeleton = true
-				possessed_ghast = true
-				afrit_wild = true
-				demonic_husband = true
-				possessed_endermite = true
-				wild_horde_silverfish = true
-				demonic_wife = true
-				possessed_blaze = true
-				fairy_familiar = true
-				wild_horde_husk = true
-				shub_niggurath_spawn = true
-				greedy_familiar = true
-				possessed_zombie_piglin = true
-				possessed_weak_breeze = true
+			[light_sources.settings.entities.railways]
+				conductor = true
+				benchcart = true
+				jukeboxcart = true
 
-			[light_sources.settings.entities.mcwfurnitures]
-				chair = true
-				couch = true
+			[light_sources.settings.entities.aeronautics]
+				propeller_bearing_contraption = true
+				gust = true
 
-			[light_sources.settings.entities.productivebees]
-				leafcutter_bee = true
-				mason_bee = true
-				rancher_bee = true
-				chocolate_mining_bee = true
-				bumble_bee = true
-				configurable_bee = true
-				dye_bee = true
-				yellow_black_carpenter_bee = true
-				digger_bee = true
-				lumber_bee = true
-				sweat_bee = true
-				ashy_mining_bee = true
-				cupid_bee = true
-				farmer_bee = true
-				hoarder_bee = true
-				resin_bee = true
-				creeper_bee = true
-				blue_banded_bee = true
-				bee_bomb = true
-				quarry_bee = true
-				nomad_bee = true
-				reed_bee = true
-				neon_cuckoo_bee = true
-				green_carpenter_bee = true
-				collector_bee = true
+			[light_sources.settings.entities.spelunkery]
+				dust_bunny = true
+				pebble = true
+				falling_layer = true
+				glowstick = true
+				pick = true
+				egg_plither = true
+				mineomite = true
+				eggplant = true
 
-			[light_sources.settings.entities.refurbished_furniture]
-				seat = true
-
-			[light_sources.settings.entities.aquaculture]
-				tuna = true
-				birch_fish_mount = true
-				jellyfish = true
-				bluegill = true
-				muskellunge = true
-				water_arrow = true
-				brown_shrooma = true
-				catfish = true
-				tambaqui = true
-				pacific_halibut = true
-				boulti = true
-				rainbow_trout = true
-				starshell_turtle = true
-				gar = true
-				oak_fish_mount = true
-				acacia_fish_mount = true
-				perch = true
-				capitaine = true
-				arrau_turtle = true
-				atlantic_halibut = true
-				dark_oak_fish_mount = true
-				piranha = true
-				blackfish = true
-				jungle_fish_mount = true
-				red_grouper = true
-				spruce_fish_mount = true
-				arapaima = true
-				box_turtle = true
-				atlantic_herring = true
-				bayad = true
-				pollock = true
-				carp = true
-				spectral_water_arrow = true
-				red_shrooma = true
-				atlantic_cod = true
-				brown_trout = true
-				pink_salmon = true
-				synodontis = true
-				smallmouth_bass = true
-				bobber = true
-				minnow = true
-
-			[light_sources.settings.entities.undergarden]
-				mysterious_pot = true
-				rotten_blisterberry = true
-				mog = true
-				rotwalker = true
-				goo_ball = true
-				rotbeast = true
-				rotling = true
-				smog_mog = true
-				depthrock_pebble = true
-				brute = true
-				minion = true
-				spear = true
-				utheric_gronglet = true
+			[light_sources.settings.entities.quark]
+				quark_boat = true
+				dyed_item_frame = true
+				stool = true
+				skull_pike = true
+				gravisand = true
+				toretoise = true
+				parrot_egg = true
+				foxhound = true
+				stoneling = true
+				torch_arrow = true
+				wraith = true
+				shiba = true
+				totem = true
 				forgotten = true
-				gronglet = true
-				gwibling = true
-				rogdoric_gronglet = true
-				dweller = true
-				forgotten_guardian = true
-				scintling = true
-				rotbelcher = true
-				stoneborn = true
-				gloomper = true
-				greater_dweller = true
-				sploogie = true
-				minion_projectile = true
-				blisterbomb = true
-				nargoyle = true
-				denizen = true
-				muncher = true
-				gwib = true
-				boomgourd = true
-				rotbelcher_projectile = true
+				quark_chest_boat = true
+				glass_frame = true
+				crab = true
+				pickarang = true
+				soul_bead = true
+				flamerang = true
 
-			[light_sources.settings.entities.the_bumblezone]
-				pollen_puff = true
-				thrown_stinger_spear = true
-				cosmic_crystal_entity = true
-				bee_queen = true
-				purple_spike_entity = true
-				honey_crystal_shard = true
-				beehemoth = true
-				electric_ring_entity = true
-				honey_slime = true
-				rootmin = true
-				variant_bee = true
-				dirt_pellet = true
-				bee_stinger = true
-				sentry_watcher = true
+			[light_sources.settings.entities.supplementaries]
+				dispenser_minecart = true
+				slingshot_projectile = true
+				brick_projectile = true
+				plunderer = true
+				falling_sack = true
+				pearl_marker = true
+				hat_stand = true
+				bomb = true
+				falling_ash = true
+				cannonball = true
+				falling_urn = true
+				red_merchant = true
+				cannon_boat = true
+				rope_arrow = true
+				slimeball_projectile = true
 
-			[light_sources.settings.entities.smallships]
-				ground_cannon = true
-				galley = true
-				brigg = true
-				drakkar = true
-				cog = true
-				cannon_ball = true
+			[light_sources.settings.entities.create]
+				carriage_contraption = true
+				seat = true
+				stationary_contraption = true
+				package = true
+				contraption = true
+				gantry_contraption = true
+				super_glue = true
+				crafting_blueprint = true
+				potato_projectile = true
 
-			[light_sources.settings.entities.rarcompat]
-				spark = true
+			[light_sources.settings.entities.ecologics]
+				squirrel = true
+				chest_boat = true
+				penguin = true
+				boat = true
+				coconut_crab = true
 
-			[light_sources.settings.entities.justdirethings]
-				time_wand_entity = true
-				justdirearrow = true
-				portal_projectile = true
-				creature_catcher = true
-				portal_entity = true
-				decoy_entity = true
-				justdireareaeffectcloud = true
-				paradox_entity = true
+			[light_sources.settings.entities.mynethersdelight]
+				strider_rock = true
 
-			[light_sources.settings.entities.merrymaking]
-				christmas_creeper = true
+			[light_sources.settings.entities.enchancement]
+				brimstone = true
+				ice_shard = true
+				amethyst_shard = true
+				frozen_player = true
+				torch = true
 
-			[light_sources.settings.entities.little_big_redstone]
-				sticky_note = true
-
-			[light_sources.settings.entities.shiny]
-				shiny_drowned = true
-				shiny_llama = true
-				shiny_skeleton_horse = true
-				shiny_camel = true
-				shiny_allay = true
-				shiny_cod = true
-				shiny_magma_cube = true
-				shiny_elder_guardian = true
-				shiny_axolotl = true
-				shiny_endermite = true
-				shiny_parrot = true
-				shiny_piglin_brute = true
-				shiny_spider = true
-				shiny_wolf = true
-				shiny_armor_stand = true
-				shiny_enderman = true
-				shiny_witch = true
-				shiny_breeze = true
-				shiny_trader_llama = true
-				shiny_wither = true
-				shiny_frog = true
-				shiny_husk = true
-				shiny_mule = true
-				shiny_goat = true
-				shiny_wandering_trader = true
-				shiny_cat = true
-				shiny_zoglin = true
-				shiny_bogged = true
-				shiny_armadillo = true
-				shiny_squid = true
-				shiny_panda = true
-				shiny_piglin = true
-				shiny_vindicator = true
-				shiny_creeper = true
-				shiny_guardian = true
-				shiny_chicken = true
-				shiny_stray = true
-				shiny_zombie_villager = true
-				shiny_pillager = true
-				shiny_villager = true
-				shiny_glow_squid = true
-				shiny_fox = true
-				shiny_ravager = true
-				shiny_shulker = true
-				shiny_sheep = true
-				shiny_ocelot = true
-				shiny_phantom = true
-				shiny_salmon = true
-				shiny_hoglin = true
-				shiny_turtle = true
-				shiny_slime = true
-				shiny_dolphin = true
-				shiny_tadpole = true
-				shiny_strider = true
-				shiny_vex = true
-				shiny_tropical_fish = true
-				shiny_zombie_horse = true
-				shiny_horse = true
-				shiny_evoker = true
-				shiny_iron_golem = true
-				shiny_warden = true
-				shiny_mooshroom = true
-				shiny_zombified_piglin = true
-				shiny_bat = true
-				shiny_silverfish = true
-				shiny_pufferfish = true
-				shiny_blaze = true
-				shiny_polar_bear = true
-				shiny_ghast = true
-				shiny_cave_spider = true
-				shiny_rabbit = true
-				shiny_bee = true
-				shiny_donkey = true
-				shiny_cow = true
-				shiny_wither_skeleton = true
-				shiny_skeleton = true
-				shiny_illusioner = true
-				shiny_snow_golem = true
-				shiny_pig = true
-				shiny_sniffer = true
-				shiny_zombie = true
-
-			[light_sources.settings.entities.extended_industrialization]
-				nano_saber_sweep = true
-
-			[light_sources.settings.entities.sophisticatedstorageinmotion]
-				storage_boat = true
-				storage_minecart = true
+			[light_sources.settings.entities.offroad]
+				borehead_contraption_entity = true
 
 [debug]
 	active_dynamic_lighting_cells = false

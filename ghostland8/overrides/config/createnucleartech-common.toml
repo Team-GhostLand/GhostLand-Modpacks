@@ -1,0 +1,247 @@
+[radiation]
+	#Fraction of radiation lost from each contaminated chunk per simulation step.
+	# Default: 0.035
+	# Range: 0.0 ~ 1.0
+	decayRate = 0.035
+	#Fraction of a chunk's radiation pressure sent to direct neighbor chunks per simulation step.
+	# Default: 0.06
+	# Range: 0.0 ~ 0.5
+	spreadFactor = 0.06
+	#Server ticks between chunk radiation diffusion/decay updates.
+	# Default: 20
+	# Range: 1 ~ 200
+	tickInterval = 20
+	#Effective radiation level above which living entities begin taking damage.
+	# Default: 1.5
+	# Range: 0.0 ~ 1000.0
+	entityDamageThreshold = 1.5
+	#Base radiation emitted by radioactive material items carried by entities.
+	# Default: 0.45
+	# Range: 0.0 ~ 100.0
+	radioactiveItemStrength = 0.45
+	#How much local uncontained source radiation becomes weak chunk contamination.
+	# Default: 0.04
+	# Range: 0.0 ~ 10.0
+	chunkLeakScale = 0.04
+	#Radiation level removed from each living entity every exposure update when exposure is lower than decay.
+	# Default: 0.12
+	# Range: 0.0 ~ 1000.0
+	playerDecayPerUpdate = 0.12
+
+	[radiation.material]
+		#Per-item local radiation strength for external items tagged createnucleartech:uranium.
+		# Default: 0.35
+		# Range: 0.0 ~ 1000.0
+		uranium = 0.35
+		#Per-item local radiation strength for external items tagged createnucleartech:uranium_crushed.
+		# Default: 0.6
+		# Range: 0.0 ~ 1000.0
+		crushedUranium = 0.6
+		#Base radiation strength for nuclear fuel made from uranium dust.
+		# Default: 2.2
+		# Range: 0.0 ~ 1000.0
+		uraniumDust = 2.2
+		#Per-item radiation strength for items tagged createnucleartech:nuclear_waste.
+		# Default: 8.0
+		# Range: 0.0 ~ 2000.0
+		nuclearWaste = 8.0
+
+	[radiation.effect]
+		#Accumulated radiation level where the Radiation mob effect starts.
+		# Default: 12.0
+		# Range: 0.0 ~ 100000.0
+		lowThreshold = 12.0
+		#Accumulated radiation level where Radiation reaches amplifier 1.
+		# Default: 45.0
+		# Range: 0.0 ~ 100000.0
+		mediumThreshold = 45.0
+		#Accumulated radiation level where Radiation reaches amplifier 2.
+		# Default: 140.0
+		# Range: 0.0 ~ 100000.0
+		highThreshold = 140.0
+		#Accumulated radiation level where Radiation reaches amplifier 3 or above.
+		# Default: 320.0
+		# Range: 0.0 ~ 100000.0
+		extremeThreshold = 320.0
+		#Accumulated radiation level where Radiation reaches amplifier 4.
+		# Default: 700.0
+		# Range: 0.0 ~ 1000000.0
+		severeThreshold = 700.0
+		#Accumulated radiation level where Radiation reaches amplifier 5.
+		# Default: 1200.0
+		# Range: 0.0 ~ 1000000.0
+		criticalThreshold = 1200.0
+		#Accumulated radiation level where non-invulnerable living entities are killed immediately.
+		# Default: 2400.0
+		# Range: 0.0 ~ 1.0E7
+		lethalThreshold = 2400.0
+
+	[radiation.containment]
+		#Maximum block radius used for cached containment scans around Crowns radiation sources.
+		# Default: 18
+		# Range: 4 ~ 48
+		scanRadius = 18
+		#Multiplier for radiation buildup inside sealed containment volumes.
+		# Default: 1.35
+		# Range: 0.0 ~ 1000.0
+		containedBuildup = 1.35
+
+	[radiation.irradiation]
+		#Accumulated irradiation required before tagged uranium materials transform into plutonium.
+		# Default: 900.0
+		# Range: 1.0 ~ 1000000.0
+		plutoniumExposureThreshold = 900.0
+		#Global multiplier for plutonium breeding exposure requirements. Set high to make weapon plutonium an endgame process.
+		# Default: 500.0
+		# Range: 1.0 ~ 1000000.0
+		costMultiplier = 500.0
+		#Minimum local radiation field needed for uranium-to-plutonium irradiation progress.
+		# Default: 8.0
+		# Range: 0.0 ~ 100000.0
+		minimumFieldStrength = 8.0
+
+	[radiation.scanner]
+		#Block radius used by Radiation Scanner Goggles.
+		# Default: 96
+		# Range: 8 ~ 192
+		range = 96
+
+[createIntegration]
+	#Server ticks between Create machine radiation scans near players.
+	# Default: 40
+	# Range: 10 ~ 200
+	scanInterval = 40
+	#Block radius around each player scanned for Create machines with radioactive inventories.
+	# Default: 32
+	# Range: 2 ~ 96
+	machineScanRadius = 32
+	#Chunk radiation leaked by Create pipe collisions/spills involving radioactive fluids.
+	# Default: 1.2
+	# Range: 0.0 ~ 1000.0
+	pipeLeak = 1.2
+
+	[createIntegration.kinetics]
+		#Maximum Create kinetic speed allowed by Create Nuclear Tech before steel-tier engineering is required.
+		# Default: 8192
+		# Range: 256 ~ 32768
+		maxRotationSpeed = 8192
+		#Wooden Create cogwheels break above this RPM. Steel TFMG cogwheels are intended for higher speeds.
+		# Default: 256.0
+		# Range: 16.0 ~ 8192.0
+		woodenCogwheelMaxRpm = 256.0
+		#Wooden Create cogwheels break when their kinetic network exceeds this stress load.
+		# Default: 16384.0
+		# Range: 0.0 ~ 1.0E8
+		woodenCogwheelMaxStress = 16384.0
+		#Base stress impact consumed by one steel TFMG cogwheel.
+		# Default: 2.0
+		# Range: 0.0 ~ 1024.0
+		steelCogwheelStressImpact = 2.0
+		#Base stress impact consumed by one large steel TFMG cogwheel.
+		# Default: 4.0
+		# Range: 0.0 ~ 1024.0
+		largeSteelCogwheelStressImpact = 4.0
+
+[crownsIntegration]
+	#Multiplier applied to Create: Crowns radioactive source activity before leaking into this mod's chunk radiation field.
+	# Default: 0.015
+	# Range: 0.0 ~ 1000.0
+	activityLeakScale = 0.015
+	#Crowns temperature in Kelvin above which hot nuclear machinery adds extra contamination pressure.
+	# Default: 900.0
+	# Range: 273.0 ~ 10000.0
+	hotTemperatureThreshold = 900.0
+	#Chunk radiation added by overheated Crowns nuclear machinery per exposure scan.
+	# Default: 0.25
+	# Range: 0.0 ~ 1000.0
+	heatLeakScale = 0.25
+
+[hazmat]
+	#Radiation reduction from a complete basic hazmat suit.
+	# Default: 0.55
+	# Range: 0.0 ~ 1.0
+	basicProtection = 0.55
+	#Radiation reduction from a complete advanced (red cloth) hazmat suit.
+	# Default: 0.78
+	# Range: 0.0 ~ 1.0
+	advancedProtection = 0.78
+	#Radiation reduction from a complete lead-reinforced (grey) hazmat suit.
+	# Default: 0.92
+	# Range: 0.0 ~ 1.0
+	reinforcedProtection = 0.92
+	#Hazmat armor loses durability while absorbing dangerous radiation.
+	suitsDegrade = true
+	#Minimum total radiation protection required to safely hold radioactive materials in hand.
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	minimumHandlingProtection = 0.8
+
+[antiradin]
+	#Accumulated body radiation removed by one antiradin dose.
+	# Default: 30.0
+	# Range: 0.0 ~ 1.0E7
+	doseReduction = 30.0
+	#Cooldown in ticks after using antiradin.
+	# Default: 200
+	# Range: 0 ~ 72000
+	cooldownTicks = 200
+
+[leadIrradiationBox]
+	#Minimum radiation field required for the lead irradiation box to breed U-238 into weapon plutonium.
+	# Default: 8.0
+	# Range: 0.0 ~ 100000.0
+	minimumFieldStrength = 8.0
+	#Accumulated exposure required for one U-238 item to become a plutonium core.
+	# Default: 1200.0
+	# Range: 1.0 ~ 1.0E7
+	requiredExposure = 1200.0
+	#Multiplier applied to radiation field when adding exposure in the lead irradiation box.
+	# Default: 1.0
+	# Range: 0.0 ~ 10000.0
+	exposureGainMultiplier = 1.0
+	#Server ticks between lead irradiation box processing updates.
+	# Default: 20
+	# Range: 1 ~ 200
+	tickInterval = 20
+
+[nuclearBomb]
+	#Fuse length for the nuclear bomb after redstone activation.
+	# Default: 100
+	# Range: 20 ~ 1200
+	fuseTicks = 100
+	#Approximate block radius cleared by the optimized nuclear crater pass.
+	# Default: 48
+	# Range: 8 ~ 128
+	craterRadius = 48
+	#Entity damage and knockback radius for the nuclear shockwave.
+	# Default: 112
+	# Range: 16 ~ 256
+	shockwaveRadius = 112
+	#Thermal flash and ignition radius for exposed entities and surfaces.
+	# Default: 160
+	# Range: 16 ~ 384
+	thermalRadius = 160
+	#Safety cap for block removals in one nuclear explosion.
+	# Default: 140000
+	# Range: 1000 ~ 1000000
+	maxBlocksRemoved = 140000
+	#Maximum block positions checked per tick by a staged nuclear terrain pass.
+	# Default: 70000
+	# Range: 1000 ~ 500000
+	maxPositionsCheckedPerTick = 70000
+	#Maximum blocks removed per tick by a staged nuclear terrain pass.
+	# Default: 7000
+	# Range: 100 ~ 100000
+	maxBlocksRemovedPerTick = 7000
+	#Maximum small visual explosions spawned per shockwave ring step.
+	# Default: 18
+	# Range: 0 ~ 64
+	shockwaveExplosionsPerStep = 18
+	#Chunk radius contaminated by nuclear fallout.
+	# Default: 24
+	# Range: 0 ~ 96
+	falloutRadiusChunks = 24
+	#Central weak chunk radiation added by nuclear fallout.
+	# Default: 180.0
+	# Range: 0.0 ~ 10000.0
+	falloutStrength = 180.0

@@ -40,7 +40,6 @@
 		# Default: 5.0
 		# Range: 0.0 ~ 64.0
 		base_velocity_scaling = 5.0
-		#maximum range
 		#note that it will still only keep alive the two fire blocks closer to it
 		# Default: 5
 		# Range: 0 ~ 16
@@ -81,6 +80,21 @@
 		# Default: 0.035
 		# Range: 0.0 ~ 1.0
 		mineshaft_elevator = 0.035
+		#If true, pulleys retract their rope chain over multiple ticks, animating each block via vanilla moving-piston entities. 
+		#Connected blocks become moving blocks (so they push entities, drop sand etc) and multiple pulleys can cooperate to pull a single heavy contraption — useful for elevators. 
+		#If false, the original instant retraction behavior is used.
+		continuous_retraction = true
+		#If true, multiple pulleys firing on the same tick with the same period and push direction can pool their pull budget into one structure resolve — letting two ropes share a wide elevator platform. Only relevant when 'continuous_retraction' is enabled.
+		cooperative_pulleys = true
+		#Maximum number of NON-rope blocks a single pulley can drag (the anchor and anything sticky-attached to it). Rope segments don't count toward this. Cooperating pulleys pool their budgets — two pulleys can pull twice this many blocks together.
+		# Default: 8
+		# Range: 1 ~ 128
+		pull_limit = 8
+		#Ticks to wait between unit pulls when continuous_retraction is enabled. 
+		#Lower = faster pulley. Minimum 2 ticks because each animation takes that long to play out — going lower has no effect.
+		# Default: 4
+		# Range: 2 ~ 100
+		pull_interval = 4
 
 	[redstone.dispenser_minecart]
 		enabled = true
@@ -104,6 +118,10 @@
 	hourglass = true
 
 	[functional.rope]
+		#Also internally disables Galleons, Pulleys, Buntings, Rope arrows and rope mineshaft.
+		#Also disables compat blocks such as supplementaries Farmers Delight rope tomatoes and Decorative blocks rope chandeliers.
+		#Also reminder that you can disable any item from any mod with a recipe (datapack) + JEI hide
+		enabled = true
 		#Allows ropes to be supported & attached to solid block sides
 		block_side_attachment = true
 		#Makes sliding down ropes as fast as free falling, still negating fall damage
@@ -113,10 +131,6 @@
 		#Use this config to turn allow supplementaries to replace all items tagged as #supplementaries:ropes with supplementaries own rope or turn them to air instead. This is applied to all loot tables (chests and drops)
 		#Allowed Values: REPLACE, NONE, REMOVE
 		replace_in_loot_tables = "NONE"
-		#Also internally disables Galleons, Pulleys, Buntings, Rope arrows and rope mineshaft.
-		#Also disables compat blocks such as supplementaries Farmers Delight rope tomatoes and Decorative blocks rope chandeliers.
-		#Also reminder that you can disable any item from any mod with a recipe (datapack) + JEI hide
-		enabled = true
 
 	[functional.jar]
 		enabled = true
@@ -196,18 +210,22 @@
 
 	[functional.soap]
 		enabled = true
+		#Allows soap to clean blocks in-world. Disable to prevent in-world block cleaning while keeping soap item and recipes functional
+		block_cleaning_enabled = true
 		#Dyed Bock/Item types that cannot be cleaned with soap
 		clean_blacklist = ["minecraft:glazed_terracotta", "botania:mystical_flower", "mna:chimerite_crystal", "botania:floating_flower", ",minecraft:mushroom", "botania:mushroom", "botania:tall_mystical_flower", "botania:petal_block", "morered:network_cable", "xycraft_world:glowing_shiny_aurey_block", "xycraft_world:shiny_aurey_block", "xycraft_world:rgb_lamp", "xycraft_world:glowing_rgb_viewer", "xycraft_world:glowing_matte_rgb_block", "xycraft_world:rgb_lamp_pole"]
 
 		#This is a map of special blocks that can be cleaned with soap. For items you will also need to add a recipe
 		[functional.soap.special_blocks]
 			"quark:dirty_glass" = "minecraft:glass"
-			"minecraft:sticky_piston" = "minecraft:piston"
 			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
 			"quark:dirty_glass_pane" = "minecraft:glass_pane"
 
 	[functional.cannon]
 		enabled = true
+		#Makes TNT-like block shot from a cannon explode on impact
+		#Allowed Values: IGNITE, IGNITE_ON_IMPACT, NONE
+		explode_tnt = "IGNITE"
 		#Cannon fire power multiplier
 		# Default: 0.6
 		# Range: 0.0 ~ 5.0
@@ -221,9 +239,13 @@
 		# Range: 0 ~ 500
 		cooldown = 60
 		music_disc_heave_ho = true
-		#Makes TNT-like block shot from a cannon explode on impact
-		#Allowed Values: IGNITE, IGNITE_ON_IMPACT, NONE
-		explode_tnt = "IGNITE"
+
+		[functional.cannon.cannon_boat]
+			enabled = true
+			#Cannon boat recoil multiplier. Higher values will make the cannon boat recoil more when firing a cannonball
+			# Default: 0.5
+			# Range: 0.0 ~ 5.0
+			recoil_multiplier = 0.5
 
 		[functional.cannon.cannonball]
 			enabled = true
@@ -235,13 +257,6 @@
 			# Default: 1.1
 			# Range: 0.0 ~ 10.0
 			break_radius = 1.1
-
-		[functional.cannon.cannon_boat]
-			enabled = true
-			#Cannon boat recoil multiplier. Higher values will make the cannon boat recoil more when firing a cannonball
-			# Default: 0.5
-			# Range: 0.0 ~ 5.0
-			recoil_multiplier = 0.5
 
 		[functional.cannon.plunderer]
 			enabled = true
@@ -295,10 +310,13 @@
 	candle_holder = true
 	fire_pit = true
 	wicker_fence = true
+	brittlestone = true
 
-	[building.sconce]
+	[building.spider_head]
 		enabled = true
-		sconce_lever = true
+
+	[building.barnacles]
+		enabled = true
 
 	[building.blackboard]
 		enabled = true
@@ -336,6 +354,9 @@
 		#Makes iron (ang gold) gates behave like their door counterpart so for example iron gates will only be openable by redstone
 		door-like_gates = false
 
+	[building.gold_bars]
+		enabled = true
+
 	[building.item_shelf]
 		enabled = true
 		#Makes item shelves climbable
@@ -367,7 +388,7 @@
 		#If enabled end crystals placed on a pedestals will provide an enchantment power bonus equivalent to 3 bookshelves
 		# Default: 3.0
 		# Range: 0.0 ~ 100.0
-		crystal_enchanting = 3
+		crystal_enchanting = 3.0
 
 	[building.ash]
 		enabled = true
@@ -398,9 +419,9 @@
 
 	[building.globe]
 		enabled = true
-		sepia_globe = true
 		#Displays current coordinates when using a globe
 		show_coordinates = true
+		sepia_globe = true
 
 	[building.way_sign]
 		enabled = true
@@ -455,14 +476,9 @@
 		#Makes netherite doors and trapdoors unbreakable
 		unbreakable = false
 
-	[building.spider_head]
+	[building.sconce]
 		enabled = true
-
-	[building.barnacles]
-		enabled = true
-
-	[building.gold_bars]
-		enabled = true
+		sconce_lever = true
 
 [tools]
 	candy = true
@@ -482,12 +498,12 @@
 		# Default: 0.03
 		# Range: 0.0 ~ 1.0
 		quiver_skeleton_spawn_chance = 0.03
+		#If enabled, the quiver skeleton spawn chance will depend on the local difficulty of the world. If disabled, it will always be the same
+		quiver_skeleton_spawn_depend_on_global_difficulty = true
 		#Allows quiver to only be used when in offhand or in curio invSlot
 		only_works_in_curio = false
 		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same explosionType
 		quiver_pickup = true
-		#If enabled, the quiver skeleton spawn chance will depend on the local difficulty of the world. If disabled, it will always be the same
-		quiver_skeleton_spawn_depend_on_global_difficulty = true
 
 	[tools.lunch_basket]
 		enabled = true
@@ -542,6 +558,8 @@
 
 	[tools.flute]
 		enabled = true
+		#Allows flute to be unbound. Unbound flutes will search for pets in a radius and teleport them to the player
+		unbound = false
 		#Radius in which an unbound flute will search pets
 		# Default: 64
 		# Range: 0 ~ 500
@@ -550,8 +568,6 @@
 		# Default: 64
 		# Range: 0 ~ 500
 		bound_distance = 64
-		#Allows flute to be unbound. Unbound flutes will search for pets in a radius and teleport them to the player
-		unbound = false
 
 	[tools.bomb]
 		enabled = true
@@ -614,8 +630,10 @@
 	[tools.antique_ink]
 		enabled = true
 
-#General settings
 [general]
+	#General settings
+	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
+	dynamic_assets_generation_mode = "CACHED"
 	#Enable Creative Tab
 	creative_tab = false
 	#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
@@ -626,15 +644,16 @@
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
 	red_merchant_spawn_multiplier = 1.0
-	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
-	dynamic_assets_generation_mode = "CACHED"
 
-#Vanilla tweaks
-[tweaks]
-
-	[tweaks.shulker_helmet]
-		#Allows wearing shulker shells
+	[tweaks.dragon_banner_pattern]
+		#Adds dragon banner pattern made from dragon head
 		enabled = true
+
+	[tweaks.ai_tweaks]
+		#Allows pillagers to use cannon boats. Add more entities to the 'supplementaries:can_use_cannon_boat' tag to allow them to use cannon boats as well
+		pillagers_use_cannon_boats = true
+		#Allows mobs to dismount from boats when on land. Add more entities to the 'supplementaries:can_dismount_boats' tag to allow them to dismount as well
+		raiders_dismount_boats = true
 
 	[tweaks.golden_apple_disenchant]
 		enabled = true
@@ -693,6 +712,8 @@
 		#Shows a death marker on your map when you die. Requires a recovery compass in player inventory or similar
 		#Allowed Values: OFF, WITH_COMPASS, ALWAYS
 		death_marker = "WITH_COMPASS"
+		#Makes blocks tagged as 'tinted_on_map' use their tint color. This allows for accurate biome colors for water and grass as well as other custom block that use any tint
+		tinted_blocks_on_maps = true
 		#If Quark is installed adventurer maps will be replaced by adventurer quills. These will not lag the server when generating
 		quill_adventurer_maps = true
 		#If Quark is installed replaces buried treasure and mansion maps with their equivalent quill form. This removes the lag spike they create when generating
@@ -701,8 +722,6 @@
 		# Default: 75
 		# Range: 10 ~ 600
 		min_search_radius = 75
-		#Makes blocks tagged as 'tinted_on_map' use their tint color. This allows for accurate biome colors for water and grass as well as other custom block that use any tint
-		tinted_blocks_on_maps = true
 
 		[tweaks.map_tweaks.random_adventurer_maps]
 			#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure (choosen from a thought out preset list).
@@ -718,10 +737,10 @@
 			max_structures_searches = 1
 
 	[tweaks.placeable_books]
-		#Allow all books to be placed both vertically and horizontally
-		mixed_books = false
 		#Allow books and enchanted books to be placed on the ground
 		enabled = true
+		#Allow all books to be placed both vertically and horizontally
+		mixed_books = false
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
@@ -751,7 +770,7 @@
 
 	[tweaks.sus_recipes]
 		#Adds recipes to craft suspicious gravel and suspicious sand
-		enabled = false
+		enabled = true
 
 	[tweaks.slimed_effect]
 		enabled = true
@@ -769,18 +788,18 @@
 		# Range: 0.0 ~ 1.0
 		chance_per_slime_size = 0.15
 
-	[tweaks.dragon_banner_pattern]
-		#Adds dragon banner pattern made from dragon head
-		enabled = true
-
-	[tweaks.ai_tweaks]
-		#Allows pillagers to use cannon boats. Add more entities to the 'supplementaries:can_use_cannon_boat' tag to allow them to use cannon boats as well
-		pillagers_use_cannon_boats = true
-		#Allows mobs to dismount from boats when on land. Add more entities to the 'supplementaries:can_dismount_boats' tag to allow them to dismount as well
-		raiders_dismount_boats = true
-
 	[tweaks.clock_and_compass]
 		#Allow to right click with a clock to display current time in numerical form
 		clock_right_click = true
 		#Allow to right click with a compass to display current coordinates in numerical form
 		compass_right_click = false
+		#Allow these features to work in dimensions like nether or end where normally clocks don't work
+		works_in_unnatural_dimensions = false
+
+	[tweaks.piston_tweaks]
+		#If true, pistons can push blocks that have a block entity (e.g. chests, furnaces). Blocks whose push reaction is BLOCK are still immovable regardless of this setting.
+		push_block_entities = true
+		#If true, adjacent pistons facing the same direction can pool their 12-block push budget to move structures larger than a single piston could handle alone (e.g. two side-by-side pistons pushing a 24-block slime contraption). Only triggers when a single piston's vanilla resolve would fail.
+		cooperative_pistons = true
+		#If true, pushing an empty cauldron into a water or lava source (with a piston or a pulley) fills it with that fluid, instead of leaving it empty. Also tops up cauldrons being moved.
+		moved_cauldron_filling = true

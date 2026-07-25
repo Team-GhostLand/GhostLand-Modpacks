@@ -1,0 +1,34 @@
+#Wind Force Strength. (0-100). Default 9.0.
+# Default: 9.0
+# Range: 0.0 ~ 100.0
+windInfluence = 9.0
+#Mass Physics. 1.0 = Linear, 0.5 = Curved.
+# Default: 0.6
+# Range: 0.0 ~ 1.0
+massScaling = 0.6
+#Minimum wind speed to feel effects.
+# Default: 50.0
+# Range: 0.0 ~ 200.0
+windThreshold = 50.0
+#Global Turbulence Strength (Pitch/Yaw shaking). (0-50). Default 1.0.
+# Default: 1.0
+# Range: 0.0 ~ 50.0
+turbulenceMultiplier = 1.0
+#Chance per tick to hit a downdraft in a storm. 0.01 = Once per 5 sec.
+# Default: 0.01
+# Range: 0.0 ~ 1.0
+airPocketChance = 0.01
+#How hard an air pocket pushes you down. (0-10). Default 2.0.
+# Default: 2.0
+# Range: 0.0 ~ 10.0
+airPocketStrength = 2.0
+#How much stronger downward turbulence is compared to upward. 1.5 = Down is 50% stronger.
+# Default: 2.0
+# Range: 1.0 ~ 10.0
+pitchDownBias = 2.0
+#Visual shaking intensity in storms (High frequency). (0.0-5.0)
+# Default: 0.5
+# Range: 0.0 ~ 10.0
+vibrationStrength = 0.5
+enableTornadoSuction = true
+debugMode = false

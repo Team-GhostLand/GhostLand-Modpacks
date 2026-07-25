@@ -1,0 +1,12 @@
+{
+  "copyDatapacks": false,
+  "shouldApplyRequiredPacksToExistingWorld": false,
+  "enableFeatures": true,
+  "globalFeatures": false,
+  "sendRestartWarning": true,
+  "requiredDatapacksPaths": [],
+  "optionalDatapacksPaths": [
+    "datapacks",
+    "/home/guzio\\Downloads"
+  ]
+}

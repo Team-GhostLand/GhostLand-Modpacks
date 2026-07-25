@@ -1,0 +1,21 @@
+[dashing]
+	#Allows the player to use the Dash ability.
+	enabledashing = true
+	#Number of ticks to cooldown Dash ability.
+	dashingcooldown = 20.0
+	#Toggles Soft Falling when you use the Dash ability.
+	dashsoftfalling = true
+	#Number of ticks to cooldown Dash ability with the Double Dash enchantment.
+	doubledashingcooldown = 15.0
+	#Strength of Dash ability.
+	dashstrength = 1.5
+
+[ringof_dreams]
+	#Disables the Ring of Dreams completely.
+	enableringofringofdreams = true
+	#Allows the player to fly when the Ring of Dreams is equipped.
+	ringofdreamsflight = true
+
+[rusting]
+	#Toggles Syringes rusting when used.
+	syringerusting = true

@@ -11,19 +11,6 @@
 # [!] - PIN_MESSAGES
 # [!] - MESSAGE_HISTORY
 discordBotToken = ""
-# Discord channel ID for logs from Minecraft Server console
-# Leave blank if you don't want to send server logs to Discord.
-serverLogsChannelId = ""
-# The minimum level of logs that will be sent to Discord.
-# Possible values: ERROR, WARN, INFO
-serverLogsToDiscordLoggingLevel = "INFO"
-# Do logging to the server console messages from discord
-logDiscordMessages = true
-# Notify about internal Discord interaction errors in the server's in-game chat
-logDiscordErrorsToServerChat = true
-# If logDiscordErrorsToServerChat=true, then the errors in the chat will be seen by players with the specified selector
-# By default, "@a" — all players. You can specify a specific nickname or attribute, for example, "@a[tag=admin]"
-discordErrorsChatPlayerSelector = "@a"
 # Mod locale
 modLocale = "en_us"
 # The offset of the current time from UTC in hours.
@@ -31,6 +18,43 @@ modLocale = "en_us"
 # Default: 0
 # Range: -12 ~ 14
 utcOffsetHours = 0
+# If true, the bot's Discord presence (custom status) will display the current online player count, e.g. "Online: 3/20".
+# Set to false to disable the presence status entirely (the bot will appear without a custom status).
+enableBotPresenceStatus = true
+# If true, Discord bots are included in the @-autocomplete shown in Minecraft chat and can be mentioned from the server.
+# Set to false to hide bots from the autocomplete and stop resolving "@botname" in player messages into a Discord mention.
+mentionBots = true
+
+[logsConfig]
+	# Do logging to the server console messages from discord
+	logDiscordMessages = true
+	# Notify about internal Discord interaction errors in the server's in-game chat
+	logDiscordErrorsToServerChat = true
+	# If logDiscordErrorsToServerChat=true, then the errors in the chat will be seen by players with the specified selector
+	# By default, "@a" — all players. You can specify a specific nickname or attribute, for example, "@a[tag=admin]"
+	discordErrorsChatPlayerSelector = "@a"
+	# Enable sending server logs to Discord
+	# [!] When enabling, you must also specify a serverLogsChannelId in the guilds section
+	serverLogsToDiscordEnabled = false
+	# The minimum level of logs that will be sent to Discord.
+	# Possible values: ERROR, WARN, INFO
+	serverLogsToDiscordLoggingLevel = "INFO"
+	# Log4j pattern for formatting server logs sent to Discord.
+	# Common placeholders: %d{HH:mm:ss} (time), %t (thread), %level (level), %logger{1} (class), %msg (message), %n (newline)
+	# Example (clean): "[%d{HH:mm:ss}] %msg%n"
+	# Example (verbose): "[%d{HH:mm:ss}] [%t/%level] (%logger{1}) %msg%n"
+	serverLogsPattern = "[%d{HH:mm:ss}] [%t/%level] (%logger{1}) %msg%n"
+	# Enable logging of commands executed by players to a Discord channel (Guild defaultChannel by default).
+	# Command log channel can be overridden for each guild in the guilds.channelOverrides section.
+	# Only commands from players whose permission level is at least commandLogMinPermissionLevel are logged.
+	commandLogEnabled = false
+	# Minimum permission level required for a player's commands to be logged (0-4).
+	# 0 = all players, 2 = operators (default), 3 = admins, 4 = owners.
+	commandLogMinPermissionLevel = 2
+	# Comma-separated list of root command names to skip (without the leading /).
+	# Matching is case-insensitive. Example: ["msg", "tell", "w", "help", "list"]
+	# Leave blank to log every command that passes the permission level filter.
+	commandLogIgnoredCommands = []
 
 [webhookModeConfig]
 	# If true, server and player messages will be sent in webhook mode.
@@ -46,9 +70,10 @@ utcOffsetHours = 0
 	# The /remove_avatar_url command will also be available to remove an avatar.
 	enableSetAvatarUrlCommand = true
 	# Url to get the player's display avatar
-	# You can specify a link with dynamic parameters <uuid> and <name>, which will be automatically substituted when requesting an image
-	# <uuid> — player's UUID
-	# <name> — player's nickname
+	# You can specify a link with dynamic parameters <uuid>, <name> and <texture>, which will be automatically substituted when requesting an image
+	# <uuid> - player's UUID
+	# <name> - player's nickname
+	# <texture> - texture hash from the player's GameProfile (works with skin mods like Fabric Tailor or SkinRestorer that write into the server-side profile). Example: https://mc-heads.net/avatar/<texture>
 	# Default: https://mc-heads.net/avatar/<name>.png
 	webhookPlayerAvatarUrl = "https://mc-heads.net/avatar/<name>.png"
 	# Url to get the player's display avatar if dynamic link is invalid
@@ -70,6 +95,7 @@ utcOffsetHours = 0
 	# For each format, you can use dynamic parameters specified in the comment above the parameter.
 	# Global parameters available for all styles listed below:
 	# {HH}, {MM}, {SS} — Hours, minutes, and seconds at the time the message was sent. Example usage: "[{HH}:{MM}] <{player}> {message}"
+	# {x}, {y}, {z}, {dimension} — the player's coordinates and dimension name
 	# You can read more about this configuration section and see examples here: https://github.com/denisnumb/discord-chat-mod/wiki/Minecraft-Chat-Customization
 	# [!] If enabled, make sure you don't have any other chat styling mods installed.
 	enableMinecraftChatCustomization = false
@@ -142,6 +168,7 @@ utcOffsetHours = 0
 	# For each format, you can use dynamic parameters specified in the comment above the parameter.
 	# Global parameters available for all styles listed below:
 	# {player_avatar_url} — link to the player's avatar (available wherever the {player} parameter is present)
+	# {x}, {y}, {z}, {dimension} — the player's coordinates and dimension name (available wherever the {player} parameter is present)
 	# {timestamp} — current number of seconds in the system. It's convenient to substitute when using Discord timestamps, for example: <t:{timestamp}:R>
 	# {datetime} — A string with the current date and time in the format "2025-11-02T10:00:00.000Z". May be useful for embed timestamps.
 	# You can read more about this configuration section and see examples here: https://github.com/denisnumb/discord-chat-mod/wiki/Discord-Chat-Customization
@@ -286,6 +313,21 @@ utcOffsetHours = 0
     "content": "{message}"
 }
 """
+	# Command executed by a player above the configured permission level
+	# Parameters: {player}, {command}
+	discordCommandLogStyle = """
+{
+    "embed": {
+        "description": "`{command}`",
+        "color": "#F1C40F",
+        "author": {
+            "name": "{player}",
+            "icon_url": "{player_avatar_url}"
+        },
+        "timestamp": "{datetime}"
+    }
+}
+"""
 	# Screenshot from player
 	# Parameters: {player}, {screenshot_url}
 	discordScreenshotMessageStyle = """
@@ -378,8 +420,20 @@ utcOffsetHours = 0
 	# Discord channel ID for messaging with MineCraft
 	# [!] Make sure the bot has access to the channel and all the permissions listed above.
 	defaultChannelId = ""
+	# Discord channel ID for logs from Minecraft Server console
+	# Leave blank if you don't want to send server logs to this guild.
+	serverLogsChannelId = ""
 	# Create a pinned message with the current server status and player list
 	enablePinnedStatusMessage = true
+
+	[guilds.slashCommands]
+		# If true, slash commands will be enabled for this guild (/list, /uptime, /tps, /cmd)
+		enableSlashCommands = true
+		# List of Discord role IDs or role names that are allowed to use the /cmd slash command.
+		# The /cmd command lets users execute Minecraft server commands from Discord.
+		# If empty, /cmd is disabled for everyone. /list, /uptime, and /tps are always available.
+		# Example: ["Admin", "Moderator"] or ["123456789012345678"]
+		slashCommandAllowedRoles = []
 
 	[guilds.channelOverrides]
 		# If true, messages will still be sent to the main channel, but will also be duplicated to the specified channels.
@@ -413,3 +467,6 @@ utcOffsetHours = 0
 		# Overrides the default channel for messages sent using /me command. If empty, uses defaultChannelId.
 		# Specify "-1" to disable sending messages send using /me command to Discord
 		meChannelId = ""
+		# Overrides the default channel for logged player commands. If empty, uses defaultChannelId.
+		# Specify "-1" to disable sending command log messages to Discord
+		commandLogChannelId = ""

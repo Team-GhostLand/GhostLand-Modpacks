@@ -1,0 +1,68 @@
+{
+    "patterns": [
+        {
+            "id": "normal",
+            "enabled": true,
+            "type": "NORMAL",
+            "color": 7591004,
+            "width": 1,
+            "height": 1,
+            "stairsUp": true
+        },
+        {
+            "id": "flat",
+            "enabled": true,
+            "type": "FLAT",
+            "color": 7321584,
+            "width": 1,
+            "height": 1,
+            "stairsUp": true
+        },
+        {
+            "id": "tunnel_1x1",
+            "enabled": true,
+            "type": "TUNNEL",
+            "color": 15779182,
+            "width": 1,
+            "height": 1,
+            "stairsUp": true
+        },
+        {
+            "id": "tunnel_2x2",
+            "enabled": true,
+            "type": "TUNNEL",
+            "color": 15769162,
+            "width": 2,
+            "height": 2,
+            "stairsUp": true
+        },
+        {
+            "id": "tunnel_3x3",
+            "enabled": true,
+            "type": "TUNNEL",
+            "color": 15234100,
+            "width": 3,
+            "height": 3,
+            "stairsUp": true
+        },
+        {
+            "id": "stairs_up_1x3",
+            "enabled": true,
+            "type": "STAIRS",
+            "color": 11832560,
+            "width": 1,
+            "height": 3,
+            "stairsUp": true
+        },
+        {
+            "id": "stairs_down_1x3",
+            "enabled": true,
+            "type": "STAIRS",
+            "color": 7360926,
+            "width": 1,
+            "height": 3,
+            "stairsUp": false
+        }
+    ],
+    "invertedScroll": false
+}

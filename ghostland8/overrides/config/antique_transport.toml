@@ -1,0 +1,50 @@
+# Settings for Create mod integration (trains, tracks, stations)
+[create]
+	# Show train tracks on the atlas map
+	# default: true
+	showTracks = true
+	# Show trains on the atlas map
+	# default: true
+	showTrains = true
+	# Show stations on the atlas map
+	# default: true
+	showStations = true
+	# Width of tracks in blocks rendered on the atlas map
+	# range: 1 - 9
+	# default: 3
+	trackWidthBlocks = 3
+
+# Settings for Sable mod integration (sub-levels)
+[sable]
+	# Show sublevels on the atlas map
+	# default: true
+	showShips = true
+	# Show all sublevels automatically, without requiring manual marking via right-click or /markship
+	# default: false
+	autoShowAllShips = false
+	# Show the sublevel's current altitude in the hover tooltip
+	# default: true
+	showShipHeight = true
+	# Show how long ago the sublevel was last seen in the hover tooltip (only for sub-levels outside render distance)
+	# default: true
+	showLastSeen = true
+
+# Settings for Simulated mod integration (sub-level previews, nameplates)
+[simulated]
+	# Use the sublevel's nameplate name as the default display name if no manual name has been set
+	# default: true
+	preferNameplateNames = true
+	# Render a live top-down 3D preview of each sublevel on the atlas map
+	# default: true
+	enableShipPreviews = true
+	# Keep showing the last rendered diagram for sublevels that have left render distance
+	# default: true
+	keepDiagramOutsideRenderDistance = true
+	# How many times per second the sublevel diagram is re-rendered
+	# range: 1 - 60
+	# default: 20
+	diagramFps = 20
+	# How often (in seconds) sublevels are scanned for auto-detection on the atlas map. Set to 0 to disable.
+	# range: 0 - 60
+	# default: 3
+	autoDetectIntervalSeconds = 3

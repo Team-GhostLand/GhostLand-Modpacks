@@ -1,0 +1,4 @@
+#Настройки мода Create Aeronautics Structures
+[general]
+	#Если true, при входе в мир будет показано сообщение с ссылкой на Telegram-канал.
+	showLoginMessage = true

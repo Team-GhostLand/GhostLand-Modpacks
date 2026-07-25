@@ -1,0 +1,26 @@
+{
+  "enabled": false,
+  "experimental_player_mass": false,
+  "experimental_player_sublevel_interaction": false,
+  "living_entity": {
+    "enabled": true,
+    "only_player": false,
+    "base_mass": 0.5,
+    "volume_multiplier": 4.0,
+    "formula": {
+      "enabled": true,
+      "expression": "min(auto_mass, 15)",
+      "fallback_mass": 0.5
+    },
+    "entities": {}
+  },
+  "item_entity": {
+    "enabled": true,
+    "formula": {
+      "enabled": true,
+      "expression": "min(block_mass * count, 120)",
+      "fallback_mass": 0.2
+    },
+    "items": {}
+  }
+}

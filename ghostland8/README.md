@@ -9,9 +9,12 @@ GhostLand 8 modpack.
 - [Credits/Licensing](#creditslicensing)
 
 ## Issues
-https://discord.com/channels/966397518445412413/1261662618230460446
+Actually, I think none!
 
 ## Changelogs
+
+### 8a11
+*Minor bugfix.*
 
 ### 8a10
 - Removed Async
@@ -163,21 +166,13 @@ max_item_cost([CURRENCY], 16)
 - I'm not gonna go into details
 
 ## TODO
-- Custom FancyMenu
-- Configs
-	- Remove progression from deleted mods
-	- Waystones and Numismatics bullshit
-- Quests for some of our additions, maybe?
-- Fix our custom packs (datapack: apparently, will not get loaded by Minecraft Docker unless it's a ZIP (so it needs repackaging), and also (if we decide to install some planes mod) it'd be cool to port Jifo's plane rebalance; resourcepack: see note at 8a5, and also maybe we'd want to remove the Silesian translation, now that out 1 (one) user of Silesian is no longer with us)
-- Keybinds
-- GhostLand branding in BCC and CrPr
+\[TBD]
 
 ## Configs
-- Removed Dead Sea and Lush Stacks from BWG
-- See: 8a6 and 8a7 (they were mostly configs, so I'm not reposting them here)
+\[TBD]
 
 ## Guides
 read the main readme and you are probably fine
 
 ## Credits/Licensing
-Between direct-embeds of many non-Modrinth JARs (some are probably GPL and others might ever be ARR-like), the fact that it's based on an all-rights-reserved ATM10, or the fact that we're gonna most likely embed add some FancyMenu background music - **well, it's safe to say that GhostLand 8 is licensed under The „We've commited so many violations, that we don't even care anymore” License [TM]**. Any changes that *we* make are MIT, but so much code, assets and JARs here are technically not supposed to be shared (and we're more or less praying that ATM doesn't file a DMCA to GitHub over a freaking modpack), that to anyone building on top of this repo, we can say only one thing: Depend on this at your own discretion.
+\[TBD]

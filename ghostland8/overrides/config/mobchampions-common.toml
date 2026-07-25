@@ -1,0 +1,189 @@
+[color]
+	#Color used for uncommon champions.
+	uncommonColor = "#00F403"
+	#Color used for rare champions.
+	rareColor = "#3600FF"
+	#Color used for epic champions.
+	epicColor = "#EF00F4"
+	#Color used for legendary champions.
+	legendaryColor = "#F49000"
+
+[mobdeath]
+	#If true, fireworks will spawn when a champion is killed by player.
+	fireworksOnDeath = true
+	#Minimum champion rank required to trigger fireworks on death.
+	#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+	fireworksMinimumRank = "LEGENDARY"
+
+[spawning]
+	#If true, baby variants of entities will not spawn as champions.
+	disableBabyChampions = false
+	#If true, a message will be broadcast to players in the configurable range when a champion spawns.
+	enableSpawnMessage = true
+	#Minimum champion rank required to trigger a spawn message.
+	#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+	spawnMessageMinimumRank = "LEGENDARY"
+	#Radius around the champion spawn point to check for players to send the spawn message to.
+	#Range: 0 ~ 256
+	spawnMessageRange = 64
+	#Relative weight for a normal or common mob to spawn.
+	#Range: 0 ~ 5000
+	commonMobWeight = 200
+	#Relative weight for uncommon champions to spawn.
+	#Range: 0 ~ 100
+	uncommonWeight = 50
+	#Relative weight for rare champions to spawn.
+	#Range: 0 ~ 100
+	rareWeight = 30
+	#Relative weight for epic champions to spawn.
+	#Range: 0 ~ 100
+	epicWeight = 9
+	#Relative weight for legendary champions to spawn.
+	#Range: 0 ~ 100
+	legendaryWeight = 2
+	#Whitelist of entities that can spawn as champions.
+	#If the whitelist is empty, the mod is effectively disabled.
+	#Entity types must be in the format modid:entity_name
+	championWhitelist = ["minecraft:bogged", "minecraft:cave_spider", "minecraft:zombie", "minecraft:zombified_piglin", "minecraft:skeleton", "minecraft:creeper", "minecraft:spider", "minecraft:enderman", "minecraft:husk", "minecraft:stray", "minecraft:wither_skeleton", "minecraft:drowned", "minecraft:pillager"]
+	#Blacklist of spawn types that prevent champions from spawning.
+	#Spawn types must be one of: [NATURAL, CHUNK_GENERATION, SPAWNER, STRUCTURE, BREEDING, MOB_SUMMONED, JOCKEY, EVENT, CONVERSION, REINFORCEMENT, TRIGGERED, BUCKET, SPAWN_EGG, COMMAND, DISPENSER, PATROL, TRIAL_SPAWNER]
+	spawnTypeBlacklist = ["BREEDING", "BUCKET", "CHUNK_GENERATION", "DISPENSER", "PATROL", "SPAWNER", "STRUCTURE", "TRIAL_SPAWNER"]
+
+	[spawning.stats]
+		#Difficulty settings level applied to uncommon champions. Higher means stronger champions.
+		#Range: 1 ~ 10
+		uncommonDifficulty = 5
+		#Difficulty settings level applied to rare champions. Higher means stronger champions.
+		#Range: 1 ~ 10
+		rareDifficulty = 5
+		#Difficulty settings level applied to epic champions. Higher means stronger champions.
+		#Range: 1 ~ 10
+		epicDifficulty = 5
+		#Difficulty settings level applied to legendary champions. Higher means stronger champions.
+		#Range: 1 ~ 10
+		legendaryDifficulty = 5
+
+	[spawning.effects]
+		#Minimum champion rank required to apply the glowing effect.
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		glowingEffectMinimumRank = "LEGENDARY"
+		#Duration in seconds for the glowing effect applied to champions.
+		#Set to 0 to disable. Set to -1 for infinite duration.
+		#Range: -1 ~ 60
+		glowingEffectDuration = 15
+		#Minimum champion rank required to apply the infested effect.
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		infestedEffectMinimumRank = "EPIC"
+		#Chance for the infested effect to be applied to eligible champions.
+		#Range: 0.0 ~ 1.0
+		infestedEffectChance = 0.35
+		#Minimum champion rank required to apply the weaving effect.
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		weavingEffectMinimumRank = "RARE"
+		#Chance for the weaving effect to be applied to eligible champions.
+		#Range: 0.0 ~ 1.0
+		weavingEffectChance = 0.6
+		#Minimum champion rank required to apply the wind charged effect.
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		windChargedEffectMinimumRank = "EPIC"
+		#Chance for the wind charged effect to be applied to eligible champions.
+		#Range: 0.0 ~ 1.0
+		windChargedEffectChance = 0.2
+		#Minimum champion rank required to apply the fire resistance effect.
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		fireResistanceEffectMinimumRank = "UNCOMMON"
+		#Chance for the fire resistance effect to be applied to eligible champions.
+		#This is added so players can't cheese kill fire-based damage against champions.
+		#Range: 0.0 ~ 1.0
+		fireResistanceEffectChance = 1.0
+		#Multiplier applied to all effect chances for legendary champions.
+		#Range: 0.0 ~ 1.0
+		legendaryEffectBonusMultiplier = 0.5
+		#Multiplier applied to the explosion radius of creeper champions by rank.
+		#For example, a value of 0.25 will double the explosion radius of a legendary (rank 4) creeper.
+		#Range: 0.0 ~ 1.0
+		creeperExplosionRadiusMultiplier = 0.25
+
+	[spawning.equipment]
+		#Chance for uncommon champions to spawn with standard weapons.
+		#Range: 0.0 ~ 1.0
+		uncommonStandardWeaponSpawnChance = 0.7
+		#Chance for rare champions to spawn with standard weapons.
+		#Range: 0.0 ~ 1.0
+		rareStandardWeaponSpawnChance = 0.8
+		#Chance for epic champions to spawn with standard weapons.
+		#Range: 0.0 ~ 1.0
+		epicStandardWeaponSpawnChance = 0.9
+		#Chance for legendary champions to spawn with standard weapons.
+		#Range: 0.0 ~ 1.0
+		legendaryStandardWeaponSpawnChance = 0.95
+		#Chance for uncommon champions to spawn with lootable weapons.
+		#Range: 0.0 ~ 1.0
+		uncommonLootableWeaponSpawnChance = 0.02
+		#Chance for rare champions to spawn with lootable weapons.
+		#Range: 0.0 ~ 1.0
+		rareLootableWeaponSpawnChance = 0.05
+		#Chance for epic champions to spawn with lootable weapons.
+		#Range: 0.0 ~ 1.0
+		epicLootableWeaponSpawnChance = 0.1
+		#legendarylootableweaponspawnchance
+		#Range: 0.0 ~ 1.0
+		legendaryLootableWeaponSpawnChance = 0.25
+		#Format: <rarity>-<weight>-<modid:item_name>
+		#Rarity: 1 (Uncommon), 2 (Rare), 3 (Epic), 4 (Legendary)
+		#Weight: Integer value representing the relative chance of selection
+		#Example: 2-50-minecraft:diamond_sword
+		weaponList = ["1-10-minecraft:stone_sword", "1-10-minecraft:wooden_sword", "1-10-minecraft:stone_axe", "1-10-minecraft:wooden_axe", "2-10-minecraft:iron_sword", "2-10-minecraft:iron_axe", "2-20-minecraft:golden_sword", "2-20-minecraft:golden_axe", "3-20-minecraft:iron_sword", "3-20-minecraft:iron_axe", "3-10-minecraft:diamond_sword", "3-10-minecraft:diamond_axe", "4-30-minecraft:diamond_sword", "4-30-minecraft:diamond_axe", "4-10-minecraft:netherite_sword", "4-10-minecraft:netherite_axe"]
+		#Chance for uncommon champions to spawn with standard armor.
+		#Range: 0.0 ~ 1.0
+		uncommonStandardArmorSpawnChance = 0.7
+		#Chance for rare champions to spawn with standard armor.
+		#Range: 0.0 ~ 1.0
+		rareStandardArmorSpawnChance = 0.8
+		#Chance for epic champions to spawn with standard armor.
+		#Range: 0.0 ~ 1.0
+		epicStandardArmorSpawnChance = 0.9
+		#Chance for legendary champions to spawn with standard armor.
+		#Range: 0.0 ~ 1.0
+		legendaryStandardArmorSpawnChance = 0.95
+		#Chance for uncommon champions to spawn with upgraded loot table armor.
+		#Range: 0.0 ~ 1.0
+		uncommonLootableArmorSpawnChance = 0.05
+		#Chance for rare champions to spawn with upgraded loot table armor.
+		#Range: 0.0 ~ 1.0
+		rareLootableArmorSpawnChance = 0.1
+		#Chance for epic champions to spawn with upgraded loot table armor.
+		#Range: 0.0 ~ 1.0
+		epicLootableArmorSpawnChance = 0.25
+		#Chance for legendary champions to spawn with upgraded loot table armor.
+		#Range: 0.0 ~ 1.0
+		legendaryLootableArmorSpawnChance = 0.5
+		#Format: <rarity>-<weight>-<modid:item_name>
+		#Rarity: 1 (Uncommon), 2 (Rare), 3 (Epic), 4 (Legendary)
+		#Weight: Integer value representing the relative chance of selection
+		#Example: 3-30-minecraft:diamond_chestplate
+		armorList = ["1-10-minecraft:golden_helmet", "1-10-minecraft:leather_helmet", "1-10-minecraft:golden_chestplate", "1-10-minecraft:leather_chestplate", "1-10-minecraft:golden_leggings", "1-10-minecraft:leather_leggings", "1-10-minecraft:golden_boots", "1-10-minecraft:leather_boots", "2-20-minecraft:chainmail_helmet", "2-10-minecraft:iron_helmet", "2-20-minecraft:chainmail_chestplate", "2-10-minecraft:iron_chestplate", "2-20-minecraft:chainmail_leggings", "2-10-minecraft:iron_leggings", "2-20-minecraft:chainmail_boots", "2-10-minecraft:iron_boots", "3-10-minecraft:diamond_helmet", "3-20-minecraft:iron_helmet", "3-10-minecraft:diamond_chestplate", "3-20-minecraft:iron_chestplate", "3-10-minecraft:diamond_leggings", "3-20-minecraft:iron_leggings", "3-10-minecraft:diamond_boots", "3-20-minecraft:iron_boots", "4-80-minecraft:diamond_helmet", "4-40-minecraft:netherite_helmet", "4-10-minecraft:diamond_chestplate", "4-5-minecraft:netherite_chestplate", "4-60-minecraft:diamond_leggings", "4-30-minecraft:netherite_leggings", "4-100-minecraft:diamond_boots", "4-50-minecraft:netherite_boots"]
+
+[experience]
+	#Experience multiplier applied to uncommon champions.
+	#Range: 0.0 ~ 50.0
+	uncommonExperienceMultiplier = 2.0
+	#Experience multiplier applied to rare champions.
+	#Range: 0.0 ~ 50.0
+	rareExperienceMultiplier = 5.0
+	#Experience multiplier applied to epic champions.
+	#Range: 0.0 ~ 50.0
+	epicExperienceMultiplier = 11.0
+	#Experience multiplier applied to legendary champions.
+	#Range: 0.0 ~ 50.0
+	legendaryExperienceMultiplier = 20.0
+
+[lootdrops]
+	#Chance for champions wielding standard weapons to drop them on death.
+	#Range: 0.0 ~ 1.0
+	standardWeaponDropChance = 0.0
+	#Chance for champions wearing standard armor to drop it on death.
+	#Range: 0.0 ~ 1.0
+	standardArmorDropChance = 0.0
+	#Set to false to prevent champions from dropping elytra.
+	allowElytraDrops = true

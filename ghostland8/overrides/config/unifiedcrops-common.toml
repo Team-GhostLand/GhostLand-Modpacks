@@ -1,0 +1,4 @@
+[general]
+	#A list of mods to check for duplicates.
+	#The first mod will become the default item if possible
+	crop_mods = ["pamhc2crops", "farmersdelight", "sushigocrafting", "herbsandharvest", "actuallyadditions", "silentgear", "supplementaries"]

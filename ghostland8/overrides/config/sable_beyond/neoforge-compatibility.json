@@ -1,0 +1,25 @@
+{
+  "compatibility": {
+    "create": {
+      "mechanical_arm": {
+        "ignore_placement_range_for_sublevel_targets": true
+      },
+      "encased_fan": {
+        "apply_force_to_touched_sublevels": true,
+        "fan_force_multiplier": 0.2
+      },
+      "basin": {
+        "empty_input_inventory": false,
+        "empty_output_inventory": false,
+        "fluid_escaping": false,
+        "fill_from_world_fluid": false
+      },
+      "water_wheel": {
+        "thrust_enabled": true,
+        "realistic_thrust_mode": false,
+        "thrust_per_rpm": 2.0,
+        "small_wheel_factor": 0.5
+      }
+    }
+  }
+}

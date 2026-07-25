@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "hiddenMods": [],
+  "hiddenMods": ["appleskin"],
   "globalModAliases": {
     "cloth_config": "cloth-config2",
     "playeranimator": "player-animator"

@@ -1,8 +1,0 @@
-{
-  "general": {
-    "loadForgeConfigs": true,
-    "loadClothConfigs": true,
-    "configButtonReplacement": "NEVER",
-    "redirectAutoConfigScreen": false
-  }
-}

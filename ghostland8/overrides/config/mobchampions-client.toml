@@ -1,0 +1,19 @@
+[visuals]
+	#Chance of fireworks after legendary champion defeat. 0 disables fireworks.
+	#Range: 0.0 ~ 1.0
+	fireworksChance = 1.0
+	#Colors to use in fireworks. Requires hex formatted colors.
+	#Default: ["#FFDB00", "#F49000", "#D27C00", "#BD6F00"]
+	colors = ["#FFDB00", "#F49000", "#D27C00", "#BD6F00"]
+	#Fireworks flicker setting as it relates to Minecraft fireworks.
+	fireworksFlicker = true
+	#Fireworks trail setting as it relates to Minecraft fireworks.
+	fireworksTrail = true
+	#Fireworks shape setting as it relates to Minecraft fireworks.
+	#One of: [SMALL_BALL, LARGE_BALL, STAR, CREEPER, BURST]
+	#Allowed Values: SMALL_BALL, LARGE_BALL, STAR, CREEPER, BURST
+	fireworksShape = "BURST"
+	#Height above champion that fireworks explode.
+	#Default 5
+	#Range: 0 ~ 32
+	fireworksHeight = 3

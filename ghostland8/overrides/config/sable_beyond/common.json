@@ -1,0 +1,13 @@
+{
+  "fire": {
+    "fire_extinguish": true,
+    "fire_spreading": true,
+    "lava_fire_on_sublevel": true
+  },
+  "flowingFluid": {
+    "enabled": true,
+    "force": 1.5,
+    "lava_force_multiplier": 0.6,
+    "max_force": 120.0
+  }
+}

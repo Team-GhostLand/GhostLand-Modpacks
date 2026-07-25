@@ -1,9 +1,0 @@
-#Wszystkie elementy konfiguracji związane z podstawową rozgrywką
-[gameplay]
-	#Czy generować statki zaopatrzeniowe i obozy w skrzyniach z łupami. [Default: true]
-	generatesupplyloot = true
-
-#Wszystkie ustawienia związane z systemem zapytań
-[requestsystem]
-	#Czy system żądań powinien wyświetlać informacje o debugowniu w debug.log? Przydatne, jeśli działa nieprawidłowo. [Default: false]
-	enabledebuglogging = false

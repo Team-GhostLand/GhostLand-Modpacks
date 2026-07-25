@@ -1,0 +1,53 @@
+["Radioactive Block"]
+	#Radius of operation of the radioactive block
+	# Default: 100
+	# Range: 0 ~ 1024
+	radiusRadiation = 100
+	#Updating players within the Radioactive block radius (in ticks)
+	# Default: 10
+	# Range: 5 ~ 40
+	tickRadioactiveBlock = 10
+	#Entity ignition radius from the radioactive block
+	# Default: 10
+	# Range: 0 ~ 1024
+	distanceFire = 10
+
+[Radiation]
+	#The amount of radiation purification over time
+	# Default: 0.01
+	# Range: 0.0 ~ 1024.0
+	clearRadiation = 0.01
+	#Amount of radiation to produce the 'Blidness' effect
+	# Default: 200
+	# Range: 1 ~ 1024
+	giveEffectBlidness = 200
+	#Amount of radiation to produce the 'Confusion' effect
+	# Default: 300
+	# Range: 1 ~ 1024
+	giveEffectConfusion = 300
+	#Amount of radiation to produce the 'Poison' effect
+	# Default: 400
+	# Range: 1 ~ 1024
+	giveEffectPoison = 400
+	#The amount of radiation required to kill a player
+	# Default: 500
+	# Range: 1 ~ 1024
+	Death = 500
+
+[REACTOR]
+	#Reactor explosion radius
+	# Default: 25
+	# Range: 1 ~ 1024
+	RadiusExplodeReactor = 25
+	#Radius of the burnt zone (set to 0 to remove)
+	# Default: 2
+	# Range: 0 ~ 1024
+	RadiusBurnt = 2
+	#Dead zone radius (set to 0 to remove). RadiusExplodeReactor * RadiusDeathGrass
+	# Default: 5
+	# Range: 0 ~ 1024
+	RadiusDeathGrass = 5
+	#Radius of the area without grass (set to 0 to remove). RadiusExplodeReactor * RadiusDirt (+RadiusDeathGrass)
+	# Default: 5
+	# Range: 0 ~ 1024
+	RadiusDirt = 5

@@ -2,10 +2,10 @@
 # 1) Disables Discord Chat Mod's emoji suggestions to avoid conflicts with Emojiful
 # 2) Disables Discord Chat Mod's rendering of custom Discord Emoji
 # 3) Convert emoji sent from Discord to their names. For example, "😃" will be converted to ":smiley:"
-emojifulCompatibility = true
+emojifulCompatibility = false
 # Maximum number of messages in the chat.
 # When the number of messages exceeds this value, old messages are automatically deleted.
 # By default, this value is 100 in the vanilla game.
 # Default: 500
 # Range: > 20
-maxChatHistory = 5000
+maxChatHistory = 500

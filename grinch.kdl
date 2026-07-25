@@ -15,7 +15,7 @@ modpacks {
 		}
     }
 	modpack "GhostLand8" path="./ghostland8" {
-        description "Paczka na ósmą edycję GhostLanda, fork ATM"
+        description "Paczka na ósmą edycję GhostLanda"
 		names {
 			default "GhostLand %V"
 			quick "Internal Grinch representation (so you probably dont want this one) of GhostLand %V as of %D"
