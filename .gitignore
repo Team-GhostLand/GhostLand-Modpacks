@@ -22,7 +22,7 @@ ghostland7/overrides/config/jade/usernamecache.json
 ghostland7/overrides/config/roughlyenoughitems/hints.json
 ghostland7/overrides/config/voicechat/username-cache.json
 
-# Temproary files
+# Temporary files
 ghostland7/overrides/config/spark/tmp
 
 # Copyright violations lol
@@ -40,8 +40,16 @@ ghostland7/overrides/config/discord_chat_mod-common.toml
 
 # == GHOSTLAND 8 ==
 
-# Sinytra processed JAR cache (MAY be a good idea to include it (once it generated, my game startup time dropped from ~570s to ~230s), but not yet, as more JARs for Grinch to munch on will only increase dev times)
+# Sinytra cache (unfortunately, one of the files inside (the log/report) is unignorable, so we'll need to remove it every time)
 ghostland8/overrides/mods/.connector
 
-#Ars Nouveau search cache - gets updated on every launch, so putting it into dev just makes tracking changes more annoying.
-ghostland8/overrides/config/ars_nouveau/search_index
+# EMI accelerator cache and report
+ghostland8/overrides/config/emi-accelerator/reload-timings.json
+ghostland8/overrides/config/emi-accelerator/stack-cache.emic
+
+# Spark temporary files
+ghostland8/overrides/config/spark/tmp
+ghostland8/overrides/config/spark/tmp-client
+
+# Spark leaks usernames and IDs
+ghostland8/overrides/config/spark/activity.json

@@ -13,6 +13,13 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8a13
+- reset Bridging Mod's enabled status to default (on)
+- changed Bridging Mod's preferred method of saying „Block comes here!” from the default distracting, easy-to-miss and Dynamic-Crosshair-breaking custom crosshair (all of this led to BM altogether being disabled before), to a simple hitbox
+- made EMI accelerator less obnoxious (no chat messages) and faster (no diagnostics)
+- some manual edits it `options.txt`
+- removed world-folder-spam from IPN (due to how IPN handles its per-world config, this is annoyingly unfixable, without gitignoring the whole dir, so ig we'll keep removing our test-worlds from it with every commit) and other useless config files (and gitignored them)
+
 ### 8a12
 - migrated client-optional format
 - removed stuff from Sinytra Connector (this will probably have to be done every upload because it seems like that file in particular is `.gitignore`-proof, probably because they felt fancy and put `=============` and `>>` in various places, and now Git thinks I'm resolving a merge conflict)
@@ -38,87 +45,8 @@ Redone the modpack from scratch. Collab effort between Guzio, Jifo and Midnight 
 ### 8a8
 What happens in Vegas stays in Vegas
 
-### 8a7
-- Configured almost all Waystones settings, except for making sure that you can't craft/drop them (that's done with datapacks), sharing (I think it still needs some nuance; just a blanket-setting for `"GLOBAL"` might be a bit broken, in terms of eg. name edits), and cost - for which I have prepared the following algorithm, but I didn't paste it yet because I'm not sure what would be our base currency unit in the Cebulion system (see at the bottom):
-```waystones
-Disallowed TP methods:
-[target_is_not_waystone, target_is_not_warp_plate] refuse(Sorki, na GhostLandzie można teleportować się tylko do portstoneów, zwykłych Waystoneów lub scrolli powrotu/powiązania, albo płytka-płytka. Wybrany przez Ciebie cel teleportu nie jest dozwolony.)
-[source_is_sharestone] refuse(Sorki, na GhostLandzie można teleportować się tylko do portstoneów, zwykłych Waystoneów lub scrolli powrotu/powiązania, albo płytka-płytka. Wybrane przez Ciebie źródło teleportu, Sharestone, nie jest dozwolone.) #Sharestones are too private (despite the name - they're color-coded, unlike „single-channel” Waystones)
-[source_is_warp_scroll] refuse(Sorki, na GhostLandzie można teleportować się tylko do portstoneów, zwykłych Waystoneów lub scrolli powrotu/powiązania, albo płytka-płytka. Wybrane przez Ciebie źródło teleportu, Warp Scroll, nie jest dozwolone.) #Too OP: Multiple-choice destination
-[source_is_warp_stone] refuse(Sorki, na GhostLandzie można teleportować się tylko do portstoneów, zwykłych Waystoneów lub scrolli powrotu/powiązania, albo płytka-płytka. Wybrane przez Ciebie źródło teleportu, Warp Stone, nie jest dozwolone.) #Too OP: Multiple-choice destination
-[source_is_inventory_button] refuse(Inventory Button do teleportu nie powienien w ogóle być włączony. Jeśli widzisz tą wiadomość, zgłoś to Administracji.)
-
-Mixed signals:
-[source_is_warp_plate, target_is_not_warp_plate] refuse(Za pomocą płytek można teleportować się tylko płytka-płytka, a nie z płytki do gdziekolwiek-próbowałeś.)
-[source_is_not_warp_plate, target_is_warp_plate] refuse(Za pomocą płytek można teleportować się tylko płytka-płytka, a nie do płytki z gdziekolwiek-próbowałeś.)
-
-Extra restrictions:
-[is_with_leashed] refuse(Hej hej hej, ale transport zwierząt tylko w wagonie do bydła! Jedź pociągiem nie Waystonem.) #We could just disabled TP-with-leashed, but it's more funny when the Waystone gets upset with you.
-[is_on_any_vehicle] refuse(Siedzisz już na pojeździe/wierzchowcu - jedź se nim. Po co ci waystone?)
-[is_wearing_any_armor, source_is_not_return_scroll, source_is_not_warp_plate, target_is_not_warp_plate] refuse(Sorki, ze względu na kontrolę graniczną teleportacja w zbroi jest niemożliwa. Wyskakuj z gaci!)
-[is_not_interdimensional, is_not_within_distance(300), source_is_warp_plate, target_is_warp_plate] refuse(Płytki służą tylko do krótko-dystansowej nawigacji, na przykład z jednego piętra bazy na inne, jak winda. Na dłuższy dystans proszę użyć jakiegoś bardziej zaawansowanego środka transportu.)
-[is_interdimensional, source_is_warp_plate, target_is_warp_plate] refuse(Płytki służą tylko do krótko-dystansowej nawigacji, na przykład z jednego piętra bazy na inne, jak winda. Na między-wymiarowy dystans proszę użyć jakiegoś bardziej zaawansowanego środka transportu.)
-[is_not_interdimensional, is_within_distance(800), source_is_not_bound_scroll, source_is_not_return_scroll, source_is_not_warp_plate, target_is_not_warp_plate] refuse(Teleportujesz się na mniej niż 800 kratek, serio? Weź ty już lepiej pieszo idź lub metrem jedź. Co, mamusia nóżek nie dała?)
-[is_not_interdimensional, is_not_within_distance(3000), source_is_not_bound_scroll, source_is_not_return_scroll] refuse(Ponad 3000 kratek to za daleko dla teleportu bez scrolla. Sorki.)
-
-
-Cost calculations:
-[source_is_waystone, is_not_interdimensional] scaled_add_item_cost(distance, [CURRENCY], 0.01) #8-30
-min_item_cost([CURRENCY], 10)
-max_item_cost([CURRENCY], 16)
-[source_is_waystone, is_interdimensional] add_item_cost([CURRENCY], 24)
-[is_with_pets] add_item_cost([CURRENCY], 2)
-```
-- Begun serious work on FancyMenu (gave it our logo and redone the buttons). Now it's only missing background audio and background images.
-
-### 8a6
-- Added mods:
-	- LibVilNam (as a JAR for now, but hopefully Modrinth will approve until full release)
-	- Various Create addons (I can recall Nuclear, Big Cannons, Steam'n'Rails, Slice'n'Dice - but there were a LOT more, I just don't remember all)
-	- Dynamic lights: LambdynamicLights; Create: Dynamic Lights
-	- other „Dynamic X” mods because I noticed them while searching for above: DynamicFPS; Dynamic Crosshair; DynamicSurroundings
-	- Some ambient mods (inspired by DS above). Don't fully remember what, but it was mostly sound- and grass-related
-	- Sodium and a bunch of mods from its „orbit”, like for example: Continuity, Cubes without Borders, various Sodium addons, various server-perf stuff (C2ME, ServerCore, Lithium, Chunky (with offline-gen datapack-mod), etc.), various async-ifiers
-	- Serillum: spawn w wiosce, healing i spawn-proofing od ognisk
-	- *MISC.:* Better Archeology; JLine; Headpats; Alloy Forgery; probably a bunch more, but I don't remember anymore
-	- Libraries and similar: Sinytra Connector (CICADA->Headpats, Continuity, Alloy Forgery, JLine) and its sister-mod Forgified Fabric API; CICADA; Collective (for Serillum stuff); Whatever stuff got auto-added
-- Removed mods:
-	- Mo' Structures and its config library Omega (OmegaConfig was breaking Architectury, when combined with *something* I added - I was unable, however, to find out what exactly that was, so I nuked Mo' Structures and Omega instead)
-	- Embeddium (replaced with the Sodium ecosystem)
-	- Create: Crafts'n'Additions (replaced with Create: Power Grid) and one more Create addon, I think (can't remember which one)
-- Updated:
-	- AE2 addons (saw in 2 different descriptions that one had a dupe patched, and another had an item-voider fixed - and that was enough to convince me that they all probably need to be kept up-to-date), except MegaCells that was actually downdated (by one patch-bump - because that older version was on Modrinth)
-	- **Java from 21 to 25** *(This is not reflected in the pack because Modrinth doesn't allow that, **but should instead serve as a heads-up that anyone working on this needs to do the same on their end!**)*
-	- Some libs that other mods said they needed a newer version of
-	- Railways Untold
-	- NeoForge itself
-	- various shaders
-- Added resourcepacks:
-	- Simple Grass Flowers
-	- Translations for Sodium
-- Begun the long and ardous journey of making this serverpack-friendly:
-	- Moved WhiteList Sync 2 to server-only
-	- Moved the 2 new mods as server-only: JLine (cuz it *is* a server mod) and Create: Dynlight (it TECHNICALLY should be installed on both sides for the best experience (tho it works both server-only (it just won't respond to your local dynamic lights mod blocklist, and it's gonna be light-block based, so a bit choppy) and client-only (it just won't react to environment, by eg. preventing spawns)), but client-side wasn't working without Sodium Dynamic Lights (see: it should respond to its settings), but we're using LambdynamicLights because Sodium's were breaking C2ME)
-	- Moved server-related configs and the icon to `server-overrides`, and set some early `REMOVALS.txt`
-	- No more stupid scripts that we'll not use, anyway.
-	- Marked shaders and resourcepacks as client-only
-- Settings changed:
-	- Some random graphics stuff that HOPEFULLY will be non-controversial (eg. no viniette, no fullscreen by default, no FPS cap, some dynamic lights and culling changes, FPS counter on the right to avoid minimap conflicts, shadowy paths, other various stuff)
-	- Reduced default graphics-intense stuff (only 2 chunks render, 5 chunks simulation, no shaders). The rationale behind low defaults is that if someone with a beefy PC notices that the defaults are ass, they can just increase them. On the other hand, someone with an ass PC can unknowingly implode their computer if they join without lowering the settings first.
-	- Cleared various pop-ups (eg. multiplayer, Sodium sponsor, resourcepack compat warnings, `observable_announce` whatever that is)
-	- For the ease of dev: advanced tooltips on, and pause-on-lost-focus off
-	- Polish as the no. 1 language, with various English-es as fallbacks (oh, yea... I also added Language Reload)
-	- Enabled all added resourcepacks, our pack, and reorganized some defaults
-- Very early beginnings of FancyMenufication (just changed 2 backgrounds, and it's not even their final form yet)
-- Cleared out spam from `config/` (`.bak` files) and from `mods/` (PackWiz stuff)
-- *Things considered, but not added - and why:*
-	- BindPizzeria: Doesn't seem to be present on 1.21.1 NeoForge (didn't search for older/Fabric). Tried installing KeyBind Bundles, but it turned out that it's already present, just as a CurseForge JAR. Modrinth version was a whole minor-bump older, so I was afraid to replace the newer one with it, thinking it may break some existing ATM configs. Maybe a downgrade+Modrinthication will be possible, after all - I don't know; this needs testing.
-	- Immersive Weathering; anything Valkyrien Skies: not available past 1.20.1 :<
-	- WilderWild: Fabric only; dependency FrozenLib doesn't work with Sinytra Connector
-	- Serillum's Areas: *it's just plainly kinda-ass*, so I wasn't interested in making it work with LibVilNam, and as such we decided against it (it'd be weird to have only Areas' village name-gen incompatible with the rest, and installing Areas without village names would be stupid because noone would even notice, probably). Maybe I'll make a custom sign-based area mod, and have it work with LibVilNam for in-village signs, and then maybe also have it work with Xaero (as a sort-of social-waypoints system, which was sorely lacking after our migration from Journey Map to Xaero)
-	- Voxy: There *is*, apparently, a way to have it work on MP with Chunky. But it's allegedly a bit complicated and I haven't watched the tutorial yet. Also, same concerns as below.
-	- 3D textures of various kinds; BetterLeaves: better leave it out (pun intended) for performance considerations. Once we go into beta and client perf *maybe?* improves from not having to run a server, we may decide to allocate some FPS budget for it.
-	- Chlorine: Does stuff that we already have other Sodium stuff for
+### 8a*Siiiixxxxx Seeeeveeeeeeeeeen*
+Changelogs culled due to being too long and no longer relevant after pack redo - please view it in the commit history if needed (it was last present in 8a12)
 
 ### 8a5
 - Biomes removed from Biomes we've Gone:
@@ -171,26 +99,22 @@ max_item_cost([CURRENCY], 16)
 - I'm not gonna go into details
 
 ## TODO
-Pasted the TODO from Discord. Polish, incompletem and outdated - but better than a `[TBD]`
+Pasted the TODO from Discord. Polish, incomplete and outdated - but better than a `[TBD]`
 
 ### TODO - ja:
 * VanillaTweaks
 * FancyMenu
 * Map lock
 * BCC
-* ~~wyłączyć te chujowe biomy (sub-TODO: Znaleźć wiadomość z listą)~~
 * ~~wyłączyć portale~~
 * ~~Palmer ideas~~
-* ~~keybinds (note: changed stuff @ maps already! fix to default)~~
-* ~~jebane strzałki z libIPN~~
-* ~~reset RD na 12 (not advanced tooltips, other Sodium extras (eg. FPS overlay), and pause on lost focus, tho - they can stay)~~
 * dać ikonkę od Jifo
-* dać paczkę tymuśiowi i w międzyczasie robić rzeczy out-of-modpack:
+* dać paczkę Tymuśiowi i w międzyczasie robić rzeczy out-of-modpack:
 * dokumentacja minimapy
 * dokumentacja zmiany wersji
 * ustawić ghostland.ovh na proper IP
 * update #┆📑┆in-game-lore
-* poczekać na customizacje Tymusia, następnie wstawić na serwer final paczkę OR let him have the fun with server uploads (can't get too rusty with that Linux knowleadge, also I think he can be trusted with SSH and this is a good opportunity to give him that)
+* poczekać na customizacje Tymusia, następnie wstawić na serwer final paczkę OR let him have the fun with server uploads (can't get too rusty with that Linux knowledge, also I think he can be trusted with SSH and this is a good opportunity to give him that)
 * na serwerze, ustawić Discord bridge
 * Dać Jifo greenlight na annoncement start edycji (feat. @midnight.sp z uploadem paczki directly przez Discorda, zamiast roundabouty przez MediaFire robić, or czekać aż ogarniemy ghostland-web na nowym serwerze)
 
@@ -207,10 +131,28 @@ Pasted the TODO from Discord. Polish, incompletem and outdated - but better than
 * Idk, pamiętam coś jeszcze, ale nie kojarzę co. There's a reason why I said I shouldn't be the one making this todo for you.
 
 ## Configs
-\[TBD]
+- Vanilish
+  - Cleared various nags, eg. Narrator Narrator, Multiplayer Scare, or popups (Vanilla *Various UIs* and manual `options.txt` changes)
+  - Polish main lang (Vanilla Options - set via Language Reload); English fallbacks (Language Reload (and Vanilla, in so far as EN_US being the default fallback always))
+  - Keybinds. (Vanilla Options - set via Controlling)
+  - Fullscreen off (BOTH Vanilla Options AND CubesWithoutBorders - both set via Sodium)
+  - GUI Scale to 2 (Vanilla Options - set via Sodium)
+  - FPS overlay on, not extended, with coords, and set to the right (Sodium Extras)
+  - Advanced Tooltips; no Pause on Lost Focus (Vanilla F3+*x* - tho adv. ttps. can also be enabled via Sodium Extras)
+  - Other stuff in Sodium, and Sodium extras, and also vanilla settings they can set. Probably, idk. They have a built-in system for documenting departures from the defaults, so I won't bother listing it all.
+- Disabled annoying biomes in `config/biomeswevegone/world_generation.json`
+- Begun FancyMenu (thus far, I only removed some widgets from the title screen and the pause menu, thus making everything look weird lol)
+- Bridging Mod
+  - see: 3a13
+- IPN:
+  - reworked 1 (one) screen-that-overlaps-with-EMI
+  - hidden annoying purple arrows
+
 
 ## Guides
 read the main readme and you are probably fine
 
 ## Credits/Licensing
-\[TBD]
+* Modpack licensed under MIT.
+* No\* extrta content added via overrides *(yet)*, and any previous connection to ATM10 was fully severed, so we're in the clear in terms of licensing.
+* \*[Actually, there's a datapack that removes oil, taken from CurseForge - but it's literally CC0 Public Domain, so we're good.](https://www.curseforge.com/minecraft/data-packs/oritech-disable-oil-springs#license)
