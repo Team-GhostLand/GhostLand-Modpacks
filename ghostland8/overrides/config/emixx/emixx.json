@@ -9,5 +9,10 @@
   "enableCreateStackGroupButton": true,
   "disabledStackGroups": [],
   "stackGroupItemOrder": {},
-  "emiOnlyInRecipeBook": false
+  "emiOnlyInRecipeBook": false,
+  "disablePaginationWrapping": false,
+  "scrollInsteadOfPagination": false,
+  "showTitleInsteadOfPageNumbers": false,
+  "hidePageButtonWhenOnePage": false,
+  "incrementalScrollbarFill": false
 }

@@ -9,12 +9,17 @@ GhostLand 8 modpack.
 - [Credits/Licensing](#creditslicensing)
 
 ## Issues
-Actually, I think none!
+Actually, I think **none**! ~~This is the least broken GhostLand in history lol.~~
 
 ## Changelogs
 
+### 8a12
+- migrated client-optional format
+- removed stuff from Sinytra Connector (this will probably have to be done every upload because it seems like that file in particular is `.gitignore`-proof, probably because they felt fancy and put `=============` and `>>` in various places, and now Git thinks I'm resolving a merge conflict)
+- updated a bunch of mods (or maybe they were updated before, but I didn't regen the configs; I'm not sure)
+
 ### 8a11
-*Minor bugfix.*
+Redone the modpack from scratch. Collab effort between Guzio, Jifo and Midnight - except the collab was done over Discord previously, so there's no changelog up until this point.
 
 ### 8a10
 - Removed Async
@@ -166,7 +171,40 @@ max_item_cost([CURRENCY], 16)
 - I'm not gonna go into details
 
 ## TODO
-\[TBD]
+Pasted the TODO from Discord. Polish, incompletem and outdated - but better than a `[TBD]`
+
+### TODO - ja:
+* VanillaTweaks
+* FancyMenu
+* Map lock
+* BCC
+* ~~wyłączyć te chujowe biomy (sub-TODO: Znaleźć wiadomość z listą)~~
+* ~~wyłączyć portale~~
+* ~~Palmer ideas~~
+* ~~keybinds (note: changed stuff @ maps already! fix to default)~~
+* ~~jebane strzałki z libIPN~~
+* ~~reset RD na 12 (not advanced tooltips, other Sodium extras (eg. FPS overlay), and pause on lost focus, tho - they can stay)~~
+* dać ikonkę od Jifo
+* dać paczkę tymuśiowi i w międzyczasie robić rzeczy out-of-modpack:
+* dokumentacja minimapy
+* dokumentacja zmiany wersji
+* ustawić ghostland.ovh na proper IP
+* update #┆📑┆in-game-lore
+* poczekać na customizacje Tymusia, następnie wstawić na serwer final paczkę OR let him have the fun with server uploads (can't get too rusty with that Linux knowleadge, also I think he can be trusted with SSH and this is a good opportunity to give him that)
+* na serwerze, ustawić Discord bridge
+* Dać Jifo greenlight na annoncement start edycji (feat. @midnight.sp z uploadem paczki directly przez Discorda, zamiast roundabouty przez MediaFire robić, or czekać aż ogarniemy ghostland-web na nowym serwerze)
+
+### TODO - @jifo.:
+* włącz serwer, *pleassseeeeee*
+* daj nam plik ikonki, *pleassseeeeeeeeeeeeeee*
+* Announce the new edition once greenlit
+
+### TODO - @knpks (feat. @midnight.sp for general consulting and @djpalemkov for Oritech know-how):
+* Config stuff discussed earlier; AFAIK you have your own TODOlist, so I won't trip over you, and instead just let you put it here yourself, *natomiast, jeśli pamiętam, to było roughly:*
+* Progress-gating za general rzeczami z tech-modów (plates for armor and shit)
+* Add OriTech and slow down its progression
+* Optionally add KubeJS, if you prefer that over datapacks for doing progression-control stuff
+* Idk, pamiętam coś jeszcze, ale nie kojarzę co. There's a reason why I said I shouldn't be the one making this todo for you.
 
 ## Configs
 \[TBD]
