@@ -102,27 +102,27 @@ Changelogs culled due to being too long and no longer relevant after pack redo -
 Pasted the TODO from Discord. Polish, incomplete and outdated - but better than a `[TBD]`
 
 ### Housekeeping:
-* VanillaTweaks
-* FancyMenu
-* Map lock
-* BCC
-* ~~wyłączyć portale~~
-* ~~Palmer ideas~~
-* dać ikonkę od Jifo
-* na serwerze, ustawić Discord bridge
+- [ ] VanillaTweaks
+- [ ] FancyMenu
+- [ ] Map lock
+- [ ] BCC
+- [ ] wyłączyć portale
+- [ ] Palmer ideas
+- [ ] dać ikonkę od Jifo
+- [ ] na serwerze, ustawić Discord bridge
 
 ### Meta:
-* dokumentacja minimapy
-* dokumentacja zmiany wersji
-* ustawić ghostland.ovh na proper IP
-* update #┆📑┆in-game-lore
+- [ ] dokumentacja minimapy
+- [ ] dokumentacja zmiany wersji
+- [x] ustawić ghostland.ovh na proper IP
+- [ ] update #┆📑┆in-game-lore
 
 ### Balancing/staging:
-* Config stuff discussed earlier; AFAIK you have your own TODOlist, so I won't trip over you, and instead just let you put it here yourself, *natomiast, jeśli pamiętam, to było roughly:*
-* Progress-gating za general rzeczami z tech-modów (plates for armor and shit)
-* Add OriTech and slow down its progression
-* Optionally add KubeJS, if you prefer that over datapacks for doing progression-control stuff
-* Idk, pamiętam coś jeszcze, ale nie kojarzę co. There's a reason why I said I shouldn't be the one making this todo for you.
+- [ ] Config stuff discussed earlier; AFAIK you have your own TODOlist, so I won't trip over you, and instead just let you put it here yourself, *natomiast, jeśli pamiętam, to było roughly:*
+- [ ] Progress-gating za general rzeczami z tech-modów (plates for armor and shit)
+- [ ] Add OriTech and slow down its progression
+- [ ] Optionally add KubeJS, if you prefer that over datapacks for doing progression-control stuff
+- [ ] Idk, pamiętam coś jeszcze, ale nie kojarzę co. There's a reason why I said I shouldn't be the one making this todo for you.
 
 ## Configs
 - Vanilish
