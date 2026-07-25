@@ -101,7 +101,7 @@ Changelogs culled due to being too long and no longer relevant after pack redo -
 ## TODO
 Pasted the TODO from Discord. Polish, incomplete and outdated - but better than a `[TBD]`
 
-### TODO - ja:
+### Housekeeping:
 * VanillaTweaks
 * FancyMenu
 * Map lock
@@ -109,21 +109,15 @@ Pasted the TODO from Discord. Polish, incomplete and outdated - but better than 
 * ~~wyłączyć portale~~
 * ~~Palmer ideas~~
 * dać ikonkę od Jifo
-* dać paczkę Tymuśiowi i w międzyczasie robić rzeczy out-of-modpack:
+* na serwerze, ustawić Discord bridge
+
+### Meta:
 * dokumentacja minimapy
 * dokumentacja zmiany wersji
 * ustawić ghostland.ovh na proper IP
 * update #┆📑┆in-game-lore
-* poczekać na customizacje Tymusia, następnie wstawić na serwer final paczkę OR let him have the fun with server uploads (can't get too rusty with that Linux knowledge, also I think he can be trusted with SSH and this is a good opportunity to give him that)
-* na serwerze, ustawić Discord bridge
-* Dać Jifo greenlight na annoncement start edycji (feat. @midnight.sp z uploadem paczki directly przez Discorda, zamiast roundabouty przez MediaFire robić, or czekać aż ogarniemy ghostland-web na nowym serwerze)
 
-### TODO - @jifo.:
-* włącz serwer, *pleassseeeeee*
-* daj nam plik ikonki, *pleassseeeeeeeeeeeeeee*
-* Announce the new edition once greenlit
-
-### TODO - @knpks (feat. @midnight.sp for general consulting and @djpalemkov for Oritech know-how):
+### Balancing/staging:
 * Config stuff discussed earlier; AFAIK you have your own TODOlist, so I won't trip over you, and instead just let you put it here yourself, *natomiast, jeśli pamiętam, to było roughly:*
 * Progress-gating za general rzeczami z tech-modów (plates for armor and shit)
 * Add OriTech and slow down its progression
