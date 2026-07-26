@@ -1,8 +1,8 @@
 [Config]
 	#Change to 'false' if you want to reactivate Nether Portals
-	AntiNether = false
+	AntiNether = true
 	#Change to 'true' if you want to disable the creation of portals
-	DisablePortalCreation = false
+	DisablePortalCreation = true
 	#Change to 'false' if you want to reactivate End Portals
 	AntiEnd = true
 	#Change to 'true' if you want to disable Ender Eye to be thrown in the air

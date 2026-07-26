@@ -13,6 +13,17 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8a14
+- added VanillaTweaks resourcepack
+- disabled the Nether
+- added GhostLand resourcepack
+- removed Luminous: Nether
+- removed Amplified Nether
+- removed Moog's Nether Structures
+- removed Fortress Overhaul
+- removed Nether Portal Fix
+- added Accessories and some addons
+
 ### 8a13
 - reset Bridging Mod's enabled status to default (on)
 - changed Bridging Mod's preferred method of saying „Block comes here!” from the default distracting, easy-to-miss and Dynamic-Crosshair-breaking custom crosshair (all of this led to BM altogether being disabled before), to a simple hitbox
@@ -102,20 +113,20 @@ Changelogs culled due to being too long and no longer relevant after pack redo -
 Some parts are in Polish, both due to me writing it at 3AM and being tired, and the fact that it was pasted from our Discord originally and some entires weren't translated. It's not like it matters; even if this pack goes public (I mean... Technically, it *already is* because GitHub), it's not like anyone will read the TODO.
 
 ### Housekeeping:
-- [ ] VanillaTweaks
+- [x] VanillaTweaks
 - [ ] FancyMenu
 - [ ] Minimapy: Lock AA4 behind the book. Also, check if AA4 and Hoofprint truly can share the same `[M]` key when both are item-gated, and adjust accordingly if not.
 - [ ] Better Compat Checker
-- [ ] Wyłączyć Nether portal (End alr disabled by default)
+- [x] Wyłączyć Nether portal (End alr disabled by default)
 - [ ] Palmer&Kanciarz ideas (ME Requester, Extended AE, AE2 Wireless, Super Factory Manager, MEGA Cells) - na razie wywalić; będą w Nether Update (nie licząc SFM (Programming Update), MEGA Cells (TBD), AE2 Wireless (*FINE!*, have it early, but we'll have to make it more expensive))
-- [ ] Luminous Nether - na razie wywalić; będzie w Nether Update (razem z tym modem który poleca, Luminous Tag)
+- [x] Luminous Nether - na razie wywalić; będzie w Nether Update (razem z tym modem który poleca, Luminous Tag)
 - [ ] Jifo's icon
 - [ ] Discord bridge
 - [ ] Whitelist Sync
 - [ ] Configure Grinch exclusions
 - [ ] Configure Grinch server-side content & configs, and client-side configs (and fix 1 piece of content, LibVilNam)
-- [ ] Clean up and add our old texturepack
-- [ ] Replace Curious with Accessories for future Aether compat (actually, test if Aether even would work as things are now, AND THEN REMOVE IT)
+- [x] Clean up and add our old texturepack
+- [x] Replace Curious with Accessories for future Aether compat (actually, test if Aether even would work as things are now, AND THEN REMOVE IT)
 
 ### Meta:
 - [ ] dokumentacja minimapy
