@@ -13,6 +13,9 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8a15
+- reverted some `options.txt` changes (resourcepacks and clouds being disabled - not the keybinds, tho, as it *seems* Midnight actually researched those quite well, and tbh did a much better job than mine „KILL EVERYTHING NON-VANILLA and let the user deal with the fallout”, tho I haven't actually tested anything for conflicts yet)
+
 ### 8a14
 - added VanillaTweaks resourcepack
 - disabled the Nether
@@ -113,7 +116,7 @@ Changelogs culled due to being too long and no longer relevant after pack redo -
 Some parts are in Polish, both due to me writing it at 3AM and being tired, and the fact that it was pasted from our Discord originally and some entires weren't translated. It's not like it matters; even if this pack goes public (I mean... Technically, it *already is* because GitHub), it's not like anyone will read the TODO.
 
 ### Housekeeping:
-- [x] VanillaTweaks
+- [ ] VanillaTweaks
 - [ ] FancyMenu
 - [ ] Minimapy: Lock AA4 behind the book. Also, check if AA4 and Hoofprint truly can share the same `[M]` key when both are item-gated, and adjust accordingly if not.
 - [ ] Better Compat Checker
