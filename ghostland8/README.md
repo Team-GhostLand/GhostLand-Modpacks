@@ -99,7 +99,7 @@ Changelogs culled due to being too long and no longer relevant after pack redo -
 - I'm not gonna go into details
 
 ## TODO
-Pasted the TODO from Discord. Polish, incomplete and outdated - but better than a `[TBD]`
+Some parts are in Polish, both due to me writing it at 3AM and being tired, and the fact that it was pasted from our Discord originally and some entires weren't translated. It's not like it matters; even if this pack goes public (I mean... Technically, it *already is* because GitHub), it's not like anyone will read the TODO.
 
 ### Housekeeping:
 - [ ] VanillaTweaks
