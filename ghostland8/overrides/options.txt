@@ -49,7 +49,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Simple Grass Flowers v1.9.6.zip","file/MimicLootr.zip","mod/natures_spirit:resourcepacks/plank_consistency","file/Visual Effects+.zip","vanillabackport:freshly_animated","lambdabettergrass:default"]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Simple Grass Flowers v2.0.0.zip","file/MimicLootr.zip","mod/natures_spirit:resourcepacks/plank_consistency","file/Visual Effects+.zip","vanillabackport:freshly_animated","lambdabettergrass:default"]
 incompatibleResourcePacks:["file/MimicLootr.zip","mod/natures_spirit:resourcepacks/plank_consistency"]
 lastServer:
 lang:pl_pl
