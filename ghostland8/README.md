@@ -138,6 +138,7 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - [ ] Configure Grinch server-side content & configs, and client-side configs (and fix 1 piece of content, LibVilNam)
 - [x] Clean up and add our old texturepack
 - [x] Replace Curious with Accessories for future Aether compat (actually, test if Aether even would work as things are now, AND THEN REMOVE IT)
+- [ ] Jifo: Pollution
 
 ### Meta:
 - [ ] dokumentacja minimapy
