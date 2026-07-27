@@ -13,6 +13,23 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8a17
+- removed Soulless (for now) and Create: Metallurgy (to be *just extra sure* that you can't melt down a brass sheet to brass - which means it's *probably, also* just for now)
+- Configured Grinch exclusions (The Grinching)
+- Added Jifo's icon
+- Configured BCC
+- Added mods:
+  - AdvChimneys (Jifo)
+  - Ambient Env (Guzio)
+  - TreeChop for Aero (Midnight)
+  - ForgeET (Jifo - lib for AC and Pollution)
+  - Observable (Guzio)
+  - Pollution (Jifo)
+  - Sable DH Render (Midnight)
+  - Roads more Traveled (Midnight)
+  - Who stopped the Music? (It was Midnight.)
+  - *a single more mod*, but it got lost in The Grinching and now I can't find it :< (Guzio)
+
 ### 8a16 *(branched after 8a13)*
 - updated everything that could be updated, except Sophisticated stuff
 - added VanillaTweaks datapacks
@@ -57,12 +74,7 @@ Redone the modpack from scratch. Collab effort between Guzio, Jifo and Midnight 
 - Added Animated loading screen
 
 ### 8a9
-- Removed Railways Untold (it will be added back if it's bugs will be fixed)
-- Removed Create Waystone Recipes
-- Removed Create Design'n'Decor
-- Removed Amendments
-- Removed everything Xaero
-- Added Keybind Bundles
+Changelog culled due to being too long and no longer relevant after pack redo - please view it in the commit history if needed (it was last present in 8a16)
 
 ### 8a8
 What happens in Vegas stays in Vegas
@@ -71,13 +83,7 @@ What happens in Vegas stays in Vegas
 Changelogs culled due to being too long and no longer relevant after pack redo - please view it in the commit history if needed (it was last present in 8a12)
 
 ### 8a5
-- Biomes removed from Biomes we've Gone:
-	- Dead Sea
-	- Lush Stacks
-- Tried to change some ATM propaganda into GL propaganda
-- Renamed our resourcepack to GhostPack *[NOTE: From testing on 8a6 - I don't think it worked: Still shows up as „MichauBreaksStuff” with „GhostLand kurwa” description; also, pack version is wrong]*
-- Added RoadWeaver
-- Added Watermedia + Waterframes (Internet in Minecraft)
+Changelog culled due to being too long and no longer relevant after pack redo - please view it in the commit history if needed (it was last present in 8a16)
 
 ### 8a4
 - Numismatics
@@ -87,26 +93,7 @@ Changelogs culled due to being too long and no longer relevant after pack redo -
 - EMI
 
 ### 8a3
-- Removed unwanted mods
-	- Waystones
-	- JourneyMap -> Xaero's
-	- e4mc
-- Add wanted mods
-	- Create Power Grid
-	- WhlSync 2
-	- SmallShips
-	- Immersive Melodies
-	- Immersive Paintings
-	- Dungeons and Taverns
-	- Just Blahaj (very important)
-	- Tectonic
-	- Craft Presence
-	- 3D Skin Layers
-	- SVC
-	- Chat Heads
-	- Discord Chat Connect
-	- Railways Untold
-- Resourcepack from GL7
+Changelog culled due to being too long and no longer relevant after pack redo - please view it in the commit history if needed (it was last present in 8a16)
 
 ### 8a2
 - We decided that using an existing modpack would be easier so we will be using All the Mods
@@ -127,19 +114,20 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - [x] VanillaTweaks
 - [ ] FancyMenu
 - [ ] Minimapy: Lock AA4 behind the book. Also, check if AA4 and Hoofprint truly can share the same `[M]` key when both are item-gated, and adjust accordingly if not.
-- [ ] Better Compat Checker
+- [x] Better Compat Checker
 - [x] Wyłączyć Nether portal (End alr disabled by default)
 - [x] Palmer&Kanciarz ideas (ME Requester, Extended AE, AE2 Wireless, Super Factory Manager, MEGA Cells) - na razie wywalić; będą w Nether Update (nie licząc SFM (Programming Update), MEGA Cells (TBD), AE2 Wireless (*FINE!*, have it early, but we'll have to make it more expensive))
 - [x] Luminous Nether - na razie wywalić; będzie w Nether Update (razem z tym modem który poleca, Luminous Tag)
-- [ ] Soulles - na razie wywalić; będzie w Nether Update (cuz it unlocks soul sand too early)
+- [x] Soulles - na razie wywalić; będzie w Nether Update (cuz it unlocks soul sand too early)
 - [ ] Jifo's icon
 - [ ] Discord bridge
 - [ ] Whitelist Sync
-- [ ] Configure Grinch exclusions
-- [ ] Configure Grinch server-side content & configs, and client-side configs (and fix 1 piece of content, LibVilNam)
+- [x] Configure Grinch exclusions
+- [ ] Configure Grinch server-side and client-side configs
 - [x] Clean up and add our old texturepack
 - [x] Replace Curious with Accessories for future Aether compat (actually, test if Aether even would work as things are now, AND THEN REMOVE IT)
-- [ ] Jifo: Pollution
+- [x] Jifo: Pollution
+- [ ] Make sure Aero tree-chop doesn't destroy the purpose of HT's (ie. let fallen trees be insta-mined)
 
 ### Meta:
 - [ ] dokumentacja minimapy
