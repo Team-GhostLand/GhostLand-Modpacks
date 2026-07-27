@@ -13,6 +13,28 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8a16 *(branched after 8a13)*
+- updated everything that could be updated, except Sophisticated stuff
+- added VanillaTweaks datapacks
+- removed: ExtendedAE, Super Factory Manager, ME Requester
+- removed "again": Nether Portal Fix, Luminous: Nether
+- not removed, so *effectively re-added* the datapack-ish Nether mods, because I don't trust datapack-like things to know how to enable themselves after the world is created: Amplified Nether, Moog's Nether Structures, Fortress Overhaul
+- verified that Aether will work (together with Midnight's addition of Accessories (that wasn't done directly here, but will be backported as part of merge conflict resolution), that well and truly takes it off the TODOlist)
+
+### 8a15
+- reverted some `options.txt` changes (resourcepacks and clouds being disabled - not the keybinds, tho, as it *seems* Midnight actually researched those quite well, and tbh did a much better job than mine „KILL EVERYTHING NON-VANILLA and let the user deal with the fallout”, tho I haven't actually tested anything for conflicts yet)
+
+### 8a14
+- added VanillaTweaks resourcepack
+- disabled the Nether
+- added GhostLand resourcepack
+- removed Luminous: Nether
+- removed Amplified Nether
+- removed Moog's Nether Structures
+- removed Fortress Overhaul
+- removed Nether Portal Fix
+- added Accessories and some addons
+
 ### 8a13
 - reset Bridging Mod's enabled status to default (on)
 - changed Bridging Mod's preferred method of saying „Block comes here!” from the default distracting, easy-to-miss and Dynamic-Crosshair-breaking custom crosshair (all of this led to BM altogether being disabled before), to a simple hitbox
@@ -102,20 +124,20 @@ Changelogs culled due to being too long and no longer relevant after pack redo -
 Some parts are in Polish, both due to me writing it at 3AM and being tired, and the fact that it was pasted from our Discord originally and some entires weren't translated. It's not like it matters; even if this pack goes public (I mean... Technically, it *already is* because GitHub), it's not like anyone will read the TODO.
 
 ### Housekeeping:
-- [ ] VanillaTweaks
+- [x] VanillaTweaks
 - [ ] FancyMenu
 - [ ] Minimapy: Lock AA4 behind the book. Also, check if AA4 and Hoofprint truly can share the same `[M]` key when both are item-gated, and adjust accordingly if not.
 - [ ] Better Compat Checker
 - [ ] Wyłączyć Nether portal (End alr disabled by default)
-- [ ] Palmer&Kanciarz ideas (ME Requester, Extended AE, AE2 Wireless, Super Factory Manager, MEGA Cells) - na razie wywalić; będą w Nether Update (nie licząc SFM (Programming Update), MEGA Cells (TBD), AE2 Wireless (*FINE!*, have it early, but we'll have to make it more expensive))
-- [ ] Luminous Nether - na razie wywalić; będzie w Nether Update (razem z tym modem który poleca, Luminous Tag)
+- [x] Palmer&Kanciarz ideas (ME Requester, Extended AE, AE2 Wireless, Super Factory Manager, MEGA Cells) - na razie wywalić; będą w Nether Update (nie licząc SFM (Programming Update), MEGA Cells (TBD), AE2 Wireless (*FINE!*, have it early, but we'll have to make it more expensive))
+- [x] Luminous Nether - na razie wywalić; będzie w Nether Update (razem z tym modem który poleca, Luminous Tag)
 - [ ] Jifo's icon
 - [ ] Discord bridge
 - [ ] Whitelist Sync
 - [ ] Configure Grinch exclusions
 - [ ] Configure Grinch server-side content & configs, and client-side configs (and fix 1 piece of content, LibVilNam)
 - [ ] Clean up and add our old texturepack
-- [ ] Replace Curious with Accessories for future Aether compat (actually, test if Aether even would work as things are now, AND THEN REMOVE IT)
+- [x] Replace Curious with Accessories for future Aether compat (actually, test if Aether even would work as things are now, AND THEN REMOVE IT)
 
 ### Meta:
 - [ ] dokumentacja minimapy
@@ -127,12 +149,12 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 
 ### Balancing/staging/progression:
 #### STAGE ONE, LAUNCH:
-- [ ] Super-EZ bundles (on this version, they still need rabbit hide; normal leather would be ideal, and ideal-er if lether was made from Zombie drops, which is actually a Vanilla Tweaks thing that I thing imma add as part of that point in the Housekeeping section)
+- [x] Super-EZ bundles (on this version, they still need rabbit hide; normal leather would be ideal, and ideal-er if lether was made from Zombie drops, which is actually a Vanilla Tweaks thing that I thing imma add as part of that point in the Housekeeping section)
 - [ ] Vanilla story progress-gating za modami przygodowymi (notably - make Aether (put eg. Barrier Block as a placeholder until Aether is added) needed for the Ender Eye in some way (this can be done later) - and ofc more stuff, but I don't actually know vanilla well enough to tell what'd be good to put here)
 - [ ] Vanilla early-game equipment progress-gating za generic-rzeczami z tech-modów (eg. plates for armor and shit).
 - [ ] Make top-tier Oritech stuff gated behind The End in some way *[notably - make the armor and tools be upgrades from Netherite (which end-gates things, see stage two), if they're OP (their OPness is TBD, actually), same OP-ness-gauging-and-optional-End-gating-if-too-OP-and/or-not-endgated-already applies to their various fantasy metals; also, End Gating (maybe not Netherite, but still in some way) should apply any OP power-gen (eg. nuclear power - see staging timelines below) and the Particle Accelerator(???) thing that makes black holes (if it's not needed for various crucial recipes (sounds like it could be) - if it is, it should at least need Netheite scrap (to force them to (literally) fight for it - see stage two) instead)]* if it isn't already (either directly or via the machines needed to make them) - they *do* have an Enderite material, after all, so its uses must be investigated. Also, the nukes should need Netherite scraps, if the machines needed to make them aren't End-gated already (basically, either nukes are more expensive, or won't unlock for a while).
 - [ ] Make Create brass sheet craftable without Nether-gating (it may seem OP, but remember that the brass sheet *by itself* cannot be used for much, except the brass hand (needed for some recipes (*raiiilssss.......*), and MANY early-game-useful contraptions, eg. a drill) and some BASIC item sorting stuff (smart chutes - but not eg. tunnels/funnels) - so it nicely tracks with how Oritech progression is supposed to be organized (see stage two), ie. „You CAN have a complex factory from the get-go, but it's gonna be annoying AF and gonna take up a ton of space. Gets easier with Stage Two”), ONCE we confirm that it cannot be re-melted into an ingot (if it can - idk, we need an emergency meeting to figure out what to do). No need to gatekeep any OP armors and stuff because, well, Create doesn't have them (maybe the lava-diving suit, but that needs Netherite already).
-- [ ] Maybe make the Deep Dark actually useful for anything (can't think of a specific thing; maybe the Eye of Ender again (would fit the game's story well, too, actually) or even something at a much later stage, think Stage 3)
+- [ ] Maybe make the Deep Dark actually useful for anything (can't think of a specific thing; maybe the Eye of Ender again (would fit the game's story well, too, actually) or even something at a much later stage, think Stage 3). Same about the Trial Chambers' Heavy Core (speaking of which, the Mace could also be made so that it needs some later-stage ingredients, but idk.)
 - [ ] Review Quark (Palmer labelled it as QoL, which is usually a Red Flag, cuz his definition of QoL is „will literally do everything for you”) and balance if needed.
 - [ ] Make sure that Soulless's RIP needs soul sand (so that ppl won't get Create haunting ahead of Stage Two)
 
@@ -194,5 +216,5 @@ read the main readme and you are probably fine
 
 ## Credits/Licensing
 * Modpack licensed under MIT.
-* No\* extrta content added via overrides *(yet)*, and any previous connection to ATM10 was fully severed, so we're in the clear in terms of licensing.
-* \*[Actually, there's a datapack that removes oil, taken from CurseForge - but it's literally CC0 Public Domain, so we're good.](https://www.curseforge.com/minecraft/data-packs/oritech-disable-oil-springs#license)
+* [There's a datapack that removes oil, taken from CurseForge - it's CC0 Public Domain.](https://www.curseforge.com/minecraft/data-packs/oritech-disable-oil-springs#license)
+* We also have some VanillaTweaks stuff added via overrides (properly listed in `overides/credits.txt`, [as per their request](https://vanillatweaks.net/terms/)) and some random resourcepack that someone added (idk who, it's from the Discord-collab era, so I can't `git blame` it) and gave zero licensing info about, so, uhh... *Hope we don't get sued!*

@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8a12",
+  "versionId": "8a16",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -139,21 +139,6 @@
         "https://cdn.modrinth.com/data/RV1qfVQ8/versions/hIJ2Ev1Q/ExplorersCompass-1.21.1-3.4.0-neoforge.jar"
       ],
       "fileSize": 174668
-    },
-    {
-      "path": "mods/ExtendedAE-1.21-2.2.29-neoforge.jar",
-      "hashes": {
-        "sha1": "c8181dfc8fad5fc5dd4e119c8fbe269b5248815c",
-        "sha512": "5b489744e8fd54fe7be1ac6aaafc06e2381a953f3b33bb8590f18fe7116b95db9ab2b3ce26ed146331ac28bc4d88172fbf72149ce332032777b07a593af4b939"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/JiOqfoFM/versions/4BXqcY77/ExtendedAE-1.21-2.2.29-neoforge.jar"
-      ],
-      "fileSize": 5548206
     },
     {
       "path": "mods/FarmersDelight-1.21.1-1.3.2.jar",
@@ -1551,21 +1536,6 @@
       "fileSize": 34003
     },
     {
-      "path": "mods/GR_CLO_netherportalfix-neoforge-1.21.1-21.1.1.jar",
-      "hashes": {
-        "sha1": "9f1ba483216aebce1ee6185601231158684f5de8",
-        "sha512": "be26c53b4e7aa9dc27b05fe4cafdd120a3d1356410b35d25381d473bd9a7aa19ce6cec1bb982fda842f2a663d15dec5d12248b50141f9479a5e9ec33ed2ab3f7"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/nPZr02ET/versions/O09BGtgh/netherportalfix-neoforge-1.21.1-21.1.1.jar"
-      ],
-      "fileSize": 211972
-    },
-    {
       "path": "mods/GR_CLO_notenoughanimations-neoforge-1.12.4-mc1.21.1.jar",
       "hashes": {
         "sha1": "b509863deaa27890f8db600f612966a07490a6cd",
@@ -1971,19 +1941,19 @@
       "fileSize": 361795
     },
     {
-      "path": "mods/Ixeris-4.5.2+1.21.1-neoforge.jar",
+      "path": "mods/Ixeris-4.6.0+1.21.1-neoforge.jar",
       "hashes": {
-        "sha1": "416cc56033cdb510ee8f505b3756183d9cbfc206",
-        "sha512": "f96ba72c749a185c54297316d7df9ec2ff5bdc89fc346246c895dd353067483f8429b07f94d9e3b60a4437092b4f8abc4821573b044a0e1f58d8a2bc18f17ffb"
+        "sha1": "9b522f0d29a22c378e7b5460a5fedd88cd874235",
+        "sha512": "37274887e46356b4596d50bc13099c33143df9d1469dde333dff646b10d6ab128360968bb25fc8d94c007b44bd612842d40a7782cf8764a02ae34605f9f21c37"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/p8RJPJIC/versions/hZ6rxco6/Ixeris-4.5.2%2B1.21.1-neoforge.jar"
+        "https://cdn.modrinth.com/data/p8RJPJIC/versions/6clbwf26/Ixeris-4.6.0%2B1.21.1-neoforge.jar"
       ],
-      "fileSize": 635668
+      "fileSize": 675460
     },
     {
       "path": "mods/Jade-1.21.1-NeoForge-15.10.5.jar",
@@ -2029,21 +1999,6 @@
         "https://cdn.modrinth.com/data/1vrSzlao/versions/318K66ba/KotlinLangForge-2.12.2-k2.4.10-3.0%2Bneoforge.jar"
       ],
       "fileSize": 7982542
-    },
-    {
-      "path": "mods/LuminousNetherV1.3.3 0 NeoForge 1.21.1.jar",
-      "hashes": {
-        "sha1": "4f17cd3e962d0d2c08c44ed3716bf5264d000b55",
-        "sha512": "5fe5bfa5fbba14ee297fa9f92123ab53d33cec882127a746faf201d2837836065d70e5232e3c7ecbb0a516a803929d94fc5fce6e356696bd562af3badc8d9991"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/2CL6BDdJ/versions/eejd3qvZ/LuminousNetherV1.3.3%200%20NeoForge%201.21.1.jar"
-      ],
-      "fileSize": 24107406
     },
     {
       "path": "mods/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
@@ -2209,21 +2164,6 @@
         "https://cdn.modrinth.com/data/qnQsVE2z/versions/yvp3Jbmk/Quark-4.1-482.jar"
       ],
       "fileSize": 15576704
-    },
-    {
-      "path": "mods/Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar",
-      "hashes": {
-        "sha1": "1c170062c486bd25a1161571b6c3cf9e6371611b",
-        "sha512": "c8897ecdc3659c9a06ce1dabe2f81d55888f425ddc3c7e2ddeb48d95d73c3b887eb135455d7d5a3da1915c4c6dc693b0e113413d323334137f808cb3871c9158"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/aecUorJQ/versions/HWz24fIm/Super%20Factory%20Manager%20%28SFM%29-MC1.21.1-4.34.0.jar"
-      ],
-      "fileSize": 1597623
     },
     {
       "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
@@ -2436,19 +2376,19 @@
       "fileSize": 99944
     },
     {
-      "path": "mods/azimuth-1.4.1.jar",
+      "path": "mods/azimuth-1.4.2.jar",
       "hashes": {
-        "sha1": "0af876492c37100d39ab1ed12405f0fc032b1f93",
-        "sha512": "dd96483a0bcd6fe08a6e3baefece320bddbb16b1120fdba1427efc16e685e2ac37b04ca54103a5a01a868fae79645d7483d3a16be841d0f2b88ca02a336bc047"
+        "sha1": "14aa88a1e2a45c6da10048a753e3e3c5a5536573",
+        "sha512": "0d15a728f07ccfc9fe20b52bee85b54c71144639e8d483f1a66d23a1b968d37913220bd7d842fa819c351ca7b54a669118d4569096075869fe93a6ef2f139490"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/RpH8tmT1/versions/vNeuJ1Hb/azimuth-1.4.1.jar"
+        "https://cdn.modrinth.com/data/RpH8tmT1/versions/FZgzuDBp/azimuth-1.4.2.jar"
       ],
-      "fileSize": 141662
+      "fileSize": 142364
     },
     {
       "path": "mods/better-compatability-checker-neoforge-21.1.8.jar",
@@ -2496,19 +2436,19 @@
       "fileSize": 275755
     },
     {
-      "path": "mods/bits_n_bobs-2.1.12-beta.jar",
+      "path": "mods/bits_n_bobs-2.1.13-beta.jar",
       "hashes": {
-        "sha1": "0279ca553f87e0b6d78764c6faef2ff3cba95ce6",
-        "sha512": "dfdeaac8303a661c76ab4ae3d982cc26fd811cc798d5404f60d5a82463f13e30c7fab4994c1cc07a6a36fed5b15296f5f2943c386a6386e87bb4bf9ef7e9d174"
+        "sha1": "2f892859073174fef837a03b9b0d8ed5fa67e80a",
+        "sha512": "add1fb5d727e63fa5e126656210085b5323c6f5841d4332cb85cbd15db84c9f49b75046c01eef453d0f1e115fa08dfaf2ecd95b76b14d1e6197f967a9b1b2958"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/T8bvmqVZ/versions/28WdBSyU/bits_n_bobs-2.1.12-beta.jar"
+        "https://cdn.modrinth.com/data/T8bvmqVZ/versions/g6tKKqEE/bits_n_bobs-2.1.13-beta.jar"
       ],
-      "fileSize": 2749960
+      "fileSize": 2766704
     },
     {
       "path": "mods/blockentities-[NEOFORGED]-1.21.1+1.1.0.jar",
@@ -3051,19 +2991,19 @@
       "fileSize": 38160
     },
     {
-      "path": "mods/emixx-neoforge-1.21.1-3.3.2.jar",
+      "path": "mods/emixx-neoforge-1.21.1-3.4.0.jar",
       "hashes": {
-        "sha1": "afe7026cf7235bda725c396c029e5e62428eeef2",
-        "sha512": "99e70fca5433e7afe6738194dff7a05fad6d04bb2d55e47bf94ab24549dd03c6e236643256662aee74311e3ecc612c73a1dc929db612cb437813eebc703d041c"
+        "sha1": "8afff500a47e8feaa7def0c608dd4fe11a738487",
+        "sha512": "0c1668167d956d46600f148a99b95ed2b8844624ddaad491bcc4f34b066a7eec5cccf81ce8f6adf29015ab6308f2f9bfd05a3d175d87a70037d4cd184e1819af"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/N9WucjHL/versions/GIuisJCu/emixx-neoforge-1.21.1-3.3.2.jar"
+        "https://cdn.modrinth.com/data/N9WucjHL/versions/JujIHEMd/emixx-neoforge-1.21.1-3.4.0.jar"
       ],
-      "fileSize": 167162
+      "fileSize": 175066
     },
     {
       "path": "mods/enchdesc-neoforge-1.21.1-21.1.10.jar",
@@ -3411,21 +3351,6 @@
       "fileSize": 36096
     },
     {
-      "path": "mods/merequester-neoforge-1.21.1-1.4.3.jar",
-      "hashes": {
-        "sha1": "b0a801e9b7af930da5f58176156d58c26f6232b1",
-        "sha512": "4411670eaea8403414c773646cb9498291e843ba995100c4fca4ab53d5ab3aa0cbf913921403c8af1d32b67ab940bac8c8a16a910069f6f7e2902e42e11f66b7"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/E6BFl96N/versions/Zf5HhnF1/merequester-neoforge-1.21.1-1.4.3.jar"
-      ],
-      "fileSize": 184517
-    },
-    {
       "path": "mods/modernfix-neoforge-5.27.20+mc1.21.1.jar",
       "hashes": {
         "sha1": "bc1a70e72e7dba8a3ff41404765fdd03a7ac6575",
@@ -3441,19 +3366,19 @@
       "fileSize": 599474
     },
     {
-      "path": "mods/moonlight-neoforge-1.21.1-3.2.0.jar",
+      "path": "mods/moonlight-neoforge-1.21.1-3.3.0.jar",
       "hashes": {
-        "sha1": "7a7fd790fcd48161d07fd808f62a2184b1eec84e",
-        "sha512": "da56fe2c58667d62766d80b99f5b4a280732488b12989470ef9a85d762c108266a4b6fdd818abe47d08286469430b5ad84ffa21da69ce750f3620ad53a3341dd"
+        "sha1": "2752b6ab1ded59ab91942e380f0f1853e57dc1ca",
+        "sha512": "a48a80b9304f9a1d7998fac7b9f06c0fae66984b8073482cd731982f89d59bb66c9f4da9bd37cb33165a2ff15a90141892d4d43973959ed9f19e274538933825"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/twkfQtEc/versions/2e9CsazF/moonlight-neoforge-1.21.1-3.2.0.jar"
+        "https://cdn.modrinth.com/data/twkfQtEc/versions/CitoQHqE/moonlight-neoforge-1.21.1-3.3.0.jar"
       ],
-      "fileSize": 2126951
+      "fileSize": 2135671
     },
     {
       "path": "mods/moreculling-neoforge-1.21.1-1.0.8.jar",
@@ -3951,19 +3876,19 @@
       "fileSize": 20495
     },
     {
-      "path": "resourcepacks/Simple Grass Flowers v1.9.6.zip",
+      "path": "resourcepacks/Simple Grass Flowers v2.0.0.zip",
       "hashes": {
-        "sha1": "0c94482b3b271f110c79b9f29257376f43adc0bb",
-        "sha512": "47c295f2f0afa9509cceb1a35ad65ce2ada3ec443d068e710d841bda974e448447cfaa2510d7cd8a9c92b308894aec31bc892a5129b6b416d458d58c852de4a2"
+        "sha1": "afb56cfc90e663526352f7bd75a3c733178fca45",
+        "sha512": "9ad752e71feb8fea4ccf2ecb23eecb85d48285e95744f28902bf505423a849a2ff74da6273982e7d38f7ea74385c67a9c188beaff38dae6e23473fbbd8bc11b5"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/ti9KkMHm/versions/BFqp4P2V/Simple%20Grass%20Flowers%20v1.9.6.zip"
+        "https://cdn.modrinth.com/data/ti9KkMHm/versions/Cd4Xa7Sr/Simple%20Grass%20Flowers%20v2.0.0.zip"
       ],
-      "fileSize": 195291
+      "fileSize": 208597
     },
     {
       "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip",
