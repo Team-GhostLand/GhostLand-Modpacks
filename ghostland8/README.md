@@ -119,7 +119,7 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - [x] Palmer&Kanciarz ideas (ME Requester, Extended AE, AE2 Wireless, Super Factory Manager, MEGA Cells) - na razie wywalić; będą w Nether Update (nie licząc SFM (Programming Update), MEGA Cells (TBD), AE2 Wireless (*FINE!*, have it early, but we'll have to make it more expensive))
 - [x] Luminous Nether - na razie wywalić; będzie w Nether Update (razem z tym modem który poleca, Luminous Tag)
 - [x] Soulles - na razie wywalić; będzie w Nether Update (cuz it unlocks soul sand too early)
-- [ ] Jifo's icon
+- [x] Jifo's icon
 - [ ] Discord bridge
 - [ ] Whitelist Sync
 - [x] Configure Grinch exclusions
