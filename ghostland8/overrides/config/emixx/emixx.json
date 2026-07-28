@@ -2,6 +2,7 @@
   "enableCreativeModeTabs": true,
   "syncSelectedCreativeModeTab": true,
   "showCreativeTabNameInSearchbar": true,
+  "maxSidebarTabs": 0,
   "disabledCreativeModeTabs": [
     "minecraft:op_blocks"
   ],
@@ -14,5 +15,11 @@
   "scrollInsteadOfPagination": false,
   "showTitleInsteadOfPageNumbers": false,
   "hidePageButtonWhenOnePage": false,
-  "incrementalScrollbarFill": false
+  "incrementalScrollbarFill": false,
+  "searchWidgetAlignWithPanel": false,
+  "searchWidgetTopOffset": 0,
+  "searchWidgetHorizontalPadding": 4,
+  "searchWidgetVerticalPadding": 2,
+  "searchWidgetSuggestionTextColor": -8355712,
+  "searchWidgetTextColor": -1
 }

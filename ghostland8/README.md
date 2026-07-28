@@ -13,6 +13,13 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8a18
+- Actually launched the modpack (8a17 was untested lol), and can confirm that it works. Also, Pollution generated, like, 2000 config files, so this commit is stupid-large for no real reason
+- Nuked IPN worlds again
+- Enabled Midnight's resourcepacks
+- Made sure Aero tree-chop doesn't destroy the purpose of HT's (ie. let fallen trees be insta-mined or auto-broken if/once they settle)
+- Did *the thing* to OK, Zoomer! (c'mon, it fits well with the minimaps...)
+
 ### 8a17
 - removed Soulless (for now) and Create: Metallurgy (to be *just extra sure* that you can't melt down a brass sheet to brass - which means it's *probably, also* just for now)
 - Configured Grinch exclusions (The Grinching)
@@ -61,7 +68,7 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ### 8a12
 - migrated client-optional format
-- removed stuff from Sinytra Connector (this will probably have to be done every upload because it seems like that file in particular is `.gitignore`-proof, probably because they felt fancy and put `=============` and `>>` in various places, and now Git thinks I'm resolving a merge conflict)
+- removed stuff from Sinytra Connector ~~(this will probably have to be done every upload because it seems like that file in particular is `.gitignore`-proof, probably because they felt fancy and put `=============` and `>>` in various places, and now Git thinks I'm resolving a merge conflict)~~ *Git figured itself out, eventually.*
 - updated a bunch of mods (or maybe they were updated before, but I didn't regen the configs; I'm not sure)
 
 ### 8a11
@@ -113,7 +120,10 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 ### Housekeeping:
 - [x] VanillaTweaks
 - [ ] FancyMenu
-- [ ] Minimapy: Lock AA4 behind the book. Also, check if AA4 and Hoofprint truly can share the same `[M]` key when both are item-gated, and adjust accordingly if not.
+- [ ] Minimapy: Lock AA4 behind the book.
+- [ ] Minimapy: Check if AA4 and Hoofprint truly can share the same `[M]` key when both are item-gated, and adjust accordingly if not.
+- [ ] Minimapy: Markery modded rzeczy
+- [ ] Minimapy: Ensure server sharing
 - [x] Better Compat Checker
 - [x] Wyłączyć Nether portal (End alr disabled by default)
 - [x] Palmer&Kanciarz ideas (ME Requester, Extended AE, AE2 Wireless, Super Factory Manager, MEGA Cells) - na razie wywalić; będą w Nether Update (nie licząc SFM (Programming Update), MEGA Cells (TBD), AE2 Wireless (*FINE!*, have it early, but we'll have to make it more expensive))
@@ -127,15 +137,16 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - [x] Clean up and add our old texturepack
 - [x] Replace Curious with Accessories for future Aether compat (actually, test if Aether even would work as things are now, AND THEN REMOVE IT)
 - [x] Jifo: Pollution
-- [ ] Make sure Aero tree-chop doesn't destroy the purpose of HT's (ie. let fallen trees be insta-mined)
+- [x] Make sure Aero tree-chop doesn't destroy the purpose of HT's (ie. let fallen trees be insta-mined)
+- [ ] Fix IPN layouts colliding with EMI, at least on the major UIs *(note: done a whopping 1 so far, main inventory)*
 
 ### Meta:
-- [ ] dokumentacja minimapy
+- [ ] dokumentacja minimap
 - [ ] dokumentacja zmiany wersji
 - [x] ustawić ghostland.ovh na proper IP
 - [ ] update #┆📑┆in-game-lore
 - [ ] Configure server for Discord bridge and Whitelist Sync (add secrets passthrough for bots and DB, and make it `network: host`)
-- [ ] Update website (pls, Jifo, don't overvibe the whole code beyond readability)
+- [ ] Update website (pls, Jifo, don't overvibe the whole code beyond readability) *(note: he's having problems with deployment; compromise solution proposed; pls, Jifo, implement it instead of overdoing it with your funky little `agent.py` thing and needlessly coupling it to your other sites)*
 
 ### Balancing/staging/progression:
 #### STAGE ONE, LAUNCH:

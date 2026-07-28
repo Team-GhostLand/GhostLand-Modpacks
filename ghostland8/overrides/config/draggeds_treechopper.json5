@@ -1,0 +1,21 @@
+{
+	"enabled": true,
+	"onlyFellNaturalTrees": true,
+	"onlyFellOnPlayerBreak": true,
+	"separateTouchingTreeSpecies": true,
+	"maxTreeSize": 196608,
+	"wholeTreeHarvestOnBreak": true,
+	"dragEnabled": true,
+	"dragSlowsPlayer": true,
+	"chopBaseMode": "LOWEST_VISIBLE",
+	"keepCanopyAttached": true,
+	"useImmersiveWeatheringLeafPiles": false,
+	"fallFeel": {
+		"toppleTowardPlayer": true,
+		"toppleStrength": 1.0,
+		"naturalDissolveEnabled": true
+	},
+	"debug": {
+		"debugLogging": false
+	}
+}
