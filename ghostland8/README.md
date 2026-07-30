@@ -15,6 +15,7 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ### 8b2
 - fix export
+- updated gl resourcepack
 
 ### 8b1
 - Server mods things: Added WHlist Sync, nuked Skin Restorer
