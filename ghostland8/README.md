@@ -13,6 +13,9 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8b14
+- Actually restore CRN
+
 ### 8b13
 - Removed Haunted Environment
 
