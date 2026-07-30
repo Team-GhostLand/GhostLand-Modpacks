@@ -13,6 +13,14 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8a19
+- Copied FancyMenu from GL7 and modiefied it for GL8
+- Added updated Soulless
+- Removed Quark
+- Fixed controls
+- Removed Pollution of the Realms (temporarily?)
+- Removed Advanced Chimneys (temporarily?)
+
 ### 8a18
 - Actually launched the modpack (8a17 was untested lol), and can confirm that it works. Also, Pollution generated, like, 2000 config files, so this commit is stupid-large for no real reason
 - Nuked IPN worlds again
@@ -119,7 +127,7 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 
 ### Housekeeping:
 - [x] VanillaTweaks
-- [ ] FancyMenu
+- [x] FancyMenu
 - [ ] Minimapy: Lock AA4 behind the book.
 - [ ] Minimapy: Check if AA4 and Hoofprint truly can share the same `[M]` key when both are item-gated, and adjust accordingly if not.
 - [ ] Minimapy: Markery modded rzeczy
@@ -146,26 +154,22 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - [x] ustawić ghostland.ovh na proper IP
 - [ ] update #┆📑┆in-game-lore
 - [ ] Configure server for Discord bridge and Whitelist Sync (add secrets passthrough for bots and DB, and make it `network: host`)
-- [ ] Update website (pls, Jifo, don't overvibe the whole code beyond readability) *(note: he's having problems with deployment; compromise solution proposed; pls, Jifo, implement it instead of overdoing it with your funky little `agent.py` thing and needlessly coupling it to your other sites)*
+- [x] Update website (pls, Jifo, don't overvibe the whole code beyond readability) *(note: he's having problems with deployment; compromise solution proposed; pls, Jifo, implement it instead of overdoing it with your funky little `agent.py` thing and needlessly coupling it to your other sites)*
 
 ### Balancing/staging/progression:
 #### STAGE ONE, LAUNCH:
 - [x] Super-EZ bundles (on this version, they still need rabbit hide; normal leather would be ideal, and ideal-er if lether was made from Zombie drops, which is actually a Vanilla Tweaks thing that I thing imma add as part of that point in the Housekeeping section)
 - [ ] Vanilla story progress-gating za modami przygodowymi (notably - make Aether (put eg. Barrier Block as a placeholder until Aether is added) needed for the Ender Eye in some way (this can be done later) - and ofc more stuff, but I don't actually know vanilla well enough to tell what'd be good to put here)
 - [ ] Vanilla early-game equipment progress-gating za generic-rzeczami z tech-modów (plates for armor and shields).
-- [ ] Vanilla late-game equipment progress-gating: nether-gate diamond armor (make it take rose quartz).
+- [ ] Vanilla late-game equipment progress-gating: nether-gate diamond armor (make it take rose quartz). **Note: it won't be nether-gated but will be harder to get as it needs villager trading**
 - [ ] Make top-tier Oritech stuff gated behind The End in some way *[notably - make the armor and tools be upgrades from Netherite (which end-gates things, see stage two), if they're OP (their OPness is TBD, actually), same OP-ness-gauging-and-optional-End-gating-if-too-OP-and/or-not-endgated-already applies to their various fantasy metals; also, End Gating (maybe not Netherite, but still in some way) should apply any OP power-gen (eg. nuclear power - see staging timelines below) and the Particle Accelerator(???) thing that makes black holes (if it's not needed for various crucial recipes (sounds like it could be) - if it is, it should at least need Netheite scrap (to force them to (literally) fight for it - see stage two) instead)]* if it isn't already (either directly or via the machines needed to make them) - they *do* have an Enderite material, after all, so its uses must be investigated. Also, the nukes should need Netherite scraps, if the machines needed to make them aren't End-gated already (basically, either nukes are more expensive, or won't unlock for a while).
-- [ ] Make Create brass sheet and the electron tube craftable without Nether-gating, at the cost of being much more expensive than the netherful version (it may seem OP, but remember that the brass sheet and electron tubes *by themselves* cannot be used for much, except some decor, the deployer (needed for some recipes (*raiiilssss.......*), and MANY early-game-useful contraptions, eg. a drill) and some BASIC item sorting stuff (smart chutes - but not eg. tunnels/funnels) - so it nicely tracks with how Oritech progression is supposed to be organized (see stage two), ie. „You CAN have a complex factory from the get-go, but it's gonna be annoying AF and gonna take up a ton of space. Gets easier with Stage Two”), ONCE we confirm that brass sheets cannot be re-melted into an ingot (if it can - idk, we need an emergency meeting to figure out what to do). No need to gatekeep any OP armors and stuff because, well, Create doesn't have them (maybe the lava-diving suit, but that needs Netherite already).
+- [ ] Make Create brass sheet craftable without Nether-gating, at the cost of being much more expensive than the netherful version (it may seem OP, but remember that the brass sheets *by themselves* cannot be used for much, except some decor, the deployer (needed for some recipes (*raiiilssss.......*), and MANY early-game-useful contraptions, eg. a drill) and some BASIC item sorting stuff (smart chutes - but not eg. tunnels/funnels) - so it nicely tracks with how Oritech progression is supposed to be organized (see stage two), ie. „You CAN have a complex factory from the get-go, but it's gonna be annoying AF and gonna take up a ton of space. Gets easier with Stage Two”), ONCE we confirm that brass sheets cannot be re-melted into an ingot (if it can - idk, we need an emergency meeting to figure out what to do). No need to gatekeep any OP armors and stuff because, well, Create doesn't have them (maybe the lava-diving suit, but that needs Netherite already). **Quartz can be acquired without going to the Nether so electron tubes don't need changes**
 - [ ] Maybe make the Deep Dark actually useful for anything (can't think of a specific thing; maybe the Eye of Ender again (would fit the game's story well, too, actually) or even something at a much later stage, think Stage 3). Same about the Trial Chambers' Heavy Core (speaking of which, the Mace could also be made so that it needs some later-stage ingredients, but idk.) *Deep Dark can be done later by installing Deeper Darker.*
-- [ ] Review Quark (Palmer labelled it as QoL, which is usually a Red Flag, cuz his definition of QoL is „will literally do everything for you”) and balance if needed.
+- [ ] Remove all Netherite recipes untill stage three
 
 #### STAGE TWO, GETTING HOT:
-- [ ] Add Soulles
 - [ ] Enable the portals (bruh)
 - [ ] Now the Ender Eye REALLY gets important as a balancing element - nerf it if wasn't done before
-- [ ] Vanilla late-game equipment progress-gating: end-gate Netherite (make it take Chorus or something).
-- [ ] Yeet Netherite from Oritech's forge (so that it won't break the balancing act above)
-- [ ] Netherite scrap drops gated behind The Furnace boss from Luminous Nether, AND NOT generate as Ancient Debris (add a scrap->debris smelting recipe (basically invert the vanilla one lol), for decoration (expensive, but - y'know - a flex) and in case debris are needed for something)
 - [ ] Balance Create: Ultimate Factory (remove the apple -> Chorus haunting recipe if Chorus indeed used as an end-gater; remove Nether Bricks -> Netherite Scrap)
 - [ ] Double-check Create: Metallurgy to make sure it doesn't do the same thing as the Forge from OriTech to Netherite
 
@@ -175,7 +179,7 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 
 ##### STAGE TWO, GETTING HOT (continuation):
 - Will naturally let your Create factories go BIG (Blaze Burners - both a good power source (Steam Engine) and a key crafting component (can cook bronze and zinc into that *sweet, sweet* brass) - will be unlocked).
-- AE2 stuff here (see Plamer's suggestions in Housekeeping sections) - will do the same thing to OriTech (assuming all OT users will also be hardcore AE2 users, which is very likely) as Nether does to Create, if Palmer is to be believed.
+- AE2 stuff here (see Palmer's suggestions in Housekeeping sections) - will do the same thing to OriTech (assuming all OT users will also be hardcore AE2 users, which is very likely) as Nether does to Create, if Palmer is to be believed.
 - Overall, focused on letting your factories be optimized (faster, smaller, less frustrating to build). Not much in terms of adventure happening here, except the Nether itself being harder (Luminous stuff).
 
 #### STAGE 3, PROGRAMMING:

@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8a18",
+  "versionId": "8a19",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -19,36 +19,6 @@
         "https://cdn.modrinth.com/data/bSasoRwF/versions/ncHxMH49/Mountain%20Peaks%201.20-1.21.8.zip"
       ],
       "fileSize": 56817
-    },
-    {
-      "path": "mods/AdChimneys-1.21.1-11.1.8.0-NeoForge-build.1029.jar",
-      "hashes": {
-        "sha1": "9300e869552a27b3b02e38c40a62d4d4b4c8112c",
-        "sha512": "e8ba594c592832b7b543e19709c6e08adf5515108e79f399abdb3e66fedb1a86be1cff2c65a6b2613b89328db570cea3c049ff1e2a65fb0b01ce3313069dd672"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/r2rWUhnP/versions/hloXC4AU/AdChimneys-1.21.1-11.1.8.0-NeoForge-build.1029.jar"
-      ],
-      "fileSize": 322627
-    },
-    {
-      "path": "mods/AdPother-1.21.1-9.1.8.0-NeoForge-build.0921.jar",
-      "hashes": {
-        "sha1": "c6700e2ae359a86fc526f9aeed5c5b077df21a40",
-        "sha512": "9b63a4549bd9611f5296658d92e7ab1b11531ed2e5ba1523cc5ec50d881d07c160324da122c90a44aa06caa85926e219e8970cbc7030bd6a1f4cc7f3a5a3dd9f"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/SN8xUUfR/versions/tDUTQWaM/AdPother-1.21.1-9.1.8.0-NeoForge-build.0921.jar"
-      ],
-      "fileSize": 859071
     },
     {
       "path": "mods/BadOptimizations-2.4.1-1.21.1.jar",
@@ -1956,36 +1926,6 @@
       "fileSize": 39526
     },
     {
-      "path": "mods/GR_CLX_haunted_environment-25.1.0-neoforge-1.21.1.jar",
-      "hashes": {
-        "sha1": "5d6419ea937b69c5dc3007bac0f531a7f9b9166c",
-        "sha512": "f6cd044c96f3c21e96ab88c939b042fa1edd9cf6e31938de7640aa256d90d0cd2ed893e6f1e429af400ab6f5b7184b80af5f0406fc66e61570d74df6d086b788"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/njLV5a7S/versions/lxSukm5D/haunted_environment-25.1.0-neoforge-1.21.1.jar"
-      ],
-      "fileSize": 20853
-    },
-    {
-      "path": "mods/GR_CLX_lvn-forge1.21.1-1.0.2.jar",
-      "hashes": {
-        "sha1": "c82f780be6b707097bc50d35fd9b691449589704",
-        "sha512": "e37ff095f5c22e85e3c0f09ec354accc8b27057d703faf41f7a45439b5a19385d22f6a6e30d81c85354b8c4ab55eaedd88915e0b8e2f0d8ec1b2335691df0acc"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/xSL86cA9/versions/yhscY4AE/lvn-forge1.21.1-1.0.2.jar"
-      ],
-      "fileSize": 1170424
-    },
-    {
       "path": "mods/GR_SVX_GPUTape-1.20.6-1.21x-1.0.3.jar",
       "hashes": {
         "sha1": "96d8f1df0f08e169396b603c42cf997e9081de59",
@@ -2314,21 +2254,6 @@
         "https://cdn.modrinth.com/data/QAGBst4M/versions/5A6wiMVf/PuzzlesLib-v21.1.52-1.21.1-NeoForge.jar"
       ],
       "fileSize": 1425176
-    },
-    {
-      "path": "mods/Quark-4.1-482.jar",
-      "hashes": {
-        "sha1": "f73c3008321a9fb2da1151be9b49f0dfd006b6b5",
-        "sha512": "811e1e9f263a7e4951896a646507d6d03bebef6c38c113425e5d25acd4da0af9a07a6e5f9f11393cb41cb6f1a97667d7748c4bf21bf842e87ca2b05d6ea9cd81"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/qnQsVE2z/versions/yvp3Jbmk/Quark-4.1-482.jar"
-      ],
-      "fileSize": 15576704
     },
     {
       "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
@@ -3964,6 +3889,21 @@
         "https://cdn.modrinth.com/data/nmoqTijg/versions/QSOgsVqQ/sophisticatedcore-1.21.1-1.4.70.2131.jar"
       ],
       "fileSize": 1654111
+    },
+    {
+      "path": "mods/soulless-1.1.0.jar",
+      "hashes": {
+        "sha1": "5ff9751c19a49ec7d7b3ef8a119336312ab8e99d",
+        "sha512": "09a8b9e679f6b0559b2f43b33d1dd9c7828b5f7a6b93040311c97847a2f73ea91ef6a136148d406093188ea1d9a531e588652636783e2e978bee4cd16de10dda"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/EBsL8cKb/versions/qC7Z8oJA/soulless-1.1.0.jar"
+      ],
+      "fileSize": 115794
     },
     {
       "path": "mods/struts-1.2.7.jar",
