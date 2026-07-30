@@ -13,8 +13,16 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8a22
+- Fixed sorting in the diff
+- Fixed options again (default View Dist.; textures and clouds *again*)
+- Reset DH to default (on), too
+
+### 8a21
+- Jifo did changes. He didn't document them, and the diff is a bit wonky (*now has been trained on `grinch i`) - so, lord knows what said things were.
+
 ### 8a20
-- fix `options.txt`
+- fix `options.txt` (textures and clouds)
 
 ### 8a19
 - Copied FancyMenu from GL7 and modiefied it for GL8
