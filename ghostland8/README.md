@@ -13,6 +13,9 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8b2
+- fix export
+
 ### 8b1
 - Server mods things: Added WHlist Sync, nuked Skin Restorer
 - Added `observable_announce` to prevent it from popping up in chat
