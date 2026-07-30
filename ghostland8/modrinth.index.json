@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8b5",
+  "versionId": "8b8",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -606,6 +606,21 @@
       "fileSize": 514029
     },
     {
+      "path": "mods/GR_CLO+SVX_emi_create_schematics-1.1.0.jar",
+      "hashes": {
+        "sha1": "a34c4df9c1a39c553ac7cef28bb78132e4185cb6",
+        "sha512": "c25c5c0a7759d43790c785315e394bf81b064c79775bd032784d4588acd3afce37dd4e43be4d2db879561b9b7853245b7f9f79b5ffc40333a9703c8ff006f868"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/5bgqgixq/versions/opyfkMHl/emi_create_schematics-1.1.0.jar"
+      ],
+      "fileSize": 848445
+    },
+    {
       "path": "mods/GR_CLO+SVX_explosiveenhancement-neoforge-1.21.1-1.1.2.jar",
       "hashes": {
         "sha1": "fee0be3ffe494189733ceaeb7163a38b03098ea5",
@@ -814,6 +829,21 @@
         "https://cdn.modrinth.com/data/zV5r3pPn/versions/xPYbAPfz/skinlayers3d-neoforge-1.11.2-mc1.21.1.jar"
       ],
       "fileSize": 1979027
+    },
+    {
+      "path": "mods/GR_CLO+SVX_smart_bounds-1.0.0.jar",
+      "hashes": {
+        "sha1": "9d271d70b1d2870d5c232e71e2923abaac3a6767",
+        "sha512": "1aeacbd4981e3ad48c49fc813d63ff260a704347154f4a1f4290f123d17ba7e5dde51e881edae92d50370e9b1f515b8805dbf86f5778a42ccbda7a6e9e87f9ff"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/kSok4DxT/versions/HXviiJ3I/smart_bounds-1.0.0.jar"
+      ],
+      "fileSize": 749901
     },
     {
       "path": "mods/GR_CLO+SVX_smoothswapping-0.9.3.2-1.21.1-neoforge.jar",
@@ -1806,21 +1836,6 @@
       "fileSize": 381204
     },
     {
-      "path": "mods/GR_CLO_smart_bounds-1.0.0.jar",
-      "hashes": {
-        "sha1": "9d271d70b1d2870d5c232e71e2923abaac3a6767",
-        "sha512": "1aeacbd4981e3ad48c49fc813d63ff260a704347154f4a1f4290f123d17ba7e5dde51e881edae92d50370e9b1f515b8805dbf86f5778a42ccbda7a6e9e87f9ff"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/kSok4DxT/versions/HXviiJ3I/smart_bounds-1.0.0.jar"
-      ],
-      "fileSize": 749901
-    },
-    {
       "path": "mods/GR_CLO_smarterfarmers-1.21-2.2.4-neoforge.jar",
       "hashes": {
         "sha1": "49e58b648cfe1e5d6623b1b2c3ce5aca0b8c08df",
@@ -1969,6 +1984,36 @@
         "https://cdn.modrinth.com/data/OnlVIpq5/versions/9vSFkDAr/zfastnoise-1.0.13%2B1.21.1%2Bneoforge.jar"
       ],
       "fileSize": 39526
+    },
+    {
+      "path": "mods/GR_CLX+SVX_azimuth-1.4.2.jar",
+      "hashes": {
+        "sha1": "14aa88a1e2a45c6da10048a753e3e3c5a5536573",
+        "sha512": "0d15a728f07ccfc9fe20b52bee85b54c71144639e8d483f1a66d23a1b968d37913220bd7d842fa819c351ca7b54a669118d4569096075869fe93a6ef2f139490"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/RpH8tmT1/versions/FZgzuDBp/azimuth-1.4.2.jar"
+      ],
+      "fileSize": 142364
+    },
+    {
+      "path": "mods/GR_CLX+SVX_bits_n_bobs-2.1.13-beta.jar",
+      "hashes": {
+        "sha1": "2f892859073174fef837a03b9b0d8ed5fa67e80a",
+        "sha512": "add1fb5d727e63fa5e126656210085b5323c6f5841d4332cb85cbd15db84c9f49b75046c01eef453d0f1e115fa08dfaf2ecd95b76b14d1e6197f967a9b1b2958"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/T8bvmqVZ/versions/g6tKKqEE/bits_n_bobs-2.1.13-beta.jar"
+      ],
+      "fileSize": 2766704
     },
     {
       "path": "mods/GR_CLX+SVX_createrailwaysnavigator-neoforge-1.21.1-beta-0.9.1-C6.jar",
@@ -2691,21 +2736,6 @@
       "fileSize": 99944
     },
     {
-      "path": "mods/azimuth-1.4.2.jar",
-      "hashes": {
-        "sha1": "14aa88a1e2a45c6da10048a753e3e3c5a5536573",
-        "sha512": "0d15a728f07ccfc9fe20b52bee85b54c71144639e8d483f1a66d23a1b968d37913220bd7d842fa819c351ca7b54a669118d4569096075869fe93a6ef2f139490"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/RpH8tmT1/versions/FZgzuDBp/azimuth-1.4.2.jar"
-      ],
-      "fileSize": 142364
-    },
-    {
       "path": "mods/beltborne_lanterns-1.2.5-neoforge+1.21.1.jar",
       "hashes": {
         "sha1": "3a30923e4ec5db8fd6838d20ce2743b24feb212d",
@@ -2764,21 +2794,6 @@
         "https://cdn.modrinth.com/data/Xh8hkQmD/versions/HZlLCOct/betterbiomeblend-1.5.2.jar"
       ],
       "fileSize": 275755
-    },
-    {
-      "path": "mods/bits_n_bobs-2.1.13-beta.jar",
-      "hashes": {
-        "sha1": "2f892859073174fef837a03b9b0d8ed5fa67e80a",
-        "sha512": "add1fb5d727e63fa5e126656210085b5323c6f5841d4332cb85cbd15db84c9f49b75046c01eef453d0f1e115fa08dfaf2ecd95b76b14d1e6197f967a9b1b2958"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/T8bvmqVZ/versions/g6tKKqEE/bits_n_bobs-2.1.13-beta.jar"
-      ],
-      "fileSize": 2766704
     },
     {
       "path": "mods/bl_accessories_layer-1.2.2-neoforge+1.21.1.jar",
@@ -3259,21 +3274,6 @@
         "https://cdn.modrinth.com/data/tcEn0k7K/versions/XGUSMafs/emi_accelerator-1.1.4.jar"
       ],
       "fileSize": 49884
-    },
-    {
-      "path": "mods/emi_create_schematics-1.1.0.jar",
-      "hashes": {
-        "sha1": "a34c4df9c1a39c553ac7cef28bb78132e4185cb6",
-        "sha512": "c25c5c0a7759d43790c785315e394bf81b064c79775bd032784d4588acd3afce37dd4e43be4d2db879561b9b7853245b7f9f79b5ffc40333a9703c8ff006f868"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/5bgqgixq/versions/opyfkMHl/emi_create_schematics-1.1.0.jar"
-      ],
-      "fileSize": 848445
     },
     {
       "path": "mods/emi_enchanting-0.1.2+1.21+neoforge.jar",
