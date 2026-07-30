@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8b2",
+  "versionId": "8b3",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -321,6 +321,21 @@
       "fileSize": 5924051
     },
     {
+      "path": "mods/GR_CLO+SVX_Controlling-neoforge-1.21.1-19.0.5.jar",
+      "hashes": {
+        "sha1": "8a34424fc1428778be2fdbfa4da67b21b70bcbfe",
+        "sha512": "bd01b2a38a869ea38e5f2a8fcd601e67ea9b132b9883c6ae752bc35dff6e94f6d47b965e31c1ee5c2f6a1221653549680da779fcb5319d199aec261d221d179e"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/xv94TkTM/versions/FaNppCJJ/Controlling-neoforge-1.21.1-19.0.5.jar"
+      ],
+      "fileSize": 77555
+    },
+    {
       "path": "mods/GR_CLO+SVX_CreativeCore_NEOFORGE_v2.13.41_mc1.21.1.jar",
       "hashes": {
         "sha1": "4b666b4668b77fdc1ac34a183aae58a432999970",
@@ -381,6 +396,21 @@
       "fileSize": 213853
     },
     {
+      "path": "mods/GR_CLO+SVX_InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar",
+      "hashes": {
+        "sha1": "b09d7c0820c233ea34af54d0a3ab7ed510b32dcc",
+        "sha512": "521296cc7e4fa48e06eb0c00d430968c7b879946db5b02e632cc724672759ac152e11bd9d320bd09f7418edd6fe4ece521a1a2cac49d7f5687519c69a0bcbf12"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/O7RBXm3n/versions/vjuNnHLv/InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar"
+      ],
+      "fileSize": 1295466
+    },
+    {
       "path": "mods/GR_CLO+SVX_ItemBorders-1.21-neoforge-1.2.5.jar",
       "hashes": {
         "sha1": "b5ae56007c0bbb86b9a05f9f12b522ed485d7884",
@@ -411,6 +441,21 @@
       "fileSize": 81808
     },
     {
+      "path": "mods/GR_CLO+SVX_NoChatRestrictions-NeoForge-MC1.21.11-v1.0.0.jar",
+      "hashes": {
+        "sha1": "9e564afb3c2e69fecf401f54f51f4bce335aea28",
+        "sha512": "81593fd6b77b7957645c0349df38098107684a6e20d1e9824453a7d42b0456f64892d65416e6b073edf863aa047c54335cdae48a707bb87b4f8eaa3580e54a31"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/z440MEwJ/versions/GtCgmBXp/NoChatRestrictions-NeoForge-MC1.21.11-v1.0.0.jar"
+      ],
+      "fileSize": 9116
+    },
+    {
       "path": "mods/GR_CLO+SVX_Prism-1.21.1-neoforge-1.0.11.jar",
       "hashes": {
         "sha1": "1ae6f7be2ba8f963344dbf27e552920a7bc7a35f",
@@ -424,6 +469,21 @@
         "https://cdn.modrinth.com/data/1OE8wbN0/versions/kMcz2lDj/Prism-1.21.1-neoforge-1.0.11.jar"
       ],
       "fileSize": 62031
+    },
+    {
+      "path": "mods/GR_CLO+SVX_Searchables-neoforge-1.21.1-1.0.2.jar",
+      "hashes": {
+        "sha1": "5b8a0b43a474c066371b2e16f9bfb88622552a74",
+        "sha512": "d0824bac1900142ac9a53e68f7ec3b4c0d33d9366bbd3f1d0d93eed860e5eb6b5e6f5a215a69bfffa70bcb48573ff49b5a12bbaa96096ceac6636000d506027a"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/fuuu3xnx/versions/iEE85X0w/Searchables-neoforge-1.21.1-1.0.2.jar"
+      ],
+      "fileSize": 77326
     },
     {
       "path": "mods/GR_CLO+SVX_bigcontraptions-neoforge-1.0.jar",
@@ -831,21 +891,6 @@
       "fileSize": 60529
     },
     {
-      "path": "mods/GR_CLO_Controlling-neoforge-1.21.1-19.0.5.jar",
-      "hashes": {
-        "sha1": "8a34424fc1428778be2fdbfa4da67b21b70bcbfe",
-        "sha512": "bd01b2a38a869ea38e5f2a8fcd601e67ea9b132b9883c6ae752bc35dff6e94f6d47b965e31c1ee5c2f6a1221653549680da779fcb5319d199aec261d221d179e"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/xv94TkTM/versions/FaNppCJJ/Controlling-neoforge-1.21.1-19.0.5.jar"
-      ],
-      "fileSize": 77555
-    },
-    {
       "path": "mods/GR_CLO_CutThrough-v21.1.0-1.21.1-NeoForge.jar",
       "hashes": {
         "sha1": "550f272c140566f0961c1bb3fdfb1a6272be30dd",
@@ -874,21 +919,6 @@
         "https://cdn.modrinth.com/data/uCdwusMi/versions/ZpKb4kZp/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar"
       ],
       "fileSize": 30207268
-    },
-    {
-      "path": "mods/GR_CLO_InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar",
-      "hashes": {
-        "sha1": "b09d7c0820c233ea34af54d0a3ab7ed510b32dcc",
-        "sha512": "521296cc7e4fa48e06eb0c00d430968c7b879946db5b02e632cc724672759ac152e11bd9d320bd09f7418edd6fe4ece521a1a2cac49d7f5687519c69a0bcbf12"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/O7RBXm3n/versions/vjuNnHLv/InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar"
-      ],
-      "fileSize": 1295466
     },
     {
       "path": "mods/GR_CLO_Kiwi-1.21.1-NeoForge-15.8.7.jar",
@@ -966,21 +996,6 @@
       "fileSize": 1796857
     },
     {
-      "path": "mods/GR_CLO_NoChatRestrictions-NeoForge-MC1.21.11-v1.0.0.jar",
-      "hashes": {
-        "sha1": "9e564afb3c2e69fecf401f54f51f4bce335aea28",
-        "sha512": "81593fd6b77b7957645c0349df38098107684a6e20d1e9824453a7d42b0456f64892d65416e6b073edf863aa047c54335cdae48a707bb87b4f8eaa3580e54a31"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/z440MEwJ/versions/GtCgmBXp/NoChatRestrictions-NeoForge-MC1.21.11-v1.0.0.jar"
-      ],
-      "fileSize": 9116
-    },
-    {
       "path": "mods/GR_CLO_Philips-Ruins1.21.1-2.0-NeoForge.jar",
       "hashes": {
         "sha1": "9f7d66f2cd75bef6692f5a433e7606d0d77251fc",
@@ -1009,21 +1024,6 @@
         "https://cdn.modrinth.com/data/fJ183v3D/versions/OSM1jkMg/SSRD-1.8.5-1.21.1.jar"
       ],
       "fileSize": 70956
-    },
-    {
-      "path": "mods/GR_CLO_Searchables-neoforge-1.21.1-1.0.2.jar",
-      "hashes": {
-        "sha1": "5b8a0b43a474c066371b2e16f9bfb88622552a74",
-        "sha512": "d0824bac1900142ac9a53e68f7ec3b4c0d33d9366bbd3f1d0d93eed860e5eb6b5e6f5a215a69bfffa70bcb48573ff49b5a12bbaa96096ceac6636000d506027a"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/fuuu3xnx/versions/iEE85X0w/Searchables-neoforge-1.21.1-1.0.2.jar"
-      ],
-      "fileSize": 77326
     },
     {
       "path": "mods/GR_CLO_StylishEffects-v21.1.3-1.21.1-NeoForge.jar",
@@ -2031,6 +2031,66 @@
       "fileSize": 16669
     },
     {
+      "path": "mods/GR_SVX_blockentities-[NEOFORGED]-1.21.1+1.1.0.jar",
+      "hashes": {
+        "sha1": "b4f0c3fd91f2990ec60c40b979ab78a0187b7f88",
+        "sha512": "5d3012ecebbde78c59fdb1f3ade5217c7948d7db46318bf98b9a05bb21d2841518f1ffd8a7155d18ce4d127f4a791afcca839a2374d62823742fd9e732d4f5d8"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/HlLmiJmt/versions/Qt6IBri6/blockentities-%5BNEOFORGED%5D-1.21.1%2B1.1.0.jar"
+      ],
+      "fileSize": 193539
+    },
+    {
+      "path": "mods/GR_SVX_entity_model_features-3.2.4-1.21-neoforge.jar",
+      "hashes": {
+        "sha1": "fcc0d7cfee5ace4dba159225edd151d90dd924b9",
+        "sha512": "840866c0b5168b04713652cf31d8a8bc6ed47d9748a78e0e9f07d201e03d2a276f0edfe727a8bffebe7396595876499d8d4f420fc2ff2e71fbc45128ca6c4e11"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/4I1XuqiY/versions/PAYgk63v/entity_model_features-3.2.4-1.21-neoforge.jar"
+      ],
+      "fileSize": 567827
+    },
+    {
+      "path": "mods/GR_SVX_entity_texture_features_1.21-neoforge-7.1.jar",
+      "hashes": {
+        "sha1": "56de40b237ff44dbf1bb68844e0f118607902684",
+        "sha512": "fc4b6a75ad57defb944d188fac78e45a33342a2c2a2b0e673c81ac370df09335d4371c8e10bea8f593da4b1f1c2fcc361c124b274ee4b3c2ae75571f00742059"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/BVzZfTc1/versions/YEMROAHv/entity_texture_features_1.21-neoforge-7.1.jar"
+      ],
+      "fileSize": 752334
+    },
+    {
+      "path": "mods/GR_SVX_entityculling-neoforge-1.10.5-mc1.21.1.jar",
+      "hashes": {
+        "sha1": "420d0006dbc0a20b1c2dd0b3c7c20ddb5cc51fcf",
+        "sha512": "0c22502b84b13d8ac6daffe14ac77e7306b5b7a48f5cd9b3950d9e1d60b3786104aa035fbfdb208b1c9a75ad0e356301a774da32edc3f71cb3a53e2d28fd39e6"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/NNAgCjsB/versions/5zRIon6w/entityculling-neoforge-1.10.5-mc1.21.1.jar"
+      ],
+      "fileSize": 1585287
+    },
+    {
       "path": "mods/GR_SVX_fancymenu_neoforge_3.9.8_MC_1.21.1.jar",
       "hashes": {
         "sha1": "1192ddd19dc2f7f59a361d64aeb5682b273b6063",
@@ -2721,21 +2781,6 @@
       "fileSize": 55944
     },
     {
-      "path": "mods/blockentities-[NEOFORGED]-1.21.1+1.1.0.jar",
-      "hashes": {
-        "sha1": "b4f0c3fd91f2990ec60c40b979ab78a0187b7f88",
-        "sha512": "5d3012ecebbde78c59fdb1f3ade5217c7948d7db46318bf98b9a05bb21d2841518f1ffd8a7155d18ce4d127f4a791afcca839a2374d62823742fd9e732d4f5d8"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/HlLmiJmt/versions/Qt6IBri6/blockentities-%5BNEOFORGED%5D-1.21.1%2B1.1.0.jar"
-      ],
-      "fileSize": 193539
-    },
-    {
       "path": "mods/blueprint-1.21.1-8.1.1.jar",
       "hashes": {
         "sha1": "afe7842dbb10435917e5fb576be21883aaeba6f2",
@@ -3319,51 +3364,6 @@
         "https://cdn.modrinth.com/data/UVtY3ZAC/versions/OuJDPGSM/enchdesc-neoforge-1.21.1-21.1.10.jar"
       ],
       "fileSize": 82629
-    },
-    {
-      "path": "mods/entity_model_features-3.2.4-1.21-neoforge.jar",
-      "hashes": {
-        "sha1": "fcc0d7cfee5ace4dba159225edd151d90dd924b9",
-        "sha512": "840866c0b5168b04713652cf31d8a8bc6ed47d9748a78e0e9f07d201e03d2a276f0edfe727a8bffebe7396595876499d8d4f420fc2ff2e71fbc45128ca6c4e11"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/4I1XuqiY/versions/PAYgk63v/entity_model_features-3.2.4-1.21-neoforge.jar"
-      ],
-      "fileSize": 567827
-    },
-    {
-      "path": "mods/entity_texture_features_1.21-neoforge-7.1.jar",
-      "hashes": {
-        "sha1": "56de40b237ff44dbf1bb68844e0f118607902684",
-        "sha512": "fc4b6a75ad57defb944d188fac78e45a33342a2c2a2b0e673c81ac370df09335d4371c8e10bea8f593da4b1f1c2fcc361c124b274ee4b3c2ae75571f00742059"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/BVzZfTc1/versions/YEMROAHv/entity_texture_features_1.21-neoforge-7.1.jar"
-      ],
-      "fileSize": 752334
-    },
-    {
-      "path": "mods/entityculling-neoforge-1.10.5-mc1.21.1.jar",
-      "hashes": {
-        "sha1": "420d0006dbc0a20b1c2dd0b3c7c20ddb5cc51fcf",
-        "sha512": "0c22502b84b13d8ac6daffe14ac77e7306b5b7a48f5cd9b3950d9e1d60b3786104aa035fbfdb208b1c9a75ad0e356301a774da32edc3f71cb3a53e2d28fd39e6"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/NNAgCjsB/versions/5zRIon6w/entityculling-neoforge-1.10.5-mc1.21.1.jar"
-      ],
-      "fileSize": 1585287
     },
     {
       "path": "mods/extra-mod-integrations-all-neoforge-1.0.3+1.21.1.jar",

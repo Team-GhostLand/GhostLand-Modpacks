@@ -13,6 +13,9 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8b3
+- more Grinch server-exclusions
+
 ### 8b2
 - fix export
 - updated gl resourcepack
