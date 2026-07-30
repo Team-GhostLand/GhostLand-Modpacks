@@ -9,7 +9,9 @@ GhostLand 8 modpack.
 - [Credits/Licensing](#creditslicensing)
 
 ## Issues
-- The very concept of fire can crash the server. (Can be "fixed" with `/gamerule doFireTick false` but that's LAMEEEE - a real fix would be nice.) (Seems to be caused by Sable x HT's? We can probably disable fire-related stuff in Sable, and srtipped-logs-as-trees in HT's)
+- [ ] The very concept of fire can crash the server. (Can be "fixed" with `/gamerule doFireTick false` but that's LAMEEEE - a real fix would be nice.) (Seems to be caused by Sable x HT's? We can probably disable fire-related stuff in Sable, and stripped-logs-as-trees in HT's.)
+- [ ] Tweakable is broken (we need Creat Aero Structurs; FabricAPI/Sinytra; Kiwi)
+- [ ] Nukes can nuke the server
 
 ## Changelogs
 
@@ -184,6 +186,10 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - [ ] Worlds: Remake spawn-world *AGAIN (Midnight set the datapacks wrongly, noooooooo :< )*
 - [ ] Worlds: Upload spawn-world
 - [ ] Worlds: And add a world-index script for Poltergeist's stat system
+- [ ] Fixes: Fix IPN layouts colliding with EMI, at least on the major UIs *(note: done a whopping 1 so far, main inventory)*
+- [ ] Fixes: Disable blood
+- [ ] Fixes: Disable snoring mobs
+- [ ] Fixes: Fix stuff in Issues
 - [x] Wyłączyć Nether portal (End alr disabled by default)
 - [x] Palmer&Kanciarz ideas (ME Requester, Extended AE, AE2 Wireless, Super Factory Manager, MEGA Cells) - na razie wywalić; będą w Nether Update (nie licząc SFM (Programming Update), MEGA Cells (TBD), AE2 Wireless (*FINE!*, have it early, but we'll have to make it more expensive))
 - [x] Luminous Nether - na razie wywalić; będzie w Nether Update (razem z tym modem który poleca, Luminous Tag)
@@ -197,7 +203,6 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - [x] Replace Curious with Accessories for future Aether compat (actually, test if Aether even would work as things are now, AND THEN REMOVE IT)
 - [x] Jifo: Pollution
 - [x] Make sure Aero tree-chop doesn't destroy the purpose of HT's (ie. let fallen trees be insta-mined)
-- [ ] Fix IPN layouts colliding with EMI, at least on the major UIs *(note: done a whopping 1 so far, main inventory)*
 
 ### Meta:
 - [ ] dokumentacja minimap
