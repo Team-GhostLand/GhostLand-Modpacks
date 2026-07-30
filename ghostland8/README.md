@@ -13,6 +13,9 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8b13
+- Removed Haunted Environment
+
 ### 8b12
 - Fix icon
 

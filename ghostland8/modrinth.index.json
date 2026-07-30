@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8b12",
+  "versionId": "8b13",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -2044,21 +2044,6 @@
         "https://cdn.modrinth.com/data/DcCsQ8S5/versions/8Gwi7nsw/WhitelistSync-2.9.0-neoforge-1.21.1.jar"
       ],
       "fileSize": 25727085
-    },
-    {
-      "path": "mods/GR_CLX_haunted_environment-25.1.0-neoforge-1.21.1.jar",
-      "hashes": {
-        "sha1": "5d6419ea937b69c5dc3007bac0f531a7f9b9166c",
-        "sha512": "f6cd044c96f3c21e96ab88c939b042fa1edd9cf6e31938de7640aa256d90d0cd2ed893e6f1e429af400ab6f5b7184b80af5f0406fc66e61570d74df6d086b788"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/njLV5a7S/versions/lxSukm5D/haunted_environment-25.1.0-neoforge-1.21.1.jar"
-      ],
-      "fileSize": 20853
     },
     {
       "path": "mods/GR_SVX_GPUTape-1.20.6-1.21x-1.0.3.jar",
