@@ -9,7 +9,7 @@ GhostLand 8 modpack.
 - [Credits/Licensing](#creditslicensing)
 
 ## Issues
-Actually, I think **none**! ~~This is the least broken GhostLand in history lol.~~
+- The very concept of fire can crash the server. (Can be "fixed" with `/gamerule doFireTick false` but that's LAMEEEE - a real fix would be nice.) (Seems to be caused by Sable x HT's? We can probably disable fire-related stuff in Sable, and srtipped-logs-as-trees in HT's)
 
 ## Changelogs
 
@@ -86,7 +86,7 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
   - Sable DH Render (Midnight)
   - Roads more Traveled (Midnight)
   - Who stopped the Music? (It was Midnight.)
-  - *a single more mod*, but it got lost in The Grinching and now I can't find it :< (Guzio)
+  - *a single more mod*, but it got lost in The Grinching and now I can't find it :< (Guzio) [JK, I knew it was „Haunted Environment”, but I wanted to troll ppl, ]
 
 ### 8a16 *(branched after 8a13)*
 - updated everything that could be updated, except Sophisticated stuff
@@ -179,6 +179,11 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - [ ] Minimapy: Check if AA4 and Hoofprint truly can share the same `[M]` key when both are item-gated, and adjust accordingly if not.
 - [ ] Minimapy: Markery modded rzeczy
 - [ ] Minimapy: Ensure server sharing
+- [ ] CraftPresence: add
+- [ ] CraftPresence: config
+- [ ] Worlds: Remake spawn-world *AGAIN (Midnight set the datapacks wrongly, noooooooo :< )*
+- [ ] Worlds: Upload spawn-world
+- [ ] Worlds: And add a world-index script for Poltergeist's stat system
 - [x] Wyłączyć Nether portal (End alr disabled by default)
 - [x] Palmer&Kanciarz ideas (ME Requester, Extended AE, AE2 Wireless, Super Factory Manager, MEGA Cells) - na razie wywalić; będą w Nether Update (nie licząc SFM (Programming Update), MEGA Cells (TBD), AE2 Wireless (*FINE!*, have it early, but we'll have to make it more expensive))
 - [x] Luminous Nether - na razie wywalić; będzie w Nether Update (razem z tym modem który poleca, Luminous Tag)
@@ -200,7 +205,10 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - [x] ustawić ghostland.ovh na proper IP
 - [x] update #┆📑┆in-game-lore
 - [x] Configure server for Discord bridge and Whitelist Sync (add secrets passthrough for bots and DB, and make it `network: host`)
-- [x] Update website (pls, Jifo, don't overvibe the whole code beyond readability) *(note: he's having problems with deployment; compromise solution proposed; pls, Jifo, implement it instead of overdoing it with your funky little `agent.py` thing and needlessly coupling it to your other sites)*
+- [x] Update website
+- [ ] Open the ports for VoiceChat, if not set yet?
+- [ ] Fix JifoCC agent, so that it reports a proper playercount, max-payers and version; bonus points for differentiating between server starting and server running (`docker container inspect -f "{{.State.Health.Status}}" <container name>`)
+- Let Poltergeist manage screenshot
 
 ### Balancing/staging/progression:
 #### STAGE ONE, LAUNCH:
@@ -212,6 +220,9 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - [x] Make Create brass sheet craftable without Nether-gating, at the cost of being much more expensive than the netherful version (it may seem OP, but remember that the brass sheets *by themselves* cannot be used for much, except some decor, the deployer (needed for some recipes (*raiiilssss.......*), and MANY early-game-useful contraptions, eg. a drill) and some BASIC item sorting stuff (smart chutes - but not eg. tunnels/funnels) - so it nicely tracks with how Oritech progression is supposed to be organized (see stage two), ie. „You CAN have a complex factory from the get-go, but it's gonna be annoying AF and gonna take up a ton of space. Gets easier with Stage Two”), ONCE we confirm that brass sheets cannot be re-melted into an ingot (if it can - idk, we need an emergency meeting to figure out what to do). No need to gatekeep any OP armors and stuff because, well, Create doesn't have them (maybe the lava-diving suit, but that needs Netherite already). **Quartz can be acquired without going to the Nether so electron tubes don't need changes**
 - [x] Maybe make the Deep Dark actually useful for anything (can't think of a specific thing; maybe the Eye of Ender again (would fit the game's story well, too, actually) or even something at a much later stage, think Stage 3). Same about the Trial Chambers' Heavy Core (speaking of which, the Mace could also be made so that it needs some later-stage ingredients, but idk.) *Deep Dark can be done later by installing Deeper Darker.*
 - [x] Remove all Netherite recipes untill stage three
+- [ ] Remove brass from loot chests
+- [ ] Remove Echo shards from sky loot chests (sky is neither deep nor dark)
+- [ ] Remove some Echo shards crafting recipies
 
 #### STAGE TWO, GETTING HOT:
 - [ ] Enable the portals (bruh)
