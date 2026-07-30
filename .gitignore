@@ -53,3 +53,4 @@ ghostland8/overrides/config/spark/tmp-client
 
 # Spark leaks usernames and IDs
 ghostland8/overrides/config/spark/activity.json
+ghostland8/grinch.kdl
