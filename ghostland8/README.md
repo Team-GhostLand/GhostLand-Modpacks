@@ -13,6 +13,9 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8a20
+- fix `options.txt`
+
 ### 8a19
 - Copied FancyMenu from GL7 and modiefied it for GL8
 - Added updated Soulless
