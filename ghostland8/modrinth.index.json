@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8a22",
+  "versionId": "8b1",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -1971,6 +1971,21 @@
       "fileSize": 39526
     },
     {
+      "path": "mods/GR_CLX_WhitelistSync-2.9.0-neoforge-1.21.1.jar",
+      "hashes": {
+        "sha1": "c025d2d1af43f169540601322495608d4bba964a",
+        "sha512": "bbb48f6d17c8ca12507baf5766763c8e50afee1658f87d8443829f5f3abde0d29658d843f84c3f78932e6a38b5093e64a98315e59b764508bf7cd242acd9adb8"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/DcCsQ8S5/versions/8Gwi7nsw/WhitelistSync-2.9.0-neoforge-1.21.1.jar"
+      ],
+      "fileSize": 25727085
+    },
+    {
       "path": "mods/GR_CLX_haunted_environment-25.1.0-neoforge-1.21.1.jar",
       "hashes": {
         "sha1": "5d6419ea937b69c5dc3007bac0f531a7f9b9166c",
@@ -3934,21 +3949,6 @@
         "https://cdn.modrinth.com/data/VKXzIykF/versions/DpfxOIrO/sit-1.21.1-1.4.jar"
       ],
       "fileSize": 14031
-    },
-    {
-      "path": "mods/skinrestorer-2.9.0+1.21-neoforge.jar",
-      "hashes": {
-        "sha1": "ff254aac470ef8a023596220ccf5e8cb0e4517db",
-        "sha512": "9b4efdf77465364d963978917600f7f1ec311e7500ce5823975b750742150963b086849492625314ed67db4759be656103b0e18c8fb5ab33e67e1629c9ba87c8"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/ghrZDhGW/versions/RyUYnIVM/skinrestorer-2.9.0%2B1.21-neoforge.jar"
-      ],
-      "fileSize": 257883
     },
     {
       "path": "mods/sliceanddice-neoforge-4.3.2.jar",

@@ -10,7 +10,7 @@
 # [!] - MESSAGE_ATTACH_FILES
 # [!] - PIN_MESSAGES
 # [!] - MESSAGE_HISTORY
-discordBotToken = ""
+discordBotToken = "${CFG_BOT_TOKEN}"
 # Mod locale
 modLocale = "pl_pl"
 # The offset of the current time from UTC in hours.
@@ -437,9 +437,9 @@ mentionBots = true
 
 	[guilds.channelOverrides]
 		# If true, messages will still be sent to the main channel, but will also be duplicated to the specified channels.
-		duplicateMessages = false
+		duplicateMessages = true
 		# Overrides the default channel for pinned server status message. If empty, uses defaultChannelId.
-		pinnedStatusMessageChannelId = ""
+		pinnedStatusMessageChannelId = "1404956794807390331"
 		# Overrides the default channel for player death messages. If empty, uses defaultChannelId.
 		# Specify "-1" to disable sending death messages to Discord
 		deathsChannelId = ""
@@ -448,7 +448,7 @@ mentionBots = true
 		advancementsChannelId = ""
 		# Overrides the default channel for server started/closed messages. If empty, uses defaultChannelId.
 		# Specify "-1" to disable sending server started/closed messages to Discord
-		serverStartStopChannelId = ""
+		serverStartStopChannelId = "1404956794807390331"
 		# Overrides the default channel for player join/leave messages. If empty, uses defaultChannelId.
 		# Specify "-1" to disable sending player join/leave messages to Discord
 		playerJoinLeaveChannelId = ""
@@ -457,7 +457,7 @@ mentionBots = true
 		playerChatMessagesChannelId = ""
 		# Overrides the default channel for screenshots sent from Minecraft. If empty, uses defaultChannelId.
 		# Specify "-1" to disable sending screenshots from Minecraft to Discord
-		screenshotsChannelId = ""
+		screenshotsChannelId = "1530894339188985977"
 		# Overrides the default channel for messages sent using /tellraw @a command. If empty, uses defaultChannelId.
 		# Specify "-1" to disable sending messages sent using /tellraw @a command to Discord
 		tellrawChannelId = ""

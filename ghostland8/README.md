@@ -13,6 +13,12 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8b1
+- Server mods things: Added WHlist Sync, nuked Skin Restorer
+- Added `observable_announce` to prevent it from popping up in chat
+- Removed IPN's fake configs
+- Server-side configs for all!
+
 ### 8a22
 - Fixed sorting in the diff
 - Fixed options again (default View Dist.; textures and clouds *again*)
@@ -149,10 +155,10 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - [x] Luminous Nether - na razie wywalić; będzie w Nether Update (razem z tym modem który poleca, Luminous Tag)
 - [x] Soulles - na razie wywalić; będzie w Nether Update (cuz it unlocks soul sand too early)
 - [x] Jifo's icon
-- [ ] Discord bridge
-- [ ] Whitelist Sync
+- [x] Discord bridge
+- [x] Whitelist Sync
 - [x] Configure Grinch exclusions
-- [ ] Configure Grinch server-side and client-side configs
+- [x] Configure Grinch server-side and client-side configs
 - [x] Clean up and add our old texturepack
 - [x] Replace Curious with Accessories for future Aether compat (actually, test if Aether even would work as things are now, AND THEN REMOVE IT)
 - [x] Jifo: Pollution
