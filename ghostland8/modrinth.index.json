@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8b4",
+  "versionId": "8b5",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -1971,6 +1971,21 @@
       "fileSize": 39526
     },
     {
+      "path": "mods/GR_CLX+SVX_createrailwaysnavigator-neoforge-1.21.1-beta-0.9.1-C6.jar",
+      "hashes": {
+        "sha1": "bc8cc2ff3ce0c1abbe8ae9e24b4c4a502ea9602d",
+        "sha512": "7a7508f65f9f2a303b8964ce4446fc381cf73f46d944d74d6b7c62e68ec638b0cb72c96541bbc9101252d9e00cad7d762a9aa875302ebdd1a48b7c5d804e8d59"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Dq3STxps/versions/hjpv7klQ/createrailwaysnavigator-neoforge-1.21.1-beta-0.9.1-C6.jar"
+      ],
+      "fileSize": 2071249
+    },
+    {
       "path": "mods/GR_CLX_WhitelistSync-2.9.0-neoforge-1.21.1.jar",
       "hashes": {
         "sha1": "c025d2d1af43f169540601322495608d4bba964a",
@@ -3096,21 +3111,6 @@
       "fileSize": 3143118
     },
     {
-      "path": "mods/createrailwaysnavigator-neoforge-1.21.1-beta-0.9.1-C6.jar",
-      "hashes": {
-        "sha1": "bc8cc2ff3ce0c1abbe8ae9e24b4c4a502ea9602d",
-        "sha512": "7a7508f65f9f2a303b8964ce4446fc381cf73f46d944d74d6b7c62e68ec638b0cb72c96541bbc9101252d9e00cad7d762a9aa875302ebdd1a48b7c5d804e8d59"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Dq3STxps/versions/hjpv7klQ/createrailwaysnavigator-neoforge-1.21.1-beta-0.9.1-C6.jar"
-      ],
-      "fileSize": 2071249
-    },
-    {
       "path": "mods/cristellib-neoforge-1.21.1-3.1.7.jar",
       "hashes": {
         "sha1": "d250804b7ecea365bc736ec36ec6fc3f933917f1",
@@ -4131,14 +4131,14 @@
       "fileSize": 304511
     },
     {
-      "path": "resourcepacks/MimicLootr.zip",
+      "path": "resourcepacks/GR_SVX_MimicLootr.zip",
       "hashes": {
         "sha1": "51a65e69fee1abf25eb3d17f30d5ab06d2c07539",
         "sha512": "231a72f3b5b199a5ba921c17b43afbbac46c632c4fc7f454ffe9e08d26235863a78c253d1b3a3f06b0cae04ced8e36ab108f5ce4ef495204ae9cea5c9c5e8afc"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/ul4MApZY/versions/MyP8H9BE/MimicLootr.zip"
@@ -4146,14 +4146,14 @@
       "fileSize": 20495
     },
     {
-      "path": "resourcepacks/Simple Grass Flowers v2.0.0.zip",
+      "path": "resourcepacks/GR_SVX_Simple Grass Flowers v2.0.0.zip",
       "hashes": {
         "sha1": "afb56cfc90e663526352f7bd75a3c733178fca45",
         "sha512": "9ad752e71feb8fea4ccf2ecb23eecb85d48285e95744f28902bf505423a849a2ff74da6273982e7d38f7ea74385c67a9c188beaff38dae6e23473fbbd8bc11b5"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/ti9KkMHm/versions/Cd4Xa7Sr/Simple%20Grass%20Flowers%20v2.0.0.zip"
@@ -4161,14 +4161,14 @@
       "fileSize": 208597
     },
     {
-      "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip",
+      "path": "shaderpacks/GR_SVX_ComplementaryReimagined_r5.8.1.zip",
       "hashes": {
         "sha1": "5a021081f0178ed91dd911194071465ab0a4348b",
         "sha512": "6bd95215755d25812556ce790d976221f7d677d63112e3e4d3e70b08a62ed41348fa3792dd31bbe720d1e46fe2d525cadb4f66e6358118e1f4aa8e0d11f25c39"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/HVnmMxH1/versions/yCCduG44/ComplementaryReimagined_r5.8.1.zip"
@@ -4176,14 +4176,14 @@
       "fileSize": 546925
     },
     {
-      "path": "shaderpacks/Solas Shader V3.7.zip",
+      "path": "shaderpacks/GR_SVX_Solas Shader V3.7.zip",
       "hashes": {
         "sha1": "0b8296fccb872babba488acec206816c7b48e222",
         "sha512": "6c81aa2acafbb8585fda3e3b3d87446552003537460c5f319a673210247ca7854f33fcd88df083413153bd4b84e4e86e5d6f3d32b4963c1f4fd18379cb1f7efe"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/EpQFjzrQ/versions/WcoEHPPx/Solas%20Shader%20V3.7.zip"
@@ -4191,14 +4191,14 @@
       "fileSize": 1241525
     },
     {
-      "path": "shaderpacks/miniature-shader-2.18.13.zip",
+      "path": "shaderpacks/GR_SVX_miniature-shader-2.18.13.zip",
       "hashes": {
         "sha1": "2ebb9c08be4f0f3e25ed5a8c16d8c60d9a9a2097",
         "sha512": "2da9cc48b911e0711f432a1a1203a9f3d813c12e703aeae0dcf617bcab471f84c5ffd19a29bf5b7b6760f6d16100a5c47e38a1980f5c0dd2b3f7d5d120053128"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/UaS8ROxa/versions/ErR6TZYu/miniature-shader-2.18.13.zip"

@@ -13,6 +13,10 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8b5
+- exclude shaders/textures from server
+- fully disable CRN for now
+
 ### 8b3 & 8b4
 - more Grinch server-exclusions
 
