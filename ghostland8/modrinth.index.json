@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8b3",
+  "versionId": "8b4",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -486,6 +486,36 @@
       "fileSize": 77326
     },
     {
+      "path": "mods/GR_CLO+SVX_StylishEffects-v21.1.3-1.21.1-NeoForge.jar",
+      "hashes": {
+        "sha1": "83f764d776e2093d4e822fe784d4b17bc76c1815",
+        "sha512": "5dbf9be82e7da514b84b0b984789d272b5e0ccf2d667dd3d669e504ed512c3b7de1eb59be6ef4895ccd1fd88c4d6aee23ae28748b36b84528d64e94ebfad6282"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/onDuQF5e/versions/MT3yeDds/StylishEffects-v21.1.3-1.21.1-NeoForge.jar"
+      ],
+      "fileSize": 119312
+    },
+    {
+      "path": "mods/GR_CLO+SVX_SubtleEffects-neoforge-1.21.1-1.14.3.jar",
+      "hashes": {
+        "sha1": "f0c846484bd7c769b88f38ab31429457f52552d7",
+        "sha512": "efaf415d9dad768ac9b3893973349db65d7848b42d99952e82dbd1b0e66163ba09cfc2233953a8887b54da5ef52e366d7fa18f1b467e05780639be10a0e1e0ef"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/4q8UOK1d/versions/s3Fo4cDk/SubtleEffects-neoforge-1.21.1-1.14.3.jar"
+      ],
+      "fileSize": 3306773
+    },
+    {
       "path": "mods/GR_CLO+SVX_bigcontraptions-neoforge-1.0.jar",
       "hashes": {
         "sha1": "cf1af44de7042f26fce74549130e1eb7d937ced8",
@@ -666,6 +696,21 @@
       "fileSize": 46143
     },
     {
+      "path": "mods/GR_CLO+SVX_mcqoy-0.4.1+neo-1.21.jar",
+      "hashes": {
+        "sha1": "98a771b14c1f4ead12ffcd99a90b1c91b25cca8d",
+        "sha512": "20c40e4bd4104069b65455065cbb9beac829efa314b6e9e960b269725727f0d4f9bed6946815e8b573223cd4a76feddd1e5fbfb17c7293fa6a25545299e1afbc"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/tNmWwdI2/versions/nfqfeKsL/mcqoy-0.4.1%2Bneo-1.21.jar"
+      ],
+      "fileSize": 310685
+    },
+    {
       "path": "mods/GR_CLO+SVX_modelfix-1.21-1.10.jar",
       "hashes": {
         "sha1": "9608b1bff92e075ad8c2feb07f7ef095f6887117",
@@ -726,6 +771,21 @@
       "fileSize": 1060581
     },
     {
+      "path": "mods/GR_CLO+SVX_reactivemusic-neoforge-1.3.4+1.21.1.jar",
+      "hashes": {
+        "sha1": "2b9878d94d4be91a6296dbe3710dbdd3695fcf3c",
+        "sha512": "e2a649a1da1dc6caf4dc72d4354cccca946dfe2450eb1d762066e61797efb259deb21284e36e99590e23996f2a19a94c03bb5ad34fdce5b0dc41c7472a9424c4"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Bqnfeesx/versions/1jNzI9x8/reactivemusic-neoforge-1.3.4%2B1.21.1.jar"
+      ],
+      "fileSize": 294836177
+    },
+    {
       "path": "mods/GR_CLO+SVX_simple-datapacks-2.7.1-neoforge+1.21.jar",
       "hashes": {
         "sha1": "14bb39bb8ada7eaf64203e26e51a9fed96aa0476",
@@ -756,6 +816,21 @@
       "fileSize": 1979027
     },
     {
+      "path": "mods/GR_CLO+SVX_smoothswapping-0.9.3.2-1.21.1-neoforge.jar",
+      "hashes": {
+        "sha1": "00338f16b360d6b24b53fc8f92b76256729aee75",
+        "sha512": "0a54365d26c9023bf48129c85a8d771353432ece848e88d8e3a9a3f27d0e058e64fe2c43d5e82c4ed0e8c9494321411362c5af4bb66de5430e142f003667fb5f"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ydZic5r4/versions/tnvwgXE6/smoothswapping-0.9.3.2-1.21.1-neoforge.jar"
+      ],
+      "fileSize": 62900
+    },
+    {
       "path": "mods/GR_CLO+SVX_sodium-shadowy-path-blocks-neoforge-4.1.0.jar",
       "hashes": {
         "sha1": "315891dcf8459a53fe263d985073bef619c360d0",
@@ -769,6 +844,21 @@
         "https://cdn.modrinth.com/data/EIa1eiMm/versions/FpMmigWq/sodium-shadowy-path-blocks-neoforge-4.1.0.jar"
       ],
       "fileSize": 79200
+    },
+    {
+      "path": "mods/GR_CLO+SVX_statuseffectbars-1.21.1-NeoForge-1.0.2.jar",
+      "hashes": {
+        "sha1": "bc2d624a831126bb00032d53ca0211d026e95682",
+        "sha512": "7d81eeb0e60fb304f0a26d696911b4aa0771553975275214750ae99511da17850ad196fb5268cb4362959c10221beb5c92e43ed1d965493c8a76354e76555540"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/TxIuhIFo/versions/PPVE16f7/statuseffectbars-1.21.1-NeoForge-1.0.2.jar"
+      ],
+      "fileSize": 25114
     },
     {
       "path": "mods/GR_CLO+SVX_whostoppedthemusic-1.0.0.jar",
@@ -1024,36 +1114,6 @@
         "https://cdn.modrinth.com/data/fJ183v3D/versions/OSM1jkMg/SSRD-1.8.5-1.21.1.jar"
       ],
       "fileSize": 70956
-    },
-    {
-      "path": "mods/GR_CLO_StylishEffects-v21.1.3-1.21.1-NeoForge.jar",
-      "hashes": {
-        "sha1": "83f764d776e2093d4e822fe784d4b17bc76c1815",
-        "sha512": "5dbf9be82e7da514b84b0b984789d272b5e0ccf2d667dd3d669e504ed512c3b7de1eb59be6ef4895ccd1fd88c4d6aee23ae28748b36b84528d64e94ebfad6282"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/onDuQF5e/versions/MT3yeDds/StylishEffects-v21.1.3-1.21.1-NeoForge.jar"
-      ],
-      "fileSize": 119312
-    },
-    {
-      "path": "mods/GR_CLO_SubtleEffects-neoforge-1.21.1-1.14.3.jar",
-      "hashes": {
-        "sha1": "f0c846484bd7c769b88f38ab31429457f52552d7",
-        "sha512": "efaf415d9dad768ac9b3893973349db65d7848b42d99952e82dbd1b0e66163ba09cfc2233953a8887b54da5ef52e366d7fa18f1b467e05780639be10a0e1e0ef"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/4q8UOK1d/versions/s3Fo4cDk/SubtleEffects-neoforge-1.21.1-1.14.3.jar"
-      ],
-      "fileSize": 3306773
     },
     {
       "path": "mods/GR_CLO_Updating World Icon-neoforge-1.21.1-1.0.1.jar",
@@ -1596,21 +1656,6 @@
       "fileSize": 626146
     },
     {
-      "path": "mods/GR_CLO_mcqoy-0.4.1+neo-1.21.jar",
-      "hashes": {
-        "sha1": "98a771b14c1f4ead12ffcd99a90b1c91b25cca8d",
-        "sha512": "20c40e4bd4104069b65455065cbb9beac829efa314b6e9e960b269725727f0d4f9bed6946815e8b573223cd4a76feddd1e5fbfb17c7293fa6a25545299e1afbc"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/tNmWwdI2/versions/nfqfeKsL/mcqoy-0.4.1%2Bneo-1.21.jar"
-      ],
-      "fileSize": 310685
-    },
-    {
       "path": "mods/GR_CLO_moogs_structures-neoforge-1.21.1-3.0.3.jar",
       "hashes": {
         "sha1": "5ceebc8b13cc02feb881fd8f09c95b60f732dc95",
@@ -1716,21 +1761,6 @@
       "fileSize": 388133
     },
     {
-      "path": "mods/GR_CLO_reactivemusic-neoforge-1.3.4+1.21.1.jar",
-      "hashes": {
-        "sha1": "2b9878d94d4be91a6296dbe3710dbdd3695fcf3c",
-        "sha512": "e2a649a1da1dc6caf4dc72d4354cccca946dfe2450eb1d762066e61797efb259deb21284e36e99590e23996f2a19a94c03bb5ad34fdce5b0dc41c7472a9424c4"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Bqnfeesx/versions/1jNzI9x8/reactivemusic-neoforge-1.3.4%2B1.21.1.jar"
-      ],
-      "fileSize": 294836177
-    },
-    {
       "path": "mods/GR_CLO_reliable_advancements-neoforge-1.21.1-4.0.2.jar",
       "hashes": {
         "sha1": "ca447de57685f22b00e419408c045659b90616b9",
@@ -1806,21 +1836,6 @@
       "fileSize": 65924
     },
     {
-      "path": "mods/GR_CLO_smoothswapping-0.9.3.2-1.21.1-neoforge.jar",
-      "hashes": {
-        "sha1": "00338f16b360d6b24b53fc8f92b76256729aee75",
-        "sha512": "0a54365d26c9023bf48129c85a8d771353432ece848e88d8e3a9a3f27d0e058e64fe2c43d5e82c4ed0e8c9494321411362c5af4bb66de5430e142f003667fb5f"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/ydZic5r4/versions/tnvwgXE6/smoothswapping-0.9.3.2-1.21.1-neoforge.jar"
-      ],
-      "fileSize": 62900
-    },
-    {
       "path": "mods/GR_CLO_sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
       "hashes": {
         "sha1": "a5ac35ccb902231047709530a5708fb71dc3e3b5",
@@ -1864,21 +1879,6 @@
         "https://cdn.modrinth.com/data/l6YH9Als/versions/v5qtqRQi/spark-1.10.124-neoforge.jar"
       ],
       "fileSize": 3642581
-    },
-    {
-      "path": "mods/GR_CLO_statuseffectbars-1.21.1-NeoForge-1.0.2.jar",
-      "hashes": {
-        "sha1": "bc2d624a831126bb00032d53ca0211d026e95682",
-        "sha512": "7d81eeb0e60fb304f0a26d696911b4aa0771553975275214750ae99511da17850ad196fb5268cb4362959c10221beb5c92e43ed1d965493c8a76354e76555540"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/TxIuhIFo/versions/PPVE16f7/statuseffectbars-1.21.1-NeoForge-1.0.2.jar"
-      ],
-      "fileSize": 25114
     },
     {
       "path": "mods/GR_CLO_structure_layout_optimizer-neoforge-1.0.12.jar",
