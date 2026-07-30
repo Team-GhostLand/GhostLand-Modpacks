@@ -13,6 +13,12 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8b10
+- Restore CRN
+  - *RIP Vil Nam, tho :(* - you'll be missed
+  - ...And Bits'n'Bobs - you, too, will be missed (and fuck you, Azimuth Lib)
+- maybe fixed Discord chat
+
 ### 8b3 - 8b9
 - more Grinch server-exclusions (feat. CRN+BnB+Azmth+LVN, excluded on both sides (lol) for now)
 

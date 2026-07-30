@@ -416,10 +416,10 @@ mentionBots = true
 	# The [[guilds]] section is used to define the main and additional channels within a specific discord guild.
 	# You can copy this section entirely and define another discord guild in the configuration.
 	# In the guildId field you must specify the identifier of the discord guild to which all the channels listed below belong.
-	guildId = ""
+	guildId = "966397518445412413"
 	# Discord channel ID for messaging with MineCraft
 	# [!] Make sure the bot has access to the channel and all the permissions listed above.
-	defaultChannelId = ""
+	defaultChannelId = "1003723618414510233"
 	# Discord channel ID for logs from Minecraft Server console
 	# Leave blank if you don't want to send server logs to this guild.
 	serverLogsChannelId = ""
