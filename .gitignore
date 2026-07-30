@@ -40,7 +40,7 @@ ghostland7/overrides/config/discord_chat_mod-common.toml
 
 # == GHOSTLAND 8 ==
 
-# Sinytra cache (unfortunately, one of the files inside (the log/report) is unignorable, so we'll need to remove it every time)
+# Sinytra cache
 ghostland8/overrides/mods/.connector
 
 # EMI accelerator cache and report
@@ -53,4 +53,6 @@ ghostland8/overrides/config/spark/tmp-client
 
 # Spark leaks usernames and IDs
 ghostland8/overrides/config/spark/activity.json
+
+# Jifo said the agent would throw a tantrum without this, but it's a local problem there; grinch.kdl should ONLY be present at repo root - gitignored here
 ghostland8/grinch.kdl
