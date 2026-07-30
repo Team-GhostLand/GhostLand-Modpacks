@@ -13,6 +13,10 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8b11
+- Set BCC to beta
+- Set `MOTD`
+
 ### 8b10
 - Restore CRN
   - *RIP Vil Nam, tho :(* - you'll be missed
@@ -155,6 +159,10 @@ Changelog culled due to being too long and no longer relevant after pack redo - 
 ## TODO
 Some parts are in Polish, both due to me writing it at 3AM and being tired, and the fact that it was pasted from our Discord originally and some entires weren't translated. It's not like it matters; even if this pack goes public (I mean... Technically, it *already is* because GitHub), it's not like anyone will read the TODO.
 
+### **RIGHT PRZED STARTEM - IMPORTANT!**
+- [ ] **Better Compat Checker!!!**
+- [ ] **MOTD!!!**
+
 ### Housekeeping:
 - [x] VanillaTweaks
 - [x] FancyMenu
@@ -162,7 +170,6 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - [ ] Minimapy: Check if AA4 and Hoofprint truly can share the same `[M]` key when both are item-gated, and adjust accordingly if not.
 - [ ] Minimapy: Markery modded rzeczy
 - [ ] Minimapy: Ensure server sharing
-- [x] Better Compat Checker
 - [x] Wyłączyć Nether portal (End alr disabled by default)
 - [x] Palmer&Kanciarz ideas (ME Requester, Extended AE, AE2 Wireless, Super Factory Manager, MEGA Cells) - na razie wywalić; będą w Nether Update (nie licząc SFM (Programming Update), MEGA Cells (TBD), AE2 Wireless (*FINE!*, have it early, but we'll have to make it more expensive))
 - [x] Luminous Nether - na razie wywalić; będzie w Nether Update (razem z tym modem który poleca, Luminous Tag)
