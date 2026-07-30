@@ -1,0 +1,31 @@
+[generators]
+	#Enable pollution emissions from Oritech Basic Generators (Solid Fuels)
+	enableBasicGeneratorPollution = true
+	#Enable pollution emissions from Oritech Liquid Fuel Generators
+	enableFluidGeneratorPollution = true
+	#Enable pollution emissions from Oritech Lava Generators
+	enableLavaGeneratorPollution = true
+	#Enable pollution emissions from Oritech Bio Generators
+	enableBioGeneratorPollution = true
+
+[machines]
+	#Enable dust emissions from Oritech Pulverizers when crushing items
+	enablePulverizerDustPollution = true
+	#Enable pollution emissions from Oritech processing machines (Foundry, Refinery, Powered Furnace)
+	enableProcessingMachinePollution = true
+	#Enable pollution emissions from Oritech Nuclear Reactors and Nuclear Explosions
+	enableReactorPollution = true
+
+[multipliers]
+	#Global multiplier for dust emissions from Oritech machines
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	dustEmissionMultiplier = 1.0
+	#Global multiplier for carbon emissions from Oritech generators & machines
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	carbonEmissionMultiplier = 1.0
+	#Global multiplier for sulfur emissions from Oritech generators & machines
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	sulfurEmissionMultiplier = 1.0
