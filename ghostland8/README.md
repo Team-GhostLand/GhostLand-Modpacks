@@ -13,8 +13,8 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
-### 8b3 - 8b7
-- more Grinch server-exclusions (feat. CRN, excluded on both sides (lol) for now)
+### 8b3 - 8b8
+- more Grinch server-exclusions (feat. CRN+BnB+Azmth, excluded on both sides (lol) for now)
 
 ### 8b2
 - fix export

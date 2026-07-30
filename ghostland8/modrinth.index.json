@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8b7",
+  "versionId": "8b8",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -1986,6 +1986,36 @@
       "fileSize": 39526
     },
     {
+      "path": "mods/GR_CLX+SVX_azimuth-1.4.2.jar",
+      "hashes": {
+        "sha1": "14aa88a1e2a45c6da10048a753e3e3c5a5536573",
+        "sha512": "0d15a728f07ccfc9fe20b52bee85b54c71144639e8d483f1a66d23a1b968d37913220bd7d842fa819c351ca7b54a669118d4569096075869fe93a6ef2f139490"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/RpH8tmT1/versions/FZgzuDBp/azimuth-1.4.2.jar"
+      ],
+      "fileSize": 142364
+    },
+    {
+      "path": "mods/GR_CLX+SVX_bits_n_bobs-2.1.13-beta.jar",
+      "hashes": {
+        "sha1": "2f892859073174fef837a03b9b0d8ed5fa67e80a",
+        "sha512": "add1fb5d727e63fa5e126656210085b5323c6f5841d4332cb85cbd15db84c9f49b75046c01eef453d0f1e115fa08dfaf2ecd95b76b14d1e6197f967a9b1b2958"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/T8bvmqVZ/versions/g6tKKqEE/bits_n_bobs-2.1.13-beta.jar"
+      ],
+      "fileSize": 2766704
+    },
+    {
       "path": "mods/GR_CLX+SVX_createrailwaysnavigator-neoforge-1.21.1-beta-0.9.1-C6.jar",
       "hashes": {
         "sha1": "bc8cc2ff3ce0c1abbe8ae9e24b4c4a502ea9602d",
@@ -2706,21 +2736,6 @@
       "fileSize": 99944
     },
     {
-      "path": "mods/azimuth-1.4.2.jar",
-      "hashes": {
-        "sha1": "14aa88a1e2a45c6da10048a753e3e3c5a5536573",
-        "sha512": "0d15a728f07ccfc9fe20b52bee85b54c71144639e8d483f1a66d23a1b968d37913220bd7d842fa819c351ca7b54a669118d4569096075869fe93a6ef2f139490"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/RpH8tmT1/versions/FZgzuDBp/azimuth-1.4.2.jar"
-      ],
-      "fileSize": 142364
-    },
-    {
       "path": "mods/beltborne_lanterns-1.2.5-neoforge+1.21.1.jar",
       "hashes": {
         "sha1": "3a30923e4ec5db8fd6838d20ce2743b24feb212d",
@@ -2779,21 +2794,6 @@
         "https://cdn.modrinth.com/data/Xh8hkQmD/versions/HZlLCOct/betterbiomeblend-1.5.2.jar"
       ],
       "fileSize": 275755
-    },
-    {
-      "path": "mods/bits_n_bobs-2.1.13-beta.jar",
-      "hashes": {
-        "sha1": "2f892859073174fef837a03b9b0d8ed5fa67e80a",
-        "sha512": "add1fb5d727e63fa5e126656210085b5323c6f5841d4332cb85cbd15db84c9f49b75046c01eef453d0f1e115fa08dfaf2ecd95b76b14d1e6197f967a9b1b2958"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/T8bvmqVZ/versions/g6tKKqEE/bits_n_bobs-2.1.13-beta.jar"
-      ],
-      "fileSize": 2766704
     },
     {
       "path": "mods/bl_accessories_layer-1.2.2-neoforge+1.21.1.jar",
