@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8b8",
+  "versionId": "8b9",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -2031,6 +2031,21 @@
       "fileSize": 2071249
     },
     {
+      "path": "mods/GR_CLX+SVX_lvn-forge1.21.1-1.0.2.jar",
+      "hashes": {
+        "sha1": "c82f780be6b707097bc50d35fd9b691449589704",
+        "sha512": "e37ff095f5c22e85e3c0f09ec354accc8b27057d703faf41f7a45439b5a19385d22f6a6e30d81c85354b8c4ab55eaedd88915e0b8e2f0d8ec1b2335691df0acc"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/xSL86cA9/versions/yhscY4AE/lvn-forge1.21.1-1.0.2.jar"
+      ],
+      "fileSize": 1170424
+    },
+    {
       "path": "mods/GR_CLX_WhitelistSync-2.9.0-neoforge-1.21.1.jar",
       "hashes": {
         "sha1": "c025d2d1af43f169540601322495608d4bba964a",
@@ -2059,21 +2074,6 @@
         "https://cdn.modrinth.com/data/njLV5a7S/versions/lxSukm5D/haunted_environment-25.1.0-neoforge-1.21.1.jar"
       ],
       "fileSize": 20853
-    },
-    {
-      "path": "mods/GR_CLX_lvn-forge1.21.1-1.0.2.jar",
-      "hashes": {
-        "sha1": "c82f780be6b707097bc50d35fd9b691449589704",
-        "sha512": "e37ff095f5c22e85e3c0f09ec354accc8b27057d703faf41f7a45439b5a19385d22f6a6e30d81c85354b8c4ab55eaedd88915e0b8e2f0d8ec1b2335691df0acc"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/xSL86cA9/versions/yhscY4AE/lvn-forge1.21.1-1.0.2.jar"
-      ],
-      "fileSize": 1170424
     },
     {
       "path": "mods/GR_SVX_GPUTape-1.20.6-1.21x-1.0.3.jar",
