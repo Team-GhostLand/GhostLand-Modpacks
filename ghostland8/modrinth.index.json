@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8b6",
+  "versionId": "8b7",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -829,6 +829,21 @@
         "https://cdn.modrinth.com/data/zV5r3pPn/versions/xPYbAPfz/skinlayers3d-neoforge-1.11.2-mc1.21.1.jar"
       ],
       "fileSize": 1979027
+    },
+    {
+      "path": "mods/GR_CLO+SVX_smart_bounds-1.0.0.jar",
+      "hashes": {
+        "sha1": "9d271d70b1d2870d5c232e71e2923abaac3a6767",
+        "sha512": "1aeacbd4981e3ad48c49fc813d63ff260a704347154f4a1f4290f123d17ba7e5dde51e881edae92d50370e9b1f515b8805dbf86f5778a42ccbda7a6e9e87f9ff"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/kSok4DxT/versions/HXviiJ3I/smart_bounds-1.0.0.jar"
+      ],
+      "fileSize": 749901
     },
     {
       "path": "mods/GR_CLO+SVX_smoothswapping-0.9.3.2-1.21.1-neoforge.jar",
@@ -1819,21 +1834,6 @@
         "https://cdn.modrinth.com/data/2M01OLQq/versions/IuqNIoAi/shulkerboxtooltip-neoforge-5.1.9%2B1.21.1.jar"
       ],
       "fileSize": 381204
-    },
-    {
-      "path": "mods/GR_CLO_smart_bounds-1.0.0.jar",
-      "hashes": {
-        "sha1": "9d271d70b1d2870d5c232e71e2923abaac3a6767",
-        "sha512": "1aeacbd4981e3ad48c49fc813d63ff260a704347154f4a1f4290f123d17ba7e5dde51e881edae92d50370e9b1f515b8805dbf86f5778a42ccbda7a6e9e87f9ff"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/kSok4DxT/versions/HXviiJ3I/smart_bounds-1.0.0.jar"
-      ],
-      "fileSize": 749901
     },
     {
       "path": "mods/GR_CLO_smarterfarmers-1.21-2.2.4-neoforge.jar",
