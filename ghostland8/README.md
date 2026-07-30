@@ -13,6 +13,9 @@ Actually, I think **none**! ~~This is the least broken GhostLand in history lol.
 
 ## Changelogs
 
+### 8b12
+- Fix icon
+
 ### 8b11
 - Set BCC to beta
 - Set `MOTD`
