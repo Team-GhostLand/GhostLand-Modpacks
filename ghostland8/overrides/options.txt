@@ -22,8 +22,8 @@ mipmapLevels:4
 narrator:0
 particles:0
 reducedDebugInfo:false
-renderClouds:"false"
-renderDistance:16
+renderClouds:"true"
+renderDistance:12
 simulationDistance:12
 screenEffectScale:1.0
 soundDevice:""
@@ -49,8 +49,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["fabric","lambdabettergrass:default"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/Simple Grass Flowers v2.0.0.zip","file/MimicLootr.zip","mod/natures_spirit:resourcepacks/plank_consistency","file/Visual Effects+.zip","vanillabackport:freshly_animated","lambdabettergrass:default","file/VanillaTweaks_r279574_MC1.21.x.zip","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/GhostLand Textures","mod/accessorify:resourcepacks/1_21_1/rp"]
+incompatibleResourcePacks:["file/MimicLootr.zip","mod/natures_spirit:resourcepacks/plank_consistency","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/GhostLand Textures"]
 lastServer:
 lang:pl_pl
 chatVisibility:0
