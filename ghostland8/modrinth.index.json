@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8.0.0",
+  "versionId": "8.1.0",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -1774,21 +1774,6 @@
         "https://cdn.modrinth.com/data/ayPU0OHc/versions/eTz03Gfd/structure_layout_optimizer-neoforge-1.0.12.jar"
       ],
       "fileSize": 61777
-    },
-    {
-      "path": "mods/GR_CLO_surveyor-1.2.4+1.21.jar",
-      "hashes": {
-        "sha1": "77e9d3996c11eed104fe224c3ba706be1c759303",
-        "sha512": "3a91efbc596db7192792de069e814aeb3e9e1d771267ea5a5d4371b1311bef26a7f9bd02a28619026c23e4df702d99a1bbaaf732e06179dd4999dbd01aaf920c"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/4KjqhPc9/versions/egJBsDTn/surveyor-1.2.4%2B1.21.jar"
-      ],
-      "fileSize": 602264
     },
     {
       "path": "mods/GR_CLO_t_and_t-neoforge-fabric-1.13.9+1.21.1.jar",
@@ -4041,6 +4026,21 @@
       "fileSize": 215100
     },
     {
+      "path": "mods/surveyor-1.2.4+1.21.jar",
+      "hashes": {
+        "sha1": "77e9d3996c11eed104fe224c3ba706be1c759303",
+        "sha512": "3a91efbc596db7192792de069e814aeb3e9e1d771267ea5a5d4371b1311bef26a7f9bd02a28619026c23e4df702d99a1bbaaf732e06179dd4999dbd01aaf920c"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/4KjqhPc9/versions/egJBsDTn/surveyor-1.2.4%2B1.21.jar"
+      ],
+      "fileSize": 602264
+    },
+    {
       "path": "mods/toomanyrecipeviewers-0.9.0+mc.21.1.jar",
       "hashes": {
         "sha1": "d82ca1db3f4323534b1ce5f43b94a5ae31f65edb",
@@ -4069,6 +4069,21 @@
         "https://cdn.modrinth.com/data/74oZhrEe/versions/JbhahSQp/trmt-0.5.1-1.21.1-neoforge.jar"
       ],
       "fileSize": 130176
+    },
+    {
+      "path": "mods/trueuuid-1.2.0-neoforge-1.21.1.jar",
+      "hashes": {
+        "sha1": "56f9d718b6e1fd0ccfbbb4d4fb310eaf727a26f2",
+        "sha512": "187f3a801478406138c2dce1b2a3247e2998fb96961f9765b9651d3eb07d8108db5969224809f75aa56c1de056789fc14c5adbf2cd7c96848e51c1d944247bf1"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/fMgRLYNA/versions/3igrejuR/trueuuid-1.2.0-neoforge-1.21.1.jar"
+      ],
+      "fileSize": 194475
     },
     {
       "path": "mods/tuningwrench-1.1.0-1.21.1.jar",

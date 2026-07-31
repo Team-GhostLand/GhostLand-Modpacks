@@ -15,6 +15,12 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
+### 8.1
+- Let loosers play
+  - TrueUUID added
+  - offline-mode on
+- 16 chunks RD, what could possibly go wrong? 
+
 ### 8.0.0
 - YOLO!
 
