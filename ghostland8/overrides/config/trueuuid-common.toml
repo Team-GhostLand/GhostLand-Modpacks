@@ -1,0 +1,52 @@
+[auth]
+	#Server-side wait for the client's TrueUUID answer and session verification, in milliseconds.
+	# Default: 30000
+	# Range: 1000 ~ 600000
+	timeoutMs = 30000
+	#false: kick when authentication times out. true: apply the offline fallback policy on timeout instead.
+	allowOfflineOnTimeout = false
+	#Show the localized chat message after a TrueUUID login.
+	showJoinFeedback = true
+	#Also show a full-screen title/subtitle on join. Off by default: the persistent account-status overlay already reports this less intrusively.
+	showJoinTitle = false
+	#Notify only permission-level-2 operators about completed logins. Off by default; the structured console audit is always emitted.
+	showOperatorNotifications = false
+	#Show the client account-status overlay after a TrueUUID login handshake.
+	showAccountOverlay = true
+	#Screen corner for the account-status badge: top_left, top_right, bottom_left, bottom_right.
+	#Default bottom_right: vanilla keeps status effects and advancement toasts in the top right,
+	#chat in the bottom left, and mods commonly take the top left.
+	overlayCorner = "bottom_right"
+	#Extra horizontal pixels for the badge, to dodge another mod's HUD. Positive moves right.
+	# Default: 0
+	# Range: -4096 ~ 4096
+	overlayOffsetX = 0
+	#Extra vertical pixels for the badge, to dodge another mod's HUD. Positive moves down.
+	# Default: 0
+	# Range: -4096 ~ 4096
+	overlayOffsetY = 0
+	#Size of the account-status badge, scaling the padlock and label together.
+	#Whole numbers (1.0, 2.0) keep Minecraft's bitmap font perfectly crisp; values in between are slightly soft.
+	# Default: 1.0
+	# Range: 0.5 ~ 4.0
+	overlayScale = 1.0
+	#Allow an offline fallback when the client has no valid premium session or session verification fails.
+	allowOfflineOnFailure = true
+	#Deny offline fallback for a name that has previously completed a verified premium login.
+	knownPremiumDenyOffline = true
+	#Restrict offline fallback to names with no prior verified premium login.
+	allowOfflineForUnknownOnly = true
+	#Enable debug logging for the login handshake. Never logs tokens, nonces, endpoints, or raw authlib responses.
+	debug = false
+
+	[auth.yggdrasil]
+		#Allowed Yggdrasil hasJoined hosts. Empty rejects every client-provided endpoint.
+		apiRootWhitelist = []
+
+	[auth.recentIpGrace]
+		#Enable short same-IP reconnect grace after logout, reusing the last verified identity only within the TTL window.
+		enabled = true
+		#Same-IP grace seconds after logout. Default is 10 seconds to avoid long-lived misleading premium identity.
+		# Default: 10
+		# Range: 1 ~ 60
+		ttlSeconds = 10

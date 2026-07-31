@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8.3.0",
+  "versionId": "8.3.1",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -1039,6 +1039,21 @@
         "https://cdn.modrinth.com/data/Dk6su9JN/versions/5P5tLHSh/CutThrough-v21.1.0-1.21.1-NeoForge.jar"
       ],
       "fileSize": 51371
+    },
+    {
+      "path": "mods/GR_CLO_Feature-Recycler-neoforge-2.0.0.jar",
+      "hashes": {
+        "sha1": "1c14b70c4e1341d1b92b51da684529644c0ab5cb",
+        "sha512": "0909f39c1ec6f435eb2a51b95bdc4d48b2b3c31466002f0e36aec1e1315f54079faed084a440e1ef91ac267fdcedc313bd4e6dd0eac81afdd4a7a6e16db162e9"
+      },
+      "env": {
+        "client": "optional",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/IAzu52kG/versions/TsMXDaL7/Feature-Recycler-neoforge-2.0.0.jar"
+      ],
+      "fileSize": 144306
     },
     {
       "path": "mods/GR_CLO_MoogsEndStructures-1.21-2.0.3.jar",

@@ -15,6 +15,10 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
+### 8.3.1
+- added: Feature Recycler
+- Generated TrueUUID config, finally
+
 ### 8.3.0
 - DH no longer on server-sided, MAYBE it helps with lags?
 - ...and the aero-sable thingy is also gone because it depends on DH on a server
