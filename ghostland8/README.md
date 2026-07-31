@@ -15,6 +15,9 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
+### 8b15
+- Apply exclusion recommendations from [https://docker-minecraft-server.readthedocs.io/en/latest/types-and-platforms/mod-platforms/modrinth-modpacks/#force-include-files](here) (except EMI (and some addons) and Sinytra), now that we no longer set the flag mentioned there (so that it won't ban EMI/Sinytra).
+
 ### 8b14
 - Actually restore CRN
 
