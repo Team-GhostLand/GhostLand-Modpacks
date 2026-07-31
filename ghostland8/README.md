@@ -15,7 +15,7 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
-### 8b17-8b18
+### 8b17-8b19
 - AEUGH
 
 ### 8b16
