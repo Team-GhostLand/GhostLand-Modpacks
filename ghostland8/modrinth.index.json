@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8b22",
+  "versionId": "8b23",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -3561,6 +3561,66 @@
       "fileSize": 7279264
     },
     {
+      "path": "mods/kubejs-create-neoforge-2101.3.1-build.18.jar",
+      "hashes": {
+        "sha1": "f54d9ff53909771d27e4d9d135c3707cd5d5f855",
+        "sha512": "b2c3064a06f7a06aa479c38daa72fcf88e31e753cb16c53435690b2472f71acea49fe3fcab09a1e5d6fed88b289941f9ecf3f71ba9a7b8b84397cab2b8d9801d"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/T38eAZQC/versions/1qmcLagN/kubejs-create-neoforge-2101.3.1-build.18.jar"
+      ],
+      "fileSize": 38629
+    },
+    {
+      "path": "mods/kubejs-neoforge-2101.7.2-build.368.jar",
+      "hashes": {
+        "sha1": "edf131afd474151afe076ea975ce5fec5a206ad8",
+        "sha512": "5e2f1bd1460d8f443ce4bd44ed367d27f9170e50dff2ce9430954206e89651f8969dfbe842c3100b0244f8d58f843fc5fb9c46b5c576430a07f1e5b6dd4b9f7b"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/umyGl7zF/versions/F2nzeC19/kubejs-neoforge-2101.7.2-build.368.jar"
+      ],
+      "fileSize": 2281720
+    },
+    {
+      "path": "mods/kubejs_oritech-neoforge-1.21.1-0.4.4.jar",
+      "hashes": {
+        "sha1": "1c3ebb5409e11be575dc018ac9799bdf6ac54535",
+        "sha512": "2558319efa3259f7a87cd3fab29c37a48e5b76476e58269eeef77796b8cafb1ad637382f4d3d9efb00cb7837fe710b0b73af6de367df6b3dc4e80ac9bcb89e10"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/dobSKckb/versions/diwafcFZ/kubejs_oritech-neoforge-1.21.1-0.4.4.jar"
+      ],
+      "fileSize": 59103
+    },
+    {
+      "path": "mods/kubejsadditions-neoforge-1.21.1-6.0.0.jar",
+      "hashes": {
+        "sha1": "a7b90a34b8a56d187fbd957d4353fa80f93a3553",
+        "sha512": "969396c689d2eb132515327f60f5fcb65755f43178aa8f4078d38fca99a1c2b7fe1a8671fb5581b956025b0e3d8d2dacb6bcf3524a74e9c1721977b358e4bb36"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/BZemjxZb/versions/EK0wJfqY/kubejsadditions-neoforge-1.21.1-6.0.0.jar"
+      ],
+      "fileSize": 183984
+    },
+    {
       "path": "mods/lithium-neoforge-0.15.4+mc1.21.1.jar",
       "hashes": {
         "sha1": "97212e45c963730bbfc7c44780df99317814c21b",
@@ -3829,6 +3889,21 @@
         "https://cdn.modrinth.com/data/G1hIVOrD/versions/x99nCLTm/resourcefullib-neoforge-1.21-3.0.12.jar"
       ],
       "fileSize": 484332
+    },
+    {
+      "path": "mods/rhino-2101.2.8-build.91.jar",
+      "hashes": {
+        "sha1": "56eab1d464ed0811c64040c64bd047df5cbc3aad",
+        "sha512": "e3d92f663bc07872a83b0a6474b30a75230e9f92a2844fd98da1842ec9a79712bcb7d8e76574cc11ae3aeceb47f2933c60ddd6cf41f3ad7027bd573623730945"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/sk9knFPE/versions/SqkDvOLG/rhino-2101.2.8-build.91.jar"
+      ],
+      "fileSize": 980936
     },
     {
       "path": "mods/ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar",
