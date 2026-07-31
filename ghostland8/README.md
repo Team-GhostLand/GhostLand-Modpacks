@@ -15,6 +15,9 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
+### 8.0.0
+- YOLO!
+
 ### 8b28
 - no blood
 - fix MOTD release date
@@ -214,8 +217,8 @@ Changelog culled due to being too long and no longer relevant after pack redo - 
 Some parts are in Polish, both due to me writing it at 3AM and being tired, and the fact that it was pasted from our Discord originally and some entires weren't translated. It's not like it matters; even if this pack goes public (I mean... Technically, it *already is* because GitHub), it's not like anyone will read the TODO.
 
 ### **RIGHT PRZED STARTEM - IMPORTANT!**
-- [ ] **Better Compat Checker!!!**
-- [ ] **MOTD!!!**
+- [x] **Better Compat Checker!!!**
+- [x] **MOTD!!!**
 
 ### Housekeeping:
 - [x] VanillaTweaks
