@@ -15,6 +15,9 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
+### 8b25
+- Added Tymon's kubejs stuff
+
 ### 8b23-8b24
 - Added KubeJS and it's addons
 - Delete all unused configs
