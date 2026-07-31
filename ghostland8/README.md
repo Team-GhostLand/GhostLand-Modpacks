@@ -15,8 +15,9 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
-### 8b23
+### 8b23-8b24
 - Added KubeJS and it's addons
+- Delete all unused configs
 
 ### 8b22
 - Move C2ME from the last version to server-only.

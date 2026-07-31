@@ -1,7 +1,12 @@
 {
   "mod_priorities": [
     "minecraft",
-    "create"
+    "create",
+    "tfmg",
+    "oritech",
+    "ae2",
+    "spelunkery",
+    "alloyed"
   ],
   "priority_overrides": {},
   "stone_variants": [
@@ -34,6 +39,6 @@
   ],
   "ignored_recipe_ids": [],
   "recipe_viewer_hiding": true,
-  "loot_unification": false,
+  "loot_unification": true,
   "ignored_loot_tables": []
 }

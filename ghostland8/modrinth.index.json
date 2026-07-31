@@ -1416,21 +1416,6 @@
       "fileSize": 77249
     },
     {
-      "path": "mods/GR_CLO_dimthread-NEOFORGE-mc1.21.1-v1.2.1.jar",
-      "hashes": {
-        "sha1": "ba9443ceb202a5fbafd23f45d1d00dbf5dee494d",
-        "sha512": "2b61adfbb409ab0f76eb4dd2cbef1448e062248edf8c7893d75b9dd20fc64eede10ea26de8dd707b903baf74104f803b476decfd6260e70fc1f2b18fb1bd3193"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/V92cR3aK/versions/DejTnUIX/dimthread-NEOFORGE-mc1.21.1-v1.2.1.jar"
-      ],
-      "fileSize": 284057
-    },
-    {
       "path": "mods/GR_CLO_discord_chat_mod-neoforge-1.21.1-2.7.0.jar",
       "hashes": {
         "sha1": "c173520d7bad7bd97ccfd061af4adcb17510ae58",
@@ -1984,51 +1969,6 @@
         "https://cdn.modrinth.com/data/OnlVIpq5/versions/9vSFkDAr/zfastnoise-1.0.13%2B1.21.1%2Bneoforge.jar"
       ],
       "fileSize": 39526
-    },
-    {
-      "path": "mods/GR_CLX+SVX_azimuth-1.4.2.jar",
-      "hashes": {
-        "sha1": "14aa88a1e2a45c6da10048a753e3e3c5a5536573",
-        "sha512": "0d15a728f07ccfc9fe20b52bee85b54c71144639e8d483f1a66d23a1b968d37913220bd7d842fa819c351ca7b54a669118d4569096075869fe93a6ef2f139490"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/RpH8tmT1/versions/FZgzuDBp/azimuth-1.4.2.jar"
-      ],
-      "fileSize": 142364
-    },
-    {
-      "path": "mods/GR_CLX+SVX_bits_n_bobs-2.1.13-beta.jar",
-      "hashes": {
-        "sha1": "2f892859073174fef837a03b9b0d8ed5fa67e80a",
-        "sha512": "add1fb5d727e63fa5e126656210085b5323c6f5841d4332cb85cbd15db84c9f49b75046c01eef453d0f1e115fa08dfaf2ecd95b76b14d1e6197f967a9b1b2958"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/T8bvmqVZ/versions/g6tKKqEE/bits_n_bobs-2.1.13-beta.jar"
-      ],
-      "fileSize": 2766704
-    },
-    {
-      "path": "mods/GR_CLX+SVX_lvn-forge1.21.1-1.0.2.jar",
-      "hashes": {
-        "sha1": "c82f780be6b707097bc50d35fd9b691449589704",
-        "sha512": "e37ff095f5c22e85e3c0f09ec354accc8b27057d703faf41f7a45439b5a19385d22f6a6e30d81c85354b8c4ab55eaedd88915e0b8e2f0d8ec1b2335691df0acc"
-      },
-      "env": {
-        "client": "unsupported",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/xSL86cA9/versions/yhscY4AE/lvn-forge1.21.1-1.0.2.jar"
-      ],
-      "fileSize": 1170424
     },
     {
       "path": "mods/GR_CLX_WhitelistSync-2.9.0-neoforge-1.21.1.jar",
