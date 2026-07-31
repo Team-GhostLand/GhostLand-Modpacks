@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8b15",
+  "versionId": "8b16",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -3184,21 +3184,6 @@
         "https://cdn.modrinth.com/data/xQU6E1ee/versions/2KEQq349/distractingtrims-neoforge-1.21.1-21.1.1.jar"
       ],
       "fileSize": 16730
-    },
-    {
-      "path": "mods/draggeds_treechopper-1.0.4.jar",
-      "hashes": {
-        "sha1": "5bbcfc772d07440eff635316fab9ec9006c0182c",
-        "sha512": "d519f649501fef25d7eab883b6b2c8937bfb31813aaacfb5f2b518c49a6be798f655d48540143acac1e0437566795ebb1ac9742b224e0730d58226279eaea9ed"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/lqr9MrOI/versions/4aAI1shW/draggeds_treechopper-1.0.4.jar"
-      ],
-      "fileSize": 314155
     },
     {
       "path": "mods/dragonlib-neoforge-1.21.1-beta-3.0.28.jar",

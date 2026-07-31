@@ -13,11 +13,11 @@
 		canBeNone = true
 
 	[permissions.treeMustHaveLeaves]
-		canBeFalse = true
+		canBeFalse = false
 		canBeTrue = true
 
 	[permissions.chopInCreativeMode]
-		canBeFalse = true
+		canBeFalse = false
 		canBeTrue = true
 
 [general]
