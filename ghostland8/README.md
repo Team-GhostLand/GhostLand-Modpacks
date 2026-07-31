@@ -15,6 +15,9 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
+### 8b17
+- AEUGH
+
 ### 8b16
 - Updated HT's configs
 - Removed Dragged's Tree Chopper
