@@ -9,7 +9,7 @@ B:play_vanilla_menu_music = 'true';
 
 B:modpack_mode = 'true';
 B:show_customization_overlay = 'false';
-B:advanced_customization_mode = 'false';
+B:advanced_customization_mode = 'true';
 
 
 ##[loading]
