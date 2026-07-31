@@ -21,6 +21,9 @@ GhostLand 8 modpack.
 - Enabled resourcepacks
 - Accidentally restored some Jifo-removed configs (I'm so sorry Jifo; I should've reinstalled the pack, I didn't know Modrinth preserves conflicts between updates)
 
+### 8b25
+- Added Tymon's kubejs stuff
+
 ### 8b23-8b24
 - Added KubeJS and it's addons
 - Delete all unused configs
