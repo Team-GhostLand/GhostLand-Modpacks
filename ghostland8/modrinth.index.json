@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8.2.0",
+  "versionId": "8.3.0",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -304,6 +304,21 @@
         "https://cdn.modrinth.com/data/UEtTD3gP/versions/xDYKoTCG/Ding-1.21-NeoForge-1.5.0.jar"
       ],
       "fileSize": 36277
+    },
+    {
+      "path": "mods/GR_CLO+SVX_DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
+      "hashes": {
+        "sha1": "df25e8cfe06917963778723a1d9a60610dd21bec",
+        "sha512": "d4199f92f992fbd2c75a3b0e4e81c8a98bee889013f7347f2149ffa62c86748bde22135e9b2c82a10875db94fa576571c661c5ee16d2f567bd8a93d6f255fd22"
+      },
+      "env": {
+        "client": "optional",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/uCdwusMi/versions/ZpKb4kZp/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar"
+      ],
+      "fileSize": 30207268
     },
     {
       "path": "mods/GR_CLO+SVX_Highlighter-1.21-neoforge-1.1.11.jar",
@@ -1026,21 +1041,6 @@
       "fileSize": 51371
     },
     {
-      "path": "mods/GR_CLO_DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
-      "hashes": {
-        "sha1": "df25e8cfe06917963778723a1d9a60610dd21bec",
-        "sha512": "d4199f92f992fbd2c75a3b0e4e81c8a98bee889013f7347f2149ffa62c86748bde22135e9b2c82a10875db94fa576571c661c5ee16d2f567bd8a93d6f255fd22"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/uCdwusMi/versions/ZpKb4kZp/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar"
-      ],
-      "fileSize": 30207268
-    },
-    {
       "path": "mods/GR_CLO_MoogsEndStructures-1.21-2.0.3.jar",
       "hashes": {
         "sha1": "8725f8fa38ab3f3fd6e8627bf2f8f7f908ec2e51",
@@ -1114,21 +1114,6 @@
         "https://cdn.modrinth.com/data/KdJhOYVV/versions/EQHGxQAv/Philips-Ruins1.21.1-2.0-NeoForge.jar"
       ],
       "fileSize": 1365582
-    },
-    {
-      "path": "mods/GR_CLO_SSRD-1.8.5-1.21.1.jar",
-      "hashes": {
-        "sha1": "cf5fc3c34ae53341ad0a4fe1e03e9cbf6340cfd4",
-        "sha512": "7f238068131477ffb628949d3528f8e933cde2ab05f2c20ff9786e9a0b538bb8e866a9b6dda7460899016fa41f23910013ee476cc876d1a4bbef0661436a1430"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/fJ183v3D/versions/OSM1jkMg/SSRD-1.8.5-1.21.1.jar"
-      ],
-      "fileSize": 70956
     },
     {
       "path": "mods/GR_CLO_Updating World Icon-neoforge-1.21.1-1.0.1.jar",
