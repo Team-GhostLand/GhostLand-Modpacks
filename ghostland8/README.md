@@ -15,6 +15,12 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
+### 8b23
+- Delete all unused configs
+
+### 8b22
+- Move C2ME from the last version to server-only.
+
 ### 8b21
 - Pushed Jifo-configs:
   - FancyMenu
