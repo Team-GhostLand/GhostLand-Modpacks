@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8.1.0",
+  "versionId": "8.2.0",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -19,36 +19,6 @@
         "https://cdn.modrinth.com/data/bSasoRwF/versions/ncHxMH49/Mountain%20Peaks%201.20-1.21.8.zip"
       ],
       "fileSize": 56817
-    },
-    {
-      "path": "mods/AdChimneys-1.21.1-11.1.8.0-NeoForge-build.1029.jar",
-      "hashes": {
-        "sha1": "9300e869552a27b3b02e38c40a62d4d4b4c8112c",
-        "sha512": "e8ba594c592832b7b543e19709c6e08adf5515108e79f399abdb3e66fedb1a86be1cff2c65a6b2613b89328db570cea3c049ff1e2a65fb0b01ce3313069dd672"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/r2rWUhnP/versions/hloXC4AU/AdChimneys-1.21.1-11.1.8.0-NeoForge-build.1029.jar"
-      ],
-      "fileSize": 322627
-    },
-    {
-      "path": "mods/AdPother-1.21.1-9.1.8.0-NeoForge-build.0921.jar",
-      "hashes": {
-        "sha1": "c6700e2ae359a86fc526f9aeed5c5b077df21a40",
-        "sha512": "9b63a4549bd9611f5296658d92e7ab1b11531ed2e5ba1523cc5ec50d881d07c160324da122c90a44aa06caa85926e219e8970cbc7030bd6a1f4cc7f3a5a3dd9f"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/SN8xUUfR/versions/tDUTQWaM/AdPother-1.21.1-9.1.8.0-NeoForge-build.0921.jar"
-      ],
-      "fileSize": 859071
     },
     {
       "path": "mods/AdditionalStructures-1.21-(v.6.3.2-NEO).jar",
@@ -184,21 +154,6 @@
         "https://cdn.modrinth.com/data/R2OftAxM/versions/GbNuOZ4S/FarmersDelight-1.21.1-1.3.2.jar"
       ],
       "fileSize": 3163042
-    },
-    {
-      "path": "mods/ForgeEndertech-1.21.1-12.1.2.2-NeoForge-build.0879.jar",
-      "hashes": {
-        "sha1": "71267bbe37cc2bf78fedb06b0f16643c9b22d16c",
-        "sha512": "3c9e6b42df5dc08894d42846c558d57fff270163306e5463485c4346f2fb26b6dee8a099a57c0f4b6f34bc348ace910d72c101f16e83875b132da07cf8cdc7ca"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/EgS8gGp8/versions/HtpCqEXI/ForgeEndertech-1.21.1-12.1.2.2-NeoForge-build.0879.jar"
-      ],
-      "fileSize": 535552
     },
     {
       "path": "mods/GR_CLO+SVX_AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",

@@ -15,7 +15,13 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
-### 8.1
+### 8.2.0
+- Disable global waypoints
+- Fix BCC
+- Add a mod for global landmark setting (Dead Reckoning)
+- Removed all kopcenie-adjacent things
+
+### 8.1.0
 - Let loosers play
   - TrueUUID added
   - offline-mode on
