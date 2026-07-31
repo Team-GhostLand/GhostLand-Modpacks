@@ -16,5 +16,5 @@
   "removeTelemetryButton": true,
   "demandOnServer": false,
   "verifiedIconOffsetX": 0,
-  "verifiedIconOffsetY": 0
+  "verifiedIconOffsetY": 15
 }

@@ -9,11 +9,11 @@ defaultScale = -1
 	# Whether to color the water based on biome.
 	# Disable for a vanilla style.
 	# default: false
-	biomeWater = false
+	biomeWater = true
 	# Whether to color grass and foliage blocks based on biome.
 	# Disable for a vanilla style.
 	# default: false
-	biomeFoliage = false
+	biomeFoliage = true
 	# How large of an area to blend biome colors for water and foliage.
 	# Set to 0 for no blending. Higher is more performance intensive.
 	# range: 0 - 16
@@ -26,7 +26,7 @@ defaultScale = -1
 	# Whether to render water as transparent, becoming more opaque in deep waters.
 	# Disable for a vanilla style.
 	# default: false
-	transparentWater = false
+	transparentWater = true
 	# Whether to consider sky and block lighting when coloring map pixels.
 	# Disable for a vanilla style.
 	# default: false

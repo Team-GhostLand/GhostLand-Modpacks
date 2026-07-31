@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8b24",
+  "versionId": "8b26",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -2406,6 +2406,21 @@
       "fileSize": 1425176
     },
     {
+      "path": "mods/SimpleDiscordRichPresence-neoforge-88.0.1-build.54+mc1.21.1.jar",
+      "hashes": {
+        "sha1": "3bcccf27fb2f954a81a3984bcb1ee8ea636d7247",
+        "sha512": "ea7c4757fc74085b06ce0293f02fd6d6ff47616244987feec3a5fc2fadd491c13d47e55e344ac4602db00aafb3071370ddfadd08333925be1cff2b6a26111dd8"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/SCAopByd/versions/ggKPQKwC/SimpleDiscordRichPresence-neoforge-88.0.1-build.54%2Bmc1.21.1.jar"
+      ],
+      "fileSize": 79869
+    },
+    {
       "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
       "hashes": {
         "sha1": "744394d979b422be560babf9df7a6800ede9ac5b",
@@ -4116,6 +4131,66 @@
       "fileSize": 304511
     },
     {
+      "path": "resourcepacks/GR_SVX_AA4 Structure Markers 1.7.1.zip",
+      "hashes": {
+        "sha1": "2b81433f6134737fd11726bdc9847f728339b4db",
+        "sha512": "9b4f932e6cd7ad8b62c7e60a3ff9975f34eab416e0ee74c0809faf1f347f960d797ec5b89bf91019c2ae9b4ab05e2c8e2f9339567072ac95997162b475dbf5a9"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/hn1ivTT7/versions/ybfHV4XN/AA4%20Structure%20Markers%201.7.1.zip"
+      ],
+      "fileSize": 232526
+    },
+    {
+      "path": "resourcepacks/GR_SVX_AA_structures-v1.1.1.zip",
+      "hashes": {
+        "sha1": "4dba172a5dd36fe8a370b630cd0666215295c6ff",
+        "sha512": "7a6f082867b4e52c067547c2b270a62be7262b04edbcdabe1ebd9d77d5203d9239e5ec31edc623802cfc727a3b5f04f34bef214e895aa5198d029bfbe08c3650"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/elNCy9XR/versions/E6ZdGUP1/AA_structures-v1.1.1.zip"
+      ],
+      "fileSize": 87781
+    },
+    {
+      "path": "resourcepacks/GR_SVX_Antique_Atlas_4_Compat_v1.4.zip",
+      "hashes": {
+        "sha1": "0ef4074e834f8b342adc80435ce065e190187b84",
+        "sha512": "e42447f035fefd174b67a0953297f314288bf5edddf17742eeae3a766c2cb357bb9e06a47b7d834e4c59e9267dfe4a7cc6e5ba180c84c6ba2854cc814480c0ac"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/EZrcB8Mu/versions/IsoXrQfU/Antique_Atlas_4_Compat_v1.4.zip"
+      ],
+      "fileSize": 548307
+    },
+    {
+      "path": "resourcepacks/GR_SVX_DnT Antique Atlas 4 Compat.zip",
+      "hashes": {
+        "sha1": "ac68242917c1d16e41e4b5103fd920b5b55b04ef",
+        "sha512": "3205ec3e5aff3bcd17c4e4a77a33b106a707b29c898bb4dff49c84bcaf9c92953768760a100bf8922a1882895e1e3aff84d8a9b6dbe0708b5087f66f67d598ec"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/BVnjPrua/versions/XNoPh6oZ/DnT%20Antique%20Atlas%204%20Compat.zip"
+      ],
+      "fileSize": 727556
+    },
+    {
       "path": "resourcepacks/GR_SVX_MimicLootr.zip",
       "hashes": {
         "sha1": "51a65e69fee1abf25eb3d17f30d5ab06d2c07539",
@@ -4144,6 +4219,21 @@
         "https://cdn.modrinth.com/data/ti9KkMHm/versions/Cd4Xa7Sr/Simple%20Grass%20Flowers%20v2.0.0.zip"
       ],
       "fileSize": 208597
+    },
+    {
+      "path": "resourcepacks/GR_SVX_SodiumTranslations.zip",
+      "hashes": {
+        "sha1": "0e7f852ce0d1333a0dc1434d9055e5f9cd8b777d",
+        "sha512": "97905b43324f0189c4cc9f1dc47fab0d6f2c6da07ca2a780826a4a743aa1343219c4336d234bc439026fd265eed401f8319ba2c2fb82f352d309b4267149d775"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/yfDziwn1/versions/r7AZ0jmT/SodiumTranslations.zip"
+      ],
+      "fileSize": 271788
     },
     {
       "path": "shaderpacks/GR_SVX_ComplementaryReimagined_r5.8.1.zip",

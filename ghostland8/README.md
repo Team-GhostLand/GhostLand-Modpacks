@@ -9,11 +9,17 @@ GhostLand 8 modpack.
 - [Credits/Licensing](#creditslicensing)
 
 ## Issues
-- [ ] The very concept of fire can crash the server. (Can be "fixed" with `/gamerule doFireTick false` but that's LAMEEEE - a real fix would be nice.) (Seems to be caused by Sable x HT's? We can probably disable fire-related stuff in Sable, and stripped-logs-as-trees in HT's.)
+- [x] The very concept of fire can crash the server. (Can be "fixed" with `/gamerule doFireTick false` but that's LAMEEEE - a real fix would be nice.) (Seems to be caused by Sable x HT's? We can probably disable fire-related stuff in Sable, and stripped-logs-as-trees in HT's.)
 - [ ] Tweakable is broken (we need Creat Aero Structurs; FabricAPI/Sinytra; Kiwi)
-- [ ] Nukes can nuke the server
+- [x] Nukes can nuke the server
 
 ## Changelogs
+
+### 8b26
+- Added DiscordRPC
+- Did maps stuff
+- Enabled resourcepacks
+- Accidentally restored some Jifo-removed configs (I'm so sorry Jifo; I should've reinstalled the pack, I didn't know Modrinth preserves conflicts between updates)
 
 ### 8b23-8b24
 - Added KubeJS and it's addons
@@ -203,19 +209,17 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 ### Housekeeping:
 - [x] VanillaTweaks
 - [x] FancyMenu
-- [ ] Minimapy: Lock AA4 behind the book.
-- [ ] Minimapy: Check if AA4 and Hoofprint truly can share the same `[M]` key when both are item-gated, and adjust accordingly if not.
-- [ ] Minimapy: Markery modded rzeczy
-- [ ] Minimapy: Ensure server sharing
-- [ ] CraftPresence: add
-- [ ] CraftPresence: config
-- [ ] Worlds: Remake spawn-world *AGAIN (Midnight set the datapacks wrongly, noooooooo :< )*
+- [x] Minimapy: Lock AA4 behind the book.
+- [x] Minimapy: Check if AA4 and Hoofprint truly can share the same `[M]` key when both are item-gated, and adjust accordingly if not.
+- [x] Minimapy: Markery modded rzeczy
+- [x] Minimapy: Ensure server sharing
+- [x] CraftPresence: add
+- [x] CraftPresence: config
+- [x] Worlds: Remake spawn-world *AGAIN (Midnight set the datapacks wrongly, noooooooo :< )*
 - [ ] Worlds: Upload spawn-world
 - [ ] Worlds: And add a world-index script for Poltergeist's stat system
-- [ ] Fixes: Fix IPN layouts colliding with EMI, at least on the major UIs *(note: done a whopping 1 so far, main inventory)*
 - [ ] Fixes: Disable blood
 - [ ] Fixes: Disable snoring mobs
-- [ ] Fixes: Fix stuff in Issues
 - [x] Wyłączyć Nether portal (End alr disabled by default)
 - [x] Palmer&Kanciarz ideas (ME Requester, Extended AE, AE2 Wireless, Super Factory Manager, MEGA Cells) - na razie wywalić; będą w Nether Update (nie licząc SFM (Programming Update), MEGA Cells (TBD), AE2 Wireless (*FINE!*, have it early, but we'll have to make it more expensive))
 - [x] Luminous Nether - na razie wywalić; będzie w Nether Update (razem z tym modem który poleca, Luminous Tag)

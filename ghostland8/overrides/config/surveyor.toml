@@ -2,25 +2,25 @@
 # DISABLED prevents loading, FROZEN loads but prevents updates, DYNAMIC loads with addons or on servers, ENABLED always loads
 # options: DISABLED, FROZEN, DYNAMIC, ENABLED
 # default: DYNAMIC
-terrain = "DYNAMIC"
+terrain = "ENABLED"
 # Structure system - records structure identifiers and piece data for specialized maps and utilities to render
 # DISABLED prevents loading, FROZEN loads but prevents updates, DYNAMIC loads with addons or on servers, ENABLED always loads
 # options: DISABLED, FROZEN, DYNAMIC, ENABLED
 # default: DYNAMIC
-structures = "DYNAMIC"
+structures = "ENABLED"
 # Landmark system - a generic record of both player-owned waypoints and server-owned POIs, accessible via API
 # DISABLED prevents loading, FROZEN loads but prevents updates, DYNAMIC loads with addons or on servers, ENABLED always loads
 # options: DISABLED, FROZEN, DYNAMIC, ENABLED
 # default: DYNAMIC
-landmarks = "DYNAMIC"
+landmarks = "ENABLED"
 # Logs structure discovery to the action bar.
 # E.g. 'Discovered Village Plains at [91, 63, -54]'
 # default: false
-discoveryMessages = false
+discoveryMessages = true
 # Force-enables the following commands.
 # waypoints/landmarks raw | prints the raw SNBT of a landmark
 # default: false
-debugCommands = false
+debugCommands = true
 # Ignores chunk changes that don't affect the amount of air in the chunk
 # Saves on performance, a little inaccurate sometimes.
 # default: true
@@ -39,18 +39,18 @@ forceUpdateLandmarks = true
 	# SERVER sends server-known data, GROUP sends group-known data, SOLO sends player-known data, NONE sends no data
 	# options: NONE, SOLO, GROUP, SERVER
 	# default: GROUP
-	terrain = "GROUP"
+	terrain = "SERVER"
 	# How much structure data to send to clients
 	# SERVER sends server-known data, GROUP sends group-known data, SOLO sends player-known data, NONE sends no data
 	# When NONE, clients will never see structures
 	# options: NONE, SOLO, GROUP, SERVER
 	# default: GROUP
-	structures = "GROUP"
+	structures = "SERVER"
 	# Which landmarks to sync between client and server
 	# SERVER sync server-known landmarks, GROUP sends group-known landmarks, SOLO sends player-known landmarks, NONE sends no landmarks
 	# options: NONE, SOLO, GROUP, SERVER
 	# default: GROUP
-	landmarks = "GROUP"
+	landmarks = "SERVER"
 	# Which waypoints (player-created landmarks) to sync between client and server
 	# When SERVER, players can see (but not edit) all waypoints, including potentially offensive names
 	# When GROUP, players can see (but not edit) waypoints created by players in their share group
@@ -58,7 +58,7 @@ forceUpdateLandmarks = true
 	# When NONE, waypoint data will never be synced (e.g. for privacy)
 	# options: NONE, SOLO, GROUP, SERVER
 	# default: GROUP
-	waypoints = "GROUP"
+	waypoints = "SERVER"
 	# [Server] How much player position data to send to clients
 	# SERVER sends all players positions, GROUP sends just group players, SOLO sends nothing, NONE sends nothing
 	# Players will only see the offline positions of their group members, or players who disconnected while they were online.
@@ -94,7 +94,7 @@ forceUpdateLandmarks = true
 	# Viable blocks configured via #surveyor:record_to_map
 	# options: NONE, EXPLORER, COLOR
 	# default: EXPLORER
-	recordToMapItems = "EXPLORER"
+	recordToMapItems = "COLOR"
 
 	[builtins.recordIcons]
 		"minecraft:frame" = false
