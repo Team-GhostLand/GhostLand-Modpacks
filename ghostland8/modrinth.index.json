@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8b26",
+  "versionId": "8b27",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -681,21 +681,6 @@
       "fileSize": 688343
     },
     {
-      "path": "mods/GR_CLO+SVX_immersiveminimaps-1.2.1+1.21.1-fabric.jar",
-      "hashes": {
-        "sha1": "99a5ad546dbf3fbce7003617c585ebd381e8f7a1",
-        "sha512": "01267f3e4e1bed3f496137bbf409fb63726560ef7b227f089aec8bf64db0b2f9578aa41c536a1ed25b6232cde1c7409503ad95a2ccaa34ef95c6751739c4000e"
-      },
-      "env": {
-        "client": "optional",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/CbCN2Azx/versions/xmYFi4BH/immersiveminimaps-1.2.1%2B1.21.1-fabric.jar"
-      ],
-      "fileSize": 355721
-    },
-    {
       "path": "mods/GR_CLO+SVX_iris-flywheel-compat-NeoForge-2.4.0.jar",
       "hashes": {
         "sha1": "b8630517b6017f4d075ce594e5ef333b38748029",
@@ -1101,21 +1086,6 @@
       "fileSize": 30207268
     },
     {
-      "path": "mods/GR_CLO_Kiwi-1.21.1-NeoForge-15.8.7.jar",
-      "hashes": {
-        "sha1": "d5c1d9f814bf146459f6e5e169c744c3e5bc184e",
-        "sha512": "d01c347febcb3d77bbfd2f44f38a80afbf4cf0b72a2aaa5d1875a38cbcd78be5a263fae4f63685256ea29c5f5f5d0f1c46892e2c78c4c1204863415dec9f4151"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/ufdDoWPd/versions/tfwJWC8g/Kiwi-1.21.1-NeoForge-15.8.7.jar"
-      ],
-      "fileSize": 1539578
-    },
-    {
       "path": "mods/GR_CLO_MoogsEndStructures-1.21-2.0.3.jar",
       "hashes": {
         "sha1": "8725f8fa38ab3f3fd6e8627bf2f8f7f908ec2e51",
@@ -1251,36 +1221,6 @@
       "fileSize": 16655
     },
     {
-      "path": "mods/GR_CLO_antique-atlas-3.1.2+1.21.jar",
-      "hashes": {
-        "sha1": "97b7c41cbcfcfb86e8ba80b316b1133ff1903e72",
-        "sha512": "e920516b107f009d8a671c4b07a65afc0060a11fe3d2918169eb8320408cb3a71b4bdfa7d58a59ff73d8161a545ba220f4e5d766434d46aa08de14e7fe6368cc"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Y5Ve4Ui4/versions/2sDsTAId/antique-atlas-3.1.2%2B1.21.jar"
-      ],
-      "fileSize": 891461
-    },
-    {
-      "path": "mods/GR_CLO_antique_transport-1.3.0+1.21.1.jar",
-      "hashes": {
-        "sha1": "17bbbd2638a942960fdd6c6bdb89abea3fafef67",
-        "sha512": "38fb8c74b8b68d66b96eb2297ed5477a0fb2b1964ca15748a8adff2736cd7bf2aed6abf5aebc04b724f48b8a1127766fd30a695a24f50b8ffbeeaab9b97df3b0"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/KW2DN49D/versions/6D3Mb6FK/antique_transport-1.3.0%2B1.21.1.jar"
-      ],
-      "fileSize": 155800
-    },
-    {
       "path": "mods/GR_CLO_appleskin-neoforge-mc1.21-3.0.9.jar",
       "hashes": {
         "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246",
@@ -1339,36 +1279,6 @@
         "https://cdn.modrinth.com/data/dv57xmf9/versions/i5PXO3P7/cerulean-neoforge-1.0.0-1.21.1.jar"
       ],
       "fileSize": 340526
-    },
-    {
-      "path": "mods/GR_CLO_connector-2.0.0-beta.15+1.21.1-full.jar",
-      "hashes": {
-        "sha1": "3ca84be625bb792f796dd50963d4d21842370893",
-        "sha512": "71b9a887298d3f60c3f5ae72835a6e146f3e664184f1d60edef5e2b989e5b6ef460757526e87a3b1a162e5778ea932aa4da8223aa557ffa2178ffb574a42533d"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/u58R1TMW/versions/kDbM9LpX/connector-2.0.0-beta.15%2B1.21.1-full.jar"
-      ],
-      "fileSize": 4527056
-    },
-    {
-      "path": "mods/GR_CLO_cr_aero_structures.jar",
-      "hashes": {
-        "sha1": "f60358df1d049491b0b03a99483d8803060bd99a",
-        "sha512": "08fc053c2fb3186c11ada383427fa04c0367ef2b274afcf06d5786526c9fd1d43347021e34159a46d3411683a44a644406cb7229e8773c0bbd0c4c07b9048cab"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/aX7eWKKb/versions/GgCMtS4V/cr_aero_structures.jar"
-      ],
-      "fileSize": 269552
     },
     {
       "path": "mods/GR_CLO_create_ltab-4.0.3.jar",
@@ -1594,36 +1504,6 @@
         "https://cdn.modrinth.com/data/ickBpNUE/versions/HxjFzjdy/farmers-cutting-oh-the-biomes-weve-gone-1.21.1-2.1-neoforge.jar"
       ],
       "fileSize": 100636
-    },
-    {
-      "path": "mods/GR_CLO_forgified-fabric-api-0.116.14+2.3.0+1.21.1.jar",
-      "hashes": {
-        "sha1": "f03504497d29c72a4a7747515d7aa06bbc78c93d",
-        "sha512": "9dbb0018e68b4efd65abf57f5fc41bb5d3b812e4a3cb75164937cb28ab541225b939fdeac0477ec2a7a75507791f3c9fc5592229279c68a9db04854a36ab5d72"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/Aqlf1Shp/versions/dAxle9F7/forgified-fabric-api-0.116.14%2B2.3.0%2B1.21.1.jar"
-      ],
-      "fileSize": 5592346
-    },
-    {
-      "path": "mods/GR_CLO_hoofprint-1.3.0+1.21.jar",
-      "hashes": {
-        "sha1": "d2395ad821239db36507fc6946d185fd10e81d3c",
-        "sha512": "68afc8c41407f2a421bf322e9b7bd71cf69285fa871f2dfd91a996f4822bac35ee20215d12d39ac91ddd6ab4d5e3a9ce6c735fd171b06edd71a817ed8bec5e17"
-      },
-      "env": {
-        "client": "optional",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/8O6iJpuJ/versions/YQxLELnA/hoofprint-1.3.0%2B1.21.jar"
-      ],
-      "fileSize": 69218
     },
     {
       "path": "mods/GR_CLO_jamlib-neoforge-1.3.6+1.21.1.jar",
@@ -2121,6 +2001,21 @@
       "fileSize": 25505615
     },
     {
+      "path": "mods/GR_SVX_immersiveminimaps-1.2.1+1.21.1-fabric.jar",
+      "hashes": {
+        "sha1": "99a5ad546dbf3fbce7003617c585ebd381e8f7a1",
+        "sha512": "01267f3e4e1bed3f496137bbf409fb63726560ef7b227f089aec8bf64db0b2f9578aa41c536a1ed25b6232cde1c7409503ad95a2ccaa34ef95c6751739c4000e"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/CbCN2Azx/versions/xmYFi4BH/immersiveminimaps-1.2.1%2B1.21.1-fabric.jar"
+      ],
+      "fileSize": 355721
+    },
+    {
       "path": "mods/GR_SVX_reeses-sodium-options-neoforge-2.2.3+mc1.21.1.jar",
       "hashes": {
         "sha1": "904f815b1f5c48703c354d432fcbc3531022337f",
@@ -2254,6 +2149,21 @@
         "https://cdn.modrinth.com/data/f0ruQTF7/versions/MsiyjxjP/Kerria-1.3.2%2B1.21.1-neoforge.jar"
       ],
       "fileSize": 184726
+    },
+    {
+      "path": "mods/Kiwi-1.21.1-NeoForge-15.8.7.jar",
+      "hashes": {
+        "sha1": "d5c1d9f814bf146459f6e5e169c744c3e5bc184e",
+        "sha512": "d01c347febcb3d77bbfd2f44f38a80afbf4cf0b72a2aaa5d1875a38cbcd78be5a263fae4f63685256ea29c5f5f5d0f1c46892e2c78c4c1204863415dec9f4151"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/ufdDoWPd/versions/tfwJWC8g/Kiwi-1.21.1-NeoForge-15.8.7.jar"
+      ],
+      "fileSize": 1539578
     },
     {
       "path": "mods/KotlinLangForge-2.12.2-k2.4.10-3.0+neoforge.jar",
@@ -2631,6 +2541,36 @@
       "fileSize": 1154863
     },
     {
+      "path": "mods/antique-atlas-3.1.2+1.21.jar",
+      "hashes": {
+        "sha1": "97b7c41cbcfcfb86e8ba80b316b1133ff1903e72",
+        "sha512": "e920516b107f009d8a671c4b07a65afc0060a11fe3d2918169eb8320408cb3a71b4bdfa7d58a59ff73d8161a545ba220f4e5d766434d46aa08de14e7fe6368cc"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Y5Ve4Ui4/versions/2sDsTAId/antique-atlas-3.1.2%2B1.21.jar"
+      ],
+      "fileSize": 891461
+    },
+    {
+      "path": "mods/antique_transport-1.3.0+1.21.1.jar",
+      "hashes": {
+        "sha1": "17bbbd2638a942960fdd6c6bdb89abea3fafef67",
+        "sha512": "38fb8c74b8b68d66b96eb2297ed5477a0fb2b1964ca15748a8adff2736cd7bf2aed6abf5aebc04b724f48b8a1127766fd30a695a24f50b8ffbeeaab9b97df3b0"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/KW2DN49D/versions/6D3Mb6FK/antique_transport-1.3.0%2B1.21.1.jar"
+      ],
+      "fileSize": 155800
+    },
+    {
       "path": "mods/appliedenergistics2-19.2.17.jar",
       "hashes": {
         "sha1": "49c18d6a4af487957d7e5a6ad5dcbf71090b8e14",
@@ -2901,6 +2841,21 @@
       "fileSize": 207142
     },
     {
+      "path": "mods/connector-2.0.0-beta.15+1.21.1-full.jar",
+      "hashes": {
+        "sha1": "3ca84be625bb792f796dd50963d4d21842370893",
+        "sha512": "71b9a887298d3f60c3f5ae72835a6e146f3e664184f1d60edef5e2b989e5b6ef460757526e87a3b1a162e5778ea932aa4da8223aa557ffa2178ffb574a42533d"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/u58R1TMW/versions/kDbM9LpX/connector-2.0.0-beta.15%2B1.21.1-full.jar"
+      ],
+      "fileSize": 4527056
+    },
+    {
       "path": "mods/copycats-3.0.4+mc.1.21.1-neoforge.jar",
       "hashes": {
         "sha1": "6a11d5806bcf521e08faba1ee6ef5f31af55ca0f",
@@ -2929,6 +2884,21 @@
         "https://cdn.modrinth.com/data/rLLJ1OZM/versions/H2YXCYUY/coroutil-neoforge-1.21.0-1.3.8.jar"
       ],
       "fileSize": 63981
+    },
+    {
+      "path": "mods/cr_aero_structures.jar",
+      "hashes": {
+        "sha1": "f60358df1d049491b0b03a99483d8803060bd99a",
+        "sha512": "08fc053c2fb3186c11ada383427fa04c0367ef2b274afcf06d5786526c9fd1d43347021e34159a46d3411683a44a644406cb7229e8773c0bbd0c4c07b9048cab"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/aX7eWKKb/versions/GgCMtS4V/cr_aero_structures.jar"
+      ],
+      "fileSize": 269552
     },
     {
       "path": "mods/create-1.21.1-6.0.10.jar",
@@ -3381,6 +3351,21 @@
       "fileSize": 182579
     },
     {
+      "path": "mods/forgified-fabric-api-0.116.14+2.3.0+1.21.1.jar",
+      "hashes": {
+        "sha1": "f03504497d29c72a4a7747515d7aa06bbc78c93d",
+        "sha512": "9dbb0018e68b4efd65abf57f5fc41bb5d3b812e4a3cb75164937cb28ab541225b939fdeac0477ec2a7a75507791f3c9fc5592229279c68a9db04854a36ab5d72"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Aqlf1Shp/versions/dAxle9F7/forgified-fabric-api-0.116.14%2B2.3.0%2B1.21.1.jar"
+      ],
+      "fileSize": 5592346
+    },
+    {
       "path": "mods/fzzy_config-0.7.6+1.21+neoforge.jar",
       "hashes": {
         "sha1": "c0910f9b975aaab8545ce950539748fb33d704d1",
@@ -3454,6 +3439,21 @@
         "https://cdn.modrinth.com/data/pJmCFF0p/versions/JfqnpP2Z/handcrafted-neoforge-1.21.1-4.0.3.jar"
       ],
       "fileSize": 7132842
+    },
+    {
+      "path": "mods/hoofprint-1.3.0+1.21.jar",
+      "hashes": {
+        "sha1": "d2395ad821239db36507fc6946d185fd10e81d3c",
+        "sha512": "68afc8c41407f2a421bf322e9b7bd71cf69285fa871f2dfd91a996f4822bac35ee20215d12d39ac91ddd6ab4d5e3a9ce6c735fd171b06edd71a817ed8bec5e17"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/8O6iJpuJ/versions/YQxLELnA/hoofprint-1.3.0%2B1.21.jar"
+      ],
+      "fileSize": 69218
     },
     {
       "path": "mods/immersive_melodies-neoforge-0.6.4+1.21.1.jar",

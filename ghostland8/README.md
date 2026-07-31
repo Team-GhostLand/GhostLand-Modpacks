@@ -10,10 +10,14 @@ GhostLand 8 modpack.
 
 ## Issues
 - [x] The very concept of fire can crash the server. (Can be "fixed" with `/gamerule doFireTick false` but that's LAMEEEE - a real fix would be nice.) (Seems to be caused by Sable x HT's? We can probably disable fire-related stuff in Sable, and stripped-logs-as-trees in HT's.)
-- [ ] Tweakable is broken (we need Creat Aero Structurs; FabricAPI/Sinytra; Kiwi)
+- [x] Tweakable is broken (we need Creat Aero Structurs; FabricAPI/Sinytra; Kiwi)
 - [x] Nukes can nuke the server
 
 ## Changelogs
+
+### 8b27
+- Enforce CLO mods to fix Tweakable
+- Enforce CLO mods to have maps for everyone
 
 ### 8b26
 - Added DiscordRPC
