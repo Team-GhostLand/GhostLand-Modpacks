@@ -15,6 +15,10 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
+### 8b28
+- no blood
+- fix MOTD release date
+
 ### 8b27
 - Enforce CLO mods to fix Tweakable
 - Enforce CLO mods to have maps for everyone
@@ -223,10 +227,7 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - [x] CraftPresence: add
 - [x] CraftPresence: config
 - [x] Worlds: Remake spawn-world *AGAIN (Midnight set the datapacks wrongly, noooooooo :< )*
-- [ ] Worlds: Upload spawn-world
-- [ ] Worlds: And add a world-index script for Poltergeist's stat system
-- [ ] Fixes: Disable blood
-- [ ] Fixes: Disable snoring mobs
+- [x] Fixes: Disable blood
 - [x] Wyłączyć Nether portal (End alr disabled by default)
 - [x] Palmer&Kanciarz ideas (ME Requester, Extended AE, AE2 Wireless, Super Factory Manager, MEGA Cells) - na razie wywalić; będą w Nether Update (nie licząc SFM (Programming Update), MEGA Cells (TBD), AE2 Wireless (*FINE!*, have it early, but we'll have to make it more expensive))
 - [x] Luminous Nether - na razie wywalić; będzie w Nether Update (razem z tym modem który poleca, Luminous Tag)
