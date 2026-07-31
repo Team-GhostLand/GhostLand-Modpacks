@@ -1,0 +1,4 @@
+options.txt
+resourcepacks
+servers.dat
+icon.png

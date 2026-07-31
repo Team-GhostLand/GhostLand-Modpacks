@@ -15,8 +15,16 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
+### 8b21
+- Pushed Jifo-configs:
+  - FancyMenu
+  - C2ME
+  - *both done over previous commits, but there was no version bump, so noone would've been able to install them*
+- Install an update to Jifo's AdPother extension
+- Restore server-overrides (lol)
+
 ### 8b17-8b20
-- AEUGH
+- Bumped version number ~~(bro forgor they can just delete the file if versions overlap lmao)~~
 
 ### 8b16
 - Updated HT's configs
@@ -24,7 +32,7 @@ GhostLand 8 modpack.
 - Changed FancyMenu to modpack mode
 
 ### 8b15
-- Apply exclusion recommendations from [https://docker-minecraft-server.readthedocs.io/en/latest/types-and-platforms/mod-platforms/modrinth-modpacks/#force-include-files](here) (except EMI (and some addons) and Sinytra), now that we no longer set the flag mentioned there (so that it won't ban EMI/Sinytra).
+- Apply exclusion recommendations from [https://docker-minecraft-server.readthedocs.io/en/latest/types-and-platforms/mod-platforms/modrinth-modpacks/#force-include-files](here) (except EMI (and some addons) and Sinytra), now that we no longer just let the image handle exclusions for us automatically (so that it won't ban EMI and Sinytra).
 
 ### 8b14
 - Actually restore CRN
@@ -224,7 +232,7 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - [x] Update website
 - [ ] Open the ports for VoiceChat, if not set yet?
 - [ ] Fix JifoCC agent, so that it reports a proper playercount, max-payers and version; bonus points for differentiating between server starting and server running (`docker container inspect -f "{{.State.Health.Status}}" <container name>`)
-- Let Poltergeist manage screenshot
+- [ ] Let Poltergeist manage screenshot
 
 ### Balancing/staging/progression:
 #### STAGE ONE, LAUNCH:
