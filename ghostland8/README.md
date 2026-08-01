@@ -15,6 +15,10 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
+### 8.3.3
+- added: Krypton
+- added: PacketFixer *(which claims to be double-sided in the README, **but** Modrinth (and my own understanding of modding) says otherwise, so I'm still marking this update as optional and I hope people will be able to play, tho they MIGHT experience more frequent disconnects due to random network issues, if the mod is only on the server, and MC decides it's fine to send too-big packets, for example - we'll see, ig...)*
+
 ### 8.3.2
 - added: OBB fix
 
