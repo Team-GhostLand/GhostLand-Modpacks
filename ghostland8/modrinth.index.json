@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8.3.1",
+  "versionId": "8.3.2",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -3649,6 +3649,21 @@
         "https://cdn.modrinth.com/data/dOGM7ccu/versions/pjXVTyLu/nyfsspiders-neoforge-1.21.1-3.0.1.jar"
       ],
       "fileSize": 186620
+    },
+    {
+      "path": "mods/obbcrashfix-1.0.0.jar",
+      "hashes": {
+        "sha1": "06f56f348d4ec53ce1f8bd8f7f7d42c45f087272",
+        "sha512": "81638ff19a8628e753f00c6a33081799382807ef979f866fb3472692b5fef7e406c1661f86608ff00f11507399b29756cd51064a7188afebe04e47fcdb43ba72"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/UwzQRF4j/versions/8YG5mlPN/obbcrashfix-1.0.0.jar"
+      ],
+      "fileSize": 2617
     },
     {
       "path": "mods/oritech-neoforge-1.21.1-1.2.9.jar",

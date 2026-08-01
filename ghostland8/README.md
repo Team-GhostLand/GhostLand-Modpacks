@@ -15,6 +15,9 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
+### 8.3.2
+- added: OBB fix
+
 ### 8.3.1
 - added: Feature Recycler
 - Generated TrueUUID config, finally
