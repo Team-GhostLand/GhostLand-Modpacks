@@ -15,6 +15,31 @@ GhostLand 8 modpack.
 
 ## Changelogs
 
+### 8.4.0 [WIP]
+- Added:
+  - Extended AE
+  - MEGA Cells
+  - ME Requester
+  - Advanced AE
+  - AppFlux
+  - Sophisticated Storage (1.5.70)
+  - Trash Cans
+  - Oracle Index
+  - Hostile Neural Networks
+  - Supplementaries
+  - AA4 Atlas
+  - Powah!
+  - Chunk Loaders
+  - Create: Power Loader
+  - Iron Furnaces
+- Removed:
+  - More Mobs
+  - Zombie Awareness
+- Updated:
+  - Soulless
+- Controls:
+  - Swapped voice chat mute from `m` to `=`
+
 ### 8.3.3
 - added: Krypton
 - added: PacketFixer *(which claims to be double-sided in the README, **but** Modrinth (and my own understanding of modding) says otherwise, so I'm still marking this update as optional and I hope people will be able to play, tho they MIGHT experience more frequent disconnects due to random network issues, if the mod is only on the server, and MC decides it's fine to send too-big packets, for example - we'll see, ig...)*
