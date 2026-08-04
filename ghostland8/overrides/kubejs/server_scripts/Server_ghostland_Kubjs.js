@@ -244,21 +244,36 @@ ServerEvents.recipes(event => {
         B: 'oritech:dubios_container',
         C: 'kubejs:primary_fission_trigger'
     })   
-    event.recipes.oritech
-        .assembler()
-        .itemInputs(["minecraft:iron_ingot","minecraft:iron_ingot","minecraft:iron_ingot","minecraft:iron_ingot"])
-        .itemOutputs("4x create:iron_sheet")
-        .time(20)
+    event.shaped('oritech:atomic_forge_block',[
+        'ABA',
+        'DCD',
+        'EEE'
+    ],{
+        A: 'oritech:flux_gate',
+        B: 'oritech:energite_ingot',
+        C: 'oritech:enderic_compound',
+        D: 'oritech:plastic_sheet',
+        E: {tag: 'oritech_plating'}
+    })
     event.recipes.oritech
         .assembler()
         .itemInputs(["minecraft:netherite_ingot","minecraft:netherite_ingot","minecraft:tnt","oritech:plutonium_dust"])
         .itemOutputs("kubejs:primary_fission_trigger")
-        .time(1800)
-    
+        .time(1800)    
 })
-
-
-
+//>>>>>>>>>>>>>>>>>>>>   LOOT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+LootJS.lootTables(event => {
+    //brass ingot
+    event.getLootTable("minecraft:chests/desert_pyramid").firstPool().removeItem("create:brass_ingot")
+    event.getLootTable("minecraft:chests/desert_pyramid").firstPool().removeItem("create:brass_ingot")
+    event.getLootTable("minecraft:chests/desert_pyramid").firstPool().removeItem("create:brass_ingot")
+    event.getLootTable("minecraft:chests/desert_pyramid").firstPool().removeItem("create:brass_ingot")
+    //echo shard
+    event.getLootTable("minecraft:chests/desert_pyramid").firstPool().removeItem("minecraft:echo_shard")
+    event.getLootTable("minecraft:chests/desert_pyramid").firstPool().removeItem("minecraft:echo_shard")
+    //brass sheet
+    event.getLootTable("minecraft:chests/desert_pyramid").firstPool().removeItem("create:brass_sheet")
+})
 
 
 
@@ -296,7 +311,8 @@ ServerEvents.recipes(event => {
     ].forEach((ingredientID) => event.remove({input: ingredientID})); //usuwa wszystkie receptury z itemem
     [
         'minecraft:bedrock',
-        'minecraft:netherite_ingot'
+        'minecraft:netherite_ingot',
+        'oritech:atomic_forge_block'
     ].forEach((itemID) => event.remove({output: itemID})); //usuwa wszystkie receptury dające item
         
 })

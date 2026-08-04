@@ -7,14 +7,14 @@
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
 	debugging = false
-	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	#Enable the detection of certain compatible launchers, allowing you to use their name and icon in your config
 	launcherIntegration = false
 	#Allow using local image files, as RPC icons
 	rpcImageServer = false
 	#The URL of the RPC image server that will be used for local images. Restart required when changed
 	rpcImageServerUrl = "https://rpcavatar.firstdark.dev"
 	#Internal Version Number. NO TOUCHY!
-	version = 26
+	version = 27
 
 #The Game Loading event
 [init]
@@ -26,17 +26,17 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "Minecraft is loading"
+		description = "Minecraft 1.21.1 is loading."
 		#The second line of text under the app name
 		state = "Game Starting..."
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "GhostLand 8 Modpack"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = []
 		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{game.mods}} mods installed"
+		smallImageText = "{{game.mods}} mods installed from GhostLand 8"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
@@ -54,15 +54,15 @@
 		#The first line of text under the app name
 		description = "{{player.name}} is currently lazy"
 		#The second line of text under the app name
-		state = "Chilling in the menu"
+		state = "Chilling in the main menu"
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "GhostLand 8 Modpack"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{player.name}}"
+		smallImageText = "{{game.mods}} mods installed from GhostLand 8"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
@@ -97,7 +97,7 @@
 #The Realms Screen event
 [realms_list]
 	#Enable/Disable the Realms Screen Event
-	enabled = true
+	enabled = false
 
 	#List of RPCs that will be displayed at random
 	[[realms_list.presence]]
@@ -136,11 +136,11 @@
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "GhostLand 8 Modpack"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{player.name}}"
+		smallImageText = "{{game.mods}} mods installed from GhostLand 8"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
@@ -149,7 +149,7 @@
 #The Single Player Event
 [single_player]
 	#Enable/Disable the Single Player Event
-	enabled = true
+	enabled = false
 
 	#List of RPCs that will be displayed at random
 	[[single_player.presence]]
@@ -201,7 +201,7 @@
 #The Realms Game Event
 [realms]
 	#Enable/Disable the Realms Game Event
-	enabled = true
+	enabled = false
 
 	#List of RPCs that will be displayed at random
 	[[realms.presence]]
@@ -234,17 +234,17 @@
 		#The Activity type to use for this RPC. Valid types are: PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM, COMPETING
 		type = "PLAYING"
 		#The first line of text under the app name
-		description = "In the Pause Menu"
+		description = " {{player.name}} is currently lazy"
 		#The second line of text under the app name
-		state = "Game Paused"
+		state = "Chilling in the pause menu"
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "GhostLand 8 Modpack"
 		#The Asset ID or URLs of images to randomly use for the small image
 		smallImageKey = ["{{images.player}}"]
 		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{player.name}}"
+		smallImageText = "{{game.mods}} mods installed from GhostLand 8 "
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
@@ -260,15 +260,15 @@
 		#The first line of text under the app name
 		description = "Playing Minecraft"
 		#The second line of text under the app name
-		state = ""
+		state = "1.21.1 NeoForge"
 		#The Asset ID or URLs of images to randomly use for the large image
 		largeImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the largeImage
-		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		largeImageText = "GhostLand 8 Modpack"
 		#The Asset ID or URLs of images to randomly use for the small image
-		smallImageKey = []
+		smallImageKey = ["gl-hd"]
 		#The text to show when someone hovers over the smallImage
-		smallImageText = "{{game.mods}} mods installed"
+		smallImageText = "{{game.mods}} mods installed from GhostLand 8"
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
@@ -361,4 +361,3 @@
 			streamingActivityUrl = "https://twitch.tv/twitch"
 			#List of buttons (max 2) to show on the RPC
 			buttons = []
-

@@ -9,13 +9,11 @@ GhostLand 8 modpack.
 - [Credits/Licensing](#creditslicensing)
 
 ## Issues
-- [x] The very concept of fire can crash the server. (Can be "fixed" with `/gamerule doFireTick false` but that's LAMEEEE - a real fix would be nice.) (Seems to be caused by Sable x HT's? We can probably disable fire-related stuff in Sable, and stripped-logs-as-trees in HT's.)
-- [x] Tweakable is broken (we need Creat Aero Structurs; FabricAPI/Sinytra; Kiwi)
-- [x] Nukes can nuke the server
+ALL FIXED!
 
 ## Changelogs
 
-### 8.4.0 [WIP]
+### 8.4.0
 - Added:
   - Extended AE
   - MEGA Cells
@@ -32,13 +30,19 @@ GhostLand 8 modpack.
   - Chunk Loaders
   - Create: Power Loader
   - Iron Furnaces
+  - A new DC-PRC system, and its lib (Crater)
 - Removed:
   - More Mobs
   - Zombie Awareness
+  - old Discord PRC system
+  - A bunch of unused configs (eg. AdPothr)
 - Updated:
   - Soulless
-- Controls:
-  - Swapped voice chat mute from `m` to `=`
+  - Generated a new config list, for all added mods
+- Configs:
+  - Swapped various SVC keys to None, including Mute (it was conflicting with maps)
+  - Fixed Discord
+  - Made Surveyor consistent for all players
 
 ### 8.3.3
 - added: Krypton

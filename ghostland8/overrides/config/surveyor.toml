@@ -58,7 +58,7 @@ forceUpdateLandmarks = true
 	# When NONE, waypoint data will never be synced (e.g. for privacy)
 	# options: NONE, SOLO, GROUP, SERVER
 	# default: GROUP
-	waypoints = "GROUP"
+	waypoints = "SERVER"
 	# [Server] How much player position data to send to clients
 	# SERVER sends all players positions, GROUP sends just group players, SOLO sends nothing, NONE sends nothing
 	# Players will only see the offline positions of their group members, or players who disconnected while they were online.

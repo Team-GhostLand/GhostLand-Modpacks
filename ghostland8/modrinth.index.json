@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8.3.3",
+  "versionId": "8.4.0",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -94,6 +94,21 @@
         "https://cdn.modrinth.com/data/ziOp6EO8/versions/nqrTa84r/Corgilib-NeoForge-1.21.1-5.0.0.9.jar"
       ],
       "fileSize": 309763
+    },
+    {
+      "path": "mods/CraterLib-Neoforge-1.21-3.1.2.jar",
+      "hashes": {
+        "sha1": "b1146bec9b6ee6acd07d41d2666beffd1805cc19",
+        "sha512": "8bc1608bbb2278a22ed123c0bf5dd2818079895f5a5cbe1560e8bb36b05ce04c75b425bba3bf4648eaa7f4fbd1f2b7c2a423d98101407ff17a0fe9e12caa904c"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Nn8Wasaq/versions/BaPsTnt7/CraterLib-Neoforge-1.21-3.1.2.jar"
+      ],
+      "fileSize": 1483241
     },
     {
       "path": "mods/Design-n-Decor-1.21.1-2.2b.jar",
@@ -2331,19 +2346,19 @@
       "fileSize": 1425176
     },
     {
-      "path": "mods/SimpleDiscordRichPresence-neoforge-88.0.1-build.54+mc1.21.1.jar",
+      "path": "mods/SimpleRPC-4.1.4.jar",
       "hashes": {
-        "sha1": "3bcccf27fb2f954a81a3984bcb1ee8ea636d7247",
-        "sha512": "ea7c4757fc74085b06ce0293f02fd6d6ff47616244987feec3a5fc2fadd491c13d47e55e344ac4602db00aafb3071370ddfadd08333925be1cff2b6a26111dd8"
+        "sha1": "fe7e47214681cd724c4b8b346bb0aa11bea4e9c7",
+        "sha512": "4f6fe672a65591a246370140893f5b8acd291865f735870a4fb71fd33e51d7169514177c7bbcd95d1d401d44bf320b49fc8cde3ab603a873c3b238949ae6cf40"
       },
       "env": {
         "client": "required",
         "server": "required"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/SCAopByd/versions/ggKPQKwC/SimpleDiscordRichPresence-neoforge-88.0.1-build.54%2Bmc1.21.1.jar"
+        "https://cdn.modrinth.com/data/ObXSoyrn/versions/g6OmXHMq/SimpleRPC-4.1.4.jar"
       ],
-      "fileSize": 79869
+      "fileSize": 716599
     },
     {
       "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
