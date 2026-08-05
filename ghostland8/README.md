@@ -13,6 +13,9 @@ ALL FIXED!
 
 ## Changelogs
 
+### 8.4.1
+- Removed debug code from KJS, which caused recipes to not be removed.
+
 ### 8.4.0
 - Added:
   - Extended AE

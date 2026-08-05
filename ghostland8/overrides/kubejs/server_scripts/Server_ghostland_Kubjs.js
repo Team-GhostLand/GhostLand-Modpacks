@@ -261,21 +261,6 @@ ServerEvents.recipes(event => {
         .itemOutputs("kubejs:primary_fission_trigger")
         .time(1800)    
 })
-//>>>>>>>>>>>>>>>>>>>>   LOOT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-LootJS.lootTables(event => {
-    //brass ingot
-    event.getLootTable("minecraft:chests/desert_pyramid").firstPool().removeItem("create:brass_ingot")
-    event.getLootTable("minecraft:chests/desert_pyramid").firstPool().removeItem("create:brass_ingot")
-    event.getLootTable("minecraft:chests/desert_pyramid").firstPool().removeItem("create:brass_ingot")
-    event.getLootTable("minecraft:chests/desert_pyramid").firstPool().removeItem("create:brass_ingot")
-    //echo shard
-    event.getLootTable("minecraft:chests/desert_pyramid").firstPool().removeItem("minecraft:echo_shard")
-    event.getLootTable("minecraft:chests/desert_pyramid").firstPool().removeItem("minecraft:echo_shard")
-    //brass sheet
-    event.getLootTable("minecraft:chests/desert_pyramid").firstPool().removeItem("create:brass_sheet")
-})
-
-
 
 //Removing recipes
 ServerEvents.recipes(event => {
