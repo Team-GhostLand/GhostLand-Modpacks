@@ -253,7 +253,7 @@ ServerEvents.recipes(event => {
         B: 'oritech:energite_ingot',
         C: 'oritech:enderic_compound',
         D: 'oritech:plastic_sheet',
-        E: {tag: 'oritech_plating'}
+        E: {tag: 'oritech:plating'}
     })
     event.recipes.oritech
         .assembler()
