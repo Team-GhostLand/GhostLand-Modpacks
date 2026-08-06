@@ -3,5 +3,6 @@
 	"defaultX":496,
 	"defaultZ":304,
 	"title":"The world of GhostLand!",
+	"prefix":"https://ghostland.ovh/external/map/",
 	"biomes":[]
 }
