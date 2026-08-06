@@ -255,6 +255,38 @@ ServerEvents.recipes(event => {
         D: 'oritech:plastic_sheet',
         E: {tag: 'oritech:plating'}
     })
+    event.shaped('hostilenetworks:loot_fabricator',[
+        ' A ',
+        'EBE',
+        'CDC'
+    ],{
+        A: 'extendedae:entro_ingot',
+        B: 'minecraft:obsidian',
+        C: 'minecraft:gold_ingot',
+        D: 'minecraft:comparator',
+        E: 'minecraft:diamond'
+    })
+     event.custom({
+        type: 'extendedae:crystal_assembler',
+            energy: 2000,
+            input_items: [
+            {
+            ingredient:{item: 'minecraft:blaze_powder', amount: 3}
+            },
+            {
+            ingredient:{item: 'minecraft:ender_pearl', amount: 3}
+            },
+            {
+            ingredient:{item: 'extendedae:entro_crystal', amount: 3}
+            },
+            {
+            ingredient:{item: 'ae2:silicon_press', amount: 3}
+            }
+        ],
+        output: {
+            id: 'extendedae:concurrent_processor_press'
+        }
+})
     event.recipes.oritech
         .assembler()
         .itemInputs(["minecraft:netherite_ingot","minecraft:netherite_ingot","minecraft:tnt","oritech:plutonium_dust"])
@@ -297,7 +329,9 @@ ServerEvents.recipes(event => {
     [
         'minecraft:bedrock',
         'minecraft:netherite_ingot',
-        'oritech:atomic_forge_block'
+        'oritech:atomic_forge_block',
+        'extendedae:concurrent_processor_press',
+        'hostilenetworks:loot_fabricator',
     ].forEach((itemID) => event.remove({output: itemID})); //usuwa wszystkie receptury dające item
         
 })

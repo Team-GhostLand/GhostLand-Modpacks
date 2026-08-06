@@ -13,7 +13,10 @@ ALL FIXED!
 
 ## Changelogs
 
-### 8.4.1 - 8.4.2
+### 8.4.3 [WIP]
+- Added a webmap
+
+### 8.4.1 - 8.4.3
 - KJS patches
 
 ### 8.4.0
