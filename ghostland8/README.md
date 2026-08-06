@@ -13,8 +13,9 @@ ALL FIXED!
 
 ## Changelogs
 
-### 8.4.3 [WIP]
-- Added a webmap
+### 8.4.3
+- Added my webmap, and its dependency (Fabric Kotlin)
+- Generate some missing configs for things changed all the way back in `8.4.0`
 
 ### 8.4.1 - 8.4.3
 - KJS patches

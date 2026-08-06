@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8.4.2",
+  "versionId": "8.4.3",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -1849,6 +1849,21 @@
         "https://cdn.modrinth.com/data/DcCsQ8S5/versions/8Gwi7nsw/WhitelistSync-2.9.0-neoforge-1.21.1.jar"
       ],
       "fileSize": 25727085
+    },
+    {
+      "path": "mods/GR_CLX_fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar",
+      "hashes": {
+        "sha1": "620cb137a9dc69ce86f3114f19d9eedab16366f5",
+        "sha512": "9a63c35a550b0362b7b25ff045d93709c7b0dae08c89076cba422813fdfb9e5f5dd021ed3afac9f82e74e95b88c249e8f68b240717151540ca3e88cc27fb9c77"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Ha28R6CL/versions/bdhiINYC/fabric-language-kotlin-1.13.13%2Bkotlin.2.4.10.jar"
+      ],
+      "fileSize": 8076363
     },
     {
       "path": "mods/GR_SVX_BadOptimizations-2.4.1-1.21.1.jar",
