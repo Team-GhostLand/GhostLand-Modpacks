@@ -49,7 +49,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","moonlight:merged_pack","mod_resources","fabric","file/GR_SVX_MimicLootr.zip","file/GR_SVX_Simple Grass Flowers v2.0.0.zip","file/VanillaTweaks_r279574_MC1.21.x.zip","file/Visual Effects+.zip","file/GR_SVX_AA_structures-v1.1.1.zip","file/GR_SVX_Antique_Atlas_4_Compat_v1.4.zip","file/GR_SVX_AA4 Structure Markers 1.7.1.zip","file/GR_SVX_DnT Antique Atlas 4 Compat.zip","file/GR_SVX_SodiumTranslations.zip","mod/boatiview","mod/natures_spirit:resourcepacks/plank_consistency","mod/subtle_effects:resourcepacks/biome_color_water_particles","naturalist:custom_spawn_eggs","vanillabackport:freshly_animated","file/GhostLand Textures","mod/accessorify:resourcepacks/1_21_1/rp"]
+resourcePacks:["vanilla","moonlight:merged_pack","mod_resources","fabric","file/GR_SVX_MimicLootr.zip","file/GR_SVX_Simple Grass Flowers v2.0.0.zip","file/VanillaTweaks_r279574_MC1.21.x.zip","file/Visual Effects+.zip","file/GR_SVX_AA_structures-v1.1.1.zip","file/GR_SVX_Antique_Atlas_4_Compat_v1.4.zip","file/GR_SVX_AA4 Structure Markers 1.7.1.zip","file/GR_SVX_DnT Antique Atlas 4 Compat.zip","file/GR_SVX_SodiumTranslations.zip","mod/boatiview","mod/natures_spirit:resourcepacks/plank_consistency","mod/subtle_effects:resourcepacks/biome_color_water_particles","naturalist:custom_spawn_eggs","vanillabackport:freshly_animated","file/GhostLand Textures","mod/accessorify:resourcepacks/1_21_1/rp","lambdabettergrass:default"]
 incompatibleResourcePacks:["file/GR_SVX_MimicLootr.zip","mod/natures_spirit:resourcepacks/plank_consistency","mod/subtle_effects:resourcepacks/biome_color_water_particles","file/GhostLand Textures"]
 lastServer:
 lang:pl_pl
@@ -154,11 +154,11 @@ key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
-key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.hostilenetworks.open_deep_learner:key.keyboard.u
 key_key.bridgingmod.toggle_bridging:key.keyboard.comma
 key_key.ebe.open_config:key.keyboard.unknown
@@ -185,25 +185,25 @@ key_simulated.keyinfo.scroll_up:key.keyboard.unknown
 key_simulated.keyinfo.scroll_down:key.keyboard.unknown
 key_key.ok_zoomer.zoom:key.keyboard.c
 key_key.observable.profile:key.keyboard.unknown
-key_key.wands.wand_fill_circle:key.keyboard.k
-key_key.wands.clear_wand:key.keyboard.c
-key_key.wands.n_dec:key.keyboard.down
-key_key.wands.wand_undo:key.keyboard.u
 key_key.wands.palette_menu:key.keyboard.j
-key_key.wands.wand_orientation:key.keyboard.x
-key_key.wands.wand_menu:key.keyboard.y
-key_key.wands.m_dec:key.keyboard.left
-key_key.wands.inc_sel_block:key.keyboard.z
-key_key.wands.pin:key.keyboard.g
-key_key.wands.wand_palette_mode:key.keyboard.p
-key_key.wands.wand_mode:key.keyboard.v
 key_key.wands.cycle_palette:key.keyboard.n
-key_key.wands.wand_action:key.keyboard.h
-key_key.wands.n_inc:key.keyboard.up
-key_key.wands.wand_rotate:key.keyboard.r
-key_key.wands.area_diagonal_spread:key.keyboard.comma
-key_key.wands.wand_invert:key.keyboard.i
+key_key.wands.wand_orientation:key.keyboard.x
+key_key.wands.wand_undo:key.keyboard.u
+key_key.wands.wand_mode:key.keyboard.v
+key_key.wands.pin:key.keyboard.g
+key_key.wands.clear_wand:key.keyboard.c
 key_key.wands.m_inc:key.keyboard.right
+key_key.wands.wand_fill_circle:key.keyboard.k
+key_key.wands.m_dec:key.keyboard.left
+key_key.wands.wand_menu:key.keyboard.y
+key_key.wands.wand_invert:key.keyboard.i
+key_key.wands.inc_sel_block:key.keyboard.z
+key_key.wands.n_inc:key.keyboard.up
+key_key.wands.wand_palette_mode:key.keyboard.p
+key_key.wands.wand_rotate:key.keyboard.r
+key_key.wands.n_dec:key.keyboard.down
+key_key.wands.area_diagonal_spread:key.keyboard.comma
+key_key.wands.wand_action:key.keyboard.h
 key_key.wands.toggle_stair_slab:key.keyboard.period
 key_key.oracle_index.open:key.keyboard.h
 key_key.oracle_index.search:key.keyboard.unknown
