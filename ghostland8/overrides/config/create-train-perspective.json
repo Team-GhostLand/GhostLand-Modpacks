@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "leanEnabled": true,
+  "leanMagnitude": 1.0,
+  "rollEnabled": true,
+  "rollMagnitude": 1.0,
+  "applyToOthers": true,
+  "applyToNonPlayerEntities": true,
+  "blockedEntityUUIDs": [],
+  "blockedPlayerUUIDs": [],
+  "debugMode": "NONE",
+  "disableRotateWhenSeated": true,
+  "debugEnableYawLock": false,
+  "debugYawLock": 90.0
+}

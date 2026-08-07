@@ -13,6 +13,39 @@ ALL FIXED!
 
 ## Changelogs
 
+### 8.5.0 [WIP]
+- Stage II and III got merged
+- Opened the Nether
+- Opened the Aether
+- Opened the Bumblezone
+- Added:
+  - The Bumblezone
+  - Hybrid Aquatic
+  - Nether Portal Fix
+  - Nether Depths Upgrade
+  - Luminous: Nether
+  - The Aether
+  - Deep Aether
+  - Aether Villages
+  - Adventure Dungeons
+  - Dungeon Crawl
+  - Legendary Monsters
+  - Bosses'Rise
+  - Boss Checklist
+  - Create: Interiors
+  - Create Jetpack
+  - Create: Bells & Whistles
+  - CreateBetterFps
+  - Sophisticated Storage Create Integration
+  - Create Propulsion: Simulated
+  - Create: Curios Jetpack & Backtank
+  - Create: LazyTick
+  - Create: Train Perspective
+  - Create: Sophisticated Backpacks Compat
+  - Create: Gunsmithing
+- Removed:
+  - AntiPortals (eyes of ender are stil not craftable (I'm pretty sure))
+
 ### 8.4.4
 - fix webmap
 
