@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8.5.0",
+  "versionId": "8.5.1",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -3156,14 +3156,14 @@
       "fileSize": 4527056
     },
     {
-      "path": "mods/continuity-3.0.0+1.21.neoforge.jar",
+      "path": "mods/GR_SVX_continuity-3.0.0+1.21.neoforge.jar",
       "hashes": {
         "sha1": "0aecd2d043ac25299254623fafdd9129ab2ba9c2",
         "sha512": "320b6def6073ce0ffc0ce2bd7cdb66324467ea3e7cec05508f32d78f65c60ff3e155394b94c60f62e059404ec0ca3fc6112987a5764a8f85241d3026a2ee4935"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/1IjD5062/versions/eXGUs5sy/continuity-3.0.0%2B1.21.neoforge.jar"
@@ -3381,14 +3381,14 @@
       "fileSize": 679850
     },
     {
-      "path": "mods/create_train_perspective-1.1.1.jar",
+      "path": "mods/GR_CLO+SVX_create_train_perspective-1.1.1.jar",
       "hashes": {
         "sha1": "dccdad2ea27ee6a0918e43ede1b911541be77289",
         "sha512": "e41edde5aefad71a88bda3ac53dc1f3b9c2c2d1cf879a3c23a96ee32edcc91408f94f3815a4cdd3b1015bc17b871e7c76ad6ab3bb9f1d5768d36338248c6da08"
       },
       "env": {
-        "client": "required",
-        "server": "required"
+        "client": "optional",
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/MAuPqvf1/versions/dR2F5bfH/create_train_perspective-1.1.1.jar"
@@ -3411,14 +3411,14 @@
       "fileSize": 235239
     },
     {
-      "path": "mods/createbetterfps-1.21.1-1.1.4.jar",
+      "path": "mods/GR_SVX_createbetterfps-1.21.1-1.1.4.jar",
       "hashes": {
         "sha1": "c594e20659b73a67bd0b0c2de45b29b78a2eb160",
         "sha512": "777cf4c533eba723baea1ef1fffcd2d47c8f4f8238ddc360973b41ae4946f7e733a24542a3691c4a1be2f41e55b07675f9ccfa633be186e72d11911ca67fa412"
       },
       "env": {
         "client": "required",
-        "server": "required"
+        "server": "unsupported"
       },
       "downloads": [
         "https://cdn.modrinth.com/data/lMYIHZNH/versions/QWqEdWHy/createbetterfps-1.21.1-1.1.4.jar"
@@ -4266,13 +4266,13 @@
       "fileSize": 585562
     },
     {
-      "path": "mods/netherportalfix-neoforge-1.21.1-21.1.1.jar",
+      "path": "mods/GR_CLO_netherportalfix-neoforge-1.21.1-21.1.1.jar",
       "hashes": {
         "sha1": "9f1ba483216aebce1ee6185601231158684f5de8",
         "sha512": "be26c53b4e7aa9dc27b05fe4cafdd120a3d1356410b35d25381d473bd9a7aa19ce6cec1bb982fda842f2a663d15dec5d12248b50141f9479a5e9ec33ed2ab3f7"
       },
       "env": {
-        "client": "required",
+        "client": "optional",
         "server": "required"
       },
       "downloads": [
