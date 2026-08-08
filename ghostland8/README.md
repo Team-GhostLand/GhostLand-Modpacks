@@ -48,11 +48,16 @@ ALL FIXED!
 - Removed:
   - AntiPortals (eyes of ender are stil not craftable (I'm pretty sure))
 
+
+### 8.4.5
+- Added CTM (and port and refresh configs)
+- Generate some missing configs (notably, Lambda Better Grass textures, apparently?)
+
 ### 8.4.4
-- fix webmap
+- fix webmap (update and prefix config)
 
 ### 8.4.3
-- Added my webmap, and its dependency (Fabric Kotlin)
+- Added my webmap (and port, coords, and title configs), and its dependency (Fabric Kotlin)
 - Generate some missing configs for things changed all the way back in `8.4.0`
 
 ### 8.4.1 - 8.4.3
@@ -417,6 +422,13 @@ Some parts are in Polish, both due to me writing it at 3AM and being tired, and 
 - IPN:
   - reworked 1 (one) screen-that-overlaps-with-EMI
   - hidden annoying purple arrows
+- CTM:
+  - Refresh rate dropped from once every 1s to once every 3s
+  - Port changed from default 3876 to 6769, to keep it inline with Surwebyor
+- Surwebyor:
+  - Page ttile now proudly mentions GhostLand
+  - Re-centered on spawn
+  - Port and prefix updated to work with out Caddy setup (and because 6967 is funi)
 
 
 ## Guides

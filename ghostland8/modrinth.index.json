@@ -1896,6 +1896,21 @@
       "fileSize": 25727085
     },
     {
+      "path": "mods/GR_CLX_create-track-map-2.1+mc1.21.1-neoforge.jar",
+      "hashes": {
+        "sha1": "21994abc464d7a5b6a409a469314a83b2327d4ca",
+        "sha512": "6998ea686f0d2ef6e4e23b91cd0d124b677b6f12bc608bde188a7d6a34d6587737d32fe98ff81e25ea956ed58a359d99e2f480c4166eef0e3d2acdcc2cb5736d"
+      },
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/5hOThXqO/versions/GdmOm0aT/create-track-map-2.1%2Bmc1.21.1-neoforge.jar"
+      ],
+      "fileSize": 388701
+    },
+    {
       "path": "mods/GR_CLX_fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar",
       "hashes": {
         "sha1": "620cb137a9dc69ce86f3114f19d9eedab16366f5",
