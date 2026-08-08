@@ -16,7 +16,6 @@ ALL FIXED!
 ### 8.5.0 [WIP]
 - Stage II and III got merged
 - Opened the Nether
-- Opened the Aether
 - Opened the Bumblezone
 - Added:
   - The Bumblezone
@@ -26,9 +25,6 @@ ALL FIXED!
   - Luminous: Nether
   - Jaden's Nether Expansion
   - Bad Wither No Cookie
-  - The Aether
-  - Deep Aether
-  - Aether Villages
   - Adventure Dungeons
   - Dungeon Crawl
   - Legendary Monsters
@@ -47,6 +43,7 @@ ALL FIXED!
   - Create: Gunsmithing
   - Super Factory Manager
   - Pipez
+  - Cyberspace
 - Removed:
   - AntiPortals (eyes of ender are stil not craftable (I'm pretty sure))
 

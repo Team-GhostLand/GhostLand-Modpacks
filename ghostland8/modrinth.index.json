@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8.5.0 WIP2",
+  "versionId": "8.5.0 WIP3",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -49,21 +49,6 @@
         "https://cdn.modrinth.com/data/rxYaglEe/versions/ablTMAjP/AdvancedAE-1.6.12-1.21.1.jar"
       ],
       "fileSize": 4791255
-    },
-    {
-      "path": "mods/AetherVillages-1.21.1-1.0.8-neoforge.jar",
-      "hashes": {
-        "sha1": "0795d6a8934c90475c930149940937d6bea515af",
-        "sha512": "6721d6fcc1b3d5135facef730cdcca3accbae7e8f9a241b3ac2120242d8b8b6b91de5770a84edda57de16a041a8b8025dac6d7d21527a2d782dc844221c4e8b3"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/3P2XnNW6/versions/9l6te4eG/AetherVillages-1.21.1-1.0.8-neoforge.jar"
-      ],
-      "fileSize": 647447
     },
     {
       "path": "mods/AppliedFlux-1.21-2.1.4-neoforge.jar",
@@ -139,6 +124,21 @@
         "https://cdn.modrinth.com/data/Z0d7hFh4/versions/FdVtKdOE/CreateLazyTick-2.5.15-6.0.x-neoforge-1.21.1.jar"
       ],
       "fileSize": 468339
+    },
+    {
+      "path": "mods/Cyberspace 4.1.1 (NF1.21.1).jar",
+      "hashes": {
+        "sha1": "1470f076aaff7cf6cece57518377fb9eb251ee75",
+        "sha512": "7bcc152c878f432adb14a7d21aaf7ce7cb45c1fd7ac297e67258034df5e1a3021f67bcc280d8a048cb39b3cfaa37d1c21ce6ee7ae04da8a768b754fa9d199035"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/vR7IsaZr/versions/9eUFDK65/Cyberspace%204.1.1%20%28NF1.21.1%29.jar"
+      ],
+      "fileSize": 3460072
     },
     {
       "path": "mods/Design-n-Decor-1.21.1-2.2b.jar",
@@ -2691,21 +2691,6 @@
       "fileSize": 43764
     },
     {
-      "path": "mods/aether-1.21.1-1.5.10-neoforge.jar",
-      "hashes": {
-        "sha1": "7554b1dd391b8dd06a810918ec705d0493f693eb",
-        "sha512": "4b004daed6d09362646e204f068dee28e80523e705e862778036c492775672071ca9cc95f9574a842f34d2e058b46138c6154c6a2f251dcdad7a8803907dad46"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/YhmgMVyu/versions/K5X5qMwG/aether-1.21.1-1.5.10-neoforge.jar"
-      ],
-      "fileSize": 40223909
-    },
-    {
       "path": "mods/alcohol_industry-2.2.2.jar",
       "hashes": {
         "sha1": "1d9001bddcf82485ba5a32fd7b3d6a78507a52e5",
@@ -3514,21 +3499,6 @@
         "https://cdn.modrinth.com/data/vvuO3ImH/versions/yohfFbgD/curios-neoforge-9.5.1%2B1.21.1.jar"
       ],
       "fileSize": 410690
-    },
-    {
-      "path": "mods/deep_aether-1.21.1-1.1.5.1.jar",
-      "hashes": {
-        "sha1": "2cffdb08d7cb068186cf0fe766fd937425889af1",
-        "sha512": "f848fee0a8a73d0696bf721753af1b752b067791900a19a949ce9faa0adcf1f03b29f44e5ea945404c4505891b14dadab89009253cd31cc85c241c07fe9c5684"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/gcHIih5B/versions/MSW5emg8/deep_aether-1.21.1-1.1.5.1.jar"
-      ],
-      "fileSize": 46236011
     },
     {
       "path": "mods/distractingtrims-neoforge-1.21.1-21.1.1.jar",
