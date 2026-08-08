@@ -13,13 +13,13 @@ ALL FIXED!
 
 ## Changelogs
 
-### 8.5.0 [WIP]
-- Stage II and III got merged
+### 8.5.0
 - Opened the Nether
 - Opened the Bumblezone
 - Added:
   - The Bumblezone
   - Hybrid Aquatic
+  - Luminous: Overworld
   - Nether Portal Fix
   - Nether Depths Upgrade
   - Luminous: Nether

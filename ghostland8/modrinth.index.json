@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8.5.0 WIP3",
+  "versionId": "8.5.0",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -2254,6 +2254,21 @@
         "https://cdn.modrinth.com/data/1vrSzlao/versions/318K66ba/KotlinLangForge-2.12.2-k2.4.10-3.0%2Bneoforge.jar"
       ],
       "fileSize": 7982542
+    },
+    {
+      "path": "mods/Luminous Overworld V1.5.52 -NeoForge 1.21.1.jar",
+      "hashes": {
+        "sha1": "512e4ddc5f22707aa4c9a22281873255ade84d84",
+        "sha512": "4be8a62c1a50fdd485a47c83014d5feb958f79ea6151b676d3cf7705239aff0d73b2b92079fbd60b33d762364b78c15de811d7802a46985174d41e3bb01d3156"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/HT2F6lNL/versions/7gCLLt7C/Luminous%20Overworld%20V1.5.52%20-NeoForge%201.21.1.jar"
+      ],
+      "fileSize": 28103757
     },
     {
       "path": "mods/LuminousNetherV1.3.3 0 NeoForge 1.21.1.jar",
