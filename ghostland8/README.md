@@ -24,6 +24,8 @@ ALL FIXED!
   - Nether Portal Fix
   - Nether Depths Upgrade
   - Luminous: Nether
+  - Jaden's Nether Expansion
+  - Bad Wither No Cookie
   - The Aether
   - Deep Aether
   - Aether Villages
@@ -37,12 +39,14 @@ ALL FIXED!
   - Create: Bells & Whistles
   - CreateBetterFps
   - Sophisticated Storage Create Integration
-  - Create Propulsion: Simulated
+  - Create Aeronautics: Gadgets & Gizmos
   - Create: Curios Jetpack & Backtank
   - Create: LazyTick
   - Create: Train Perspective
   - Create: Sophisticated Backpacks Compat
   - Create: Gunsmithing
+  - Super Factory Manager
+  - Pipez
 - Removed:
   - AntiPortals (eyes of ender are stil not craftable (I'm pretty sure))
 

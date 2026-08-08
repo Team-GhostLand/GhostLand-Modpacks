@@ -1,7 +1,7 @@
 {
   "game": "minecraft",
   "formatVersion": 1,
-  "versionId": "8.5.0 WIP",
+  "versionId": "8.5.0 WIP2",
   "name": "GL8",
   "summary": "Paczka na ósmą edycję GhostLanda",
   "files": [
@@ -199,6 +199,21 @@
         "https://cdn.modrinth.com/data/OZBR5JT5/versions/fSQSKhdF/EasyAnvils-v21.1.0-1.21.1-NeoForge.jar"
       ],
       "fileSize": 152297
+    },
+    {
+      "path": "mods/ElysiumAPI-1.21.1-2.0.0-BETA.6.jar",
+      "hashes": {
+        "sha1": "044905efedf919eeeb7d773399013b190b7d42fe",
+        "sha512": "c80337548739bd4db187d13999dd01666c6b74e62df756065387efdb1c40655f4ecb04943d285c4f29ba66ba6bab6f38ab23b720530ca8d7184f65162862b45c"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/6YTvv3aI/versions/EIhZq8hW/ElysiumAPI-1.21.1-2.0.0-BETA.6.jar"
+      ],
+      "fileSize": 434613
     },
     {
       "path": "mods/EnchantingInfuser-v21.1.4-1.21.1-NeoForge.jar",
@@ -2181,6 +2196,21 @@
       "fileSize": 725742
     },
     {
+      "path": "mods/Jadens-Nether-Expansion-2.4.0-BETA.7.jar",
+      "hashes": {
+        "sha1": "cdf4837c096200c012c6e1a59ce89fca073c6d16",
+        "sha512": "356fe53d9e4cf25580514d537a59eeeb67a6c366a5964264ab72684c4b2665b5ee09077448a6b0fe1f95fe823fae21a145a74351794c45dc348eb80b681829eb"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/v3UlehfS/versions/6qRP74x9/Jadens-Nether-Expansion-2.4.0-BETA.7.jar"
+      ],
+      "fileSize": 27156031
+    },
+    {
       "path": "mods/Kerria-1.3.2+1.21.1-neoforge.jar",
       "hashes": {
         "sha1": "abd5f8a438482e1791bef6a43a9182baef68f822",
@@ -2419,6 +2449,21 @@
         "https://cdn.modrinth.com/data/ObXSoyrn/versions/g6OmXHMq/SimpleRPC-4.1.4.jar"
       ],
       "fileSize": 716599
+    },
+    {
+      "path": "mods/Super Factory Manager (SFM)-MC1.21.1-4.34.0.jar",
+      "hashes": {
+        "sha1": "1c170062c486bd25a1161571b6c3cf9e6371611b",
+        "sha512": "c8897ecdc3659c9a06ce1dabe2f81d55888f425ddc3c7e2ddeb48d95d73c3b887eb135455d7d5a3da1915c4c6dc693b0e113413d323334137f808cb3871c9158"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/aecUorJQ/versions/HWz24fIm/Super%20Factory%20Manager%20%28SFM%29-MC1.21.1-4.34.0.jar"
+      ],
+      "fileSize": 1597623
     },
     {
       "path": "mods/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
@@ -2946,6 +2991,21 @@
       "fileSize": 823110
     },
     {
+      "path": "mods/bwncr-neoforge-1.21.1-3.20.4.jar",
+      "hashes": {
+        "sha1": "dd7920e114fbd066986ea1028aa201a5e0742875",
+        "sha512": "642c550c61f0fc374b576bd5b26a6e9ee69c0b8e47a1368d99bffcbd47420689c763b60aef64ace8fa2e0ecd8e909b26771a779add2fcde0dd86c9c4c99ffee8"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/lL2MtE37/versions/FRuLJsBp/bwncr-neoforge-1.21.1-3.20.4.jar"
+      ],
+      "fileSize": 28573
+    },
+    {
       "path": "mods/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.116.jar",
       "hashes": {
         "sha1": "ed43c962c5162ffc660e61329a65ad6a46da1884",
@@ -3171,6 +3231,21 @@
       "fileSize": 1819221
     },
     {
+      "path": "mods/create-track-map-2.1+mc1.21.1-neoforge.jar",
+      "hashes": {
+        "sha1": "b4dc2390c4678305aa96c6faedf9e4c54161ec04",
+        "sha512": "46bf797cdf426c8d12769faacdc43a565cd624200f8bc60675f2d7bd5558d6c0196131cb0921a13f1b7ce3b8d3cbf647fbcbbbe547e552d752632e94412090e1"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/NHRXB9Bi/versions/EYyY9A0V/create-track-map-2.1%2Bmc1.21.1-neoforge.jar"
+      ],
+      "fileSize": 3274545
+    },
+    {
       "path": "mods/create_connected-1.3.2-mc1.21.1.jar",
       "hashes": {
         "sha1": "920de05b13c32fe1417d0aec0615057aa480cc8d",
@@ -3381,21 +3456,6 @@
       "fileSize": 3143118
     },
     {
-      "path": "mods/createpropulsion-1.1.5.jar",
-      "hashes": {
-        "sha1": "928e9428ee92d07426c296b04a7fffb1e737e290",
-        "sha512": "6096c9c5cb220219a0b58b56f9fefd63f8b79a0967d326727b4206d62df1813da73956aeae2fa5b839160a1bb5af8e099726d12d2d93f10e5f157beb85bb9c52"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/ApkoHNO9/versions/H13U56dc/createpropulsion-1.1.5.jar"
-      ],
-      "fileSize": 1707765
-    },
-    {
       "path": "mods/createrailwaysnavigator-neoforge-1.21.1-beta-0.9.1-C6.jar",
       "hashes": {
         "sha1": "bc8cc2ff3ce0c1abbe8ae9e24b4c4a502ea9602d",
@@ -3409,6 +3469,21 @@
         "https://cdn.modrinth.com/data/Dq3STxps/versions/hjpv7klQ/createrailwaysnavigator-neoforge-1.21.1-beta-0.9.1-C6.jar"
       ],
       "fileSize": 2071249
+    },
+    {
+      "path": "mods/createthrusters-bundled-V1.1.3.jar",
+      "hashes": {
+        "sha1": "d29df5e23a6aee1171b08b424d73c02d6fc3dd6e",
+        "sha512": "a17b53535c30efbe8602ccef2ecfc6ee3a47af8874aa24eb32875bbcfe4ae12ac15f3c4abbf87c3ec930d62bbde120baba095ee57abd2058c9492f617f72b0e8"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/Sza3GgEL/versions/vQlkDgnK/createthrusters-bundled-V1.1.3.jar"
+      ],
+      "fileSize": 32887560
     },
     {
       "path": "mods/cristellib-neoforge-1.21.1-3.1.7.jar",
@@ -4309,6 +4384,21 @@
         "https://cdn.modrinth.com/data/yGttHo06/versions/iFePoN10/pipeorgans-0.8.2%2B1.21.1.jar"
       ],
       "fileSize": 6593821
+    },
+    {
+      "path": "mods/pipez-neoforge-1.21.1-1.2.31.jar",
+      "hashes": {
+        "sha1": "a5671f7e8d38dfc092ace4091250e8f9e1245e1e",
+        "sha512": "7291230b62104b73b04564d6d39ba18d11134a5713ee79242c7ae8885d07c4efb5f5d0ab75b8ff9aba3119ed8163d0c5488ad603a2db21b92dc35715b723ce5e"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/iRmWy6ga/versions/BPGKb8pi/pipez-neoforge-1.21.1-1.2.31.jar"
+      ],
+      "fileSize": 456599
     },
     {
       "path": "mods/potionstacks-1.0.0.jar",
