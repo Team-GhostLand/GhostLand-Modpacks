@@ -44,6 +44,7 @@ ALL FIXED!
   - Super Factory Manager
   - Pipez
   - Cyberspace
+  - Continuity
 - Removed:
   - AntiPortals (eyes of ender are stil not craftable (I'm pretty sure))
 

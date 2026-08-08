@@ -3141,6 +3141,21 @@
       "fileSize": 4527056
     },
     {
+      "path": "mods/continuity-3.0.0+1.21.neoforge.jar",
+      "hashes": {
+        "sha1": "0aecd2d043ac25299254623fafdd9129ab2ba9c2",
+        "sha512": "320b6def6073ce0ffc0ce2bd7cdb66324467ea3e7cec05508f32d78f65c60ff3e155394b94c60f62e059404ec0ca3fc6112987a5764a8f85241d3026a2ee4935"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/1IjD5062/versions/eXGUs5sy/continuity-3.0.0%2B1.21.neoforge.jar"
+      ],
+      "fileSize": 1014626
+    },
+    {
       "path": "mods/copycats-3.0.4+mc.1.21.1-neoforge.jar",
       "hashes": {
         "sha1": "6a11d5806bcf521e08faba1ee6ef5f31af55ca0f",
