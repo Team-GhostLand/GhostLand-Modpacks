@@ -13,6 +13,42 @@ ALL FIXED!
 
 ## Changelogs
 
+### 8.5.0
+- Opened the Nether
+- Opened the Bumblezone
+- Added:
+  - The Bumblezone
+  - Hybrid Aquatic
+  - Luminous: Overworld
+  - Nether Portal Fix
+  - Nether Depths Upgrade
+  - Luminous: Nether
+  - Jaden's Nether Expansion
+  - Bad Wither No Cookie
+  - Adventure Dungeons
+  - Dungeon Crawl
+  - Legendary Monsters
+  - Bosses'Rise
+  - Boss Checklist
+  - Create: Interiors
+  - Create Jetpack
+  - Create: Bells & Whistles
+  - CreateBetterFps
+  - Sophisticated Storage Create Integration
+  - Create Aeronautics: Gadgets & Gizmos
+  - Create: Curios Jetpack & Backtank
+  - Create: LazyTick
+  - Create: Train Perspective
+  - Create: Sophisticated Backpacks Compat
+  - Create: Gunsmithing
+  - Super Factory Manager
+  - Pipez
+  - Cyberspace
+  - Continuity
+- Removed:
+  - AntiPortals (eyes of ender are stil not craftable (I'm pretty sure))
+
+
 ### 8.4.5
 - Added CTM (and port and refresh configs)
 - Generate some missing configs (notably, Lambda Better Grass textures, apparently?)
