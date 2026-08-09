@@ -91,6 +91,14 @@ ServerEvents.recipes(event => {
         A: 'create:iron_sheet',
         B: {tag: 'minecraft:planks'}
     })
+    event.shaped(Item.of('create:sturdy_sheet'),[
+        ' A ',
+        ' B ',
+        '   '
+    ],{
+        A: 'minecraft:lava_bucket',
+        B: 'create:powdered_obsidian'
+    })
 
 
     //>>>>>>>>>>>>>>>>>>DIAMENTY<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
@@ -315,7 +323,6 @@ ServerEvents.recipes(event => {
         'minecraft:diamond_leggings',
         'minecraft:diamond_helmet',
         'minecraft:diamond_boots',
-        'minecraft:ender_eye',//END
         'oritech:foundry/alloy/netherite', //Oritech //Dodaj po end update z powrotem
         'oritech:crafting/nuke',
         'oritech:crafting/nukebetter',
@@ -332,6 +339,7 @@ ServerEvents.recipes(event => {
         'oritech:atomic_forge_block',
         'extendedae:concurrent_processor_press',
         'hostilenetworks:loot_fabricator',
+        'minecraft:ender_eye'
     ].forEach((itemID) => event.remove({output: itemID})); //usuwa wszystkie receptury dające item
         
 })

@@ -13,6 +13,9 @@ ALL FIXED!
 
 ## Changelogs
 
+### 8.5.2
+- recipes
+
 ### 8.5.1
 - Fix BetterCompatChecker
 - Fix sides (feat. fixes Server crashes; fixes Tweakable dependency issues)
