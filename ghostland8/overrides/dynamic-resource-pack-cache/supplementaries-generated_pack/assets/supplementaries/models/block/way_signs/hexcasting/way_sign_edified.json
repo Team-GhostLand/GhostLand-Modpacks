@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "supplementaries:block/way_signs/template",
+	"textures": {
+		"particle": "supplementaries:block/way_signs/hexcasting/way_sign_edified",
+		"sign": "supplementaries:block/way_signs/hexcasting/way_sign_edified"
+	}
+}

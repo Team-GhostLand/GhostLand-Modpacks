@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "supplementaries:block/way_signs/template",
+	"textures": {
+		"particle": "supplementaries:block/way_signs/biomeswevegone/way_sign_green_enchanted",
+		"sign": "supplementaries:block/way_signs/biomeswevegone/way_sign_green_enchanted"
+	}
+}

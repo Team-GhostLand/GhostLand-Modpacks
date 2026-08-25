@@ -1,6 +1,5 @@
 [general]
 	tooltip_hints = true
-	custom_configured_screen = true
 	#Makes dynamically generated assets depend on texture packs too and not just vanilla files
 	texture_pack_support = false
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER

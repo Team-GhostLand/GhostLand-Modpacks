@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/natures_spirit/wall_light_blue_paper_lantern_5_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/natures_spirit/light_blue_paper_lantern"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "supplementaries:item/way_signs/biomeswevegone/way_sign_blue_enchanted"
+  }
+}

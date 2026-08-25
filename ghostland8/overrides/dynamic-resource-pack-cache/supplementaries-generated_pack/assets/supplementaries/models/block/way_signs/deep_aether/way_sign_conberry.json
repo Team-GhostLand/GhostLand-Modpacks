@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "supplementaries:block/way_signs/template",
+	"textures": {
+		"particle": "supplementaries:block/way_signs/deep_aether/way_sign_conberry",
+		"sign": "supplementaries:block/way_signs/deep_aether/way_sign_conberry"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"parent": "amendments:block/double_cake/slice6_template",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"side_up": "natures_spirit:block/cheese_block_side",
+		"top_up": "natures_spirit:block/cheese_block_top",
+		"inner": "natures_spirit:block/cheese_block_inner",
+		"bottom": "natures_spirit:block/cheese_block_bottom",
+		"top": "natures_spirit:block/cheese_block_top",
+		"particle": "natures_spirit:block/cheese_block_side",
+		"side": "natures_spirit:block/cheese_block_side"
+	}
+
+}

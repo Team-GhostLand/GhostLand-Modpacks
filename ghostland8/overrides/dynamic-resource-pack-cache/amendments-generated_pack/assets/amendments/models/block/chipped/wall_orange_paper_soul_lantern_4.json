@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/chipped/wall_orange_paper_soul_lantern_4_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/chipped/orange_paper_soul_lantern"
+		}
+	}
+}

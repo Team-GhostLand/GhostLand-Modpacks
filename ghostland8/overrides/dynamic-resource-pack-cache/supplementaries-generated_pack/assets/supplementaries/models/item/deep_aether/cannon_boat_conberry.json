@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "supplementaries:item/cannon_boat/deep_aether/cannon_boat_conberry"
+  }
+}

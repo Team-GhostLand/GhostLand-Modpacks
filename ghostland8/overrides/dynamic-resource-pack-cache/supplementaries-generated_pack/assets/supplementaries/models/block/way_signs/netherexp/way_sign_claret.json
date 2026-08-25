@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "supplementaries:block/way_signs/template",
+	"textures": {
+		"particle": "supplementaries:block/way_signs/netherexp/way_sign_claret",
+		"sign": "supplementaries:block/way_signs/netherexp/way_sign_claret"
+	}
+}

@@ -13,6 +13,35 @@ ALL FIXED!
 
 ## Changelogs
 
+## 8.6.0
+Added magical/whimsical mods, as per this update's main theme:
+- Hex Casting *(and deps.: Inline, Caelus API, Patchouli, P.A.U.C.A.L.)*
+- The Aether *(and addons: Aether: Basic Ores, Aether Addon: Treasure Reforging, Aether's Delight, Aether Addon: Enhanced Extinguishing, Aether Villages, Deep Aether, Croparium: Aether)*
+- ~~...and because Croparium: Aether was added, also added:~~ Croparium *(and addon: Croparium: Create)*
+- ~~.....and because Croparium doesn't fit too well with the update theme, and wasn't actually ever requested either, also added:~~ Mystical Agriculture ~~because it fits better and also somebody actually requested this one~~ *(and addons/deps.: Cucumber Library, Mystical Agradditions, Mystical Agriculture Tiered Crystals ~~- notably, there is nothing for Aether, hence why Croparium had to stay~~)*
+- Estrogen *(and deps./integrations: Create: Estrogen, Cynosure)*
+- ~~...and because it fits the vibe of Create: Estrogen (and the update itself, tbh) well, also added:~~ Create: Melatonin *(~~and because I was on a Create addon spree already, anyway, also added (even if they don't exactly fit this update's vibe)~~: Create: Deep Seas, Create: Coasters Simulated)*
+- Ears *(~~and because it fits the vibe of Ears well, and also Tymuś said this mod is exceptionally goofy-fun, also added (even if it doesn't exactly fit this update's vibe)~~: Talking Heads)*
+- Lootr Prettyfied *(resourcepack)*
+
+Added "makes the game more hard" mods, as big updates are supposed to:
+- Alex's Caves (Unofficial Port) *(also, could work well with Deep Seas because of that one Abyss biome)*
+- Luminous: Beasts *(~~and, if I had to look up Luminous anyway, I also added~~ Luminous Tag ~~to fix a long-term error message~~)*
+
+Removed stuff:
+- Lootr Mimic (Correct me if I'm wrong, but we didn't actually have any mimics in the pack, I think? They're coming now with Aether, but that one has its own chests anyway and probably won't work with Lootr. Also, would collide with Lootr Prettyfied, anyway.) *(resourepack)*
+- Another CTM fork (we had 2 for some reason????)
+
+Changed stuff:
+- Properly configured client-optional and server-excluded settings (THANK YOU Modrinth for finally letting us filter by this on the pack screen in the latest update, omg, this is SUCH a game-changer! It helped me pick up a lot of mods I missed for Grinch-tagging earlier. **UNFORTUNATELY**, this isn't just a matter of filtering because Modrinth will now try to to add side-support metadata by itself, which *sounds* nice, until you notice that they get it very wrong (eg. it auto-disables Athena or AA4 on the server, which would cause a dependency problem on the server) and also only does required/unsupported (and GhostLand cares mostly about `optional`, at least for the client), so Grinch is still needed for the latter (tho ig we can now drop the whole `GR_SVX_` thing, which is nice), and for the former, **you currently need to manually re-enable wrongly-disabled stuff** (I prefixed them with a blank `GR_` (no `CLO` or anything) thinking Grinch defaults to "`require` on both", but I apparently forgot how my own CLI works because that, in fact, didn't help - tho now there's at least a nice indicator that reminds you what to change) - I'll push a Grinch update to fix that soon...), **thus slimming down the Tweakable Edition** (or the base edition, if you use Prism, and have proper MRPack support that includes Optionals, without the Tweakable hackjob) by *QUITE* a lot (maybe even enough to counter-act the bloat-up caused by the required mods of this update? idk, didn't count) *(srsly, if you have a sh!t PC or just LOVE complaining about "SlOp mOdS" ~~(because everything that isn't a machine you can place in the world and have it automate away 90% of the game for you is slop now, apparently, regardless of how much it improves the ambience/immersion, or how much soul someone poured into it and didn't use AI)~~, **you GOTTA download this new version**; idc how much you care about your `options.txt`, just copy it or something; actually, I'm pretty sure Prims lets you choose whether you want your local version or the updated version if a conflict occurs during an update (unlike Modrinth which indeed overwrites your local changes during a partial update (you knew about partial updates, right?) with zero warning), so you don't even need to copy anything)*
+- Updated **literally everything** except Sophisticated stuff
+- Fixed AA4 and Hoofprint keybind conflicts, and then decided to actually "fck it, we ball" and nuked basically all the stuff that was causing a keybind conflict (except things that were conflicting within a span of a single mod or with vanilla binds - because those conflicts were probably on purpose)
+- Changed textures (re-enabled what was gone (they auto-disabled AGAIN - maybe Midnith was right, and they really do break on its own sometimes?) and also reflected changes made since launch (the Lootr shuffle from this update and connected textures from some time ago))
+- Included some texture caches, to see if maybe this prevents textures from auto-disabling again? *also, those caches are the main reason why this commit is SO DAMN HUGE*
+- *Fireflies in the main menu, yippeeee!* (~~also, it broke and couldn't be fixed (buttons are just... Locked in their vanilla positions. Moving them changes nothing (you can still remove them, tho). Pretty sure Aether messed it up because they like to f up the main menu a lot, with their whole custom screens system and the world-preview-thingy), so now Singleplayer is irreparably above Multiplayer and we have a somewhat ugly Realms-shaped hole that I tried my best to make slightly less ugly by~~ removing the Create button that was causing an asymmetry, and the newly-added buttons from Aether; also-also removed the music customization because we don't have a soundtrack for this edition)
+- Ender eye recipe. (and some twists for other (related) items; and also slight reformat of the file (tabs instead of spaces; fixed some PSYCHOTIC indentation choices (imma roast my friend for them soon xD); no useless splits))
+- Remembered to update BCC this time lol
+
 ### 8.5.2
 - recipes
 

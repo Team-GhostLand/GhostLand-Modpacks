@@ -1,0 +1,77 @@
+{
+    // Estrogen ambient music settings
+    Music: {
+        // Enable Estrogen Ambient Music
+        // Default: true
+        enabled: true,
+        // Minimum Delay between songs in ticks
+        // Range: 0 ~ 100000
+        // Default: 0
+        minDelayBetweenSongs: 0,
+        // Maxim Delay between songs in ticks
+        // Range: 0 ~ 100000
+        // Default: 0
+        maxDelayBetweenSongs: 0,
+        // If shall the Music wait for the current one to finish
+        // Default: true
+        replacesCurrentMusic: true
+    },
+    // Global settings for chest feature rendering
+    ChestRenderingGlobal: {
+        // Enable chest feature rendering
+        // Default: true
+        rendering: true,
+        // Enable chest feature armor rendering
+        // Default: true
+        armorRendering: true,
+        // Enable chest feature physics rendering
+        // Default: true
+        physicsRendering: true
+    },
+    // Settings for the chest feature (for local player)
+    ChestFeature: {
+        // Enable chest feature
+        // Default: true
+        enabled: true,
+        // Enable chest feature armor
+        // Default: true
+        armor: true,
+        // Enable chest feature physics
+        // Default: true
+        physics: true,
+        // Chest feature bounciness
+        // Range: 0.0 ~ 1.0
+        // Default: 0.27
+        bounciness: 0.27,
+        // Chest feature physics damping
+        // Range: 0.0 ~ 1.0
+        // Default: 0.375
+        damping: 0.375
+    },
+    // Settings for the dream block
+    DreamBlock: {
+        // Animate dream block texture
+        // Default: true
+        animateTexture: true
+    },
+    // Settings for Equippable Items
+    Accessories: {
+        // Default: true
+        renderEstrogenPatches: true
+    },
+    // UI element Configuration
+    UI: {
+        // Enable dash overlay
+        // Default: true
+        dashOverlay: true
+    },
+    // Compatibility between other mods settings
+    Compat: {
+        // Enable ears compat
+        // Default: true
+        ears: true,
+        // Enable figura compat
+        // Default: true
+        figura: true
+    }
+}

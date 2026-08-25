@@ -47,6 +47,7 @@
     "torrentTotemEnabled": true,
     // Range: 0,1 - 3
     "torrentTotemBoost": 1.0,
+    // Lets the Totem of Torrents dash up and down as well, following where the player aims. Disable to restrict the dash to the horizontal plane.
     "torrentTotemUpwardsBoost": false,
     "soulTotemEnabled": true,
     "growthTotemEnabled": true,

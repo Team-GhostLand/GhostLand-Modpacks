@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/natures_spirit/wall_yellow_paper_lantern_5_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/natures_spirit/yellow_paper_lantern"
+		}
+	}
+}

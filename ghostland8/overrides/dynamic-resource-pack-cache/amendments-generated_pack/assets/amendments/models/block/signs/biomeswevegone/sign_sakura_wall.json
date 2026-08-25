@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "amendments:block/signs/sign_wall",
+	"textures": {
+		"1": "amendments:block/signs/biomeswevegone/sign_sakura",
+		"particle": "amendments:block/signs/biomeswevegone/sign_sakura"
+	}
+}

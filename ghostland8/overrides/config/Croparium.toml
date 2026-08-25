@@ -1,0 +1,41 @@
+[crop_settings]
+	#Enables or disables the function of harvesting crops by right-clicking. The default value is true, allowing players to harvest mature crops directly by right-clicking without breaking blocks.
+	enablerightclickharvestcrops = true
+	#Controls whether smelted items are dropped when harvesting crops with a Fire Aspect-enchanted tool via right-click.
+	fireaspectharvestsmeltdrop = true
+	#Controls whether embryo shards can be used to ripen corresponding crops.
+	shardripencrops = true
+	#Sets the base number of dropped items when harvesting crops by right-clicking. Default value is 2.0, range 1.0-Double.MAX; higher values mean more base drops, and the final drop count is calculated with other bonuses.
+	rightclickharvestbasedropcount = 1.0
+	#Sets the number of extra dropped items when breaking mature crop blocks. Default value is 1.0, range 1.0~Double.MAX. The final drop count is calculated with other bonuses.
+	breakmaturecropbasedropcount = 1.0
+	#Coefficient controlling crop growth speed, larger values mean slower growth. Default value is 10.0, range 1.0~Double.MAX.
+	cropgrowthspeedfactor = 10.0
+	#Note, the block needs to be a crop-type block, and the corresponding product needs to be specified using the command.
+	customagriculturalcrop = ["mod_id:example1", "mod_id:example2"]
+
+[farmland_settings]
+	#Controls whether entities take damage when walking on farmland soaked with lava.
+	entityhurtonlavafarmland = true
+	#Sets the burn duration of entities walking on lava-soaked farmland ,unit: seconds. Default value is 1.0, range 0.0~16.0; higher values mean longer burn duration, 0.0 disables the burning effect.
+	entityburntimeonlavafarmland = 1.0
+
+[reactor_core_settings]
+	#Enables or disables the mod's core feature 'reactor core'. The reactor core is a functional block that affects crop growth and range bonuses.
+	enablereactorcore = true
+	#Controls whether the reactor core consumes the durability of modules during operation.  The module will  disappear when its durability is depleted.
+	reactorcoreconsumemoduledurability = true
+	#Sets the refresh cycle of the reactor core ,unit: game tic. Default value is 180.0, range 60.0~Double.MAX; The smaller the value, the more frequently the core refreshes, and the more frequently the effect is triggered, but it may cause a performance burden.
+	reactorcoreruntimecycle = 180.0
+	#The reactor core effect area is a cuboid centered on itself. Horizontal length and width formula: base tier × horizontal multiplier × 2 + 1; default 6.0, range 1.0~12.0, larger value means wider horizontal coverage.
+	reactorcorehorizontalrangemultiplier = 6.0
+	#The reactor core effect area is a cuboid centered on itself. Vertical height formula: base tier × vertical multiplier × 2 - 1; default 1.0, range 1.0~6.0, larger value means wider vertical coverage.
+	reactorcoreverticalrangemultiplier = 2.0
+
+[misc_settings]
+	#Sets the success rate of extracting embryo shards from Alpha Stonecutter. Default value is 0.3 , range 0.0~1.0, 1.0 means 100% success.丨
+	shardextractsuccessrate = 0.3
+	#Whether right-clicking the Alpha Stonecutter opens the GUI when NOT sneaking. If disabled, right-clicking directly tries to consume the held item to extract outputs. Sneaking + right-click always triggers direct extraction, ignoring this option.
+	alphastonecutterusinginterface = true
+	#Base weighted coefficient of biomass embryo shards on mob killing. A larger value increases drop chance and expected drop quantity comprehensively.
+	biomassshardsbasedropfactoronmobkill = 0.52

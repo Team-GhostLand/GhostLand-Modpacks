@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/biomeswevegone/wall_yellow_glow_bottle_2_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/biomeswevegone/yellow_glow_bottle"
+		}
+	}
+}

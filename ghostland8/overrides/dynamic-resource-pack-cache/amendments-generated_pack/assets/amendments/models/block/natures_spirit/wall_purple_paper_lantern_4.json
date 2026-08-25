@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/natures_spirit/wall_purple_paper_lantern_4_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/natures_spirit/purple_paper_lantern"
+		}
+	}
+}

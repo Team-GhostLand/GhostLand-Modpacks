@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "amendments:block/signs/sign_wall",
+	"textures": {
+		"1": "amendments:block/signs/sign_jungle",
+		"particle": "amendments:block/signs/sign_jungle"
+	}
+}

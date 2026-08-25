@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/biomeswevegone/wall_red_glow_bottle_1_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/biomeswevegone/red_glow_bottle"
+		}
+	}
+}

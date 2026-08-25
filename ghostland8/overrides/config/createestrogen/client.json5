@@ -1,0 +1,18 @@
+{
+    // Settings for the estrogen button in the create screen
+    EstrogenButton: {
+        // Enable the estrogen button in the create screen
+        // Default: true
+        enabled: true,
+        //                     X offset the estrogen button in the create screen
+        //                     Offset is calculated off of the center of the Configure Button
+        //                 
+        // Default: -23
+        xOffset: -23,
+        //                 X offset the estrogen button in the create screen
+        //                 Offset is calculated off of the center of the Configure Button
+        //             
+        // Default: 0
+        yOffset: 0
+    }
+}

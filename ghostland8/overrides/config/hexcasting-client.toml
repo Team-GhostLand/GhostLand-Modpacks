@@ -1,0 +1,18 @@
+#Whether the ctrl key will instead turn *off* the color gradient on patterns
+ctrlTogglesOffStrokeOrder = false
+#Disable scrolling input for spellbooks and abaci in the normal world, keeping keybinds and staff screen scrolling normal
+disableInworldScrolling = false
+#Whether scrolling up (as opposed to down) will increase the page index of the spellbook, and vice versa
+invertSpellbookScrollDirection = false
+#Whether scrolling up (as opposed to down) will increase the value of the abacus, and vice versa
+invertAbacusScrollDirection = false
+#When using a staff, the distance from one dot you have to go to snap to the next dot, where 0.5 means 50% of the way.
+# Default: 0.5
+# Range: 0.5 ~ 1.0
+gridSnapThreshold = 0.5
+#Whether you click to start and stop drawing instead of clicking and dragging
+clickingTogglesDrawing = false
+#Whether enabling advanced tooltips (F3+H) should display the full NBT of iotas stored in items like foci and spellbooks
+advancedTooltipsShowsIotaNBT = false
+#Whether patterns on active slates should be rendered without wobble (improves performance with lots of active slates)
+staticActiveSlates = false

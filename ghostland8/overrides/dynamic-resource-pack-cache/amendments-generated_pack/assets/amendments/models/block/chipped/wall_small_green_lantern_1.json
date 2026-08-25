@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/chipped/wall_small_green_lantern_1_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/chipped/small_green_lantern"
+		}
+	}
+}

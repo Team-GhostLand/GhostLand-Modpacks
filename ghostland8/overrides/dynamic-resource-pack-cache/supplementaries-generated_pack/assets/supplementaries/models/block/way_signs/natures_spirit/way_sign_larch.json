@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "supplementaries:block/way_signs/template",
+	"textures": {
+		"particle": "supplementaries:block/way_signs/natures_spirit/way_sign_larch",
+		"sign": "supplementaries:block/way_signs/natures_spirit/way_sign_larch"
+	}
+}
