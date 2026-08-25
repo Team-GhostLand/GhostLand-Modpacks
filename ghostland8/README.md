@@ -13,6 +13,9 @@ ALL FIXED!
 
 ## Changelogs
 
+## 8.6.1
+- add foundry Netherite
+
 ## 8.6.0
 Added magical/whimsical mods, as per this update's main theme:
 - Hex Casting *(and deps.: Inline, Caelus API, Patchouli, P.A.U.C.A.L.)*
