@@ -298,7 +298,6 @@ ServerEvents.recipes(event => {
 		'minecraft:diamond_leggings',
 		'minecraft:diamond_helmet',
 		'minecraft:diamond_boots',
-		'oritech:foundry/alloy/netherite', //Do re-dodania po tym, jak Palmer i KanciarzRem zasadzą chorus planty w bazach i wyślą dowody.
 		'oritech:crafting/nuke',
 		'oritech:crafting/nukebetter',
 	].forEach((recipeID) => event.remove({ id: recipeID })); //usuwa konkretną recepturę
