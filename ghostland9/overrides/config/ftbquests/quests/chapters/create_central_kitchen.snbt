@@ -1,0 +1,380 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "create_central_kitchen"
+	group: "181E781F1BAE7410"
+	icon: {
+		id: "garnished:anniversary_cake"
+	}
+	id: "1CFC7955957D28B7"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["42195C45933ACA1E"]
+			id: "2199F0DE2FBE29E3"
+			rewards: [{
+				id: "75A11E2B5335BD88"
+				type: "xp"
+				xp: 12
+			}]
+			tasks: [
+				{
+					id: "39EEB2473C9946C4"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+				{
+					id: "5E292CED05D4A06C"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "6A6D9601B03CC1F4"
+			rewards: [{
+				id: "5B6F7EF285F953FA"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6CB62F6B34227051"
+				item: { count: 1, id: "farmersdelight:pumpkin_slice" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "7EA9EA61F070DD70"
+			rewards: [{
+				id: "23068C71616B9012"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "16D1DFF12E4D3C9A"
+				item: { count: 1, id: "farmersdelight:cod_slice" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "418E941987C46F05"
+			rewards: [{
+				id: "12E195858463ED18"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2F73FB7DBAD715D3"
+				item: { count: 1, id: "farmersdelight:cooked_cod_slice" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "4AAB87FC6B27BA15"
+			rewards: [{
+				id: "2032CF5DFC559327"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6E32CE164CB40028"
+				item: { count: 1, id: "farmersdelight:salmon_slice" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "439C18DB1044DB4E"
+			rewards: [{
+				id: "2DA93DAAEBF882A2"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "09684C239EEC1928"
+				item: { count: 1, id: "farmersdelight:cake_slice" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "231B6B946120C664"
+			rewards: [{
+				id: "3159D016A3422FD8"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2DD67507CB282EE9"
+				item: { count: 1, id: "farmersdelight:cooked_salmon_slice" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "7D1DA751EEE1EB00"
+			rewards: [{
+				id: "0F359E672BCC58BF"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "58061AFC5D7B17E2"
+				item: { count: 1, id: "farmersdelight:apple_pie_slice" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "1515660BCE27B4F7"
+			rewards: [{
+				id: "27F40E3D53C3954D"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "129B9D515F0D03FE"
+				item: { count: 1, id: "farmersdelight:sweet_berry_cheesecake_slice" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "0C012951E65D5BBF"
+			rewards: [{
+				id: "7E2AA26FF0992EC1"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "314F7121B860B73C"
+				item: { count: 1, id: "farmersdelight:chocolate_pie_slice" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "garnished:anniversary_cake"
+			}
+			id: "42195C45933ACA1E"
+			rewards: [{
+				id: "227EC6A9B27388FB"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7AE305BA1D140E13"
+				type: "checkmark"
+			}]
+			x: 0.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "45AD62C973EE7446"
+			rewards: [{
+				id: "35D37083B273B60E"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "24D25E4082192585"
+				item: { count: 1, id: "ends_delight:roasted_dragon_meat" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45AD62C973EE7446"]
+			id: "22ADE5ECC97900A0"
+			rewards: [{
+				id: "441865BBFF8DDDC2"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3DC035EABBFE1AF9"
+				item: { count: 1, id: "ends_delight:roasted_dragon_meat_cuts" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "69C54C248C5FE879"
+			rewards: [{
+				id: "33B8CBC52BDD9821"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6C43E45B7B815E7D"
+				item: { count: 1, id: "garnished:phantom_steak" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "3BD057B8D9CB7844"
+			rewards: [{
+				id: "540392002BDB8D1B"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4B13FC928EAD3D21"
+				item: { count: 1, id: "create_bic_bit:unripe_cheese_wedge" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "1AF824B750A47BAB"
+			rewards: [{
+				id: "1C3615DC7A11C8D0"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2BC125E72E1E709C"
+				item: { count: 1, id: "create_bic_bit:young_cheese_wedge" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "45673E7C72CA31C3"
+			rewards: [{
+				id: "0CB1C031725A280D"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "32B234669D1AFA5A"
+				item: { count: 1, id: "create_bic_bit:aged_cheese_wedge" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "7703CA77DA64DE9E"
+			rewards: [{
+				id: "676E74496C81333D"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "26C534C63908B0AE"
+				item: { count: 1, id: "farmersdelight:kelp_roll_slice" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "4786642ADA87EB76"
+			rewards: [{
+				id: "7EC69EDF1FE517E0"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4CFBE0BB5E1F08C7"
+				item: { count: 1, id: "create_enchantment_industry:experience_cake_slice" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "7EDF94336CCCF61E"
+			rewards: [{
+				id: "4D513D8A25F22F2B"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5913415102BE002E"
+				item: { count: 1, id: "ends_delight:chorus_fruit_pie_slice" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2199F0DE2FBE29E3"]
+			id: "43BF1A717E521A4D"
+			rewards: [{
+				id: "7BFD7E8181A9F405"
+				type: "xp"
+				xp: 12
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "32FEF49C4E13FC81"
+				item: { count: 1, id: "farmersdelight:chocolate_pie_slice" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+	]
+}

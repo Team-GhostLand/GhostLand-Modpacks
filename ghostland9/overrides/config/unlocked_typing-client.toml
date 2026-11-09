@@ -1,0 +1,2 @@
+# Whether the unformatted text (with visible '§' codes) is previewed beside books and signs while editing.
+display_raw_text_preview = false

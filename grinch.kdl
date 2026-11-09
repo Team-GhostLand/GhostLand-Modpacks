@@ -1,8 +1,19 @@
 format-version 4
 
-default-modpack "GhostLand8"
+default-modpack "GhostLand9"
 
 modpacks {
+	modpack "GhostLand9" path="./ghostland9" {
+        description "Paczka na dziewiątą edycję GhostLanda"
+		names {
+			default "GhostLand %V"
+			quick "Internal Grinch representation (so you probably dont want this one) of GhostLand %V as of %D"
+			dev "DevExport of GhostLand %V as of %D"
+			slim "GhostLand %V - Slim Edition"
+			tweakable "GhostLand %V - Tweakable Edition"
+			git "GL9"
+		}
+    }
 	modpack "GhostLand7" path="./ghostland7" {
         description "Paczka na siódmą edycję GhostLanda"
 		names {

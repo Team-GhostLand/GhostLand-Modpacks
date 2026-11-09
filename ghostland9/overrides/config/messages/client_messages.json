@@ -1,0 +1,14 @@
+[
+  {
+    "identifier": "welcome",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://bisecthosting.com/thewizard?r=create2am",
+    "text": "§bThank you for playing!§b
+§bWe are very excited to share our modpack with you. We hope you enjoy it!§b
+
+§bThis modpack is fully multiplayer compatible. Click the link in this message and use the code §eTHEWIZARD§b at checkout to get a §e25% discount§b on your server while also supporting our work. Thank you!§b"
+  }
+]

@@ -1,0 +1,15 @@
+
+[AutoMessage]
+	# The messages to be sent
+	MESSAGES = ["§bThank you for playing!§b", "§bWe are very excited to share our modpack with you - we hope you enjoy it§b", "§bAlso, we wanted to clarify that this modpack is perfectly multiplayer compatible, and if you click on this link, you'll receive a 25% discount, and of course, you'll be supporting us too!§b"]
+	# Should we attach a link to this message?
+	LINKS = ["https://bisecthosting.com/thewizard", "https://bisecthosting.com/thewizard", "https://bisecthosting.com/thewizard"]
+	# How frequently / after how long should the message be sent?
+	INTERVALS = [5, 5, 5]
+	# How many times should the message be sent per session? 0 = infinite
+	SOFT_LIMITS = [1, 1, 1]
+	# How many times should the message be sent EVER? 0 = infinite
+	HARD_LIMITS = [1, 1, 1]
+	# Should AutoMessage be Enabled? default: false
+	AM_ENABLED = true
+

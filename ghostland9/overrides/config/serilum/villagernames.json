@@ -1,0 +1,51 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Villager Names -> Config",
+	"Enable Villager Names": {
+		"//": "Whether Villager Names is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"useCustomNames": {
+		"//": "Use the custom name list, editable in ./config/serilum/villagernames/customnames.txt, seperated by a comma. If custom names are found, the default name list is ignored.",
+		"value": true
+	},
+	"useDefaultFemaleNames": {
+		"//": "Use the list of pre-defined female names when naming villagers.",
+		"value": true
+	},
+	"useDefaultMaleNames": {
+		"//": "Use the list of pre-defined male names when naming villagers.",
+		"value": true
+	},
+	"useBothCustomAndDefaultNames": {
+		"//": "Disabled by default. Whether both custom and default names should be used to name villagers. Custom names will probably not be chosen often due to the amount of default names.",
+		"value": false
+	},
+	"nameModdedVillagers": {
+		"//": "If enabled, also gives modded villagers a name. If you've found a 'villager'-entity that isn't named let me know by opening an issue so I can add it in.",
+		"value": true
+	},
+	"extraEntityTypesToName": {
+		"//": "A comma-separated list of entity ids that are also given a name, next to the villagers the mod already names. Use '<modid>:*' to name every entity of a mod.",
+		"value": ""
+	},
+	"entityTypesToIgnore": {
+		"//": "A comma-separated list of entity ids that are never given a name by this mod, even when they are a (modded) villager. Use '<modid>:*' to skip every entity of a mod.",
+		"value": ""
+	},
+	"showProfessionOnTradeScreen": {
+		"//": "Whether the profession should be added to the villager's trade screen next to their name.",
+		"value": true
+	},
+	"switchNameAndProfessionTradeScreen": {
+		"//": "If enabled, switches the name and profession on the villager trading screen. Result: <profession> - <name>.",
+		"value": false
+	},
+	"hideMerchantLevelTradeScreen": {
+		"//": "Whether the merchant level (novice, apprentice etc.) should be hidden on the trade screen.",
+		"value": false
+	},
+	"shouldCapitalizeNames": {
+		"//": "If enabled, the mod capitalizes each word in the custom name list.",
+		"value": true
+	}
+}

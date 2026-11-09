@@ -1,0 +1,140 @@
+{
+	id: "65F5978C49103D7A"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 4
+			id: "2B5176EAEEE63DFC"
+			item: {
+				count: 1
+				id: "ae2:certus_quartz_crystal"
+			}
+		}
+		{
+			count: 4
+			id: "46190E979B5125EB"
+			item: {
+				count: 1
+				id: "ae2:charged_certus_quartz_crystal"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 3
+			id: "78BF45493C9EDE7B"
+			item: {
+				count: 1
+				id: "ae2:fluix_crystal"
+			}
+			weight: 0.3f
+		}
+		{
+			count: 3
+			id: "46A2F0DD4781A6C9"
+			item: {
+				count: 1
+				id: "ae2:fluix_dust"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "4155B4ACB53BBF4D"
+			item: {
+				count: 1
+				id: "ae2:fluix_pearl"
+			}
+			weight: 0.3f
+		}
+		{
+			count: 2
+			id: "64A893D1D0FF806B"
+			item: {
+				count: 1
+				id: "ae2:sky_dust"
+			}
+			weight: 0.3f
+		}
+		{ id: "082EEEAE066F5E90", item: { count: 1, id: "ae2:damaged_budding_quartz" } }
+		{ id: "7745ECABA9005815", item: { count: 1, id: "ae2:chipped_budding_quartz" } }
+		{ id: "3A44D5050A48E337", item: { count: 1, id: "ae2:flawed_budding_quartz" } }
+		{
+			id: "1E49A1346185100A"
+			item: {
+				count: 1
+				id: "ae2:flawless_budding_quartz"
+			}
+			weight: 0.5f
+		}
+		{ id: "22A15D1FBCB7B3E2", item: { count: 1, id: "ae2:meteorite_compass" } }
+		{
+			count: 5
+			id: "4954CA160887D643"
+			item: {
+				count: 1
+				id: "ae2:silicon"
+			}
+		}
+		{
+			count: 4
+			id: "3441DC0C33F974B8"
+			item: {
+				count: 1
+				id: "ae2:certus_quartz_dust"
+			}
+		}
+		{ id: "1A62A49B22B9AD1D", item: { count: 1, id: "ae2:printed_silicon" } }
+		{ id: "3481B74D299CDD12", item: { count: 1, id: "ae2:printed_logic_processor" } }
+		{ id: "2C134EC1967617C1", item: { count: 1, id: "ae2:printed_engineering_processor" } }
+		{ id: "62371A2BA1FB22E8", item: { count: 1, id: "ae2:printed_calculation_processor" } }
+		{
+			id: "322E2BDB1AE3404C"
+			item: {
+				count: 1
+				id: "ae2:singularity"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "3653FDE51EEF28CD"
+			item: {
+				count: 1
+				id: "ae2:quantum_entangled_singularity"
+			}
+			weight: 0.1f
+		}
+		{ id: "6589053D59B5E05A", item: { count: 1, id: "ae2:cell_component_1k" } }
+		{
+			id: "00351AC0272F39C2"
+			item: {
+				count: 1
+				id: "ae2:cell_component_4k"
+			}
+			weight: 0.9f
+		}
+		{
+			id: "51ECBF87163604F1"
+			item: {
+				count: 1
+				id: "ae2:cell_component_16k"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "42888DA2EE136EB0"
+			item: {
+				count: 1
+				id: "ae2:cell_component_64k"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "4BCC3BF46BEC6ACB"
+			item: {
+				count: 1
+				id: "ae2:cell_component_256k"
+			}
+			weight: 0.1f
+		}
+	]
+}

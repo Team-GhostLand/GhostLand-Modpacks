@@ -1,0 +1,11 @@
+{
+    // Required permission level to edit server side configs
+    // Default: -1
+    requiredPermissionLevel: -1,
+    // Players always allowed to edit server side configs
+    // Default: []
+    allowedPlayers: [],
+    // Players always denied from editing server side configs
+    // Default: []
+    deniedPlayers: []
+}

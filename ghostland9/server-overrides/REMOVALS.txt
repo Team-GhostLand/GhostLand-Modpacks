@@ -1,0 +1,10 @@
+options.txt
+resourcepacks
+servers.dat
+icon.png
+config/fancymenu
+mods/dynamiclights-1.21.1.2NF.jar
+mods/gpumemleakfix-1.21-1.8.jar
+mods/ToastControl-1.21.1-9.0.1.jar
+mods/trashslot-neoforge-1.21.1-21.1.11.jar
+mods/sound-physics-remastered-neoforge-1.21.1-1.5.1.jar

@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/chipped/wall_ender_lantern_4_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/chipped/ender_lantern"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/mcwlights/wall_bell_lantern_1_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/mcwlights/bell_lantern"
+		}
+	}
+}

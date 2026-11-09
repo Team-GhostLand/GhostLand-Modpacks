@@ -1,0 +1,7 @@
+#.
+#making the log register additional information WARNING console spam
+additionalLogInfo = false
+#.
+#the type of measurement the flight recorder give for propellant quantities
+#Allowed Values: VOLUMETRIC, MASS
+recorder_measurement = "VOLUMETRIC"

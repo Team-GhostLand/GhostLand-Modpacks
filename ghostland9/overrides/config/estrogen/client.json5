@@ -1,0 +1,90 @@
+{
+    // Estrogen ambient music settings
+    Music: {
+        // Enable Estrogen Ambient Music
+        // Default: true
+        enabled: true,
+        // Minimum Delay between songs in ticks
+        // Range: 0 ~ 100000
+        // Default: 0
+        minDelayBetweenSongs: 0,
+        // Maxim Delay between songs in ticks
+        // Range: 0 ~ 100000
+        // Default: 0
+        maxDelayBetweenSongs: 0,
+        // If shall the Music wait for the current one to finish
+        // Default: true
+        replacesCurrentMusic: true
+    },
+    // Global settings for chest feature rendering (applies to all players)
+    ChestRenderingGlobal: {
+        // Disables/Enables all of chest feature rendering
+        // Default: true
+        rendering: true,
+        // Disables/Enables armor rendering on the chest feature, including any logic around it
+        // Default: true
+        armorRendering: true,
+        // Instead of having custom chest armor, disable chest rendering fully when armor is on
+        // Default: false
+        disableWithArmor: false,
+        // Disables/Enables physics for the chest feature
+        // Default: true
+        physicsRendering: true,
+        // Disable chest physics with plated armor
+        // Default: true
+        armorPhysicsHandling: true
+    },
+    // Settings for the chest feature (applies to only you)
+    ChestFeature: {
+        // Disables/Enables your chest feature rendering
+        // Default: true
+        enabled: true,
+        // Disables/Enables armor rendering for your chest feature, including any logic around it
+        // Default: true
+        armor: true,
+        // Instead of having custom chest armor, disable chest rendering fully when armor is on
+        // Default: false
+        disableWithArmor: false,
+        // Disables/Enables physics for your chest feature
+        // Default: true
+        physics: true,
+        // Chest feature bounciness
+        // Range: 0.0 ~ 1.0
+        // Default: 0.27
+        bounciness: 0.27,
+        // Chest feature physics damping
+        // Range: 0.0 ~ 1.0
+        // Default: 0.375
+        damping: 0.375,
+        // Chest feature scale, multiplier of Estrogen level scale
+        // Range: 0 ~ 120
+        // Default: 100
+        scale: 100
+    },
+    // Settings for the dream block
+    DreamBlock: {
+        // Animate dream block texture
+        // Default: true
+        animateTexture: true
+    },
+    // Settings for Equippable Items
+    Accessories: {
+        // Default: true
+        renderEstrogenPatches: true
+    },
+    // UI element Configuration
+    UI: {
+        // Enable dash overlay
+        // Default: true
+        dashOverlay: true
+    },
+    // Compatibility between other mods settings
+    Compat: {
+        // Enable ears compat
+        // Default: true
+        ears: true,
+        // Enable figura compat
+        // Default: true
+        figura: true
+    }
+}

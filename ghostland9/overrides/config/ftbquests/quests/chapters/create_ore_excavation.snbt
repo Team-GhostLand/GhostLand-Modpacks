@@ -1,0 +1,200 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_ore_excavation"
+	group: "181E781F1BAE7410"
+	icon: {
+		id: "createoreexcavation:raw_diamond"
+	}
+	id: "09FBD576F87881B4"
+	images: [{
+		height: 2.0d
+		id: "4E5453BDCABBC2B0"
+		image: "createoreexcavation:textures/gui/sprites/atlas_target.png"
+		rotation: 45.0d
+		width: 2.0d
+		x: 7.0d
+		y: 0.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3F249BE37B1BB214"]
+			id: "357E50BEAF1E8F74"
+			rewards: [{
+				id: "09F91CF1027F991B"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "00647BDC84B78C19"
+				item: { count: 1, id: "createoreexcavation:vein_atlas" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["357E50BEAF1E8F74"]
+			id: "629BCF8065DFD8B1"
+			rewards: [{
+				id: "03C608A223D3F329"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "29D98E42C92B991D"
+				item: { count: 1, id: "createoreexcavation:vein_finder" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["629BCF8065DFD8B1"]
+			id: "60844520BAC54952"
+			rewards: [{
+				id: "70D42F18D599AE86"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "4DA9F4D5B2131DF4"
+				item: { count: 1, id: "createoreexcavation:sample_drill" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60844520BAC54952"]
+			id: "7F64AD61416A9157"
+			rewards: [{
+				id: "784DBB818D43DAD9"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "71FE775B358D4B0D"
+				item: { count: 1, id: "createoreexcavation:drilling_machine" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60844520BAC54952"]
+			id: "17953D4234D44C01"
+			rewards: [{
+				id: "75F6BBF6733CCDAF"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "0B12C101D5D4AB0C"
+				item: { count: 1, id: "createoreexcavation:extractor" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"17953D4234D44C01"
+				"7F64AD61416A9157"
+			]
+			id: "0E547F2503A07ACE"
+			rewards: [
+				{
+					id: "1FD605B6C09777D5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "75B35336B65BC4D9"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F0E9A966407BCF5"
+				item: { count: 1, id: "createoreexcavation:drill" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E547F2503A07ACE"]
+			id: "140EA40A9ABA65DB"
+			rewards: [
+				{
+					id: "5E1546C1C1E29364"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 4
+					id: "0E79D4A10A5C91F8"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31D38F7F1191610A"
+				item: { count: 1, id: "createoreexcavation:diamond_drill" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["140EA40A9ABA65DB"]
+			id: "01E0820861BE3E93"
+			rewards: [
+				{
+					id: "09309F0F30CFDF84"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1FE0FCE7E8BC6A05"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24D30ADAFCB31AA2"
+				item: { count: 1, id: "createoreexcavation:netherite_drill" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "3F249BE37B1BB214"
+			rewards: [{
+				id: "6054332264261F96"
+				type: "xp"
+				xp: 45
+			}]
+			tasks: [{
+				id: "26344D2831BDA0D3"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+}

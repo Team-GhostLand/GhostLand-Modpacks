@@ -1,0 +1,14 @@
+{
+	"parent": "amendments:block/double_cake/slice6_template",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"side_up": "golden_foods:block/golden_cake_side",
+		"top_up": "golden_foods:block/golden_cake_top",
+		"inner": "golden_foods:block/golden_cake_inner",
+		"bottom": "golden_foods:block/golden_cake_bottom",
+		"top": "golden_foods:block/golden_cake_top",
+		"particle": "golden_foods:block/golden_cake_side",
+		"side": "golden_foods:block/golden_cake_side"
+	}
+
+}

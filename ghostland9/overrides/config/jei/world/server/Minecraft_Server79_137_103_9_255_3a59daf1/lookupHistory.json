@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"tfmg:nickel_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:mechanical_press"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:mechanical_mixer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_things_and_misc:vibration_mechanism"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

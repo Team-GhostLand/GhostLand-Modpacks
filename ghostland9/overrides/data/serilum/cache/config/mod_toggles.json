@@ -1,0 +1,14 @@
+{
+	"doubledoors": {
+		"collective_list": true,
+		"mod_config": true
+	},
+	"villagernames": {
+		"collective_list": true,
+		"mod_config": true
+	},
+	"villagespawnpoint": {
+		"collective_list": true,
+		"mod_config": true
+	}
+}

@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"createbigcannons:steel_screw_breech"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createbigcannons:steel_quickfiring_breech"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

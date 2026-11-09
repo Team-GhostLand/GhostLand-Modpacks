@@ -1,0 +1,383 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_aeronautics"
+	group: "181E781F1BAE7410"
+	icon: {
+		id: "offroad:large_tire"
+	}
+	id: "4E115E1260B9FA39"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "aeronautics:music_disc_cloud_skipper"
+			}
+			id: "21355027240AAB0A"
+			rewards: [{
+				id: "4F27E20CD1C773C0"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "octagon"
+			size: 1.4d
+			tasks: [{
+				id: "5EF407C1D549F702"
+				type: "checkmark"
+			}]
+			x: -2.1d
+			y: 0.7d
+		}
+		{
+			dependencies: ["21355027240AAB0A"]
+			id: "51E22AFE9403C9E1"
+			rewards: [{
+				count: 3
+				id: "6B4FEA10A84492AB"
+				item: {
+					count: 1
+					id: "create_new_age:overcharged_iron"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7BAADD5011094838"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D89B47FFF31585D"]
+			id: "095223210FCC48C3"
+			rewards: [{
+				count: 4
+				id: "0433141D179FEDB2"
+				item: {
+					count: 1
+					id: "create:deployer"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "7ED7B1A4505082BD"
+				item: { count: 1, id: "offroad:wheel_mount" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E9E11F072665A05"]
+			id: "71A8D4B8F0EAFF90"
+			rewards: [{
+				id: "0B047C10D4250E4B"
+				item: {
+					count: 1
+					id: "mysticalagriculture:slime_seeds"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6F71509D329E59FA"
+				item: { count: 1, id: "simulated:honey_glue" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6D34125C705B2B73"]
+			id: "1E9E11F072665A05"
+			rewards: [{
+				id: "27AA8273E718B461"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "43AB00104FE02F00"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4B574B802F83F725"]
+			id: "783C1961806EC8F6"
+			rewards: [{
+				id: "7F9B73902E8BB19A"
+				item: {
+					count: 1
+					id: "mysticalagriculture:gold_seeds"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4CA44466545C5F18"
+				item: { count: 1, id: "create:wrench" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["783C1961806EC8F6"]
+			icon: {
+				id: "create:clutch"
+			}
+			id: "41CEBA836A8BA22C"
+			rewards: [{
+				id: "06E1FE1E7F4C21BA"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "623003397A8F3C75"
+					item: { count: 1, id: "create:clutch" }
+					type: "item"
+				}
+				{
+					id: "57648833EB9738CB"
+					item: { count: 1, id: "create:gearbox" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6C71B21F08A1F1A5"
+					item: { count: 1, id: "minecraft:redstone_torch" }
+					type: "item"
+				}
+				{
+					id: "75EBF3D8BE6D6342"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6CCC8862AC60DA2A"]
+			icon_scale: 1.3d
+			id: "7097EFDECE9CDAF7"
+			rewards: [{
+				id: "511CD7EB2566481D"
+				item: {
+					components: {
+						"easy_mob_farm:mob_capture_data": {
+							entityType: "minecraft:iron_golem"
+							name: "entity.minecraft.iron_golem"
+							type: "minecraft:iron_golem"
+						}
+					}
+					count: 1
+					id: "easy_mob_farm:mob_capture_card"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.3d
+			tasks: [{
+				id: "11C28758E21170B9"
+				item: { count: 1, id: "simulated:iron_handle" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["095223210FCC48C3"]
+			id: "026FF42DA59E112A"
+			rewards: [{
+				count: 2
+				id: "62EC79A780E7476A"
+				item: {
+					count: 1
+					id: "offroad:monstrous_tire"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 4L
+				id: "5094B4A57A3830A4"
+				item: { count: 1, id: "offroad:tire" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51E22AFE9403C9E1"]
+			id: "4D89B47FFF31585D"
+			rewards: [{
+				id: "41A46D2EBCCAEAF6"
+				item: {
+					count: 1
+					id: "create_enchantment_industry:blaze_forger"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 22L
+				id: "18F86B0FFC1C4BA9"
+				item: { count: 1, id: "create:encased_chain_drive" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["026FF42DA59E112A"]
+			id: "6D34125C705B2B73"
+			rewards: [{
+				count: 32
+				id: "5D0909705315D8C8"
+				item: {
+					count: 1
+					id: "create:white_sail"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6CF525C4516EB3FF"
+				item: { count: 1, id: "create:purple_seat" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["71A8D4B8F0EAFF90"]
+			id: "7C91F7477216A2D2"
+			rewards: [{
+				count: 8
+				id: "4AE4DA3DB9962756"
+				item: {
+					count: 1
+					id: "create_new_age:overcharged_diamond"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "424B71199904D3F2"
+				item: { count: 1, id: "minecraft:iron_block" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7C91F7477216A2D2"]
+			id: "4B574B802F83F725"
+			rewards: [{
+				id: "71E326DC6718661A"
+				item: {
+					count: 1
+					id: "mysticalagriculture:coal_seeds"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "78D27ED5B0266529"
+				item: { count: 1, id: "simulated:black_portable_engine" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["41CEBA836A8BA22C"]
+			icon: {
+				id: "create:redstone_link"
+			}
+			id: "1583C85390362BB4"
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 4L
+					id: "164BAEEA7FCAA0DE"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0ACF01C2C4DBB62D"
+					item: { count: 1, id: "minecraft:lever" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1583C85390362BB4"]
+			id: "4C990203ACAAB823"
+			rewards: [
+				{
+					count: 64
+					id: "3FE4B2B72C92B465"
+					item: {
+						count: 1
+						id: "mekanism:enriched_redstone"
+					}
+					type: "item"
+				}
+				{
+					id: "451BCA6B47C259A8"
+					item: {
+						count: 1
+						id: "ars_nouveau:glyph_redstone_signal"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4F1EAF9EB9793A59"
+				item: { count: 1, id: "create:linked_controller" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C990203ACAAB823"]
+			id: "6CCC8862AC60DA2A"
+			rewards: [{
+				id: "38B8C7FE7C98C777"
+				item: {
+					count: 1
+					id: "minecraft:tinted_glass"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "23B150084BD15832"
+				item: { count: 1, id: "minecraft:sand" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+	]
+}

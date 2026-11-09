@@ -1,0 +1,122 @@
+{
+	id: "582C28B4960E70F9"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			id: "1EFEBD724DD54CCF"
+			item: {
+				count: 1
+				id: "mekanism:ingot_osmium"
+			}
+			random_bonus: 4
+		}
+		{
+			count: 2
+			id: "52AE6C837F7ED06F"
+			item: {
+				count: 1
+				id: "mekanism:alloy_infused"
+			}
+		}
+		{
+			id: "13355162F33F8DD9"
+			item: {
+				count: 1
+				id: "mekanism:alloy_reinforced"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "46AEED51264F5F3C"
+			item: {
+				count: 1
+				id: "mekanism:alloy_atomic"
+			}
+			weight: 0.2f
+		}
+		{
+			count: 5
+			id: "4BDA78048C23F115"
+			item: {
+				count: 1
+				id: "mekanism:ingot_steel"
+			}
+		}
+		{
+			count: 2
+			id: "472F21F86E5BC3BA"
+			item: {
+				count: 1
+				id: "mekanism:steel_casing"
+			}
+		}
+		{
+			count: 6
+			id: "4AFB1617DC2778D9"
+			item: {
+				count: 1
+				id: "mekanism:dust_sulfur"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "70772BA412949354"
+			item: {
+				count: 1
+				id: "mekanism:hdpe_pellet"
+			}
+			weight: 0.1f
+		}
+		{ id: "3C63E9132E5D1927", item: { count: 1, id: "mekanism:cardboard_box" } }
+		{ id: "6203A91B6C04E346", item: { count: 1, id: "mekanism:dust_netherite" } }
+		{ id: "56B12487C30F3D91", item: { count: 1, id: "mekanism:dust_charcoal" } }
+		{ id: "5CEB4D929A447787", item: { count: 1, id: "mekanism:dust_coal" } }
+		{ id: "49AB6F5C5E1B96C6", item: { count: 1, id: "mekanism:dust_sulfur" } }
+		{ id: "00E2D5DCB130A256", item: { count: 1, id: "mekanism:dust_bronze" } }
+		{ id: "6C40BD0FE9628501", item: { count: 1, id: "mekanism:dust_lapis_lazuli" } }
+		{ id: "561D2FB3225B3C87", item: { count: 1, id: "mekanism:dust_quartz" } }
+		{ id: "2131E07A637067C5", item: { count: 1, id: "mekanism:dust_emerald" } }
+		{
+			count: 2
+			id: "47C5582879907383"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+		}
+		{
+			count: 2
+			id: "31809817E20BF9D4"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+		}
+		{
+			count: 2
+			id: "64FDB2FDBAE5BB17"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_filter"
+			}
+		}
+		{
+			count: 2
+			id: "364E2B23FB4453CA"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_muffling"
+			}
+		}
+		{ id: "3968F55A2C51C334", item: { count: 1, id: "mekanism:upgrade_chemical" } }
+		{
+			id: "176E27C9C3097726"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_anchor"
+			}
+			weight: 0.3f
+		}
+	]
+}

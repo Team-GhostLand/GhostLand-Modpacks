@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/chipped/wall_red_paper_lantern_2_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/chipped/red_paper_lantern"
+		}
+	}
+}

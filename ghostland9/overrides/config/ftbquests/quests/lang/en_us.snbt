@@ -1,0 +1,2177 @@
+{
+	chapter.09FBD576F87881B4.title: "Create Ore Excavation"
+	chapter.1CFC7955957D28B7.title: "Create Central Kitchen"
+	chapter.1E0B14B8BEAE3175.title: "Create Stuff 'N Additions"
+	chapter.21FFEEC5D27A5737.title: "Steel Age"
+	chapter.23983F4DC524B14B.title: "Mekanism"
+	chapter.4206A58542561BF0.title: "Create Connected"
+	chapter.49EA4A06D4508740.title: "Applied Energistics 2"
+	chapter.4E115E1260B9FA39.title: "&7Create Aeronautics: 1"
+	chapter.54D57FF8C31ABBAE.title: "Chemicals"
+	chapter.56096636DE3BAEC1.title: "&7Create Aeronautics: 2"
+	chapter.5C3FF9D1ECAC4860.title: "Create"
+	chapter.66F98B6CCBBBF2A2.title: "Create Crafts \\& Additions"
+	chapter.7332B6BB3E51839A.title: "Big Voltage"
+	chapter_group.0015B593B4889A40.title: "Technology"
+	chapter_group.181E781F1BAE7410.title: "Create"
+	chapter_group.4A842940CEB7DFFB.title: "Create TFMG"
+	file.0000000000000001.title: "Create Ultimate Selection 2"
+	quest.00654F576522DDCA.quest_desc: [
+		"A gearbox with shafts on all 6 sides."
+		"Top and bottom spin at half speed."
+	]
+	quest.006A26D253D4D1C2.quest_desc: [
+		"The &6Jetpack&r is an item that allows the player to fly, equippable in the chestplate slot."
+		""
+		"It uses &3Hydrogen&r gas as a fuel, of which it can store up to &o&b24,000mB&r."
+	]
+	quest.00ACD837E30165B3.quest_desc: ["Generates rotational energy from FE. Enables bridging between electrical mods and Create's kinetic systems."]
+	quest.00C88180C14B1A91.quest_desc: ["Used with &6Spatial IO Port&r to store spatial regions."]
+	quest.00EFC7B327E79076.quest_desc: [
+		"After zapping away trillions of power in the &dSPS&r, we can finally create &5Antimatter Pellets&r."
+		""
+		"Run the &3Antimatter Gas&r you get from the &dSPS&r into a &2Chemical Crystallizer&r and you'll get &o&b1&r &5Antimatter Pellet&r for every &o&b1,000mb&r you make."
+	]
+	quest.0104893F8F3458DA.quest_subtitle: "Right click steel casings with a heavy plate."
+	quest.0149B3F7F08D7E35.quest_subtitle: "Crafting ingredient"
+	quest.01C3B23461807007.title: "&dUltimate Mechanical Pipe"
+	quest.01E0820861BE3E93.quest_desc: ["The ultimate drilling tool, forged from powerful Netherite for unmatched strength and endurance. It tears through the hardest blocks with ease, offering top-tier performance for advanced automation and late-game mining setups."]
+	quest.0203D270DDDC7E84.quest_subtitle: "Made by spouting creosote oil in planks."
+	quest.0221FE72F998600E.quest_subtitle: "A Create mod add-on adding quality-of-life blocks that you wish existed in Create."
+	quest.026FF42DA59E112A.quest_desc: ["Now our little car needs its 4 wheels"]
+	quest.026FF42DA59E112A.quest_subtitle: "THE WHEEL!"
+	quest.026FF42DA59E112A.title: "Tire"
+	quest.02D05B1D0B266578.quest_desc: ["Once you have steel, you might choose to speed up your blast furnace by making these reinforcing walls for it."]
+	quest.037B8971900F3840.quest_desc: [
+		"The Factory Must Grow (TFMG for short) is an addon to the Create mod. The mod adds factory-style structures, processes, and items like Crude Oil, Steel Blasting, and various Electric Components."
+		""
+		"TFMG adds more processes that extend Create's Steampunk style to a more industrial, diesel-punk stage of advancement. "
+		""
+		"Processes that this mod adds are Oil Distillation by boiling Crude Oil into various oil products (more commonly known as \"fractions\") like Diesel and Gasoline. You can use your Diesel to power a easy-scalable Diesel Engine or further refine your Naphtha into Ethylene and Propylene for Plastic and Coolant Liquid. Make Napalm Bombs out of Gasoline, Sulfuric Acid, and Aluminum to \"prank\" your friends, but don't try this at home!"
+	]
+	quest.0488989FD7F5AF42.quest_desc: ["Obtained by putting an Iron Ingot in a Rolling Mill."]
+	quest.0488989FD7F5AF42.quest_subtitle: "Crafting component."
+	quest.04E2D539E33B7B0F.quest_desc: [
+		"The Chemical Infuser combines two gases to create another gas. The gas gauges on the left and right side of its GUI are the input tanks, and correspond to correspond with the left and right sides of the machine. The gauge in the middle is for the resulting gas, which likewise is output through the front of the machine. The input and output sides can be changed in the UI of the machine."
+		""
+		"Without any upgrades, it operates using 200 J/t and operates once per tick (according to the recipe's cost and output). Notably, each speed upgrade doubles the operation speed of this machine, for 256 operations/t production rate at maximum upgrades."
+	]
+	quest.062051ED6D130ACD.quest_desc: [
+		"Steel is used for almost everything in TFMG, make a lot of this."
+		""
+		"Don't add more than a stack of each ingredient into the blast furnace at once. Additionally, it has a chance to not consume coal coke dust."
+	]
+	quest.066FA99DD39A0BF4.quest_desc: [
+		"Put the magnetic alloy on top of a lightning rod during a thunderstorm and wait for the rod to get hit. Channeling tridents also work."
+		""
+		"There is about a 50% yield from this process."
+	]
+	quest.068728DE3B9B13C3.quest_desc: [
+		"The &aSupercritical Phase Shifter&r (SPS) is another multiblock structure used to infuse &3Polonium&r with large amounts of power to create &dAntimatter&r gas, which can be crystallized into pellets."
+		""
+		"To build the &aSPS&r, you'll need to make a total of &o&b72&r &9SPS Casings&r (&o&b60&r for the build, &o&b12&r to make the ports), &o&b3&r &eSPS Ports&r, &o&b122&r &3Reactor Glass&r, and one other item we'll talk about in the next quest."
+	]
+	quest.068728DE3B9B13C3.title: "&dSupercritical Phase Shifter"
+	quest.0696B725E840B996.quest_desc: [
+		"For us to take anything in or out of the &6Fission Reactor&r, we'll need &aFission Reactor Ports&r. These can be configured to &9input&r or &coutput&r by using the &dConfigurator&r. "
+		""
+		"Every &6Fission Reactor&r needs a &nminimum&r of &o&b4 Ports&r:"
+		""
+		"&o&b1 Coolant&r &9Input&r"
+		"&o&b1 Coolant&r &cOutput&r"
+		"&o&b1 Fissile Fuel&r &9Input&r"
+		"&o&b1 Waste&r &cOutput&r"
+		""
+		"For this starter build, let's put a port on each side. Make sure to configure them to match the list of &9inputs&r and &coutputs&r!"
+	]
+	quest.0696B725E840B996.title: "Interacting with the Fission Reactor"
+	quest.06CA244E47D9C097.quest_desc: [
+		"&2QIO Dashboards&r allow a user to interface with the contents of a &9QIO Drive Array&r."
+		""
+		"It looks similar to a &echest inventory&r, but it can be searched, sorted, scrolled through, and shows all items of one type as a single stack, even if there are thousands of them."
+		""
+		"In order to access a &9drive array&r, the &2dashboard&r must be set to the same &o&bfrequency&r as the &9drive array&r."
+	]
+	quest.06E2A9904675C5C2.quest_desc: ["Steel vat + heating is required. Made from naphtha, but these two products don't \"live\" for very long."]
+	quest.06E39E99E00A5283.quest_desc: [
+		"This requires a very precise redstone timing in order to extract the ethylene before it turns into plastic."
+		""
+		"Cooling fluid is mainly used for improving modular engine efficiency."
+		"Please consider if this is worth your time before trying to get some."
+	]
+	quest.06E5134C2F756BED.quest_desc: ["Say, rumor on the street is that killing an Ender Dragon with a Revolver is a fun challenge; it's also a way to get Shader Grabbags which can be used to get Shaders. Shaders can be used to make your Revolver look nifty."]
+	quest.075E97B2BB5F93DF.quest_desc: ["Items cannot be added or removed by the player, but by components such as Chutes, Funnels, and Item Hatches."]
+	quest.07AD45DCF9EE3C2E.quest_desc: [
+		"&9Tier Installers&r are used to upgrade various machines into their &3Factory&r equivalent."
+		""
+		"&aRight-click&r on the machine with the &9Tier Installer&r and it will upgrade that machine to a &3Factory&r - its level (Basic, Advanced, or Elite) depending on the level of the &9Factory Installer&r used."
+		""
+		"&aBasic Tier Installers&r can be used on any machine that has a &3Factory&r associated with it that has not yet been turned into one."
+		""
+		"However, &4Advanced Tier Installers&r can only be used on &aBasic Factories&r, while &9Elite Tier Installers&r can only be used on &4Advanced Factories&r, and &dUltimate Tier Installers&r can only be used on &9Elite Factories&r."
+		""
+		"This is intended so that the player does not &nskip any tiers&r in the &b&oupgrade chain&r, e.g. going from &aBasic Factory&r to &dUltimate Factory&r instantly."
+	]
+	quest.07ECC87DFF2D3991.quest_desc: [
+		"A correctly formed &9Induction Matrix&r will spark once with &cRedstone Particles&r when you place down the last block, and will also have an interface when &eright-clicking&r the block."
+		""
+		"To make the &9Induction Matrix&r function properly, you will want to have one &2Induction Port&r configured to &9input&r and one &2Induction Port&r to &coutput&r, using a &dConfigurator&r."
+		""
+		"Don't be afraid to upgrade with higher tier &aCells&r and &eProviders&r! The maximum size of the &9Induction Matrix&r structure can be &o&b18x18x18&r. "
+	]
+	quest.07ECC87DFF2D3991.title: "&bCompleted Induction Matrix"
+	quest.07EF8ABA0027BB91.quest_desc: [
+		"Required to create a connection between two Quantum Network Bridges, they are always produced in matching pairs. To create a connection place 1 of the pair of quantum entangled singularities into the ME Quantum Link Chamber of the bridge on each side."
+		""
+		"They are crafted by causing a reaction between Ender Pearl or Ender Dust"
+		"and a Singularity. Any explosive force should be enough to trigger the reaction."
+	]
+	quest.0834527ED1C0E83B.quest_desc: ["Allows FE to be carried into and used inside Create contraptions."]
+	quest.08DDE018A804BFE7.quest_desc: [
+		"This machine uses energy to extract dusts out of certain blocks and ores, making it essential to producing different kinds of tools. Not to be mistaken with the Crusher, this machine is the pulverizer equivalent in other mods."
+		""
+		"Can also be used to turn Coal or Charcoal into Compressed Carbon, Redstone into Compressed Redstone, Diamond into Compressed Diamond and Refined Obsidian Dust into Compressed Obsidian, all for use in the Metallurgic Infuser."
+		""
+		"Note: Compressed Carbon is worth 100 carbon; Coal is worth 10 and Charcoal is worth 20; hence it is better to refine coal and use Compressed Carbon."
+	]
+	quest.08DDE018A804BFE7.quest_subtitle: "Breaks Raw Ores into Dusts"
+	quest.0933E0EF37133C32.quest_desc: [
+		"Using the Circuit Table, you can create much smaller logic circuits. To do so, you will need a backplane, some vacuum tubes and some solder like blead or copper wires. The table also needs to be supplied with energy through the input at its back."
+		""
+		"Using the various components, you then select the pattern of circuit you want to make and decide the input values, as well as the designated output. The available in and outputs are the 16 colored channels of a Redstone wire, as well as 8 \"Registers\"."
+	]
+	quest.09408C6DCAC90318.quest_desc: [
+		"An &4Energy Cube&r is an advanced type of battery that is compatible with multiple energy systems."
+		""
+		"&cEnergy&r can be input from &o&b5&r sides, and output on &o&b1&r side. The output side has a special marking which looks like a &nsmall panel&r."
+		""
+		"Rotate the Cube by &eright-clicking&r with a &awrench&r."
+		""
+		"&4Energy Cubes&r can be transported by &ashift-right-clicking&r with a &ewrench&r. This will “break” the Cube, but all its energy will be &nsafely stored inside&r."
+		""
+		"When the Cube is in your &einventory&r, &nholding shift&r will display additional data about the Cube’s energy level."
+	]
+	quest.095223210FCC48C3.quest_desc: ["We need the Wheel Mount to put on our car; it will make the wheel axles rotate. You can also change the wheel suspension by configuring them by clicking on the axle."]
+	quest.095223210FCC48C3.quest_subtitle: "Wheel axle"
+	quest.095223210FCC48C3.title: "Wheel Mount"
+	quest.095E1C928584FAAC.quest_desc: [
+		"&9Free Runners&r are an item that allows players to ascend 1-block inclines automatically (like the Horse), as well as preventing &cfall damage&r as long as they are charged. A fall will reduce the item's charge, depending on how far the fall was."
+		""
+		"&9Free Runners&r can be charged inside of various power-related generators or storage devices, like the &aAdvanced Solar Generator&r or the &2Energy Cube&r."
+	]
+	quest.09BE3D92053AE1F8.quest_desc: ["When attempting to place the Roller on the top face of a block, it will be placed one block above it, similarly to a Mechanical Mixer or Mechanical Press. Though it appears to take up a few blocks of space, it only takes up one. There is also Placement Assist functionality, allowing for easy placement of Rollers to either of two sides of a roller. The Roller can be picked up by sneak using a Wrench on it."]
+	quest.09C334C044BC464F.quest_desc: [
+		"Pipe out the CO2 or it will clog up. You can make it taller than two blocks but it has no effect."
+		""
+		"Air is collected from air intakes, which need rotation to start collecting. They can be 1x1, 2x2, or 3x3 multiblock. They take zero power, so speed them up all you like."
+		""
+		"Fuel (creosote or furnace gas) is piped into the bottom face."
+		""
+		"Air (collected from air intakes) is piped into the side of the bottom block."
+		""
+		"CO2 is extracted from the sides of the bottom block."
+		""
+		"Hot air is extracted from the top face of the tower."
+	]
+	quest.09C334C044BC464F.title: "Blast Stove"
+	quest.0A0D08D0032BAF5B.quest_desc: [
+		"It uses Iron and Coal Coke to generate Steel Ingots and Slag. "
+		""
+		"Unlike with the Crude Blast Furnace, items are able to be piped in and out."
+		""
+		"Slag is removed from the back, items are loaded into the top and Blast Furnace Preheaters may be placed on either side to speed up manufacture."
+	]
+	quest.0A0D08D0032BAF5B.title: "Improved Blast Furnace"
+	quest.0AD6897A8AB1CC5D.quest_desc: ["Use to check how much oil a deposit has."]
+	quest.0ADA2391DDE7466E.quest_desc: ["An advanced control unit that manages engine performance and power output. It optimizes efficiency, regulates speed, and ensures smooth operation of complex machinery systems."]
+	quest.0AE0E5AA8FB69FE2.quest_subtitle: "Gadgets for all situations"
+	quest.0AE0E5AA8FB69FE2.title: "Welcome to Create:Connected"
+	quest.0AE4B0BD9B765D60.quest_desc: [
+		"Place the Surface Scanner atop the Machine Input and supply it with power."
+		""
+		"The 25 lights above indicate the 25 chunks closest to the scanner, with the center light marking the chunk it occupies. A light will illuminate if at least one Oil Deposit is detected in that chunk."
+		""
+		"That's all the guidance it provides time to start digging!"
+	]
+	quest.0AEDFC064B84C877.quest_desc: [
+		"Autocrafting is one of the primary functions of AE2. Instead of manually having to craft the correct number of each sub-ingredient and labor away like some sort of plebian, you can ask your ME system to do it for you. Or automatically craft items and export them somewhere. Or automatically keep certain amounts of items in stock through clever emergent behavior. It also works with fluids, and, if you have certain addons for extra mod material types, like Mekanism gasses, those materials too. It's pretty great."
+		""
+		"It is quite a complex topic, so strap in and let's go."
+		""
+		"{@pagebreak}"
+		"An autocrafting setup consists of 3 things:"
+		""
+		"The thing sending the crafting request"
+		"The crafting CPU"
+		"The ME Pattern Provider."
+		"Here is what happens:"
+		""
+		"Something creates a crafting request. This can be you in the terminal clicking on something autocraftable, or an export bus or interface with a crafting card requesting one of the item they're set to export/stock."
+		"(IMPORTANT: use whatever you have bound to \"pick block\" (usually middle-mouse) to request crafts of something you already have in stock, this can conflict with inventory sorting mods),"
+		"The ME system calculates the required ingredients and prerequisite crafting steps to fulfill the request, and stores them in the selected crafting CPU"
+		""
+		"The ME Pattern Provider with the relevant pattern pushes the ingredients specified in the pattern to any adjacent inventory. In the case of a crafting table recipe (a \"crafting pattern\") this will be a Molecular Assembler. In the case of a non-crafting recipe (a \"processing pattern\") this will be some other block or machine or elaborate redstone-controlled setup."
+		""
+		"The result of the craft is returned to the system somehow, be it by import bus, interface, or pushing the result back into a pattern provider. Note that an \"item entering system\" event must occur, you can't just pipe the result into a chest with a ME Storage Bus on it."
+		""
+		"If that craft is a prerequisite for another craft in the request, the items are stored in that crafting CPU and then used in that craft."
+	]
+	quest.0AEDFC064B84C877.title: "Auto-Crafting"
+	quest.0B281C34E455EE72.quest_desc: ["Just a larger pumpjack."]
+	quest.0B2DF0B5F4247A3F.quest_desc: [
+		""
+		"Items can be input into the Fermenter via the 2 hatches at the back that are marked with blue dots. The hatch with the orange dot serves as an item output and the block below it to output fluids. Applying a redstone signal to the control panel at the front will halt the machine's process, this behavior can be inverted by use of the Engineer's Screwdriver."
+	]
+	quest.0B2DF0B5F4247A3F.title: "Fermenter"
+	quest.0B7FFB9FF90F10CF.quest_subtitle: "Yummers"
+	quest.0B8148DAF5CC9DF1.quest_desc: ["High current"]
+	quest.0BBE6CADED48A971.quest_desc: [
+		"Click a Stock Link with the Stock Ticker to connect it to that network. Place a Mob in a Seat or a Blaze Burner behind the Stock Ticker to turn it into a Stock Keeper."
+		""
+		"The Stock Keeper can see all the items on the network. The UI displays how many Stock Links are connected. If the Stock Keeper is left unlocked, players can search the network, request items, and give their requests an Address to be sent to."
+		""
+		"If the Stock Keeper is locked, other players will not be able to access its UI. The Stock Keeper will still be able to accept Shopping Lists."
+	]
+	quest.0C8F501F6BDFFB92.quest_desc: ["Obtained by putting a Gold Ingot in a Rolling Mill."]
+	quest.0C8F501F6BDFFB92.quest_subtitle: "Crafting component."
+	quest.0D158BAE5A38798A.quest_desc: ["Allows the player to fly, move and swim faster. Works with water"]
+	quest.0DA65A502C57261C.quest_desc: ["Just like any other create contraption, you can superglue basically anything to a pumpjack, with the stipulation that the main arm is complete."]
+	quest.0DA972D85BB3C86C.quest_desc: [
+		"Coke Oven is a multi-block machine added by the Immersive Engineering mod. It turns Coal into Coal Coke and creates Creosote as a byproduct."
+		""
+		"The Coke oven makes charcoal, coal coke, or coal coke blocks. Input logs will be converted to charcoal, coal will create coal coke, and coal blocks create coal coke blocks. Coal coke can smelt 16 items and coal coke blocks can smelt 160 items. "
+		""
+		"Coal coke is also used as fuel for crude and improved blast furnaces since it cannot take regular coal."
+	]
+	quest.0DA972D85BB3C86C.quest_subtitle: "Hot Topic!"
+	quest.0DA972D85BB3C86C.title: "Coke Oven"
+	quest.0E547F2503A07ACE.quest_desc: ["A sturdy mechanical drill made of iron, designed for efficient mining and material processing. It delivers reliable power and durability, perfect for automating excavation tasks and breaking tough blocks with ease."]
+	quest.0E580153F1936699.quest_desc: ["A powerful machine that converts excess energy or items into stored matter. It’s essential for producing singularities and other high-tier materials used in advanced storage and automation systems."]
+	quest.0E5FC39E6C71A872.quest_desc: ["The shaft is a basic mechanical component in Create. A shaft can be used to connect two mechanical components such that the rotation of one rotates the other, and shafts serve as the only blocks upon which Mechanical Belts can be placed."]
+	quest.0E5FC39E6C71A872.title: "Shaft"
+	quest.0E63C1AD9074987E.quest_desc: ["Melt quartz in the blast furnace and cast the resulting liquid silicon."]
+	quest.0E9258C07CDD7385.quest_desc: [
+		"A Wrench made of Certus Quartz Crystal or Nether Quartz."
+		""
+		"Useful for rotating blocks, and removing individual parts from Cables."
+	]
+	quest.0EE2E9EB6DC01E34.quest_subtitle: "Crafting ingredient"
+	quest.0EEA8C33BC327CCA.quest_desc: ["The Pattern Access Terminal serves to solve a specific issue: in a dense tower of ME Pattern Providers and Molecular Assemblers, you can't physically access the providers to insert new patterns. Additionally, perhaps you're lazy and don't want to walk across your base to insert a pattern. The pattern access terminal allows access to all pattern providers on the network."]
+	quest.0F550A972D2CC175.quest_desc: ["To build balloons, we will need the hot air from this machine! It is not very cool to put fire on a netherrack, it might not work!"]
+	quest.0F550A972D2CC175.quest_subtitle: "Ballons"
+	quest.0FF852DE33E41C90.quest_desc: [
+		"If we want to create massive amounts of &4Power&r, we'll need a way to store all of it, and those &aEnergy Cubes&r just won't cut it."
+		""
+		"We're going to create a customizable multiblock used to store large amounts of power, but first, we need to make some &3Lithium Dust&r!"
+		""
+		"You should have some &eBrine&r being made from a previous quest using the &cThermal Evaporation Plants&r."
+		""
+		"Run the &eBrine&r through another &cThermal Evaporation Plant&r to get &7Lithium&r, then through a &9Chemical Crystallizer&r to get &aLithium Dust&r."
+	]
+	quest.0FF852DE33E41C90.title: "Advanced Power Storage"
+	quest.1065B5980FAF5937.quest_desc: [
+		"Pipe crude oil into the Distillation Controller and collect products from each output."
+		""
+		"Blaze Burner heating is required. Steel tanks can be 1x1, 2x2, or 3x3, with larger sizes allowing more heating, which can increase the distilling rate."
+		""
+		"The minimum height tower has three outputs and produces Heavy Oil, Diesel, and Gasoline."
+		""
+		"Adding two more outputs allows production of LPG and Kerosene."
+		""
+		"Adding one more output lets you extract Naphtha."
+		""
+		"Outputs can be configured to void excess fluid or stop refining when full to prevent wasting oil."
+	]
+	quest.1112E4E2CCEB2467.quest_desc: [
+		"So now, you should have 5 machines ready to go to process your Ores. "
+		""
+		"Your factory should be something like this:"
+		"Chemical Injection Chamber to Purifying Chamber to Crusher to Enrichment Chamber to Smelter."
+	]
+	quest.1112E4E2CCEB2467.title: "Ore Factory: Tier 3"
+	quest.113E1D3C37C63088.quest_desc: ["Obtained by putting a Gold Sheet in a Rolling Mill."]
+	quest.113E1D3C37C63088.quest_subtitle: "Crafting component."
+	quest.1188D57C76DBD215.quest_desc: [
+		"Potentiometers allow a percentage of the input voltage to pass to the output side. Unlike in real life, they do not waste power."
+		""
+		"For example, if your base is wired at 3 kV but your lights only require 150 V, you can set a potentiometer for the lights at 5%. This way, they don’t consume several kW for no benefit."
+	]
+	quest.11D8E015814D44F8.quest_desc: ["Goes on top of the vat and takes different attachments. Requires rotational power."]
+	quest.1210C5B720AE249F.quest_subtitle: "Just crush some dirt i guess."
+	quest.135E27A19B935CD7.quest_desc: [
+		"Right-click the chain of a Chain Conveyor to set the frogport’s target, then place the frogport. Frogports can be placed up to 4 blocks to the side and down from their target chain."
+		""
+		"The frogport will only take packages that match its address. The address can be set by right-clicking the placed frogport or in it's UI. "
+		""
+		"The frogport will only send packages that don’t match its address unless its set to “only send packages” in its UI."
+	]
+	quest.138B96B20044ED12.quest_desc: ["A coil of constantan wire known for its stable electrical resistance. It’s used in crafting electronic components and machinery that require precise power control."]
+	quest.13B495F64F5C9D48.quest_desc: ["A refined fuel made by heating coal without oxygen. It burns hotter and longer than regular coal, making it ideal for powering furnaces, engines, and heavy industrial machinery."]
+	quest.13CAA74DEE1F21A3.quest_desc: ["A reinforced container designed to safely hold and process volatile or high-temperature substances. Its heat-resistant structure makes it ideal for chemical reactions, refining, and industrial production."]
+	quest.140DE53DC0FCD9F4.quest_desc: [
+		"The Annihilation Plane breaks blocks and picks up items. It works similarly to an ME Import Bus, pushing things into network storage. For items to be picked up, they must collide with the face of the plane, it does not pick up in an area."
+		""
+		"Annihilation planes can be enchanted with any pickaxe enchantment, so yes, you can put crazy levels of fortune on a few and automate ore processing if your modpack allows it. In addition, silk touch does what you'd expect it to, efficiency reduces the energy cost of breaking a block, and unbreaking gives a chance of not using any energy."
+		""
+		"REMEMBER TO ENABLE FAKE PLAYERS IN YOUR CHUNK CLAIM"
+	]
+	quest.140EA40A9ABA65DB.quest_desc: ["An upgraded, high-performance drill built for maximum efficiency and durability. Its diamond-tipped head cuts through even the toughest materials, making it perfect for advanced automation and large-scale mining operations."]
+	quest.147FC2959F9FC5F5.quest_desc: [
+		"Trains are Contraptions that travel on Train Tracks."
+		""
+		"Assembly"
+		"Place the track and right-click it with a station block. Place the station block near the track."
+		""
+		"Right click on the station and select \"Create Train\" to enter assembly mode (blue flag shown on station)."
+		""
+		"Place one or more Train Casings on the track where indicated with blue. The casings will turn into bogeys."
+		""
+		"When assembled, each bogey will automatically become coupled together as part of the train."
+		" "
+		"Place a Train Controls block facing the direction dictated by the station. Place a Seat or Blaze Burner behind the controls for the driver."
+		""
+		"Use Block Attachment Utilities such as Super Glue to connect all parts together (green highlight)."
+		""
+		"When finished, use the Station's interface to attempt to assemble the Train. If a Train fails to assemble, an error will be shown in the Station's interface. Common errors are detailed below."
+	]
+	quest.1482F2D45E8F761D.quest_desc: [
+		"Just like most &dMekanism&r multiblocks, reactors can be a custom size depending on your needs. They must be cuboid, with the minimum outside size being &b&o3 wide&r, &b&o4 tall&r, and &o&b3 blocks&r deep. The maximum size is &b&o18x18x18&r."
+		""
+		"The edges of the outer shell &bmust&r be made out of &aFission Reactor Casings&r, while the faces can be either casings or &bReactor Glass&r, &7Reactor Ports&r, or &3Reactor Logic Adapters&r. We'll get to those later."
+		""
+		"For now, let's build a basic &b&o5x5x5&r &6Fission Reactor&r!"
+	]
+	quest.1482F2D45E8F761D.title: "&3The Fission Reactor"
+	quest.14D772808D1BEAE2.quest_desc: [
+		"The &9Induction Matrix&r allows you to customize how much power you can store and transfer by adding &aCells&r and &eProviders&r inside of the multiblock structure."
+		""
+		"&aInduction Cells&r increase the total amount of power that can be stored."
+		""
+		"&eInduction Providers&r increase the total transfer speed both in and out of the &9Matrix&r."
+		""
+		"You can customize how many you want of each &b&oinside&r of the multiblock, but you will need &b&oat least&r one of each."
+		""
+		"These also have higher tiers to increase your overall storage and transfer capacity."
+		""
+		"{image:kubejs:textures/item/induction_inside.png width:200 height:100 align:1}"
+	]
+	quest.14D772808D1BEAE2.title: "Customizing Power Limits"
+	quest.14F6CF9A5F807A51.quest_desc: ["Right click on a tank of lubrication to fill the can. Applying this to engines grant a 30% fuel saving."]
+	quest.1583C85390362BB4.quest_desc: ["Until now our car only goes forward and backward; for this, we need to use the redstone signal to turn the car's wheel. We can use a redstone link. We need to put 4 links on the wheel mount, always on the front wheels. Place 2 levers on each and leave it in receiver mode; remember to invert the sides of each redstone link so the wheel turns in the correct direction."]
+	quest.1583C85390362BB4.quest_subtitle: "Controlling the direction"
+	quest.1583C85390362BB4.title: "Redstone Link"
+	quest.1610C8F55F59E82F.quest_desc: [
+		"The Quartz Fiber."
+		""
+		"A part designed to share energy between two ME Networks without sharing anything else, also used to craft Fluix ME Glass Cablr."
+	]
+	quest.162CE44400A63575.quest_desc: [
+		"The Metallurgic Infuser is the first step in the Mekanism tech tree. The Metallurgic Infuser is a machine used in the production of Steel Ingots, Bronze Ingot, Enriched Alloy, and Obsidian Ingots."
+		""
+		"{@pagebreak}"
+		""
+		"Infusing"
+		"In the purple slot the infusion material can be inserted, depending on the recipe for the item you are creating:"
+		""
+		"Redstone (Redstone, Block of Redstone or Enriched Redstone)"
+		"Diamond (Diamond Dust or Enriched Diamond)"
+		"Obsidian (Refined Obsidian Dust or Enriched Obsidian)"
+		"Carbon (Coal/Charcoal or Enriched Carbon)"
+		"Tin (Tin Dust or Enriched Tin)"
+		"Bio Fuel (Bio Fuel)"
+		"Mushroom (Red or Brown Mushrooms)"
+	]
+	quest.162CE44400A63575.quest_subtitle: "The Starting Machine"
+	quest.16665DE6F0921C26.quest_desc: ["A powerful kinetic generator that converts heat into rotational energy. By harnessing temperature differences, it provides a steady power source for your machines and automation systems."]
+	quest.16A6C47E35F3B9D0.quest_desc: [
+		"Once we have an &9Isotopic Centrifuge&r, we can run our &2Uranium Hexafluoride&r in and create &3Fissile Fuel&r!"
+		""
+		"That wasn't really that bad, right?"
+	]
+	quest.16A6C47E35F3B9D0.title: "&3Fissile Fuel&r"
+	quest.17709C4D6222244B.quest_desc: ["Connects forge energy compatible blocks with wires to transfer energy, provides light when reciving power."]
+	quest.177C0E37A35A14F4.quest_desc: [
+		"When Powered by kinetics:"
+		""
+		"Starts rotating the attached structure towards the current hour. If an independent second structure exists in front of the first one, it will serve as the minute hand."
+		""
+		"The Value Settings Screen can be accessed from the side of the block, and can be used to change the order of the hands or switch to a 24-hour reading resembling the Clock item."
+	]
+	quest.17953D4234D44C01.quest_desc: [
+		"Place the drilling machine on the ore vein chunk you found and place a drill on it."
+		""
+		"The ore/fluid will come out in the output of the multiblock."
+		""
+		"Fluid can be extracted in the copper pipe."
+		""
+		"The machine requires RPM to work."
+	]
+	quest.180206DDBD6B2D59.quest_desc: [
+		"The Pattern Encoding Terminal is similar to a regular terminal, with all the same settings and sections, but with an added pattern encoding interface. It looks similar to a crafting terminal's UI but this crafting grid doesn't actually perform crafts."
+		""
+		"You should have one of these in addition to a crafting terminal."
+	]
+	quest.1837076B0EA3C11A.quest_desc: [
+		"A Mechanical Belt is a mechanical component that conveys rotation and moves items and entities."
+		""
+		"Placing a Belt requires at least two Shafts. Place the Belt by right-clicking on the first shaft and then right clicking the second. Regardless of the length, this only consumes one mechanical belt. Both shafts must face the same direction."
+		""
+		"A Mechanical Belt can be placed over any number of Shafts arranged horizontally, vertically, or diagonally (45° towards the y axis) in a single line, provided that no obstructions are present and that the total length is no longer than twenty blocks. The Mechanical Belt also require that the two shafts face the same direction."
+	]
+	quest.187A3F5B41D1C923.quest_desc: ["Let's take our &2Sulfuric Acid&r and combine it with &bFluorite&r in a &9Chemical Dissolution Chamber&r to make &bHydrofluoric Acid&r."]
+	quest.187A3F5B41D1C923.title: "&bHydrofluoric Acid"
+	quest.18A75E664BAC6425.quest_desc: ["Power is output via the three copper looking dots on the top of the multiblock, and the machine can be turned off by applying a redstone signal to the red dot on the front of the machine face. It does not have a GUI, so all input/output must be triggered manually."]
+	quest.18A75E664BAC6425.title: "Diesel Generator"
+	quest.18D88932916C7A98.quest_desc: [
+		"Electrolytic Separator"
+		""
+		"The Electrolytic Separator sends controlled amounts of direct current into a fluid, breaking the bonds between its atoms. This process, known as electrolysis, allows you to produce useful gases from ordinary liquids."
+		""
+		"As the fluid is electrolyzed, the resulting gases are stored in the machine’s internal tanks. If either tank becomes full, the Separator will automatically shut down. To keep it running, connect Pressurized Tubes or any compatible gas transport system to both tanks."
+		""
+		"If you only need one type of gas, you can set the unused gas output to Dump to vent it into the environment. This prevents the machine from stopping when a tank fills up."
+		""
+		"You’ll need several of these if you plan to build a Tier 2 Ore Processing Factory later on. For now, start by creating one and using it to electrolyze the most basic fluid: Water."
+	]
+	quest.18D88932916C7A98.quest_subtitle: "Time to Break It Down"
+	quest.18D88932916C7A98.title: "The Start of a Tier 2 Ore Factory"
+	quest.191A2F855396BDCD.quest_desc: ["Automatically refills gadgets and armor that use fuel."]
+	quest.195729280394ABFB.quest_desc: [
+		"The Osmium Compressor is used to create Refined Obsidian Ingots from Refined Obsidian Dust and Glowstone Ingots from Glowstone Dust."
+		""
+		"It fuses liquid Osmium (melted down Osmium Ingots placed in the machine's bottom slot) with the originating materials to create their corresponding ingots."
+	]
+	quest.19754AE8C11A6317.quest_desc: [
+		"The Deployer simulates player actions on blocks or entities exactly 2 blocks away from it."
+		""
+		"The Deployer can be given items to use with machines or by right clicking the items into the hand."
+		""
+		"The Deployer can be stopped with a Redstone signal."
+		""
+		"The Filter on the side of the Deployer can be adjusted to only use certain items. The filter is also essential when using a Deployer in a Contraption."
+		""
+		"{@pagebreak}"
+		""
+		"The Deployer has 2 inventory slots; the held item and one extra internal slot. As well as unusable items, items harvested by the Deployer will be transferred to the extra slot to be removed by machines, during which time the Deployer will stall. Items cannot be extracted from the extra slot directly by the player."
+		""
+		"The Deployer simulates right clicks by default. It can be adjusted to left click instead by right clicking the front with a Wrench. While in left-click mode, the Deployer can use normal tools, such as pickaxes and swords. The tools will behave as if the player was holding them, including mobs dropping rare items when slain by a Deployer."
+	]
+	quest.197AB0E07A40512F.quest_desc: ["The Water Wheel is a source of rotational power. It generates Rotational Force when water flows over it."]
+	quest.19936E26E71B5F68.quest_desc: ["Energy is input through the bottom face and output from the top. "]
+	quest.19A9DA93FF046BD9.quest_desc: ["A sturdy yet lightweight frame used to encase and protect mechanical or electrical components. Its durability and resistance make it perfect for building advanced industrial machinery."]
+	quest.1A61ABEC34369F47.quest_desc: ["A gearshift that changes rotation direction unless powered."]
+	quest.1A72F7DA24E1BB09.title: "&cAdvanced Mechanical Pipe"
+	quest.1A7D9B32BD59417B.quest_desc: [
+		"Mostly &bdecorative&r powered &elight&r source that can be attached to &9Fluix ME Glass Cable&r or other non dense cables."
+		""
+		"Also used as crafting &ningredient&r."
+		""
+		"{image:kubejs:textures/item/illuminated_panel.png width:160 height:100 align:1}"
+	]
+	quest.1AEBFCD56E37DF8D.quest_desc: ["If you're thinking about traveling at great heights, you can't do it without these goggles—you need to go in style!"]
+	quest.1AEBFCD56E37DF8D.quest_subtitle: "Good Googles"
+	quest.1AFBE29BB6CC2C0D.title: "Mechanical Componets"
+	quest.1B04A295850D0F00.quest_desc: ["The Train Observer is used to detect passing Trains."]
+	quest.1B65E8BE91A087DA.quest_desc: [
+		"After placing a Chain Conveyor, they can be connected to other Chain Conveyors by right-clicking them with a Chain. The selection can be cleared by right-clicking the Chain Conveyor again. "
+		""
+		"The maximum distance at which chain conveyors can be placed is 32 blocks, can add 8 blocks to the side if it is 32 blocks away."
+		""
+		"The maximum angle at which chain conveyors can connect with elevation difference is 45°, this allows an approximate ratio of 2 horizontal blocks to one vertical block. the maximum possible straight slope is 30L by 14H center to center."
+	]
+	quest.1B6DDF50D00CBB31.quest_desc: [
+		"This is the way how to obtain &3Steel&r in &dMekanism&r."
+		""
+		"A &3Steel Ingot&r is created by smelting &3Steel Dust&r in any type of furnace."
+		""
+		"Infusing &7Iron&r with &b&o10&r units of &0Carbon&r in a &eMetallurgic Infuser&r will give you &7Enriched Iron&r."
+		""
+		"Infusing the &7Enriched Iron&r with a further &b&o10&r units of &0Carbon&r will give you &3Steel Dust&r,"
+		""
+		"&3Steel&r is a major crafting component in a lot of recipes in Mekanism."
+	]
+	quest.1B6DDF50D00CBB31.title: "Steel"
+	quest.1CB243F7E197B883.quest_desc: ["Displays the top level job and its current progress so you can see what a particular Crafting CPU is currently working on."]
+	quest.1CBE8399B440A1FD.quest_desc: ["A powerful multi-cylinder engine arranged in a circular pattern for balanced motion and high torque. Its efficient design provides strong, consistent power for advanced industrial machinery."]
+	quest.1D00D782B8F0B6D6.quest_desc: [
+		"The Mechanical Mixer is powered by an internal cogwheel, and will behave as one to any adjacent components, relaying and reversing rotation sideways."
+		""
+		"The Mixer requires a minimum rotational speed of 30 RPM from its power source to work. Mixers will process ingredients faster the more speed it is given."
+		""
+		"To work, a Mixer must be placed directly above a Basin, with a 1 block gap. When a valid recipe is inserted by throwing the ingredients in the Mixer, the Mixer will automatically combine the ingredients."
+	]
+	quest.1D0939A8B41C72BF.quest_desc: [
+		"Stores up to 200,000 AE."
+		""
+		"They do not accept power directly, but are used to add additional power storage to an already existing ME Network."
+	]
+	quest.1D197B1919452187.quest_desc: ["A compact Redstone Link that adds wireless redstone to buttons, levers, and linked levers."]
+	quest.1DBA8DD396081924.quest_desc: ["The Interfaces must be placed facing each other at 1-2 blocks apart, one on a Contraption with Fluid Tanks and one stationary. A Fluid Pump is required to insert or extract liquid from the Contraption. To pump liquids to another tank, simply connect the stationary interface and the fluid tank with fluid pipes, although pumps are required to move the liquids."]
+	quest.1DCDA89DA49A8EF0.quest_desc: ["Refinery is a structure added by the Immersive Engineering mod. It uses energy and combines Ethanol (8 mb) and Plant Oil (8 mb) to create Biodiesel (16 mb), a combustible fuel for Diesel Generator."]
+	quest.1DCDA89DA49A8EF0.title: "Refinery"
+	quest.1DE428DE5A0AB47C.quest_desc: ["When it's finished processing the coal, the front doors will open and it will spit the coal coke out the front. It's a good idea to have hoppers or a belt there to catch it."]
+	quest.1DE8B0C9A7195720.quest_desc: [
+		"Once you've finish placing in all of the required blocks to build the &6Reactor&r, it should give off &cred&r particles to show that it is &ncomplete&r."
+		""
+		"&eRight clicking&r anywhere on the Reactor will open up the &aInterface&r. This will have all of the information you need to run the &6Reactor&r properly, as well as two buttons to turn &9on&r and &coff&r the &6Reactor&r."
+		""
+		"On the left, you have &o&b2 tanks&r: One for &bCoolant&r and one for &3Fissile Fuel&r. On the right, you have one for &8Nuclear Waste&r, and one for &bHeated Coolant&r, which will most likely be &bSteam&r."
+		""
+		"The &cTemperature&r bar will show you how hot the Reactor is. After a certain temp, the Reactor will start taking &4Damage&r, which will eventually cause the Reactor to explode."
+		""
+		""
+		"{@pagebreak}"
+		"To adjust the &cBurn Rate&r of the &3Fissile Fuel&r and see more statistics, click on the (I) tab on the left side. Here, you can adjust the Rate Limit, which controls how much fuel the Reactor burns per tick."
+		""
+		"{image:kubejs:textures/item/reactor_interface.png width:280 height:120 align:1}"
+	]
+	quest.1DE8B0C9A7195720.title: "&3Completed Fission Reactor"
+	quest.1E01AC22D5903AD1.quest_desc: ["Hand cranks with a cogwheel installed."]
+	quest.1E1016523BF3849D.quest_desc: ["A refined material obtained from crushing bauxite ore. It serves as a key ingredient in producing aluminum and other advanced industrial alloys."]
+	quest.1E1EF430810D08BF.quest_desc: [
+		"The &6Solar Neutron Activator&r is a machine that directs the neutron radiation of the sun into its internal reservoir, allowing for the slow creation of various isotopes."
+		""
+		"The &9input&r is at the &o&bbottom&r, the &coutput&r is at the &o&bfront&r."
+		""
+		"It does not need &nenergy&r except for &ndirect sunlight&r which can be intercepted by transparent blocks such as glass, cables, pipes, etc."
+	]
+	quest.1E9E11F072665A05.quest_desc: [
+		"We need to start creating our car; we can use the Chain Drive to make the chassis, place the axle and wheels, the seats, and the Physics Assembler. Build the car without it being stuck to the ground."
+		""
+		"{image:quests:textures/car_example.png width:150 height:100 align:center}"
+	]
+	quest.1E9E11F072665A05.quest_subtitle: "Bringing the car to life"
+	quest.1EBA6436DEBB02CC.quest_desc: [
+		"The &eME Conversion Monitor&r is the upgraded version of the &2ME Storage Monitor&r."
+		""
+		"It adds the ability to &ndirectly&r withdraw from or store &aItems&r into the &dME Network&r."
+		""
+		"In addition to the &2Storage Monitor's&r interactions, conversion monitors support the following actions:"
+		""
+		"&bLeft-click&r &nExtracts&r a stack of the shown item into &nyour inventory&r"
+		""
+		"&bRight-click&r with &eItem&r &nInserts&r the held item into &nthe network&r"
+		""
+		"&bRight-click&r with &7Empty Hand&r will &ninsert&r all of the shown item from &nyour inventory&r into &nthe network&r."
+	]
+	quest.1F36CF5D11E08839.quest_desc: ["Connects forge energy compatible blocks with wires to transfer energy."]
+	quest.1F980CFE55E589A6.quest_desc: [
+		"The Industrial Squeezer is a 3x3x3 multiblock added by Immersive Engineering. It is used to make Plant Oil or HOP Graphite Dust"
+		""
+		"The following list shows various items that can be squeezed into Plant Oil."
+		""
+		"Melon Seeds -> &o&b20&rmB"
+		"Pumpkin Seeds--> &o&b40&rmB"
+		"Tomato Seeds -> &o&b60&rmB"
+		"Beetroot Seeds -> &o&b60&rmB"
+		"Wheat Seeds -> &o&b80&rmB"
+		"Cabbage Seeds -> &o&b80&rmB"
+		"Industrial Hemp Seeds -> &o&b120&rmB"
+	]
+	quest.1F980CFE55E589A6.title: "Industrial Squeezer"
+	quest.1FAAF8216CDC3AC6.quest_desc: [
+		"Pumping &0Nuclear Waste&r into a &9Solar Neutron Activator&r will give you &dPolonium&r. "
+		""
+		"Run the &dPolonium&r through a &2Pressurized Reaction Chamber&r with some &bFluorite Dust&r and you'll get &9Polonium Pellets&r."
+		""
+		"This will also create a byproduct of &7Spent Nuclear Waste&r, which needs to be pumped into a &6Waste Barrel&r for storage."
+	]
+	quest.1FB657F4DEC4885C.quest_desc: ["Crafting Storage provides 1k - 265M of storage for crafting."]
+	quest.1FC7E9DBF92BE6AA.quest_desc: ["The Energy Tablet is a portable, rechargeable battery pack that can be charged with up to 1,000kJ of energy and can then be used to power other devices. It is also an ingredient in many recipes."]
+	quest.1FDBB75ECD39FB24.quest_desc: [
+		"The Item Drain can hold up to 1500mb of fluid at a time. A Fluid Pump is needed to extract the fluid."
+		""
+		"A Basin will automatically deposit output fluids into an Item Drain placed near it."
+	]
+	quest.21355027240AAB0A.quest_desc: ["Hello explorer, I know you must be mega curious to know how aeronautics works, I am too! let's learn together to create ships, planes, cars, balloons and much more!"]
+	quest.21355027240AAB0A.quest_subtitle: "Playing with physics"
+	quest.21355027240AAB0A.title: "Create Aeronautics"
+	quest.215D766150B54B17.quest_desc: ["Low current"]
+	quest.21800FC0CDC937CB.quest_desc: [
+		"Produces much higher voltages and power than a basic generator."
+		""
+		"Components are assembled in a Mechanical Crafter using plenty of Aluminum and Steel."
+		""
+		"Surround the rotor with the stators to complete the multiblock."
+		""
+		"Operational details:"
+		""
+		"0 RPM - 70 RPM: No electricity generation"
+		""
+		"71 RPM - 256 RPM: Voltage rises linearly from 12V to 2232 kV. Current is limited to 24.6A, giving power output from 295W to 54.9kW"
+	]
+	quest.2199F0DE2FBE29E3.quest_desc: [
+		"The Mechanical Arm can interact with Cooking Pot, Skillet, Stove, Cutting Board, Chiller, Oven."
+		""
+		"And the Mechanical Arm can work on stations which have Packager unpacking support for container slot only, as the ingredient slots is properly handled by Packager unpacking."
+	]
+	quest.21A830CC8DAD6566.quest_desc: [
+		"Right-click a Train Track, then place the Station within 15 blocks of the track. It can only create Trains if placed on a straight Track, and Bogeys may only be placed on a 3 block long straight track."
+		""
+		"In the interface, the Station can be named; these names are how non-player conducted Trains will identify stations. A conductor cannot be instructed to navigate to a station that is named the same as the station they are currently at, and will otherwise choose the closest accessible station out of multiple stations with the same name."
+		""
+		"The name will also show up on a Map if it is used on the station, similarly to Banners."
+	]
+	quest.21B40BEC30B40491.quest_desc: [
+		"While held, funnels prevent the player from accessing inventories, instead placing them. Sneak right clicking with a Funnel places it in input mode."
+		""
+		"Using a Wrench on the funnel switches it between input and output mode. Redstone can be applied to stop the funnel from inputting or outputting. Right-clicking a funnel on a Mechanical Belt causes it to extend one block forward."
+	]
+	quest.21B40BEC30B40491.title: "Funnel"
+	quest.21C7AA9059B16A83.quest_desc: ["It's this... it launches potatoes... what else did you think it would do? honestly..."]
+	quest.21C7AA9059B16A83.quest_subtitle: "Potato Launcher"
+	quest.21D45D2B85002B6E.quest_desc: ["A thick, tar-like substance derived from crude oil. It’s used as a base material for producing asphalt, fuel, and other industrial resources essential for large-scale factory operations."]
+	quest.2239CC2E6B914090.quest_desc: ["A powered device that moves fluids through pipes using electrical energy. It provides precise and consistent flow control, perfect for automation systems and industrial machinery."]
+	quest.22AC3C79141AB3FC.quest_desc: ["Obtained by putting an Electrum Sheet in a Rolling Mill."]
+	quest.22AC3C79141AB3FC.quest_subtitle: "Crafting component."
+	quest.22C1FDD2FC9A3AC2.quest_desc: [
+		"Recipes can be set inside of the Assembler. The fluid tanks in the Assembler will automatically fill liquid containers used in recipes, such as Water Buckets."
+		""
+		"The Assembler will automatically craft the set recipes if it has the correct materials. Crafted items will remain into the inventory of the Assembler."
+		""
+		"If an inventory is connected to the end of the Assembler, the crafted item will move into that inventory."
+	]
+	quest.22C1FDD2FC9A3AC2.title: "Assembler"
+	quest.22C5D2CD84E6E9EF.quest_desc: [
+		"The &dModification Station&r is used for applying modular upgrades to the &3Meka-Suit&r and the &aMeka-Tool&r in exchange for energy."
+		""
+		"A part of the &3Meka-Suit&r (which the upgrade is compatible with) is inserted into the station along with the &aupgrade&r, resulting in the upgrade being applied to the &3Meka-Suit&r."
+		""
+		"It functions similarly to an &0Anvil&r or a &6Power Armor Tinker Table&r from the &9Modular Powersuits&r mod."
+	]
+	quest.22C5D2CD84E6E9EF.title: "&eModification Station"
+	quest.22E01FE041DE9C54.quest_desc: ["A compact power source that transforms water pressure into rotational energy. It provides smooth and consistent motion, ideal for efficiently running mechanical systems."]
+	quest.2331FCDD2F2B709A.quest_desc: [
+		"The &9Supercharged Coil&r is placed on an &3SPS Port&r in the center of two faces, like the image below. When given power, these will supercharge &dPolonium&r into &5Antimatter&r. Only &o&b1&r is required, but you can use &o&b2&r if you want."
+		""
+		"To produce &o&b1mb&r of &5Antimatter&r, you need &o&b400MRF&r of power. If you haven't started making a &6Fusion Reactor&r, now's a good time to make it!"
+		""
+		"{image:kubejs:textures/item/sps_coils.png width:200 height:125 align:1}"
+	]
+	quest.2331FCDD2F2B709A.title: "The Supercharged Coils"
+	quest.23A9A2D399A7BF94.quest_desc: [
+		"The Elevator Pulley moves much like the Rope Pulley and shares certain functionalities. Unlike the Rope Pulley, it can phase through blocks, and will not turn back into blocks unless the Pulley is right-clicked."
+		""
+		"An Elevator Pulley requires a single horizontal Redstone Contact to be on the contraption in order to assemble. If more than one is added, the Elevator will not assemble. If either of these conditions are not met, a corresponding error message will be displayed while looking at the Elevator Pulley."
+	]
+	quest.23F165DEAD225B10.quest_desc: ["Universal Cables are Mekanism's way to transfer power."]
+	quest.23F165DEAD225B10.title: "&aBasic Universal Cable"
+	quest.24174700F7FB771C.quest_desc: [
+		"As a recap, we've set up an advanced Ore Processing facility using several gases, machinery, and more."
+		""
+		"In this chapter, we'll be using more of those to create powerful multiblock &aReactors&r, as well as advanced ways to create and store power. This will also lead to making &dAntimatter Pellets&r, as well as some of the strongest tools and weapons in the pack."
+	]
+	quest.24174700F7FB771C.quest_subtitle: "*Unlocked by completing the &b&n&oMekanism: Phase one&r quest*"
+	quest.24174700F7FB771C.title: "Welcome to&r &dMekanism:&r Phase two"
+	quest.24CFA0022432887E.quest_desc: [
+		"When placed by the player, the Threshold Switch will attempt to orient itself toward an adjacent inventory. If multiple or no inventories are present, the Threshold Switch may orient itself toward the player and can be adjusted as normal using the Wrench. At present, it cannot be oriented vertically."
+		""
+		"Item thresholds can be set to determine when the redstone signal turns on or off. When the Switch is first placed, it stays off until it reaches 75% inventory, then stays on until it reaches 25% inventory."
+		""
+		"{@pagebreak}"
+		"The chest icon represents how full the inventory is, as well as the current signal state (on/off) depending on which lane the chest icon is in. The arrows represent inventory thresholds, illustrated by the chest icon switching lanes upon reaching the arrow."
+		""
+		"The signal can be inverted by clicking the button showing two opposing arrows next to the lower threshold bar."
+	]
+	quest.24DDED464AE48E05.quest_desc: ["Reverses outgoing Rotational Force when a Redstone signal is applied."]
+	quest.2580602D7B567F11.quest_desc: ["A reinforced handle crafted for advanced tools, offering improved grip, durability, and performance. Essential for creating high-quality mechanical instruments and machinery parts."]
+	quest.25C93EDEDDF8CBE4.quest_desc: [
+		"The &2Toggle Bus&r. "
+		""
+		"A bus which functions similarly to &9Fluix ME Glass Cable&r or other &eCables&r, but it &nallows&r its connection state to be toggled via &credstone&r."
+		""
+		"This allows you to &ncut off&r a section of a &dME Network&r."
+	]
+	quest.261ABBDC3DABD8B3.quest_desc: ["A clutch that is only coupled if the input spins in the correct direction as configured."]
+	quest.263220DCCDB90E29.quest_desc: [
+		"So far, to double your ingot output, your setup should look something like this:"
+		""
+		"Raw ores go into the Purification Chamber, which receives Oxygen from an Electrolytic Separator."
+		"The processed material is then sent to the Crusher, which turns the ore clumps into Dirty Dust."
+		"Next, the Dirty Dust is fed into an Enrichment Chamber, refining it into regular Ore Dust."
+		"Finally, the Ore Dust is sent into a Smelter, producing your ingots."
+		""
+		"This system completes the Tier 2 ore processing chain, giving you twice the output from every ore."
+	]
+	quest.263220DCCDB90E29.title: "Ore Factory: Tier 2"
+	quest.264E6FD715F41414.quest_desc: ["A standard power unit that converts fuel or pressure into rotational energy. Reliable and versatile, it’s suitable for powering a wide range of mechanical systems and factory machines."]
+	quest.26A58E2711BC7B28.quest_desc: [
+		"The Spatial IO Port is used in spatial IO to hold the spatial cell and control the spatial IO operation."
+		""
+		"The cell can be inserted and extracted by any item logistics like hoppers or ae2 busses, if you want to automate it."
+	]
+	quest.270E0BC2E8565FFE.quest_desc: [
+		"Pulls items from the inventory it is pointed at and places them into the &dME Network's&r Networked Storage."
+		""
+		"You can &nspecify&r which items it will pull out via the &bUI&r, else it tries to pull out any item in the adjacent inventory."
+		""
+		"The &aME Import Bus&r will attempt to import any possible options, even if &o1&r or more of the &nconfigured&r items cannot be stored."
+		""
+		"The &aME Import Bus&r requires a &eChannel&r to function."
+		""
+		"This is the functional opposite of the &6ME Export Bus&r."
+	]
+	quest.2774D37126FE6785.quest_desc: [
+		"The piston's and the Conveyor Belts' direction matters. The piston should face downwards. The Conveyor Belts should both travel down the length or up the machine."
+		""
+		"After the blocks are in place, use an Engineer's Hammer on the piston whichever side the control panel should be on to complete the multiblock."
+		""
+		"The Metal Press requires a Mold in order to function. Right clicking a Metal Press with a Mold will attach the Mold to the Metal Press. The mold can be detached by shift right clicking with an Engineer's Hammer."
+	]
+	quest.2774D37126FE6785.title: "Metal Press"
+	quest.27A11A6ED27A72D2.quest_desc: [
+		"Transformers can raise or lower voltage based on the ratio of turns on their electromagnetic coils. For example, an input coil with 100 turns and an output coil with 400 turns gives a turn ratio of 4, boosting the voltage by 4×."
+		""
+		"Coils are added by right-clicking them onto the transformer. The input coil is always placed first, followed by the output coil."
+		""
+		"Currently, there’s no clear way to distinguish input from output aside from the noise texture on top. Transformers are not bidirectional. The top part of the \"handle\" with the checkerboard pattern marks the input side, which will be on the left when the block is placed."
+	]
+	quest.28B88FFE1B735E3E.quest_desc: ["A vital mechanical component used in the operation of a pumpjack. It converts rotational force into vertical motion, enabling the extraction of fluids like oil from underground reservoirs."]
+	quest.2951D84F8F0F389A.quest_desc: ["An electronic screen made up of individual light segments used to show numbers or simple symbols. Perfect for building clocks, counters, or digital readouts in advanced machinery and control panels."]
+	quest.2A2CE255693B7495.quest_desc: ["The Engine Base will prompt you to right-click each required part onto it. Once all components are added, the engine will request as many pistons as needed to complete the configuration you selected."]
+	quest.2A404708E175235F.quest_desc: [
+		"Fluids can be stored and extracted from fluid tanks via Fluid Pipe. The fluid pipes can be placed on any face of the fluid tank: top, bottom, or sides. The window of a tank can be toggled with a Wrench."
+		""
+		"The direction of flow in the fluid pipe indicates whether fluids will be put into the tank or extracted from the tank; if fluid is flowing towards the tank, the fluid will be stored in the tank. Likewise, if a fluid pipe is flowing away from the tank (via Mechanical Pump), then fluid from the tank will be extracted into that pipe."
+	]
+	quest.2A55024C0BA2F4EA.quest_desc: ["A &cHyper-Dens QIO Drive&r can contain &o&b128,000&r &nitems&r and &o&b256&r &nitem types&r."]
+	quest.2A6ECCE28B9C64FB.quest_desc: ["An aerial brass companion that follows the player if they hava a controller."]
+	quest.2ADDA74C73C08DB2.quest_desc: ["A gearbox where the rotation direction of all 4 sides are independently configurable."]
+	quest.2AF85A5EE9A8CCBA.quest_desc: ["A clutch that is only coupled if the input RPM is faster than a configurable threshold."]
+	quest.2B3A70E34CB0CE21.quest_desc: ["Automatically refills gadgets and armor that use fuel."]
+	quest.2B3F2F470E06BC40.quest_desc: [
+		"The &6SPS&r will be &o&b7x7&r when built, but it isn't a cube. It follows a simple pattern, which you can follow the images below as a build guide. The pattern looks like this: "
+		""
+		""
+		"{@pagebreak}"
+		"Each side, including the bottom and top, will follow this pattern. The &dSupercharged Coils&r should be placed across from each other in &o&bthe center&r of their respective sides, and the remaining two ports will be used to pump in &5Polonium&r, and pump out &3Antimatter Gas&r."
+		""
+		"Here is the completed structure below: "
+		""
+	]
+	quest.2B3F2F470E06BC40.title: "&dCompleted SPS"
+	quest.2B6E2CD796D4ADF3.quest_desc: ["A heavy metal ingot used in crafting industrial components and machinery parts. Its density and conductivity make it valuable for advanced mechanical and electrical creations."]
+	quest.2BB30AED452773EB.quest_desc: ["A portable device that lets you access your entire storage network remotely. It combines multiple functions into one interface, allowing seamless item management, crafting, and monitoring from anywhere within range."]
+	quest.2CD6597AE3312F20.quest_desc: ["Will form nearly instantly in the naphtha vat, so you can think of liquid plastic being a direct result of naphtha."]
+	quest.2CD70FCC8B119D7A.quest_desc: ["The Brown arrow symbols on the pump indicate the direction of flow. The flow direction can be changed by using a Wrench. When a wrench is used, the entire valve will appear to have rotated 180 degrees. The brown directional arrows will appear on the other side of the pump's gear."]
+	quest.2D94489E09F8DD9C.quest_desc: [
+		"The steel mechanism is used in many machines."
+		""
+		"Like the precision mechanism, it requires a heavy plate to have various items deployed onto it:"
+		""
+		"Steel cogwheel"
+		"Nickel plate"
+		"Large steel cogwheel"
+		"Lead plate"
+		"Screws"
+		"Screwdriver"
+		""
+		"Doing this twice with a 94% chance of getting a steel mechanism."
+	]
+	quest.2DEF812916A51C34.quest_subtitle: "Found in the nether."
+	quest.2E10AFB432824AB1.quest_desc: ["A durable alloy wire made from copper and nickel, valued for its consistent electrical resistance. Commonly used in advanced circuits and precision engineering applications."]
+	quest.2E274BEEF2B0B8C7.quest_desc: [
+		"The Chemical Oxidizer is used for making gases from materials. It is a crucial machine needed for Mekanism's 5x ore production system."
+		""
+		"Okay, let's start with making Sulfur Dioxide first."
+		""
+		"Feeding the Sulfur Dust into this machine, the Chemical Oxidizer, will create Sulfur Dioxide. "
+		""
+		"Now we need to create Sulfur Trioxide. Send the Sulfur Dioxide into a Chemical Infuser to combine it with Oxygen to create Sulfur Trioxide."
+		""
+		"Send the Trioxide to another Chemical Infuser to combine it with Water Vapor to create Sulfuric Acid."
+	]
+	quest.2E8B8DBE61162084.quest_desc: [
+		"They can be filtered to only allow certain items through, and be stopped with a redstone signal. Unlike funnels, they can insert and extract at the same time, but can only function vertically."
+		""
+		"When directly below an inventory, the Filter slot doubles as a Value Settings diode, much like the Brass Funnel. The Chute can be adjusted to extract up to or exactly a set amount of items. The Value Settings of a Smart Chute will be saved even when the inventory above is destroyed, though this has no effect on the Chute's behavior when not under an inventory."
+	]
+	quest.2E9FC7DC2AC6FD8E.quest_desc: [
+		"&8Nuclear Waste&r can be sent into an &dIsotopic Centrifuge&r to create &9Plutonium&r."
+		""
+		"Sending the &9Plutonium&r into a &2Pressurized Reaction Chamber&r with some &1Water&r and &7Fluorite Dust&r will give you &9Plutonium Pellets&r."
+		""
+		"This will also create a byproduct of &7Spent Nuclear Waste&r, which needs to be pumped into a &6Waste Barrel&r for storage."
+	]
+	quest.2EF4DD5CC254CC80.quest_desc: [
+		"Mechanical Pipe is the fluid pipe for Mekanism."
+		""
+		"It can be used to connect to any blocks with Fluid Handlers in them."
+	]
+	quest.2EF4DD5CC254CC80.title: "&aBasic Mechanical Pipe"
+	quest.2F0B0D4401AA455E.quest_desc: [
+		"A Wrench can be used to give the tunnel windows."
+		""
+		"The Tunnel does not stop items on the belt from being processed by an Encased Fan, but does stop the airflow from going beyond the belt."
+		""
+		"Andesite Tunnels can also be used to separate single items from passing stacks to side outputs."
+	]
+	quest.2F0B0D4401AA455E.title: "Tunnel"
+	quest.2F6B432512FA2A65.quest_desc: ["Attach to any inventory to expand its surface area. Great for access in tight spaces and smart setups with threshold switches."]
+	quest.2F74E955A2455025.quest_desc: [
+		"When electrical components are connected directly without any diodes they share the voltage between them. The more devices you add, the less current each one receives. In other words, don’t overload your line unless you like watching things fizzle out."
+		""
+		"Diodes, on the other hand (along with potentiometers and transformers), act as circuit splitters. Anything on the output side gets the full voltage all to itself clean, isolated, and ready for action."
+	]
+	quest.2F8B1B5084313565.quest_desc: [
+		"Immersive Engineering is a tech mod."
+		""
+		"It is best known for its multiblock machines, characterized by their industrial look. Both single and multiblock machines operate on three tiers of power, low voltage being 256 RF/t, medium being 1024 RF/t and high corresponding to 4096 RF/t."
+		""
+		"The most important tool for this mod is the Engineer's Manual, created by crafting together a book and a lever. It contains recipes and instructions for everything in the mod."
+	]
+	quest.2F8B1B5084313565.title: "Welcome to Immersive Engineering"
+	quest.2F9B52EA41B4DFF0.quest_desc: ["A conductive wire made from refined copper, used to transmit electrical energy between machines and components. Essential for building power networks and automation circuits."]
+	quest.302D29E43E9C9A94.quest_desc: [
+		"When placed adjacent to any inventory, Packagers can create Cardboard Packages from the inventory they’re attached to. The process does not require extra materials."
+		""
+		"When powered with a redstone signal, the packager attempts to fill the package as much as possible. A Cardboard Package has 9 slots of inventory. Placing a written sign on the Packager labels the created Cardboard Package with an address to be sent to."
+	]
+	quest.30A84C6A54BD336E.quest_desc: [
+		"A stationary Mechanical Drill will break blocks in the block in front of it with a time in seconds of (45 x Hardness)/RPM and will hurt entities in an area around it."
+		""
+		"A Mechanical Drill moved by Contraptions will break blocks and damage entities with which it collides without needing a direct supply of Rotational Force."
+		""
+		"The time it takes for a Mechanical Drill to break a block is based on the Contraption's speed and the block's Hardness value. The damage dealt to entities is also based on the Contraption's speed."
+	]
+	quest.30B3469DAA8D5A0A.title: "&cAdvanced Logistical Transporter"
+	quest.30C364AC05822920.quest_desc: ["With physics in our favor, we can build incredible things, and with the new mechanics, everything becomes easier."]
+	quest.30C364AC05822920.quest_subtitle: "Getting to know the mod better"
+	quest.30C364AC05822920.title: "Create Aeronautics 2"
+	quest.30D6BFA1A3B6B205.quest_desc: ["A gearbox where the rotation direction of all 4 sides are independently configurable."]
+	quest.316399F0B5F729CA.quest_desc: ["It can be used like a normal crafting table. Additionally it has 18 storage slots additionaly it keeps the items you put inside it."]
+	quest.31EEE2875595F315.quest_desc: [
+		"You should have already made &2Sulfuric Acid&r for your &b&oTier 4&r &6Ore Processing Factory&r, but here is a reminder on how to get it."
+		""
+		"Start by getting &eSulfur Dust&r either by crushing Sulfur from &9Thermal&r, or by mixing &bHydrogen Chloride&r with &3Gunpowder&r in a &dChemical Dissolution Chamber&r."
+		""
+		"Take the &eSulfur Dust&r and run it through a &9Chemical Oxidizer&r to get &eSulfur Dioxide&r. Combine that with &bOxygen&r in a &cChemical Infuser&r to get &eSulfur Trioxide&r."
+		""
+		"Next, we'll combine &bWater Vapor&r with the &6Sulfur Trioxide&r to make &2Sulfuric Acid&r."
+	]
+	quest.31EEE2875595F315.quest_subtitle: "A Quick Recap"
+	quest.31EEE2875595F315.title: "&2Sulfuric Acid"
+	quest.32E093F004E8CAC6.title: "&dUltimate Universal Cables"
+	quest.331934749C1DE9A0.quest_desc: ["A mechanical component used for mixing and processing materials. It’s essential in crafting setups where ingredients need to be blended or stirred using rotational energy."]
+	quest.338E4A4F41889959.quest_desc: [
+		"The ME Crafting Terminal is the upgraded version of the ME Terminar which has an integrated crafting grid with access to a ME Network's Networked Storage."
+		""
+		"Like the ME Terminal it also requires a Channel to function."
+	]
+	quest.33FE53F9B5BA0001.quest_desc: ["A throwable grenade with a copper casing designed to deal area damage upon detonation. Its metal body makes it sturdy and slightly heavier, ideal for clearing groups of enemies or breaking through obstacles."]
+	quest.3424B27C62D3D2CF.quest_desc: [
+		"Allows wireless access via a Wireless Terminal. Range and power usage is determined based on the number of Wireless Booster installed."
+		""
+		"A network can have any number of wireless access points with any number of Wireless Booster in each one, allowing you to optimize power usage and range by altering your setup."
+		""
+		"Requires a channel."
+		""
+		"Also used to bind wireless terminals"
+	]
+	quest.35296382603A6E78.quest_desc: ["A lightweight throwable explosive with a zinc casing that favors portability and quick deployment. Its lighter shell means slightly reduced raw blast power compared to heavier metal grenades, but it’s easier to carry and toss repeatedly—useful for fast skirmishes or clearing small groups of foes."]
+	quest.35365535ED46DAD0.quest_desc: ["Applied Energistics 2 (AE2) is a comprehensive mod for Minecraft that introduces a unique approach to in-game inventory management. Its theme is centered around the concept of converting matter into energy and vice versa, to store and transport your items and fluids instantaneously!"]
+	quest.35365535ED46DAD0.title: "Welcome to &eApplied Energistics 2"
+	quest.3562111D841CF498.quest_desc: [
+		"The Sequenced Gearshift allows finer control over Rotational power, allowing multiple changes to the rotation over a period of time."
+		""
+		"The Sequenced Gearshift can be given up to 5 commands at a time. Each command can be adjusted by hovering over them and scrolling in the interface."
+		""
+		"The first column consists of the commands Turn by angle, Turn by Piston, Timed Delay, Await New Redstone Pulse, and End. The first two are simply different measurements of rotation corresponding to Mechanical Pistons and Mechanical Bearings, the third makes the Gearshift wait before proceeding to the next command, while the fourth stops the sequence until the Gearshift receives another pulse. End signifies the end of a sequence, but is not necessary for a sequence to be completed."
+		""
+		"{@pagebreak}"
+		""
+		"The second column adjusts the measurements for each command. Up to 360 Degrees for Turn, 128 blocks for Piston, and 30 seconds for Wait."
+		""
+		"The third column adjusts speed and direction. Here, rotation can be doubled, reversed, both, or neither."
+		""
+		"A Redstone Comparator can be used to detect what instruction a Sequenced Gearshift is on. It will output a signal strength of up to 5, regardless of how many instructions are in the Gearshift."
+	]
+	quest.35639D4A6DDF6FF9.quest_desc: [
+		"The Clutch stops outgoing rotation when a redstone signal is applied."
+		""
+		"When the Clutch is not activated, it will transfer rotation like a Shaft. When it is activated, it will stop transferring rotation."
+	]
+	quest.357E50BEAF1E8F74.quest_desc: ["A special book that stores information about discovered ore veins. It allows you to track and locate valuable resources easily, making mining and excavation more efficient and organized."]
+	quest.3591EAA8E397F992.quest_desc: [
+		"Let's go through the checklist &b&oone more time&r to ensure we have everything ready to go before we boot it up:"
+		""
+		"1. &6Hazmat Suit&r On (Safety First!)"
+		"2. &9Water/coolant&r pumping into an input Port."
+		"3. &3Fissile Fuel&r pumping into an input Port."
+		"4. A Port set to output the Heated Coolant, either to a trashcan or an &2Industrial Turbine&r."
+		"5. A Port set to output &0Nuclear Waste&r leading to &eRadioactive Waste Barrels&r or machines to process it, or both!"
+		""
+		"If you're ready to go, hit that &eActivate&r button!"
+		""
+		"You can also adjust the &3Burn Rate&r to produce more &0Nuclear Waste&r, but start slow."
+	]
+	quest.3591EAA8E397F992.title: "Booting Up The Reactor"
+	quest.35C37231C1C86294.quest_desc: [
+		"uper glue has two modes of application: Block by Block Mode and Area Mode. These modes can be intermixed on the same contraption."
+		""
+		"Each use of the super glue decreases its durability by one. (Durability in this case means the number of times that a tube of super glue can be used. The glue attaching blocks is permanent until removed.) Super Glue can be Enchanted with unbreaking and mending to extend its life."
+		""
+		"{@pagebreak}"
+		""
+		"Block by Block Mode"
+		"In block-by-block mode, super glue is used just like a Slimeball. Right clicking on a Linear Chassis or Radial Chassis while holding the super glue, coats the face of a chassis with green glue allowing other blocks to be attached."
+		""
+		"Super glue can also be held in the off hand while placing blocks to automatically glue each block individually. Note that the edges of chassis cannot be coated with glue like the face can. However, while holding super glue in the off-hand, blocks can still be attached to the edges of chassis."
+		""
+		"Remove glue coatings from the faces of chassis by right clicking with an empty hand while sneaking."
+		""
+		"{@pagebreak}"
+		""
+		"Area Mode"
+		"Area mode is used to glue collections of blocks together after they have been placed. Glue a 3-D section of blocks by right clicking a block on one corner of the section while holding the super glue. Move the cursor to the opposite corner of the section. A green box will appear indicating the blocks which will be glued together. Right click again to complete the glueing process. To abort the process, right click while sneaking."
+		""
+		"The second block can be up to 24 blocks away from the initially selected block and the maximum volume of selection is 2312. No matter the size of the selection, only 1 durability will be used. Overlapping instances of super glue will combine while keeping their shape. Note that the game will not allow you to select the face of a chassis in area mode, it will instead revert to block by block mode. To select a chassis in area mode, click on the side rather than the face."
+		""
+		"Glued areas can be seen simply by holding the super glue in the main hand. Glued areas will be outlined in green. Note that blocks glued by first coating a surface with glue and then attaching a block (as in the Block by Block Mode) will not show a green outline. However, blocks attached with the super glue in the off hand will show a green outline."
+	]
+	quest.35C37231C1C86294.title: "&aSuper Glue"
+	quest.35F24F6E403AADA1.quest_desc: ["A gearbox with shafts on all 6 sides. Conceptually uses the same internal mechanism as Parallel Gearbox, so top and bottom spins at half speed."]
+	quest.3617DE87C4E1BCB9.quest_desc: ["The Hand Crank generates a small amount of Rotational Force through player interaction."]
+	quest.36268EBCE1143F0A.quest_desc: [
+		"We can use a slimeball to repair chipped or broken corners of cars, boats, planes..."
+		"Clique com a slimeball nas partes quebradas"
+	]
+	quest.36268EBCE1143F0A.quest_subtitle: "Repair"
+	quest.3658B862EEE320BD.quest_desc: ["A &dSupermasiv QIO Drive&r can contain &o&b16,000,000,000&r &nitems&r and &o&b8,192&r &nitem types&r."]
+	quest.3663E93E169EF8E3.quest_desc: ["Using another &9Chemical Infuser&r, we want to combine our &bHydrofluoric Acid&r with &eUranium Oxide&r to make &2Uranium Hexafluoride&r."]
+	quest.3663E93E169EF8E3.title: "&2Uranium Hexafluoride"
+	quest.36766831FDA775FD.quest_desc: ["Made in a heated basin with a press."]
+	quest.36B1995B495AA674.quest_desc: [
+		"To start our journey into the world of Mekanism Reactors, we'll start by making a &aFission Reactor&r. These are multiblock structures that generate massive amounts of heat by burning &3Fissile Fuel&r. This reactor does not produce power on its own, but the heat generated can be used to heat &bCoolant&r to be used to generate power in an &aIndustrial Turbine&r."
+		""
+		"The &aFission Reactor&r can be very dangerous, as a meltdown can cause an &cexplosion&r as well as &2Radiation&r spreading over a &o&b5 chunk radius&r, which lasts for several &nin-game weeks&r. "
+		""
+		"But we're going to be prepared for that. Let's make a &6Hazmat Suit&r, just in case."
+	]
+	quest.36B1995B495AA674.title: "Hazmat Suit"
+	quest.3734081CB77CDBB5.quest_desc: [
+		"Matter Balls in a Matter Cannon can be substituted with Paint Balls, which will apply a paint splatter effect on the face of whatever block being fired at."
+		""
+		"Lumen Paint Balls are a variant of paint balls exclusively used by the Matter Cannon, whose paint splatters also give off some light once present in the world."
+	]
+	quest.3734081CB77CDBB5.title: "Matter/Paint/Lumen Paint Balls"
+	quest.383D6F1A001A0AEC.quest_desc: ["Chutes transport items vertically, generally downward unless an encased fan is used to blow items upward. There are two varieties: Chute and Smart Chute. Smart Chutes allow the player to control the types of items passed and their stack size."]
+	quest.387FC4D9C4010FD8.quest_desc: ["The Automated Engineer's Workbench is a 3x2x3 multiblock. It is an automated version of the Engineer's Workbench."]
+	quest.387FC4D9C4010FD8.title: "Automated Engineer's Workbench"
+	quest.38E84EA139A2316C.quest_desc: [
+		"The Drive is the device you plug your storage cells into in order to use them for network storage. It has 10 slots which each accept a cell."
+		""
+		"If for some reason you want to, you can push and pull the cells from its inventory with any item logistics like hoppers or ae2 busses."
+		""
+		"It can be rotated with a Certus Quartz Wrench."
+	]
+	quest.38E9C4DB82B1279A.quest_desc: [
+		"While stationary, certain items can be applied to the block's filter. If it has a filter, it will only affect that contraption actor. If powered with a redstone signal before and while it is assembled, the contraption actors will start out disabled. Keep in mind that redstone and levers assembled on Contraptions have no effect."
+		""
+		"While on an assembled Contraption, Contraption Controls can be right-clicked to enable and disable certain Contraption Actors."
+	]
+	quest.39124F73B82400F4.quest_desc: ["Converts rotational energy from Create machines into FE at around 75% efficiency."]
+	quest.3931273289B3A68C.quest_desc: [
+		"Fluix ME Glass Cable is the simplest cable to make, transfers power and up to 8 channels. It comes in 17 different colors, the default being Fluix, and can be dyed any color using any of the 16 dyes."
+		""
+		"To craft colored cables surround a dye of any type with 8 cables of the same type ( color of the cables dosn't matter, but they must be the same type, glass, smart, etc ). You can also paint cables with any forge compatible paint brush in world."
+		""
+		"You can craft any colored cable with a water bucket to remove the dye."
+		""
+		"You can cover the cable with wool to create Fluix ME Covered Cable, and craft Fluix ME Smart Cable to get a better idea of what is going on with your channels."
+	]
+	quest.3999760881C855FA.quest_desc: [
+		"The Chemical Crystallizer turns Clean Slurry into Crystals, Lithium into Lithium Dust and Antimatter into Antimatter Pellet. This is one of the select many machines in Mekanism to have dedicated, unchangeable sides, for input and output, with the exception of Item's config sides."
+		""
+		"Input is gas (uses Pressurized Tube) and output is items (uses Logistical Transporter)"
+	]
+	quest.3999760881C855FA.quest_subtitle: "Turns Ore Slurry into Crystals"
+	quest.39AC44DD78BB695F.quest_desc: ["A basic yet robust power unit built for generating strong rotational energy. It’s reliable and easy to maintain, making it suitable for medium to large mechanical systems."]
+	quest.39C8CD6102B26BFE.quest_desc: ["It is widely used to construct the items described in Engineer's Blueprints. A wide variety of blueprints bcan be crafted, as detailed in the respective manual entry, whereas a few select ones can bonly be discovered in the world or purchased from villagers."]
+	quest.3A059BC37D957B99.quest_desc: ["A core mechanical part used to transmit rotational force between connected machines. Essential for linking engines, gearboxes, and other moving components in automation systems."]
+	quest.3A2633B6030BBC52.quest_desc: ["While worn, the Engineer's Goggles will show the stress impact of the viewed machine while it is running. They will also give numbers and highlight the current rotation when looking at a Stressometer or Speedometer. Additionally, they show how much fluid is in a tank along with the total storage capacity of the tank."]
+	quest.3AB541A2323AF3B3.quest_desc: [
+		"&6QIO&r is a way of storing large amounts of items that can be stored, searched, and accessed remotely in late game."
+		""
+		"It's comprised of at least one &aQIO Drive&r (to store items), a &9QIO Drive Array&r (to hold the &aQIO Drives&r), and at least one &3QIO Dashboard&r (to access items in the &2QIO Drive Array&r)."
+		""
+		"Both the drive and drive array must be set to &o&bthe same frequency&r in order to work together."
+		"{image:kubejs:textures/item/qio_setup.png width:300 height:120 align:1}"
+	]
+	quest.3AD4622409437713.quest_desc: [
+		"The Excavator is made of two parts:"
+		"The Bucket Wheel is the center part, and is formed by Right Clicking with an Engineers Hammer on the the middle Block of Steel."
+		"The Engine is the other part, and is formed by Right clicking the Engineers Hammer on the Heavy Engineering Block in the center of the back side."
+		""
+		"The energy input for the engine is on its side, the back features a redstone control panel and the item output."
+	]
+	quest.3AD4622409437713.title: "Excavator"
+	quest.3AE2172B95B58B99.quest_desc: [
+		"&aQIO Drives&r are inserted into a &9Drive Array&r, allowing it to store more items."
+		""
+		"Each drive has a number of items and item types it can contain. A &aBasic QIO Drive&r can contain &o&b16,000&r &nitems&r and &o&b128&r &nitem types&r."
+	]
+	quest.3AF4E5D4839CEF8B.quest_desc: ["Once we have our hands on &eYellow Cake Uranium&r, we can send it through a &aChemical Oxidizer&r to create the gas, &2Uranium Oxide&r. "]
+	quest.3AF4E5D4839CEF8B.title: "&eUranium Oxide"
+	quest.3AFA504735B789C0.quest_desc: ["In engineering, we need millimeter precision; this lever might be exactly what you're looking for!"]
+	quest.3AFA504735B789C0.quest_subtitle: "Power Control"
+	quest.3B3C89649DF57161.quest_desc: [
+		"Quantum Network Bridges can extend a network over infinite distances and even between dimensions. They can carry 32 channels in total (regardless of how cables are connected to each face), essentially acting like a wireless dense cable."
+		""
+		"Eight of these quantum rings placed around a ME Quantum Link Chamber will create a Quantum Network Bridge. Only the 4 ME Quantum Ring blocks adjacent to the ME Quantum Link Chamber will accept network connections, the 4 corner blocks cannot connect to cables."
+	]
+	quest.3B3C89649DF57161.title: "&6The Quantum Bridge"
+	quest.3B43DB1A6B0A7B44.quest_desc: ["Bio Fuel is added by Mekanism and is a type of fuel used inside of a Bio-Generator. Beyond that Bio Fuel is used in the Pressurized Reaction Chamber to create Ethylene."]
+	quest.3B43DB1A6B0A7B44.title: "Bio Fuel"
+	quest.3B73F2EBCCD1884C.quest_desc: ["Automatically refills gadgets and armor that use water."]
+	quest.3B81800EE6E77EF2.quest_desc: [
+		"The &6Fission Reactor&r needs &3Fissile Fuel&r to run. If you look up &3Fissile Fuel&r right now in &bJEI&r, I bet you'll get overwhelmed with everything you need to make it. It's okay, you've got this. Let's take it one step at a time."
+		""
+		"It all boils down to creating &eUranium Hexafluoride&r. To do this, let's focus on making these two gases: &bHydrofluoric Acid&r, and &eUranium Oxide&r."
+	]
+	quest.3C49F2EEDCCAF1DF.quest_desc: [
+		"A basic layout of your factory should be like this: "
+		""
+		"Raw Ore goes into your Chemical Dissolution Chamber then pumps A GAS to Chemical Washer then pumps A GAS to Chemical Crystallizer then outputs crystals to Chemical Injection Chamber then outputs shards to Purification Chamber then outputs clumps to Crusher then outputs dirty dusts to Enrichment Chamber then outputs clean dust to Smelter."
+	]
+	quest.3C49F2EEDCCAF1DF.title: "Ore Factory: Tier 4"
+	quest.3CA5DFF1105281D6.quest_desc: [
+		"This is a multiblock battery."
+		"You can input and output FE using a small connector."
+	]
+	quest.3CA5DFF1105281D6.quest_subtitle: "Big battery"
+	quest.3E1695A1D5FA81AD.quest_desc: ["A signal device that controls movement with red, yellow, and green lights. It’s perfect for managing automated transport systems or adding realism to city and road builds."]
+	quest.3F249BE37B1BB214.quest_desc: [
+		"This mod adds hidden infinite ore veins to your world. You can extract these ores using machines. This mod requires Create"
+		""
+		"Features:"
+		""
+		"Adds hidden ore veins and fluid reservoirs that has a random chance to spawn in a chunk. Only one ore vein can exist in each chunk"
+		""
+		"The veins are infinite"
+		""
+		"Harvest the ores using Drilling Machine, and Fluid Extractor"
+		""
+		"The machines are powered by Rotational Force"
+		""
+		"Use the 'Ore Vein Finder' item to find ore veins and fluid reservoirs"
+	]
+	quest.3F5010269469EBE0.quest_desc: [
+		"The inside of the reactor is built up of pillars using several &9Fission Fuel Assembly&r blocks, with a single &eControl Rod Assembly&r placed at the top of each pillar. These can be anywhere from &b&o1&r to &b&o15&r blocks in height, depending on the size of the reactor."
+		""
+		"For this build, we'll put &b&o2&r of the &9Fission Fuel Assemblies&r in the &ncenter&r of our multiblock, and then put the &eControl Rod Assembly&r right on top of it."
+	]
+	quest.3F5010269469EBE0.title: "Fuel Control"
+	quest.3F925BFD3CF1DC0B.quest_subtitle: "Used to increase the range of the wireless access point."
+	quest.3FFF9018DA2A2763.quest_desc: [
+		"Once we start burning up &3Fissile Fuel&r in the &6Reactor&r, we'll get heated &bCoolant&r and &8Nuclear Waste&r."
+		""
+		"This is where the &4Radiation&r kicks in. As long as it stays &b&osafely in some container or machine&r, you won't have any spills... right?"
+		""
+		"The best way to store any &4Radioactive&r substance is using a &2Radioactive Waste Barrel&r. These will safely store the waste, while slowly decaying the gas without causing a &4Radiation&r spill. You don't want your &8Nuclear Waste&r sitting in your &6Reactor&r as it causes it to produce more heat, so set a port to output &8Waste&r and ship it to a barrel!"
+		""
+		"&cImportant Note&r: Breaking &nany&r machine, barrel, pipe, or &nanything&r that has a &4Radioactive&r gas inside of it &nwill cause a Radiation leak&r. That includes the products of &8Nuclear Waste&r, like &5Polonium&r or &ePlutonium&r."
+	]
+	quest.3FFF9018DA2A2763.title: "&8Nuclear Waste"
+	quest.405A318D640D514E.quest_desc: [
+		"The blast stove can take in furnace gas, so your furnace can be self sufficient without sacrificing more coal to make creosote."
+		""
+		"Place a hatch on top of the furnace hole to collect the gas."
+	]
+	quest.407FBBE12EA9ED9B.quest_desc: ["A high-performance engine component built to handle intense pressure from diesel combustion. It delivers strong and efficient power output, perfect for heavy-duty machinery and advanced automation setups."]
+	quest.40BEBD299B406E1A.quest_desc: ["A versatile machine that converts rotational or kinetic energy into electricity. Essential for powering electrical systems, machinery, and automated setups efficiently."]
+	quest.40F8FF1E85694FD4.quest_desc: ["Obtained by putting a Copper Sheet in a Rolling Mill."]
+	quest.40F8FF1E85694FD4.quest_subtitle: "Crafting component."
+	quest.4181323BF72047A9.quest_desc: [
+		"Rightclick a valid conductor with a schedule to give it to them. A conductor must either be a mob Seated directly in front of Train Controls on an assembled Train or a Blaze Burner positioned similarly."
+		""
+		"3 types of commands can be added."
+		""
+		"Travel to Station - Navigate to a specified Train Station."
+		"Update Schedule Title&r - Name of route as displayed by the Train Station summary in the Display Link."
+		"Limit Max Speed - Change max speed when traveling to a station."
+	]
+	quest.419BBE875D40B1D6.quest_desc: [
+		"The ME Export Bus extracts items from the ME Network's Networked Storage and places them into the inventory it faces."
+		""
+		"You must configure which items it will insert, leaving the configuration blank will result in nothing."
+		""
+		"The ME Export Bus will try to export any of the items on its list skipping over those it cannot fit into the destination."
+		""
+		"The ME Export Bus&r requires a Channel to function."
+		""
+		"This is the functional opposite of the ME Import Bus."
+	]
+	quest.41A3DDA294728106.quest_desc: [
+		"Create Stuff 'N Additions is a mod that uses the resources of Create to offer a new set of equipment, tools and gadget! "
+		""
+		"Equipments that increase your physical abilities (Your Strength or Mining Speed) but also give you new ways to move like floating, bouncing and even flying! Depending on your type of equipment (brass, andesite or copper) you will need different fuels such as steam (using water and fuel), heat energy (using fuel) or hydraulic energy (using water)! "
+		""
+		"This mod also adds a lot of recipes that make certain Minecraft items (Chainmail Armor, Coral, Netherrack, Crying Obsidian and Magma Cream...) craftable with the new ways added by Create such as haunting and filling!"
+	]
+	quest.41CEBA836A8BA22C.quest_desc: [
+		"We now need to place a clutch in front of the generator; in front of the clutch, place a vertical gearbox. On top of the generator, place an andesite casing block; in front of the andesite casing block, place a redstone, and on top of the andesite casing block, a redstone link with 2 torches. Use \"Shift\" + \"Click\" to set it to receiver mode."
+		""
+		"{image:quests:textures/gearbox.png width:180 height:100 align:center}"
+	]
+	quest.41CEBA836A8BA22C.quest_subtitle: "Connecting"
+	quest.41EB0C570FC54F43.quest_desc: [
+		"&aChemical Tanks&r are used to store &7Gases&r."
+		""
+		"They can be placed as a block and can interact with &dPressurized Tubes&r."
+		""
+		"They come in the four tiers, each tier being double the capacity and output rate of its predecessor."
+	]
+	quest.4204702AA6FBF40B.quest_desc: [
+		"The Chargepad is a wireless electric charging station. Any rechargeable items you have in your inventory will be charged while standing on it."
+		""
+		"The Chargepad can recharge any item that requires any form of energy. It also functions as the deployment and teleportation point for your Robit."
+	]
+	quest.42195C45933ACA1E.quest_desc: ["Welcome to Create: Central Kitchen, a mod offering more tools and methods to automate food processing for other mods in Create."]
+	quest.421EA2CE61003DA1.quest_desc: ["Allows the player to fly, move and swim faster. Works with fuel."]
+	quest.4236B9F071BE18F3.quest_desc: [
+		"The Rotary Condensentrator (pronounced \"con-DEN-sen-traitor\") is used for converting substances between liquid and gaseous forms at a rate of 1:1. It has two modes: Decondensentrating, which turns Liquids into Gases, and Condensentrating, which turns Gases into Liquids."
+		""
+		"In Decondensentrating mode:"
+		""
+		"Liquid→Gas"
+		"Water→Water Vapor"
+		"Liquid Sulfuric Acid→Sulfuric Acid"
+		"Liquid Hydrogen Chloride→Hydrogen Chloride"
+		"Liquid Oxygen→Oxygen"
+		"Liquid Hydrogen→Hydrogen"
+		"Liquid Ethylene→Ethylene"
+		"Liquid Chlorine→Chlorine"
+		"Liquid Sulfur Dioxide→Sulfur Dioxide"
+		"Liquid Sulfur Trioxide→Sulfur Trioxide"
+		"Brine→Gaseous Brine"
+		"Liquid Lithium→Lithium"
+		"and the opposite is true in Condensentrating mode."
+		""
+		"Extract liquids with Mechanical Pipe by setting them to \"pull\" (use a Configurator and Shift+Right click the outer edges of the pipe)."
+	]
+	quest.4266BF7FCE3B4330.quest_desc: [
+		"The Cogwheel is a basic mechanical component in Create that relays rotation."
+		"The Large Cogwheel is a larger variant of the cogwheel that can relay rotation around corners and power Rotation Speed Controllers."
+	]
+	quest.4266BF7FCE3B4330.title: "Cogwheels"
+	quest.4276B941670CE0E2.quest_desc: [
+		"P2P tunnels are a way to move things like items, fluids, redstone signals, power, light, and channels around a network without them directly interacting with the network. There are many variants of P2P tunnel but each only transports its specific type of thing. They essentially act like portals that directly connect two block faces at range. They are not bi-directional, there are defined inputs and outputs."
+		""
+		"{@pagebreak}"
+		""
+		"There are many types of P2P tunnel. Only the ME P2P tunnel is directly craftable, the others are made by right-clicking other P2P tunnels with certain items:"
+		""
+		"ME P2P tunnels are selected by right-clicking with any cable."
+		"Redstone P2P tunnels are selected by right-clicking with a variety of redstone components."
+		"Item P2P tunnels are selected by right-clicking with a chest or hopper."
+		"Fluid P2P tunnels are selected by right-clicking with a bucket or bottle."
+		"Energy P2P tunnels are selected by right-clicking with almost any energy-containing item."
+		"Light P2P tunnels are selected by right-clicking with a torch or glowstone"
+		"Some tunnel types have quirks. For instance, ME P2P tunnels' channels cannot pass through other ME P2P tunnels, and Energy P2P tunnels indirectly extract a 2.5% tax on FE flowing through themselves by increasing their energy draw."
+		""
+		"{@pagebreak}"
+		""
+		"The most common use case of P2P tunnels is using a ME P2P tunnel to compact the density of channel transport. Instead of a bundle of dense cable, a single dense cable can be used to carry many channels around."
+	]
+	quest.4291A72FF87220D5.quest_desc: [
+		"There is also an inverted version of the toggle bus that &ndisables&r the connection when a &credstone&r signal is supplied."
+		""
+		"When &credstone&r signal supplied the part &nenables&r the connection, &6ME Inverted Toggle Bus&r provides the &nreverse&r behavior by &ndisabling&r the connection instead."
+	]
+	quest.43D31DAC4737005E.quest_subtitle: "Byproduct of coke oven"
+	quest.43E02E5DBDE6F0D2.quest_desc: ["An industrial structure used to safely burn excess gases and byproducts. It helps manage waste output in large-scale factories, ensuring cleaner and more efficient production systems."]
+	quest.43E4EE94BB396A7C.quest_desc: ["Used to make rods and wires."]
+	quest.43FBFDBCDB69E7EE.quest_desc: [
+		"The &ePortable Teleporter&r is a player kept teleportation device."
+		""
+		"It can store power and like all &dMekanism&r teleporters, energy drain increases with the distance the player teleports to. &aRight-clicking&r with this device in hand will open a &o&bGUI&r&b similar to that of the &9Teleporter Portal&r, allowing instant travel to any &3Teleporter Portals&r that the player has set up. The &ePortable Teleporter&r is capable of multidimensional travel."
+		""
+		"Note that in order for the &ePortable Teleporter&r to be functional, the complete &9Teleporter Portal&r structure does not need to be built; only the &o&bTeleporter block&r must be present (and supplied with &npower&r)."
+	]
+	quest.4434D7B66521D69A.quest_desc: ["Pressurized Tubes are used to transport Gases."]
+	quest.4434D7B66521D69A.title: "&aBasic Pressurized Tube"
+	quest.445ACC0E40DB3D96.quest_desc: ["A partially assembled electrical component awaiting final processing. It’s used in crafting complete resistors and other advanced electronic parts."]
+	quest.449C41A3AFBBE8E9.quest_desc: ["It uses Iron and Coal Coke to generate Steel Ingots and Slag. Unlike with the Improved Blast Furnace, slag may not be removed limiting its automation capabilities."]
+	quest.449C41A3AFBBE8E9.title: "Crude Blast Furnace"
+	quest.44E8D5277063565A.quest_desc: ["A monitoring device that measures and displays the voltage within an electrical circuit. Useful for diagnosing power fluctuations and ensuring your systems run at optimal efficiency."]
+	quest.4512B97451C2221F.quest_desc: ["The Mechanical Arm can take or deposit items from various blocks within a 5 block radius of where it is placed. A placed Mechanical Arm's selected blocks can be viewed by hovering over it with a Wrench. The Mechanical Arm is capable of transferring up to a stack of items at once."]
+	quest.459AA2AD67CA6AAA.quest_desc: ["Mix aluminum and crimsite."]
+	quest.45BA5B8A785E1B82.quest_desc: [
+		"Using a Wrench on a component will rotate the component around the face with which you interacted."
+		""
+		"Using a Wrench on a component, redstone component, rail or vanilla rail variant will dismantle it and place it in your inventory. Any block which can be rotated or otherwise interacted with using right click must be dismantled while sneaking."
+		""
+		"Hovering over certain configurable components will allow configuration by scrolling."
+		""
+		"For certain components such as the Linear Chassis, ctrl can be held to configure all connected components at once."
+	]
+	quest.45CEF843FA33853F.quest_desc: ["You can grab and move blocks and launch them into the air!"]
+	quest.45D99E459A6A38F3.quest_desc: ["We need to paint our vehicles; nobody deserves everything in the same color. We can dye the blocks using any dye!"]
+	quest.45D99E459A6A38F3.quest_subtitle: "Painting"
+	quest.46004D01A142777E.quest_desc: ["Smart Fluid Pipes can be used to allow only a certain liquid to pass through them."]
+	quest.46AB23E922C51517.title: "&9Elite Logistical Transporter"
+	quest.46EBE6B0E06D750D.quest_desc: ["Used with &6Spatial IO Port&r to store spatial regions."]
+	quest.470B1F84D01E4F7A.quest_desc: ["Charged Certus Quartz is crafted by insterting an Certus Quartz Crystal into the Charger, and powering it."]
+	quest.47106CE1937C4340.quest_desc: ["To get an HDPE Sheet, place 3 HDPE Pellets in an Enrichment Chamber."]
+	quest.47ACCCE2F34C5B99.quest_desc: [
+		"To use it, items are dropped into the top of the multiblock structure, and can be removed from the black item port at the base. It does not have a GUI instead, the crushing wheels rotate while it is working. It can also be used to crush mobs, outputting the corresponding drops. If the Crusher is ever fed an item that it cannot process, it will destroy that item."
+		""
+		"Power is input via the copper looking dot, and the machine can be turned off by applying a redstone signal to the red dot on the front of the machine face."
+	]
+	quest.47ACCCE2F34C5B99.title: "Crusher"
+	quest.488DBE69595F38F8.quest_desc: ["The energized smelter is your basic electric furnace that uses energy instead of fuel to smelt items."]
+	quest.4905CD63121F13EA.quest_desc: ["Automatically refills gadgets and armor that use fuel."]
+	quest.49E36D3C3092346E.quest_desc: [
+		"The IO Port allows you to rapidly fill or empty storage cells to or from network storage."
+		""
+		"It can be rotated with a Certus Quartz Wrench."
+		""
+		"The IO Port can be set to move the cell to the output slots when the cell is empty, full, or when the work is done."
+		"If a Redstone Card is inserted, there will be options for various redstone conditions"
+		"In the center of the GUI, there is an arrow to set which direction to transfer items, from the cell to network storage, or from storage to the cell."
+		"Upgrades"
+		"The IO Port supports the following upgrades:"
+		""
+		"Acceleration Card increases the amount of stuff moved per operation"
+		"Redstone Card adds redstone control, allowing active on high signal, low signal, or once per pulse"
+	]
+	quest.4A19E3387DBD7FB0.quest_desc: [
+		"The Winder consumes spools of wire to wrap around items."
+		""
+		"Crafting recipes that use the Winder (such as generators or potentiometers) will always use exactly the amount required."
+		""
+		"For winding magnetic coils, a winding percentage can be set out of 1000 turns, with a minimum of 100 turns (10% = 100 turns). Any turns beyond 100 are used only for transformer coils. The remaining turns on the wire spool can be checked using Goggles."
+		""
+		"Items cannot be extracted manually (except for the wire spool), and there is no filter for unfinished items. For manual winding, use a Funnel and a Lever."
+	]
+	quest.4A22534045841AE4.quest_desc: ["Low current"]
+	quest.4A47E558AD90EB64.quest_desc: ["Provides an interface to access two inventories simultaneously. Also comes with filter slots to quickly sort incoming items."]
+	quest.4A7F96E62A5845C5.quest_desc: [
+		"Mechanical Pistons are a Contraption that will collide with unmovable blocks."
+		""
+		"To extend, the Piston must have Piston Extension Poles at the end as well as Rotational power. The maximum extension pole length is 64 blocks, and this can be changed in the Config."
+		""
+		"When the rotation is reversed, the piston will retract. The end must be made sticky with a Slimeball to bring the pushed blocks back with it."
+	]
+	quest.4A859875AFC89A13.quest_desc: ["A key mechanical component that compresses and channels energy within an engine. It’s essential for converting fuel or pressure into smooth, consistent rotational motion."]
+	quest.4A961ADDC8054AA1.quest_desc: ["A magnetic device that attracts nearby items toward it using rotational energy. Perfect for automation setups where item collection needs to be fast and efficient."]
+	quest.4AFF81D3D0E78255.quest_desc: ["The Chemical Washer turns Slurry into Clean Slurry using Water. The clean slurry then needs to be further refined by pumping it into a Chemical Crystallizer. Note that unlike most Mekanism machines this one has fixed \"in\" and \"out\" sides for the mineral flow. \"In\" will be on the left when first placed and \"out\" is on the right. It can of course be rotated with the Configurator. Water is piped in through the top of the machine."]
+	quest.4AFF81D3D0E78255.quest_subtitle: "Giving Ores a Bath"
+	quest.4B574B802F83F725.quest_desc: ["We need to generate torque for our car; we can use a coal-powered torque generator, place it at the back of our car."]
+	quest.4B574B802F83F725.quest_subtitle: "Generating torque"
+	quest.4B976C143EDA4317.quest_desc: [
+		"Casings are blocks used throughout many crafting recipes in Create, as well as for decoration and aesthetic purposes."
+		""
+		"There are four types of Casings: Andesite Casings are mainly used in basic Contraptions."
+		""
+		"{@pagebreak}"
+		"Casings can only be crafted through physically applying a valid alloy or ingot to any Stripped variant of Log or Wood. The logs will convert themselves into the casing."
+		""
+		"Mechanical Belts, Shafts, and Cogwheels can be encased in most casings, creating a decoration around the encased block. Copper casings, however, can be used only on Fluid Pipes. Likewise, a fluid pipe will not accept any other kind of casing."
+	]
+	quest.4B976C143EDA4317.title: "Andesite Casing"
+	quest.4BB13C80196FD034.quest_desc: [
+		"The Create mod brings true engineering to Minecraft!"
+		"Instead of simple machines, you’ll use rotational power generated by water wheels, windmills, and other types of contraptions."
+		""
+		"With Create, you can automate farms, build factories, or even design moving machines that run smoothly and look beautiful doing it."
+	]
+	quest.4BB13C80196FD034.quest_subtitle: "Create"
+	quest.4BB13C80196FD034.title: "Create"
+	quest.4BDE773C3359D584.quest_desc: [
+		"Robit is Mekanism's mechanical companion. It can act as a crafting grid, a furnace, an anvil, a chest, or simply a cute little buddy. It is immune to fire, including the Flamethrower."
+		""
+		"{@pagebreak}"
+		""
+		"To bring your personal robotic friend into the world, you'll have to craft it. Once Robit is in your inventory, right click a Chargepad with it in hand. This will spawn Robit and assign it to the pad. Oh, and make sure the Chargepad is supplied with power. Otherwise, he won't be able to follow you around!"
+		""
+		"If at any time you want to pick Robit up, simply shift right-click it with a Configurator."
+		""
+		"Don't worry about losing your Robit as whenever it runs out of charge/health it will automatically teleport back to its charging pad. It does not have conventional health: instead, taking damage will deplete its charge. A fully charged Robit has an effective health of 100 or 50 hearts."
+		""
+		"When the chargepad is broken, Robit will turn into an item to be picked up. It keeps its items but it may despawn if it's not picked up."
+	]
+	quest.4C7CD3858A2BE870.quest_desc: [
+		"The Mechanical Press is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it. It is used to press Ingots into Sheets, which are important ingredients for higher-level components."
+		""
+		"The Mechanical Press is powered by an internal Shaft, accessed from two opposite sides. Much like Shafts, Presses will relay rotation along their axis. It processes items faster when it receives faster rotational power."
+	]
+	quest.4C990203ACAAB823.quest_desc: ["Now we can finally control the wheels and the movement of our car; click with the linked controller on top of each redstone link and configure a keybind to define acceleration and move the vehicle to the sides."]
+	quest.4C990203ACAAB823.quest_subtitle: "Time to take control"
+	quest.4CDB3F8E217ADC8E.quest_desc: ["A specialized metal ingot infused with magnetic properties. It’s used in crafting advanced machinery, motors, and components that rely on magnetic energy or attraction."]
+	quest.4CE350628327599A.quest_desc: [
+		"The &eME Level Emitter&r can indicate either the level of a specified item or the &dME Network&r energy level."
+		""
+		"You can set the threshold and if the&e ME Level Emitter&r will emit a redstone signal or turn it off."
+		""
+		"Does not require a &eChannel&r to function, if its power is lost the emitter will switch to an off state."
+		""
+		"These can tap into the &bcrafting system&r when a crafting card is installed, allowing you to output redstone while an item is being crafted, or even configure the system to output redstone to preform a crafting task, its important to note that you cannot mix level emitter craft via &credstone&r with &binterface patterns&r."
+	]
+	quest.4CEF6501FCD7D58D.quest_desc: ["A basic yet functional engine component that helps convert pressure or combustion into motion. Ideal for early-stage machinery and low-power mechanical systems."]
+	quest.4CFE8B1C53B429E9.quest_desc: ["Crafter Slot Covers are used to denote empty spaces in Mechanical Crafter setups."]
+	quest.4D482A1A908ABFDA.quest_desc: [
+		"Unlike Linear Chassis, the Radial Chassis connects to a radius of blocks around it rather than a straight line of blocks. This can be unwieldy if there are blocks nearby one would rather not connect to the Contraption."
+		""
+		"You can right click on the sides of the chassis while holding a Slimeball or Super Glue to make them sticky, and again to apply it to all sides. The items are not consumed. The radius of affected blocks can be changed per chassis with a Wrench. Hold Ctrl to scroll every connected chassis."
+	]
+	quest.4D89B47FFF31585D.quest_desc: ["We can use the Chain Drive to make our car's chassis, but if it gets too big, it may cost more fuel."]
+	quest.4D89B47FFF31585D.quest_subtitle: "Car body"
+	quest.4D89B47FFF31585D.title: "Encased Chain Drive"
+	quest.4D999E42010FFB85.quest_desc: ["Holds 1.6r AE in its battery and drains 1 AE/t for each block you are away from the nearest ME Wireless Access Point."]
+	quest.4DAC24440803FE58.quest_desc: [
+		"An AE2 network needs to be chunkloaded for any of its devices to be able to function, and if only some of it is loaded, it may not function correctly. The Spatial Anchor solves this problem. It forceloads the chunks that its network occupies. A single cable extending across a chunk border is enough to load that new chunk."
+		""
+		"It will propagate its \"loading\" across quantum bridges, but not cross-dimensionally, so if you have a quantum bridge to the nether, you need a spatial anchor on the network in your base and on the network in the nether."
+		""
+		"By default it will also enable random ticks in its loaded chunks, this can be turned off in the ae2 config."
+	]
+	quest.4DAEDB4B0C8D2CE4.quest_desc: ["A high-speed power generator that converts heat or fluid pressure into rotational energy through turbine blades. It delivers efficient, continuous power for advanced machines and automation systems."]
+	quest.4DD8EC6663F695BC.quest_subtitle: "Place down a Sequenced Pulse Generator"
+	quest.4DD8EC6663F695BC.title: "Computational Supremacy"
+	quest.4E058BAF38B16EE0.quest_desc: ["An electrical component that stores and releases energy when needed. It helps stabilize power flow, improve efficiency, and support machines during energy fluctuations."]
+	quest.4E5C6F23628A9982.quest_desc: [
+		"The Encased Chain Drive is a block that can transfer rotation much like the Mechanical Belt."
+		""
+		"Encased chain drives may be placed side by side either vertically or horizontally to form a chain passing rotational power among all the blocks. The blocks must touch on their sides (not axis to side) and be in a single straight line to form a chain. The axes of the encased chain drives may be all parallel or blocks can be rotated to orient the axis perpendicularly. Encased chain drives can also pass rotational power through their rotating axis, but this is not a continuation of the same chain."
+	]
+	quest.4EBD5363B552085D.quest_desc: [
+		"Organizes electrical appliances into series-parallel groups without needing diodes or other circuit-splitting components."
+		""
+		"Different group numbers run in parallel and behave as if they are on separate diodes."
+	]
+	quest.4EC20D5D0EEC1DF7.quest_desc: [
+		""
+		"{ \"text\": \"Click Me!\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3617DE87C4E1BCB9\" } }"
+	]
+	quest.4EC499B88FBFA01C.quest_desc: ["Stores kinetic stress for later use. Retains charge in item form to enable long-distance energy transport. Battery capacity, RPM at discharge and stress impact values are all configurable."]
+	quest.4F1307BB5B01F90F.quest_desc: [
+		"The ME Chest acts like a miniature network with a ME Terminal, ME Drive, and Energy Acceptor. While it can be used as a tiny storage network, its capacity for just one single storage cell means it has limited utility as such."
+		""
+		"Instead, it is useful for interacting with specifically the storage cell mounted inside it. Its integrated terminal can only see and access the items in the mounted drive, while devices on the general network can access items in any network storage, including ME chests."
+		""
+		"It has 2 different GUIs and is sided for item transport. Interacting with the top terminal opens the integrated terminal. Items can be inserted into the mounted storage cell through this face, but not extracted. Interacting with any other face opens the GUI with the slot for the storage cell and the priority settings. The cell can be inserted and removed by item logistics only through the face with the cell slot."
+		""
+		"It can be rotated with a Certus Quartz Wrench."
+		""
+		"It has a small AE energy storage buffer, so if not on a network with an energy cell, inserting or extracting too many items at once may cause it to brown out."
+	]
+	quest.4F1C04C0F6769825.quest_desc: [
+		"The Chemical Injection Chamber uses Hydrogen Chloride gas to convert Ores into 4 Shards and Raw Ores into 8 Shards."
+		""
+		"This marks the beginning of 4x ore processing and requires a steady supply of Hydrogen Chloride, which can only be produced with a Thermal Evaporation Plant."
+		""
+		"This machine is the next step in expanding your Ore Processing Factory. Place it to the left of your Purification Chamber to integrate it into your existing setup and continue your progression."
+	]
+	quest.4F1C04C0F6769825.title: "The Start of a Tier 3 Ore Factory"
+	quest.4F1FA866A2F510A1.quest_desc: ["Obtained by putting an Electrum Ingot in a Rolling Mill."]
+	quest.4F1FA866A2F510A1.quest_subtitle: "Crafting component."
+	quest.4F216AB740548F80.quest_desc: ["A powerful industrial engine designed to generate massive amounts of rotational energy. Ideal for driving heavy machinery, large-scale factories, and advanced automation setups."]
+	quest.4F2F6E31C38DA17F.quest_desc: ["Automatically refills gadgets and armor that use water."]
+	quest.4F436770D30D8520.quest_desc: [
+		"We will need to add 3 more machines to our current setup."
+		""
+		"The Chemical Dissolution Chamber is the first machine in the 5x ore processing setup. It turns Raw Ores into Slurry using Sulfuric Acid."
+		""
+		"The machine uses 100mB of Sulfuric Acid for every ore dissolved and outputs 1000mb of Slurry. This Slurry needs washing in the Chemical Washer."
+	]
+	quest.4F436770D30D8520.title: "The Start of a Tier 4 Ore Factory"
+	quest.4F5AA576DC7B9B24.quest_desc: ["Put these items in the top of the blast furnace to produce molten steel and molten slag."]
+	quest.4F5AA576DC7B9B24.title: "Making steel"
+	quest.4F78122BABAB041C.quest_desc: [
+		"The Mechanical Plough is a Movement Actor used to break non-collidable blocks and fling entities."
+		""
+		"Placement"
+		"The Plough can only be placed on the horizontal face of a solid block, however, this block is not necessary to support the Plough after it is placed."
+		""
+		"Breaking Blocks"
+		"While attached to a Contraption, the Mechanical Plough will break non-collidable blocks it comes in contact with (ex. snow layers). The Mechanical Plough will also move or launch entities and till soil blocks."
+		""
+		"Tilling"
+		"While attached to a Contraption, the Mechanical Plough will till any grass blocks below it (change grass blocks to farmland), which can be used to quickly till huge farms."
+		""
+		"Flinging Entities"
+		"While attached to a Contraption that moves the Mechanical Plough in a swinging motion, any colliding entities will be flung in the direction of the swing."
+	]
+	quest.4F78375EDADAFEC2.quest_subtitle: "Don't forget your PPE"
+	quest.4F89670D49DD2DE1.quest_desc: [
+		"They provide diagnostic function by visualizing the Channel usage on the Cables, the Channels appear as lit colored lines that run along the black stripe on the Cables giving you an understanding of how your Channels are being used on your network."
+		""
+		"The first four Channels show as lines matching the color of the Cable, the next four show as white lines."
+		""
+		"These can also be colored in the same manner as Fluix ME Glass Cable."
+	]
+	quest.4F8BAA7B943299D9.quest_subtitle: "Mix nickel and copper in a heated basin."
+	quest.4FB32E41F9FEE89B.quest_desc: ["Helps to boost small planes, pushing the air or sucking it in, to direct it forward or backward"]
+	quest.4FB32E41F9FEE89B.quest_subtitle: "Thruster"
+	quest.4FCCEB8B6A6AA643.quest_subtitle: "Crafting component."
+	quest.4FFD6C191AD6FCC5.quest_desc: ["A much improved, portable version of the Electric Gauge. Extremely useful for checking if a device is receiving enough current and power."]
+	quest.5047792C6EF6D2AD.quest_desc: ["Created in Pressurized Reaction Chamber from 2 x Bio Fuel, Water and Hydrogen (also Ethylene created as side-product)."]
+	quest.5047792C6EF6D2AD.title: "Substrates"
+	quest.50CE0BD7B0BC4017.quest_desc: ["Fluid Valves can be switched between open and closed by providing Rotational Force to the side. This is often done with a Valve Handle or Gearshift. A set of directional arrows on the side of the valve will also rotate to indicate whether the valve is open or closed."]
+	quest.51844489E649C85A.quest_desc: ["A &9Time-Dilating QIO Drive&r can contain &o&b1,048,000&r &nitems&r and &o&b1,024&r &nitem types&r."]
+	quest.51CCB7ACFD7B45F1.quest_subtitle: "Crafting ingredient"
+	quest.51E22AFE9403C9E1.quest_desc: ["To start, we need a Physics Assembler; with it, we can give physics to the car, and it will be very important!"]
+	quest.51E22AFE9403C9E1.quest_subtitle: "Creating our first car"
+	quest.5243675B5E7C5618.quest_desc: ["A grappling \"whisk\" allows you to grapple to most surfaces and sling you across terrain! AKA spiderman style."]
+	quest.525F25F4ADE45B50.quest_desc: [
+		"The ME Formation Plane acts similarly to the Storage Bus, but treats the world itself as its storage medium. In other words, it will place down any block in its filter directly in front of itself."
+		""
+		"This can be useful for situations where a block can be processed simply by placing it and breaking it with a certain tool."
+	]
+	quest.52D8B15C3B75AB7F.quest_desc: [
+		"The generator consumes SU to produce electricity. The faster it spins, the more voltage and power it generates, up to a maximum of 255V and 12.1kW. More technical details follow."
+		""
+		"This is a multi-step deploying recipe, with one step involving the Winding Machine. Start with a shaft and follow these steps:"
+		""
+		"Add a Capacitor"
+		""
+		"Attach a Heavy Plate"
+		""
+		"Use a Winding Machine to wrap 75 turns of copper wire around it"
+		""
+		"Add a Magnet"
+		""
+		"Attach a Steel Mechanism"
+		""
+		"Use a Screwdriver"
+		""
+		"Repeat this process three times for an 83% chance of obtaining a generator."
+		""
+		"{@pagebreak}"
+		""
+		"0 RPM - 40 RPM: No electricity generation"
+		""
+		"41 RPM - 223 RPM: Voltage rises linearly from 1V to 255V. Current is limited to 40A, giving power output from 40W to 10.2kW"
+		""
+		"224 RPM - 255 RPM: Voltage remains at 255V while power output increases up to 12.1kW. Current limit rises to 47.5A"
+	]
+	quest.52DA19C0A068BAD8.quest_desc: ["Can destroy a 3x3 area works with fuel(coal) and water."]
+	quest.531E3FF1F2865C67.quest_desc: ["Similar to the Universal Cable, the Thermodynamic Conductor is Mekanism's way of transferring power in the form of heat (essentially a heat pipe)."]
+	quest.531E3FF1F2865C67.title: "&aBasic Thermodynamic Conductor"
+	quest.53C0234C053BF0CF.quest_desc: [
+		"Place a Stock Link to start a new Logistics Network. Right-click a placed Stock Link before placement to share that link’s network. Place the link on a Packager to connect the packager’s connected inventory to the network."
+		""
+		"Stock Links have no range limitations, but the chunk they’re in must be loaded in order to be seen by the network."
+		""
+		"Stock Links can receive and transmit requests through the Logistics Network."
+	]
+	quest.53DCD54202753184.quest_desc: ["A durable drill component made of brass, designed to enhance mining efficiency and precision. Ideal for upgrading drills to achieve smoother and faster block breaking."]
+	quest.53EA40114B347A83.quest_desc: [
+		"Fireproof Vats are required in a 3x3x2 configuration."
+		""
+		"Graphite electrodes must be used, and make sure to pump out the CO2."
+		""
+		"The electrode holders require a minimum of 25A to operate, but they have three times the resistance compared to the electrolyzer. Each must be supplied with at least 31.5 kV. This can be achieved using two max-speed Generators, a Transformer with a turn ratio of 6, and Diodes on each electrode holder."
+	]
+	quest.53EA40114B347A83.title: "Arc Furnace"
+	quest.5435BF11EB742A73.quest_subtitle: "Blow a Shear Pin"
+	quest.5435BF11EB742A73.title: "Snap!"
+	quest.54589F10802DFE16.quest_desc: ["A clutch that is uncoupled unless powered."]
+	quest.546F7FF099D2696E.title: "&dUltimate Pressurized Tubes"
+	quest.54778BD66812A1CF.quest_desc: ["A transport component used to move fluids between tanks, machines, and engines. Designed for efficiency and integration with Create’s mechanical systems, it ensures smooth fluid transfer in your automation setups."]
+	quest.554102109E795CD3.quest_desc: ["An electrical component that limits or controls the flow of current in a circuit. It’s crucial for protecting devices and ensuring stable power distribution."]
+	quest.556D9C78EFAB5091.quest_desc: [
+		"The ME Terminal is a HUD which gives you access to items stored in your ME Network. This will also include items accessible through ME Storage Bus."
+		""
+		"It has the ability to sort and search, as well as filter by using View Cell. It requires a Channe to function."
+	]
+	quest.55749230931993F2.quest_desc: [
+		"Mostly clear glass made with Certus Quartz Dust."
+		""
+		"Can be used to make Vibrant Quartz Glass and other items."
+	]
+	quest.55E2F8C6A71E7328.title: "&9Elite Thermodynamic Conductor"
+	quest.563A3503CD040E41.quest_desc: ["A coiled conductor that generates a magnetic field when energized. It’s essential for crafting motors, generators, and other advanced electromechanical systems."]
+	quest.563A3503CD040E41.quest_subtitle: "Made in a winding machine."
+	quest.566C0FA15F2021F1.title: "Steel Ingots"
+	quest.566D6390193DD77D.quest_desc: [
+		"Brass Tunnels may be used on mechanical belts for four functions: 1) purely decorative, 2) splitting streams of items to multiple destinations, 3) sorting streams of items, and 4) combining multiple streams of items. Each tunnel can have an input or output portal. The status of being an input or output depends purely on the direction of the belt touching a given side."
+		""
+		"Tunnels which are placed immediately next to each other are automatically treated as a group, in most cases collecting from all inputs and distributing to all outputs. The way that items are distributed is controlled by the tunnels' value setting. Item stacks from different inputs will not be combined prior to distributing."
+	]
+	quest.57175CF690ADCCBE.quest_desc: [
+		"The Bottling Machine has no GUI. RF is supplied through the top back central block of the multiblock (where the Light Engineering Block was)."
+		""
+		"Fluids are added through the bottom middle block of the backside. Items are added by dropping them on the Bottling Machine's Conveyor Belts. When a liquid storing item (such as a Bucket or Jerrycan) is introduced to the Bottling Machine, the Bottling Machine will fill and output it, consuming some RF."
+		""
+		"The Bottling Machine with fill each container with up to 32 buckets (32,000 mB) of fluid with each pass. If the container can hold more then 32,000 mB, or if the machine runs out of the liquid, it will be sent down partially full and may need to be sent back around by conveyor belts to be filled more."
+	]
+	quest.57175CF690ADCCBE.title: "Bottling Machine"
+	quest.575039EFF672065E.title: "Vacuum Tube"
+	quest.576873A2E3A4D8ED.quest_subtitle: "Treated Wood Planks are Wood Planks coated in creosote oil and is used in the construction of many Immersive Engineering items."
+	quest.576873A2E3A4D8ED.title: "The Treated Wood"
+	quest.57E30971FCEF6709.quest_desc: [
+		"The Atomic Disassembler is Mekanism's an all-in-one tool, essentially the ultimate, electronic version of the paxel."
+		""
+		"Tools the Atomic Disassembler replaces:"
+		""
+		"Pickaxe"
+		"Axe"
+		"Shovel"
+		""
+		"Notable tools the Atomic Disassembler does not replace:"
+		""
+		"Shears"
+		"Saw"
+		"Sword - Although a very formidable weapon dealing an average of 20 health points, the Atomic Disassembler cannot swing attack."
+		""
+		"{@pagebreak}"
+		""
+		"The Atomic Disassembler has five different settings which may be cycled through by Shift + Right clicking or using the Item mode switch keybind:"
+		""
+		"Normal (202)"
+		"The default setting"
+		"Works as if a diamond version of every tool with Efficiency II."
+		"Slow (82)"
+		"Works as if a diamond version of every tool."
+		"Fast (1282)"
+		"Works as if a diamond version of every tool with Efficiency V."
+		"Off (02)"
+		"Does not affect the world around it, except for mobs."
+		"Good setting to leave it on if you intend to use it as your main weapon... and don't want to dig yourself into a death trap."
+	]
+	quest.57FCBFBA8789F893.quest_subtitle: "Works underwater."
+	quest.587A19FC348387C5.quest_desc: [
+		"The Pressurized Reaction Chamber (PRC) is used primarily to create Substrate (to create HDPE Pellets), HDPE Pellets (to create HDPE Sheets), and Ethylene (an efficient source of fuel used in the Gas-Burning Generator). It has a variable speed and energy usage dependent on the materials/gasses it is creating."
+		""
+		"The Pressurized Reaction Chamber accepts a liquid, a gas, and a material(s); it uses these three substances to create another material(s) and some leftover gas. Like many other Mekanism machines, it has configurable sides; by default, it accepts gas from the left, accepts liquid from the back, and outputs gas on the right."
+	]
+	quest.58B125BD4876054C.quest_desc: [
+		"This mod introduces many different mid-to-high tier forms of machinery, power generation, and tools to the game that create a whole new element of technology to a game originally aimed at survival."
+		""
+		"The mod focuses on breaking down materials to their chemical makeup, and getting the best out of every material you come across. "
+		""
+		"This mod features Hydrogen Powered Jetpacks, a Mini Robotic friend, Reactors, a Digital Miner to automate mining, Reactors, and much more."
+	]
+	quest.58B125BD4876054C.title: "Welcome to Mekanism"
+	quest.5921FE935A2D7325.quest_desc: ["The Alloy Kiln is fairly simple to use; putting solid fuels in the bottom slot in the GUI will power the Alloy Kiln. The two other left slots are where each Ingot or Grit can be added to form a new ingot. After about 8 seconds, two new ingots will be formed."]
+	quest.5921FE935A2D7325.title: "Alloy Kiln"
+	quest.5A14292FE47ED873.quest_desc: ["A precision-crafted component that captures fluid or air flow to generate rotational energy. It’s a key part of turbine engines, ensuring smooth and efficient power conversion."]
+	quest.5A2450162FD24F7E.quest_desc: [
+		"Two Crushing Wheels must be placed next to each other horizontally or vertically one block apart. Both wheels must be given opposite rotational force. Any items to be crushed must be inserted where the wheels rotate inwards."
+		""
+		"Crushing wheels can be automated by placing a hopper at the top directly between the wheels and either a depot or conveyor belt below."
+	]
+	quest.5A2450162FD24F7E.quest_subtitle: "Crushing Wheels applie Crushing recipes to any items inserted from the direction they are spinning away from."
+	quest.5A2450162FD24F7E.title: "Crushing Wheels"
+	quest.5A5A30CD4D0C98CB.quest_desc: ["Fluix Crystal is crafted in world by tossing Charged Certus Quartz Crystal, Nether Quartz and Redstone Dust in Water."]
+	quest.5AFD4912CC8FBBB8.quest_subtitle: "Crafting ingredient"
+	quest.5B3FDF651D845DF1.title: "&9Elite Mechanical Pipe"
+	quest.5B681BC43371CC5C.quest_desc: [
+		"The Logistical Transporter is the basic item transport pipe for Mekanism logistics. With the Configurator the player can choose to \"paint\" the pipe with colors that can be detected by the pipe's color sorter by ⇧ Shift + right-clicking the center of a transporter with a Configurator."
+		""
+		"It has 2 other cousins called the Diversion Transporter and the Restrictive Transporter."
+	]
+	quest.5B681BC43371CC5C.title: "&aBasic Logistical Transporter"
+	quest.5B9501552E5DFB20.quest_subtitle: "Found in veins near the surface alongside crimsite and sand."
+	quest.5B960A074B904E80.quest_desc: [
+		"The electrical motor converts electrical power into SU with a small efficiency loss."
+		""
+		"This is a multistep deploying recipe, with one step involving the Winding Machine. Start with a shaft and follow these steps:"
+		""
+		"Use a Winding Machine to wrap 75 turns of copper wire around it"
+		""
+		"Add a Magnet"
+		""
+		"Attach a Steel Mechanism"
+		""
+		"Use a Screwdriver"
+		""
+		"Repeat this process three times for a 94% chance of obtaining a motor."
+		""
+		"Rotation direction can be configured."
+		""
+		"For 30V - 320V: SU output and motor speed depend on the input voltage, up to 11,220 SU at 255 RPM. This consumes 960W of power."
+		""
+		"For 320V - 1000V: The motor still produces its maximum SU but consumes more power. There is no benefit to going this high."
+	]
+	quest.5BB309E264190DB9.quest_desc: ["We can build a mega car with giant wheels, or small cars with smaller wheels; it all depends on what we need to do."]
+	quest.5BB309E264190DB9.quest_subtitle: "New types of wheels"
+	quest.5C2108BD3DEEB0E6.quest_desc: [
+		"The Spout is a block used for filling liquid containers such as bottles or buckets, or crafting with liquids."
+		""
+		"The Spout can be filled with up to 1 bucket of any one liquid via Fluid Pipes, and it will empty some of its fluid onto compatible items that pass under it via a Conveyor Belt or Depot. "
+		""
+		"The spout takes 1 second to process an item regardless of the amount of fluid used, though delay between fills may be caused by the time it takes the spout to fill back up."
+	]
+	quest.5C21D02BB2644A39.quest_desc: [
+		"Despite what the tooltip says, it still requires Magnetic Alloy."
+		""
+		"Connect it to a generator, place one alloy on the prongs, and watch the needle rise until it creates a Magnet."
+	]
+	quest.5C5DE3ECE4E39C5F.quest_subtitle: "Trigger an Overstress Clutch"
+	quest.5C5DE3ECE4E39C5F.title: "Circuit Breaker"
+	quest.5D3EE44FB41D289F.quest_desc: ["A item which contains a configuration similar to a Storage Cell, that allows you to customize the filtering of a particular ME Terminal."]
+	quest.5E116409DC7D30BB.quest_desc: ["The Configurator is used to configure many of the items in Mekanism, from changing pipes to \"Pull or Push\" or rotating machines."]
+	quest.5E2B9B6AAB1F34F4.quest_desc: ["When we want to fly, we need a flat surface for the wind to pass through; for this, the best option for building planes is to use the windmill as part of the wing, as it is lighter and easier."]
+	quest.5E2B9B6AAB1F34F4.quest_subtitle: "Fly"
+	quest.5E2F9E27E6B4DF74.title: "&dUltimate Thermodynamic Conductor"
+	quest.5EB59B43781EB61D.quest_desc: [
+		"Use a Wrench to switch between input and output."
+		""
+		"Input is marked with a blue connection, and output is marked with an orange connection."
+		""
+		"When converting FE to TFMG energy, the voltage can be set up to 250V."
+	]
+	quest.5F0E877BE50D79D0.quest_desc: ["Used with &6Spatial IO Port&r to store spatial regions."]
+	quest.5F68F1D8533B534F.quest_subtitle: "Right click the industrial mixer to install."
+	quest.5FDB48511EC1C580.quest_desc: [
+		"Afraid of blowing up your &6Fission Reactor&r and causing a massive &4Radiation&r leak?"
+		""
+		"So how can we prevent such a catastrophic disaster? By creating a redstone &aCircuit Breaker&r using &dFission Reactor Logic Adapters&r. Now these aren't &b&o100%&r guaranteed to stop an explosion, but they are absolutely nice to have."
+		""
+		"Essentially, these Adapters allow us to control the &6Reactor&r using &cRedstone&r. With just one, you can use a lever to turn &9on&r and &coff&r the &6Reactor&r. However, we're going to use them for damage control."
+		""
+		"You can also set these to give off a &cRedstone Signal&r based on a certain condition within the &6Reactor&r, like &cDamage Critical&r or &8Insufficient Fuel&r. This is useful for setting up a circuit breaker to shut &coff&r the &6Reactor&r if those ever happen."
+	]
+	quest.5FDB48511EC1C580.title: "&eSafety First!"
+	quest.603877AB96321F1A.quest_desc: [
+		"The Thermal Evaporation Plant or a Solar Evaporation Plant with the addition of Advanced Solar Generators, is a multiblock structure that converts water to Brine, and Brine \\& Lithium by the use of a second TEP."
+		""
+		"To accelerate the rate of production beyond simply placing advanced solar generators at the top, the player must import a source of heat into a valve. This is most easily done by placing a resistive heater next to a valve. Setting the energy consumption to 1250 FE/t will provide the maximum boost, with any higher consumption having no effect."
+	]
+	quest.603877AB96321F1A.title: "Thermal Evaporation Plant"
+	quest.605C0B84DFC1A4D5.quest_desc: [
+		"Gantry Carriages are a Contraption that will collide with unmovable blocks in their path."
+		""
+		"Place Gantry Shafts along where the Gantry Carriage will move. Apply Rotational power to the shafts to move the Carriage along them, and invert the power to move it back. Inverting the placement of the shafts will invert all movement. Use a Wrench to help change the orientation."
+		""
+		"For every 1rpm of rotational power, the gantry carriage will move along the shaft at a linear speed of 0.03846 blocks/second."
+		""
+		"Apply a Redstone signal to the shaft to stop the carriage and send rotational power through the Carriage's output. This can be used to move another attached Gantry Carriage."
+		""
+		"Gantry Shafts attached to the Carriage's output will move along with them automatically."
+		""
+		"Multiple Carriages on one shaft can also move the same structure built onto it."
+	]
+	quest.60844520BAC54952.quest_desc: [
+		"Place the sample drill and add a oxygen backtank to it then activate the sample drill."
+		""
+		"Then right click it with the Atlas to get the info about the ore vein."
+	]
+	quest.60DBF181ED929607.quest_desc: ["Charges items below it and can be used for damaging players and mobs."]
+	quest.60F40F9349D3F369.quest_desc: [
+		"That’s all for now! You’ve reached the end of Mekanism’s progression in this modpack."
+		""
+		"For the moment, there are no additional Mekanism addons or extensions, so this is as far as your factory can go. You’ve mastered every stage of ore processing and automation available an impressive achievement!"
+		""
+		"Keep exploring, experimenting, and integrating Mekanism with other mods to push your production even further. Who knows what upgrades might come in the future?"
+	]
+	quest.60F40F9349D3F369.title: "What now?"
+	quest.61348E2551E8AD6C.quest_desc: [
+		"For the Rotation Speed Controller to work, it must be paired with a Large Cogwheel. The Rotation Speed Controller, when powered by the Large Cogwheel, outputs any desired speed of rotational force from its sides. It also does the opposite; when powered from its sides, it controls the speed of the Large Cogwheel."
+		""
+		"The rotation speed and direction can be changed in the Value Settings Screen at the front or the back of the machine. The speed can be set to a maximum of 256rpms clockwise or counter-clockwise."
+	]
+	quest.6177966365A058A2.quest_desc: [
+		"Steel Vats are required in a 2x2x2 configuration and must be heated."
+		""
+		"Either Copper or Zinc electrodes can be used. Make sure to pump out the CO2."
+		""
+		"The electrode holders require a minimum of 25A to function, meaning each must be supplied with at least 3500V. This can be achieved using one max-speed Generator and a Transformer with a turn ratio of 4."
+	]
+	quest.6177966365A058A2.title: "Electrolysis"
+	quest.618ECDB3FB534A8A.title: "&cAdvanced Universal Cables"
+	quest.621F052BCE747E68.quest_desc: [
+		"Higher Capacity cable, can carry 32 Channels unlike standard cable which can only carry 8."
+		""
+		"However it doesn't support buses so you must first step down from dense to a smaller cable (such as Fluix ME Glass Cable or Fluix ME Smart Cable) before using buses or panels."
+		""
+		"Shows load similarly to Fluix ME Smart Cable, with each line lit representing four Channels in use."
+	]
+	quest.626580DB654F128D.quest_desc: ["The Millstone is capable of applying milling recipes to any valid items inserted from above."]
+	quest.62671BDA7C583957.quest_desc: ["A natural fuel source produced from organic materials. It can be processed into Bioethanol, making it an eco-friendly alternative for generating energy and powering your Create machines sustainably."]
+	quest.629BCF8065DFD8B1.quest_subtitle: "Use it to find a Chunk with a ore vein"
+	quest.62BAE54B507B7A21.quest_subtitle: "Crafting ingredient"
+	quest.62F1177325B16068.quest_desc: ["High current"]
+	quest.6350ADB7540C368D.quest_desc: [
+		"If the Smart Observer is placed with the front facing a container such as a Mechanical Belt, Funnel or Fluid Pipe, it will emit a Redstone signal when an item is detected inside. A Smart Observer will also emit a signal if the block placed in front of it matches the filter."
+		""
+		"If a Filter is applied to the Smart Observer, it will only emit a redstone signal when the item in the filter is detected."
+	]
+	quest.637EBAB0500A2295.quest_desc: ["An incendiary grenade that triggers a high-temperature chemical reaction on impact, melting through metal and igniting nearby flammable materials. It deals persistent area damage and can disable machinery or break through reinforced structures, but use with caution—its intense heat affects friend and foe alike."]
+	quest.63B4B83F528E6AD6.quest_desc: ["{ \"text\": \"Click Me!\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4CFE8B1C53B429E9\" } }"]
+	quest.63E8F78EEA3063F7.quest_desc: ["{ \"text\": \"Click Me!\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"24DDED464AE48E05\" } }"]
+	quest.6424D99CBA76895B.title: "&9Elite Pressurized Tubes"
+	quest.64AB5CCDD9860DD8.quest_desc: ["Obtained by putting an Iron Sheet in a Rolling Mill."]
+	quest.64AB5CCDD9860DD8.quest_subtitle: "Crafting component."
+	quest.66108B4F2DBF2E3F.quest_desc: ["Obtained by putting a Copper Ingot in a Rolling Mill."]
+	quest.66108B4F2DBF2E3F.quest_subtitle: "Crafting component."
+	quest.66A35D1A11CBB671.quest_subtitle: "Assemble a Control Chip"
+	quest.66A35D1A11CBB671.title: "Precision Fabrication"
+	quest.66C3C169307A8025.quest_desc: ["Allows the player to fly, move and swim faster. Works with water"]
+	quest.66D9F91519D52482.quest_desc: ["Blaze Cake is an item that can be fed to a Blaze Burner in order to make it Super-Heated."]
+	quest.673FCBF8685D0EEE.quest_desc: [
+		"The &bInduction Matrix&r is a highly configurable multi-block energy storage structure."
+		""
+		"You'll need to make a rectangular prism structure. The edges must be made out of &8Induction Casings&r. The faces can be made of either Casings, &aStructural Glass&r, or &eInduction Ports&r. It's best to have &b&o2 Ports&r: one for &9input&r, and one for &coutput&r. These can be changed using the &dConfigurator&r."
+		""
+		"For this build, we'll be making a 5x5x5. This quest requires the exact amount of materials needed to build this."
+		""
+		"{image:kubejs:textures/item/induction.png width:100 height:100 align:1}"
+	]
+	quest.673FCBF8685D0EEE.title: "&bThe Induction Matrix"
+	quest.67F7FBDD9CC782F7.quest_desc: [
+		"There are three tiers of vats to work with:"
+		""
+		"Cast Iron"
+		"Steel"
+		"Fireproof"
+		""
+		"Each tier has its own limits some recipes will only run if you’re using a vat of a certain level or higher."
+		""
+		"Mixers and Centrifuges are simple they only need a single vat block to do their job. But for the heavy-duty setups like the Electrolyzer or Arc Furnace, you’ll need larger vats. The required minimum dimensions (LxWxH) will be specified when needed."
+		""
+		"Some processes demand heat and a single Blaze Burner won’t cut it. You’ll either need multiple burners or a superheated setup. Fireboxes act like permanently superheated Blaze Burners, perfect for the job."
+		""
+		"And here’s a neat trick: grab your wrench and take a peek inside the vat!"
+	]
+	quest.67F7FBDD9CC782F7.title: "Chemical Vat"
+	quest.6819665DA7028C9E.quest_subtitle: "Crafting ingredient"
+	quest.6832CFEAFA7922E8.quest_desc: ["A device that produces immense stress when powered, halting the network by overstressing it."]
+	quest.68331DDD9F01BDC5.quest_desc: [
+		"Works with fuel."
+		"If you have fuel you can burn anything!!!"
+	]
+	quest.6847F5D14FCB5BF8.quest_desc: [
+		"Use the Meteorite Compass to find Skystone Meteorites, which have a chance to contain Quartz blocks and Budding Quartz."
+		""
+		"It has a max range of roughly 2,700 blocks."
+	]
+	quest.68E50F7501B945BB.quest_desc: ["A lightweight, high-energy metal ingot prized for its excellent conductivity and use in advanced batteries and electronic components. Valued in high-tech crafting and power-storage applications where energy density and low weight matter."]
+	quest.69816C16E81355E8.quest_desc: ["A clutch that uncouples after a set delay when the network is overstressed."]
+	quest.6A4CF3A1CF4D4928.quest_desc: [
+		"The Charger provides a way to charge supported tools, and Certus Quartz Crystal."
+		""
+		"Power can be provided via the top or bottom, via either AE2's cables, or other mod power cables. It can accept either AE2's power (AE) or Forge Energy (FE). Items can be inserted or removed from any side. Only the results can be removed, so no need for filters to prevent removing certus crystals instead of charged certus. Can be rotated with a Certus Quartz Wrench in order to facilitate automation."
+		""
+		"Can be used to create Charged Certus Quartz Crystal from Certus Quartz Crystal, and Meteorite Compass from Compass."
+		""
+		"To power it manually, place a Wooden Crank on the top or bottom and right-click it until the item is charged."
+	]
+	quest.6A539510EEB5F29E.quest_subtitle: "Right click Hardened Planks with a Steel Ingot."
+	quest.6A84FC7CC5304E10.quest_subtitle: "Crafting ingredient"
+	quest.6B20F8F08E5F3848.quest_desc: ["A kinetic generator that converts heat and water into rotational energy. It’s a reliable way to power your machinery and automation systems with steady output."]
+	quest.6B5C3E68A6A3F3B5.quest_desc: [
+		"The Spatial Pylon is used in spatial IO to generate the spatial field and define the volume to be affected."
+		""
+		"Each continuous line of pylons uses 1 channel"
+		""
+		"Lines of pylons must be at least 2 blocks long to function."
+	]
+	quest.6B7188472F6ED6AF.quest_desc: ["Allow redstone links to match any frequency for the slot it is placed in."]
+	quest.6B7DE9EA8E828DEE.quest_desc: [
+		"The Inscriber creates different types of Processors."
+		" "
+		"The Inscriber can also \"create\" presses by duplicating an existing press with an Iron Block."
+	]
+	quest.6B8966D7EA9BB5FB.quest_desc: ["Hand cranks with a cogwheel installed."]
+	quest.6B8E544E188FBA4D.quest_subtitle: "The heart of your system"
+	quest.6BEC1C688BC24782.quest_desc: [
+		"With exchangeable Drill Heads and upgrades, itsproperties are almost entirely modifiable."
+		""
+		"To modify it, place it in an Engineer's Workbench."
+		""
+		"The Drilr runs off of Biodiesel and can be filled directly in the Refinery."
+	]
+	quest.6C25D42C36175BF4.quest_desc: [
+		"The Purification Chamber uses oxygen to refine Ores and shards into clumps. Each ore makes 3 clumps, whereas each shard only gives one clump."
+		""
+		"The oxygen can be provided externally as gas, internally with an oxygen filled Gas Tank or flint. (See the gas page for how to make oxygen)"
+		""
+		"For example: you could transform Copper Ore into 3 Copper Clump."
+		"Clumps can then be placed in a Crusher, producing dirty ores, which can be enriched in an Enrichment Chamber to create regular dusts."
+		""
+		"Additionally you can turn gravel into flint."
+	]
+	quest.6C25D42C36175BF4.quest_subtitle: "It makes Clumps"
+	quest.6C8431C216A66C1F.title: "&dUltimate Logistical Transporter"
+	quest.6C9157A690AA5F3C.quest_subtitle: "Don't drink it."
+	quest.6CCC8862AC60DA2A.quest_desc: ["To create the brake for our car, we need to put a redstone signal on top of the wheel mount block; for that, we will again use 2 redstone links and put 1 on top of each wheel mount block with 2 redstones on each in wireless mode. Pair it with the linked controller and bind a key to brake!"]
+	quest.6CCC8862AC60DA2A.quest_subtitle: "Braking"
+	quest.6CD96328B7567F46.quest_desc: ["The Mechanical Harvester will harvest all mature crops it comes in contact with while moving forward."]
+	quest.6D03D3B4D83C1840.quest_desc: [
+		"Right click the front of a Mechanical Crafter with a Wrench to change the direction it sends items during crafting. "
+		""
+		"Mechanical Crafters can be automatically filled by Funnels or Hoppers."
+		""
+		"On the back and sides of Mechanical Crafters, a Wrench can be used to connect or disconnect the inventory of two adjacent crafters. Crafters can share inventories while not participating in the same crafting recipe."
+		""
+		"{@pagebreak}"
+		""
+		"Items can also be inserted or removed by hand."
+		""
+		"Each Mechanical Crafter has an internal gear that can only be powered by adjacent Mechanical Crafters or any size Cogwheel. This means only 1 Mechanical Crafter in a setup needs to be powered by a Cogwheel."
+		""
+		"When powered by rotational force and either powered with Redstone or all crafter slots are filled, Mechanical Crafters will send their items to adjacent crafters. For a successful recipe, the items must eventually meet in one crafter. Once all of the items reach the final Crafter, they will turn into the product."
+	]
+	quest.6D34125C705B2B73.quest_desc: ["We need to add a seat where we will drive the car, or where our companions will go"]
+	quest.6D34125C705B2B73.quest_subtitle: "Car seats"
+	quest.6D34125C705B2B73.title: "Seat"
+	quest.6D7CC9EA47063963.quest_desc: ["A lightweight and durable metal ingot used in crafting advanced machinery and components. Its strength and conductivity make it ideal for high-tech and industrial applications."]
+	quest.6D7CC9EA47063963.quest_subtitle: "Aluminium innit bruv"
+	quest.6DB1AAAD926486BC.quest_desc: [
+		"&aFluid Tanks&r are storage blocks to store fluids."
+		""
+		"The amount of fluid (mb) a fluid tank can store is based on its tier."
+		""
+		"It will retain its inventory when broken. You may use a &dMechanical Pipe&r that is set to &cPull&r in order to extract the fluid out of the tank."
+		""
+		"It has a &o&bbucket&r mode which can be toggled to scoop up liquids with it. Very useful for &6lava&r in the beginning!"
+	]
+	quest.6DE8ACA4F08C420E.quest_desc: ["Transfer stress capacity from one network to another while keeping the networks separate. Guarantees that the source network will not be affected when the destination network is overstressed."]
+	quest.6E8C6A4A07957E5A.quest_desc: [
+		"When Rotational Force is given to the Hose Pully, it can extend the hose infinitely. Reversing the Rotational Force will retract the hose back to the block. The hose of the Hose Pully must be extended by at least one block before it can function."
+		""
+		"A Fluid Pump is required for the hose to drain or flood liquids."
+		""
+		"-If a fluid is pumped out, it will drain a body of liquid down to the level of the hose. If multiple hose pulleys draw from the same source, it will effectively expedite the drainage process, provided that the pipe's capacity is maintained."
+		""
+		"-If a fluid is pumped in, it will flood a room of any size, with the hose marking the highest point of flooding."
+	]
+	quest.6E95E958201D50BE.quest_desc: [
+		"The personal chest used to be called, \"Electric Chest\" that could lock with the use of electricity. Now it is called the Personal Chest and doesn't need electricity. You can still lock it, and set it to \"trusted\"."
+		""
+		"The chest can be placed down and used as a regular, normal chest. This chest has the storage of a double-chest but the space of one chest. If you right click the air, your chest's storage will open up. If used with a Logistical Transporter, items can be piped in and out of the chest."
+	]
+	quest.6F62B5510FA881CD.quest_subtitle: "Crafting ingredient"
+	quest.6F62B5510FA881CD.title: "Osmium"
+	quest.6FBC7D12F531A361.quest_desc: ["We can use this machine to build helicopters or any kind of spacecraft that flies upward (I don't think there's a way to fly downward)"]
+	quest.6FBC7D12F531A361.quest_subtitle: "Helicopter"
+	quest.6FE2FE40C2F60183.quest_desc: ["Relays rotation in two directions independently."]
+	quest.6FFC4582D3620F32.quest_desc: ["A simple control device that opens or closes an electrical circuit. It allows you to start, stop, or redirect power flow to machines, lights, and automated systems with precision."]
+	quest.7097EFDECE9CDAF7.quest_desc: ["Is your car stuck? Use an iron handler connected to your car, this way you can hold your car in your arm and take it out of somewhere."]
+	quest.7097EFDECE9CDAF7.quest_subtitle: "Recovering the broken-down car"
+	quest.7111C78368C786CD.quest_desc: ["A partially crafted coil awaiting insulation or assembly. It’s an intermediate component used in producing fully functional electromagnetic devices and generators."]
+	quest.713EA1BC9BAAA0AB.quest_desc: [
+		"The molecular assembler takes items input into it and carries out the operation defined by an adjacent ME Pattern Provider, or the inserted Crafting Pattern, Smithing Table Pattern, or Stonecutting Pattern, then pushes the result to adjacent inventories."
+		""
+		"This assembler has a crafting pattern that specifies the 1 oak log = 4 oak planks recipe. When oak logs are fed into the upper hopper, the assembler crafts and spits oak planks into the lower hopper."
+	]
+	quest.717CA8EB4DF4EDB8.quest_desc: ["Acts like a blaze burner but with fuel and CO2 additionaly you can use the blaze burners with the straw."]
+	quest.719218CEA358D540.quest_desc: ["Right-click the ground to place a Train Track facing away from you. Train tracks can be placed in eight different directions corresponding to the closest of the four cardinal direction and 45° increments in between. Tracks may also be placed on the side of blocks that have no blocks immediately above them. These tracks will have a 45° vertical incline. Break tracks using any pickaxe or by right clicking with a wrench while sneaking. Breaking with any other item will cause a track to disappear."]
+	quest.71A772DE60643C45.title: "The Inscriber Presses"
+	quest.71A8D4B8F0EAFF90.quest_desc: [
+		"We need a new glue that is better and more powerful to help us make our first car; with this glue, we can use \"Ctrl\" + \"Scroll\" to better adjust the glue."
+		""
+		"{image:quests:textures/honey.png width:150 height:100 align:center}"
+	]
+	quest.71A8D4B8F0EAFF90.quest_subtitle: "Gluing everything together"
+	quest.71EDE15818D4C2A1.quest_desc: ["The blast furnace can be any height you like. Taller furnaces melt steel faster."]
+	quest.71EDE15818D4C2A1.title: "Blast Furnace"
+	quest.71FB3EA8CB37A038.quest_desc: ["Applie on to a Blaze Burner to enable them to burn liquid fuels, some can superheat a blaze burner for way more time."]
+	quest.7322A19FDA5B78E1.quest_desc: ["The Valve Handle functions much like the Hand Crank, though the amount and direction it rotates with one use can be adjusted in its Value Settings Screen."]
+	quest.732D1A96512F2BFD.quest_desc: [
+		"The Steam Engine is a block that provides Rotational Force. "
+		""
+		"It outputs the highest Stress Unit (SU) capacity of all the survival mode power generating blocks. "
+		""
+		"It converts the pressure caused by heating Water in a Fluid Tank into Rotational Force, allowing for large scale item production and multiple contraptions to be powered."
+		""
+		"Brace for a huge amount of text."
+		""
+		"{@pagebreak}"
+		""
+		"Steam Engines use heated Water for power and are placed on Fluid Tanks, which are then used as a boiler. A Shaft can be used on the engine to create a kinetic output. The direction of said output can be adjusted through the Value Settings on the side of the engine."
+		""
+		"Increasing the total power generated requires that one or more of the three characteristics (heat, size, water) of the Fluid Tank boiler be increased. This will increase the boiler's level to the lowest level reached by any of the three characteristics, increasing the maximum amount of SU Steam Engines are capable of generating from the boiler. A single Steam Engine can only extract up to 16,384 SU (The equivalent of 1 boiler level). To combat this, multiple Steam Engines can be attached to a single boiler to extract more power; however, this will not increase the total power generated by the boiler."
+		""
+		"{@pagebreak}"
+		""
+		"The tank size is the basic characteristic of a steam boiler. The required dimensions are affected by the heat supplied. For a passive steam engine (level 0) the boiler must be a 2x2 fluid tank of preferably one block height (making it any higher will be a waste of resources). For an active steam engine (level 1 or higher) the boiler must have 4 blocks per heat level. For example, a level 1 boiler must have a tank made of at least 4 fluid tank blocks, a level 9 boiler must be made of at least 36 blocks and a level 18 boiler (maximum achievable) must be at least made of 72 blocks."
+	]
+	quest.735412C77BE7A82A.quest_desc: [
+		"Fluids are input into the mixer through the port at the bottom of its powersupply. Items can be input via the two hatches at the back. The fluid port at the front serves as the fluid output."
+		""
+		"Applying a redstone signal to the control panel at the front will halt the machine's process, this behavior can be inverted by use of the Engineer's Screwdriver."
+	]
+	quest.735412C77BE7A82A.title: "Mixer"
+	quest.738FF04BEE2342A0.quest_desc: [
+		"The &eMeka-Tool&r is a &o&bmulti-use&r tool item in &dMekanism&r."
+		""
+		"It has almost no use default but can have &9Modules&r installed to give it a wide range of functions. While the &aConfigurator&r is required to craft the &eMeka-Tool&r, It does not have that functionality."
+	]
+	quest.743C84D1D94C5670.quest_desc: ["The Brass Funnel is a block that can extract or insert items into inventories"]
+	quest.745255652688D720.quest_desc: ["We need to create the sphere part of the balloons using this block"]
+	quest.745255652688D720.quest_subtitle: "Forming a balloon"
+	quest.74CB7630E0651068.quest_desc: ["With the propeller we can create the final rotation for the spinning of an airplane's blades by connecting it to a windmill."]
+	quest.74CB7630E0651068.quest_subtitle: "Rotation"
+	quest.74DA690631920E06.quest_subtitle: "Made just like normal bricks."
+	quest.74FE4BDF6CEFAA42.quest_desc: ["A mechanical system that transfers and regulates rotational power between engines and machinery. It ensures optimal speed, torque, and efficiency across connected components."]
+	quest.7522F2DC9038ED92.title: "&cAdvanced Thermodynamic Conductor"
+	quest.7553689BC9202E14.title: "&9Elite Universal Cables"
+	quest.75A28517E08FE190.quest_subtitle: "Place down a Brass Gearbox"
+	quest.75A28517E08FE190.title: "Serious Organization"
+	quest.75C0ED308F5D7417.quest_desc: [
+		"The &3MekaSuit&r is a highly configurable set of late-game modular armor added in &dMekanism&r."
+		""
+		"The &3MekaSuit &ris divided into &o&b4&r parts, the headpiece, the chest plate, the leggings, and the boots. "
+		""
+		"Each part of the &3MekaSuit&r can be upgraded with &eModules&r that are installed with the &6Modification Station&r and can be configured by pressing \"&b\\&r\"(backslash)."
+		""
+		"It is considered the best armor in &dMekanism&r and is very expensive to make and &o&bfully upgrade&r, even for late game players, requiring a large amount of &9Polonium&r to be processed into pellets."
+		""
+		"With a fully upgraded suit however, the wearer becomes &nnearly&r &6Invincible&r."
+	]
+	quest.75C0ED308F5D7417.title: "&bMekaSuit Armor"
+	quest.75E7216AB5411DF6.quest_desc: [
+		"Chopping"
+		"Mechanical Saws are powered through rotational force, and when placed down facing to the side they will automatically chop down wood blocks in front of them. When chopping down a tree or giant mushroom, it will automatically destroy the entire tree by only destroying the bottom-most block."
+		""
+		"Mechanical saws are only supposed to mine 2x2 trees as long as at least the last block (horizontally) is mined using the saw. The easiest way to bypass this is by removing the block immediately above the block being cut, in which case the entire 2x2 tree will be cut down by the mechanical saw."
+		""
+		"{@pagebreak}"
+		""
+		"Mechanical saws can mine any structure of logs that doesn't have a vertical 2x2 square with the block being destroyed as one of the bottom blocks"
+		""
+		"Mechanical saws are automatically powered when on a create Contraption. The saw will damage entities and break blocks at a certain speed depending on the contraption's speed."
+	]
+	quest.7653935BDE025D18.quest_desc: [
+		"The &dScuba Tank&r is a piece of equipment worn on the backpack (the chest armor slot) that provides underwater respiration when a Scuba Mask is worn (on the helmet armor slot)."
+		""
+		"Like the &cJetpack&r, the &dScuba Tank&r must be filled with &3Oxygen&r gas in order to function."
+		""
+		"The &eScuba Mask&r is an utility head armor piece, used in conjunction with the &dScuba Tank&r to breathe underwater."
+	]
+	quest.7653935BDE025D18.title: "Scuba Gear"
+	quest.768789FEB6EBB8F8.quest_desc: [
+		"A Blaze Burner is a heating component that is required for certain Mixing recipes. It can be used for heating Steam Engines, Bulk Smoking, Bulk Smelting, and as a decorative light source."
+		""
+		"{@pagebreak}"
+		""
+		"Heating"
+		"Blaze Burners are used for Heating and Super-Heating Basins when doing Mixing recipes. In particular, they are required to make Brass. They can also be used as a heat source for boilers used to power Steam Engines. When a heat-able block is placed above a fueled Blaze Burner, the Burner will appear to channel heat into the block."
+		""
+		"Right-clicking a Blaze Burner with any item that can be used as Furnace fuel will temporarily put it in a Heated state. Right-clicking a Blaze Burner with a Blaze Cake will temporarily put it in a Super-Heated state."
+	]
+	quest.768F9EBD3E115CA6.title: "&cAdvanced Pressurized Tubes"
+	quest.76919513DA354DBC.quest_desc: [
+		"The Gearbox is a block used to transfer Rotational power in 4 directions, either horizontally or vertically."
+		""
+		"The Gearbox can relay rotational power in four horizontal directions. The vertical counterpart, like the normal version, can relay power in four vertical directions."
+		""
+		"When receiving input from any input side (sides with a shaft shape), the Gearbox will output/relay rotational power in opposite spin for all of the remaining sides. In another word, when the input is clockwise, the output on the other 3 sides will be anti-clockwise, and vice-versa."
+	]
+	quest.76A38CCA5816CDAD.quest_desc: ["Combining Oxygen, thylene, and a Substrate in a Pressurized Reaction Chamber will create an HDPE Pellet."]
+	quest.76A38CCA5816CDAD.title: "HDPE Pellets"
+	quest.7700E08416618198.quest_desc: [
+		"Interfaces act like a small chest and fluid tank that fills itself from and empties to network storage depending on what you set it to keep a stock of in its slots. It tries to complete this in a single gametick, so it can fill itself with or empty itself from up to 9 stacks per gametick, making it a fast method of import or export if you have fast item pipes."
+		""
+		"Another useful trait is that while most fluid tanks can only store 1 type of fluid, interfaces can store up to 9, as well as items. They're essentially just chests/multi-fluid tanks with some extra functionality, and you can prevent that extra functionality by keeping them disconnected from any networks. Thus, they are useful in some niche cases where you want to store a small amount of a bunch of different stuff."
+	]
+	quest.774B1D4152A0B4ED.quest_desc: ["Mainly used to assemble multiblocks when right clicking the middle block."]
+	quest.776451A1A5F3B2FB.quest_desc: ["Place the Electric Gauge on a section of a circuit to measure various stats. Exact values can be viewed using Goggles, and the quantity being measured can be changed with the Wrench."]
+	quest.77B2C22D776D1B60.quest_desc: ["Connects forge energy compatible blocks with wires to transfer energy."]
+	quest.77C016A83AD73399.quest_desc: ["Allows the player to controll a Brass Drone"]
+	quest.77C3D285E52CCA0E.quest_desc: ["Table Cloths can be used to sell items to other players."]
+	quest.78019E2925B93446.quest_desc: ["A key mechanical component that compresses and channels energy within an engine. It’s essential for converting fuel or pressure into smooth, consistent rotational motion."]
+	quest.783C1961806EC8F6.quest_desc: [
+		"We need to take the Wrench and turn the chain drive that is 2 blocks in front of the torque generator."
+		""
+		"{image:quests:textures/wrench.png width:150 height:100 align:center}"
+	]
+	quest.783C1961806EC8F6.quest_subtitle: "Turning into a piece"
+	quest.785322C002100649.quest_subtitle: "Keep a network running at speed with a powered brake attached"
+	quest.785322C002100649.title: "Overpowered"
+	quest.78B6A586B9B0458C.quest_desc: [
+		"The Core Sample Drill is a 3 block tall block added by Immersive Engineering. The Core Sample Drill is used to determine if a mineral vein, an Immersive Engineering mechanic, is in a Chunk. Once the Core Sample Drill has completed right clicking it will print the result of the operation, as either finding a vein or not. If a vein is found it must be extracted using the Excavator Multiblock."
+		""
+		"The Core Sample Drill requires RF through the bottom of the machine. The Core Sample Drill requires 40 RF/t for 600 ticks. This equates to taking 30 seconds and requiring 24,000 RF per a use."
+	]
+	quest.78B6A586B9B0458C.title: "Core Sample Drill"
+	quest.78C3192B690B7691.quest_desc: ["A high-performance component that compresses incoming air to boost engine power and efficiency. It enhances speed, output, and overall performance in advanced mechanical setups."]
+	quest.7917E75BBA3F0614.quest_desc: [
+		"First, use the display link on a Display Block to link it. Then place it on the Source Block that will be read from. Though it will link to any block, not every block can act as a display or source. "
+		""
+		"Right click the link to access its interface. Additional labels can be added to the output text through this interface. Some sources provide multiple options for formatting the text. Once the interface settings are accepted, the green light on the display link will start blinking, indicating transmission of information to the display blocks."
+	]
+	quest.794ED2661B8E4621.quest_desc: ["Allows the player to fly, move and swim faster. Works with water and fuel."]
+	quest.79E01F6906DA951A.quest_desc: ["Automatically refills gadgets and armor that use water."]
+	quest.7A39B7C7B0EEBF4F.quest_desc: ["A crystallized energy core infused with Fluix essence. It serves as a key crafting material for advanced network components, storage devices, and wireless systems."]
+	quest.7A4D01AF34BB7E0E.quest_subtitle: "Right click on the industrial mixer to install it."
+	quest.7AA7094E591A373B.quest_desc: ["A gearbox with all 4 sides spinning in the same direction."]
+	quest.7AE502EDB73BD57A.quest_desc: [
+		"The Crusher crushes, among other things, clumps into Dirty Dusts, Ingots into dusts and Biomatter into Bio Fuel."
+		""
+		"By defualt, it consumes 50 J/t and processes one item every 10 seconds."
+	]
+	quest.7AE502EDB73BD57A.quest_subtitle: "It's Crushing Time"
+	quest.7AEE26C5734D4C0D.quest_desc: ["The Engineer's Wire Cutters is used to remove wires from a block by right clicking on the block. The wire will drop when using the Engineer's Wire Cutters and can be picked up and reused."]
+	quest.7B0764DDE94E73D0.quest_desc: [
+		"Using some vanilla mechanics and &o&b2&r &aFission Reactor Logic Adapters&r, we can create a simple circuit breaker to trip and turn &coff&r the reactor &o&ein case things get a little crazy&r."
+		""
+		"To do this, we'll need a single piece of Redstone, a Piston, a block of either sand or gravel, and an Observer."
+		""
+		"On one of the faces, we'll want to put a &aLogic Adapter&r down, then skip a block above it and then place another Adapter. Set the top Adapter to &9\"Activation\"&r, and the bottom Adapter to &c\"Damage Critical\"&r."
+		""
+		"Next, in front and underneath the bottom Adapter, place any building block and stick a piece of Redstone on it leading from the Adapter. We'll then place a Piston facing up in front of that Redstone, then place our piece of sand or gravel on that Piston."
+		""
+		""
+		"{@pagebreak}"
+		"For the final part of our breaker, place the Observer with the face pointing outwards towards the &7Piston&r setup. This is &nimportant&r!"
+		""
+		"{image:kubejs:textures/item/example_circuit.png width:80 height:130 align:1}"
+		""
+		"Whenever the Reactor has critical damage, it will then activate the bottom Adapter, causing the redstone to get a signal, which then activates the Piston and pushes up the Gravel/Sand. This will activate the Observer, which then turns off the Reactor."
+	]
+	quest.7B0764DDE94E73D0.title: "The Circuit Breaker"
+	quest.7B5DF264A026BBD0.quest_desc: ["The Adjustable Chain Gearshift functions similarly to Encased Chain Drive, but can change the speed of the output when powered with redstone."]
+	quest.7B6E46D719CFB570.quest_desc: ["An item used to hold and craft Spools of Wire. It serves as a key component in producing electrical materials, helping you advance toward automation and power generation within the Create ecosystem."]
+	quest.7B7585BC5EAECAC7.quest_desc: [
+		"To use it, energy be input through one of three black power points. Like many other Immersive Engineering multiblock machines, it can be turned on or off using the redstone input panel (the red dot) on its front side."
+		""
+		"It has a GUI, with 12 input slots, 4 additional (alloying) slots and 7 output slots. To run, three Graphite Electrodes need to be inserted into the machine manually. An Arc Furnace can smelt approximately 500 items before the electrodes wear out and need replacing."
+	]
+	quest.7B7585BC5EAECAC7.title: "Arc Furnace"
+	quest.7C074B5E2A0EAA63.quest_desc: [
+		"To assemble a Train, the train must have at least one set of controls that face forward relative to the Train Station the train is created at. If a non-player conductor is desired, a Blaze Burner or Seat must be placed directly behind the controls."
+		""
+		"On a Train, Train Controls can be right clicked to take control of the Train. The player's ordinary movement options will affect the Train instead. Use the controls again or sneak to stop. Hold left or right at a fork to choose a path. Use the scroll wheel to adjust maximum speed. Hold jump to approach and align at a Station. If a Steam Whistle is attached, press the sprint key to blow it."
+	]
+	quest.7C91F7477216A2D2.quest_desc: ["We need to be careful with the weight we have on our car; heavy blocks can unbalance the car's weight."]
+	quest.7C91F7477216A2D2.quest_subtitle: "Controlling weight"
+	quest.7CC49360D07086B8.quest_desc: [
+		"The Quantum Entangloporter from Mekanism is a machine that allows liquids/items/energy/gas to be sent from one Quantum Entangloporter to another through a channel."
+		""
+		"Capacity"
+		"Energy: 102.4 MFE"
+		""
+		"Liquid: 256000 mB"
+		""
+		"Gas: 8192000 mB"
+		""
+		"Heat: Infinite"
+		""
+		"Item: Items are transfered only when there are connected paths for them to go. The maximum transfer rate is 128 items per second, but idle entangloporters may take a bit to reach this maximum speed."
+	]
+	quest.7CC49360D07086B8.quest_subtitle: "Wireless Power, Gases, Fluids, Everything."
+	quest.7CE764054ECB1C45.quest_desc: [
+		"It turns 1 Log into 6 Planks."
+		""
+		"The multiblock is completed by using the Engineer's Hammer on the central Iron Sheetmetal block."
+	]
+	quest.7CE764054ECB1C45.title: "Sawmill"
+	quest.7E17AB5A4492929E.quest_desc: [
+		"Every Reactor uses &aUranium&r somewhere for fuel, right?"
+		""
+		"For starters, let's gather some &aUranium Ingots&r. We'll need to process these in an &9Enrichment Chamber&r to turn it into &eYellow Cake Uranium&r."
+	]
+	quest.7E17AB5A4492929E.quest_subtitle: "Of Course It Uses Uranium"
+	quest.7E17AB5A4492929E.title: "&aUranium"
+	quest.7E38ACDAC8ACD079.quest_desc: [
+		"The &dME Storage Monitor&r is a simple way to see the current level of a specified item."
+		""
+		"There are several interactions to modify it:"
+		""
+		"&bRight-click&r with &aItem&r will &ndisplay&r the current stored amount of that item if not locked"
+		""
+		"&bRight-click&r with &7Empty Hand&r will reset the display if &nnot&r locked"
+		""
+		"&bShift+Right-click&r with &7Empty Hand&r will toggle the &nlock&r"
+		""
+		"&bRight-click&r with &eWrench&r will &nrotate&r the monitor if it is locked and on the ground or ceiling."
+	]
+	quest.7EA6B942D1294ED6.quest_desc: [
+		"The &9Digital Miner&r can be configured to mine ores only within a certain area. The &9Digital Miner&r can also be set to &nsilk touch&r ores, but this results in higher power consumption."
+		""
+		"Like all other &7Mekanism&r machines, the &9Digital Miner&r can automatically remove ores from its &einventory&r for automated processing by other machines."
+		""
+		"This machine &ncan mine for you&r!"
+		""
+		"It is completely configurable, and can even replace mined blocks with cobblestone, or whatever block you provide it with!"
+	]
+	quest.7EB1BE897B2B8C1A.quest_desc: ["A mechanical component that redirects rotational force vertically while keeping the same rotational direction. Perfect for compact contraptions where space is limited and precise gear alignment is essential."]
+	quest.7EE37ABD9F8B873D.quest_desc: [
+		"Pattern providers are the primary way in which your autocrafting system interacts with the world. They push the ingredients in their patterns to adjacent inventories, and items can be inserted into them in order to insert them into the network. Often a channel can be saved by piping the output of a machine back into a nearby pattern provider (often the one that pushed the ingredients) instead of using an ME Import Bus to pull the output of the machine into the network."
+		""
+		"Of note, since they push the ingredients directly from the crafting storage in a crafting CPU, they never actually contain the ingredients in their inventory, so you cannot pipe out from them. You have to have the provider push to another inventory (like a barrel) then pipe from that."
+		""
+		"{@pagebreak}"
+		"Also of note, the provider has to push ALL of the ingredients at once, it can't push half-batches. This is useful to exploit."
+		""
+		"Pattern providers have a special interaction with interfaces on subnets: if the interface is unmodified (nothing in the request slots) the provider will skip the interface entirely and push directly to that subnet's storage, skipping the interface and not filling it with recipe batches, and more importantly, not inserting the next batch until there's space in the machine. This works correctly with blocking mode, the provider will monitor the slots in the machine for ingredients, instead of the slots in the interface."
+	]
+	quest.7EE37ABD9F8B873D.title: "ME Pattern Provider"
+	quest.7F38E9C6DA5B99EA.quest_desc: ["The &4Flamethrower&r is a ranged weapon which uses &3Hydrogen&r gas as its fuel."]
+	quest.7F5D32DA7E8D094F.quest_desc: ["{ \"text\": \"Click Me!\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35639D4A6DDF6FF9\" } }"]
+	quest.7F64AD61416A9157.quest_desc: [
+		"Place the drilling machine on the ore vein chunk you found and place a drill on it."
+		""
+		"The ore/fluid will come out in the output of the multiblock."
+		""
+		"Fluid can be extracted in the copper pipe."
+		""
+		"The machine requires RPM to work."
+	]
+	quest.7F783DD7214B96B2.quest_desc: [
+		"The Energy Acceptor converts energy from external systems (e.g., Redstone Flux RF) into AE and stores it in the network."
+		""
+		"Conversion Rate: 2 FE/RF = 1 AE"
+		""
+		"To see the current energy statistics for your network, right-click any part of it with a Network Tool."
+	]
+	quest.7FAA4D4796F470A4.quest_desc: [
+		"Stores up to 1,000,000 AE."
+		""
+		"They do not accept power directly but are used to add additional power storage to an already existing ME Network."
+	]
+	reward_table.1BC377CF7DB0B217.title: "Create"
+	reward_table.48E5FAFD45FFF238.title: "IMM"
+	reward_table.582C28B4960E70F9.title: "MEK"
+	reward_table.65F5978C49103D7A.title: "AE2"
+	task.00204D0DDF6D639B.title: "16k ME Storage Cells"
+	task.03A64F653E5637CD.title: "Crafting Monitor"
+	task.079EF0BC98DD0605.title: "Any Treated Wood"
+	task.0B2D875762418324.title: "&aME 65536k Storage Cell"
+	task.0C4E4CE43F4431B5.title: "&bAdvanced Card"
+	task.0D828FF9D3F62391.title: "ME 16384k Storage Cells"
+	task.0EAA5B4D5C007AB4.title: "1k ME Storage Cells"
+	task.12B4C30E259851EC.title: "ME Interface"
+	task.16AD605C06CC7BDE.title: "Wrench"
+	task.1B77E1B7D104D502.title: "Crafting Storage"
+	task.1C35588869674D6F.title: "Blank Pattern"
+	task.26344D2831BDA0D3.title: "Create Ore Excavation"
+	task.27709080B4B77B09.title: "Ready To Go!"
+	task.2E3FF129C3668DD8.title: "Induction Providers"
+	task.382818E289EC83A6.title: "&3Fissile Fuel Production&r"
+	task.394B44770A9EBFEF.title: "TWO"
+	task.39C74507E6A78265.title: "4k ME Storage Cells"
+	task.39FC2ACB1E15C42E.title: "Personal Storage"
+	task.3B3B58C438FD4397.title: "Tier 4 Ore Processing Factory Summary"
+	task.3B930A490EA23536.title: "Wood dust"
+	task.4063C1B5F935A026.title: "Induction Cells"
+	task.43AB00104FE02F00.title: "Chassi"
+	task.4448E45C70AD482F.title: "Wireless Booster"
+	task.45CC8BA735ED41CF.title: "64M MEGA Storage Cells"
+	task.46C4C1AD9FA5BEE2.title: "Our Setup So Far"
+	task.472AC5A8C74CD93D.title: "4M MEGA Storage Cells"
+	task.4761239B2EE2BD5C.title: "Quartz Fiber"
+	task.481A846149CADED9.title: "Lumen Paint Balls"
+	task.4D422DC145ACCBB7.title: "ME 4096k Storage Cells"
+	task.52F2BBD69A10B594.title: "Any #forge:coal_coke"
+	task.5304AB671E89DFBB.title: "Certus Quartz Crystal"
+	task.54B0030E4B4FBC18.title: "Charged Quartz Fixture"
+	task.562DA0531BAD8C98.title: "Info"
+	task.57F40CFA03BD36EF.title: "The Hard Part"
+	task.5BC88AE46F95774D.title: "Gravel or Sand"
+	task.5CD6B756FB073906.title: "Fluix ME Glass Cable"
+	task.5D07486390FB3BA5.title: "64k ME Storage Cells"
+	task.5EF407C1D549F702.title: "Aeronatics"
+	task.62C0904F5C402948.title: "256k ME Storge Cells"
+	task.62C5590A54B6327A.title: "256M MEGA Storage Cells"
+	task.65C439FD14C5EEB9.title: "ME Portable Cell"
+	task.6631236A42533B67.title: "&6Basic Card"
+	task.67746FE8627D8246.title: "Redstone"
+	task.6AC0A142EDC91A11.title: "16M MEGA Storage Cells"
+	task.6BAF3EBD5B298208.title: "1M MEGA Storage Cells"
+	task.6E0BED777D602A02.title: "ME 1024k Storage Cells"
+	task.6E75525A5D88EF23.title: "Heaters"
+	task.708C1FEDF64B2466.title: "Create Connected"
+	task.746822ADE19EEBBA.title: "Quartz Glass"
+	task.758FACAF38FB4744.title: "Paint Balls"
+	task.7801ADA863C2CC13.title: "Create Stuff 'N Additions"
+	task.789D0DBCE0810688.title: "Criando a chaci"
+	task.7AE305BA1D140E13.title: "Create Central Kitchen"
+}

@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/chipped/wall_dark_blue_paper_lantern_1_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/chipped/dark_blue_paper_lantern"
+		}
+	}
+}

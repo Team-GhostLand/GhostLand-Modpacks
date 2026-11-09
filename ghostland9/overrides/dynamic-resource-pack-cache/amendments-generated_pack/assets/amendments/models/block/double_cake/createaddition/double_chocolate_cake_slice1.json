@@ -1,0 +1,14 @@
+{
+	"parent": "amendments:block/double_cake/slice1_template",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"side_up": "createaddition:block/chocolate_cake/side",
+		"top_up": "createaddition:block/chocolate_cake/top",
+		"inner": "createaddition:block/chocolate_cake/inner",
+		"bottom": "createaddition:block/chocolate_cake/bottom",
+		"top": "createaddition:block/chocolate_cake/top",
+		"particle": "createaddition:block/chocolate_cake/side",
+		"side": "createaddition:block/chocolate_cake/side"
+	}
+
+}

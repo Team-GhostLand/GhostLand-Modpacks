@@ -1,0 +1,36 @@
+[gameplay]
+	#Disable all hull implosion damage from pressure.
+	disableImplosion = false
+
+[hullStrength]
+	#Cap applied to maxWaterDepth of all non-create_submarine blocks.
+	#Per-block values are stored in config/submarine_hull.json.
+	# Default: 100
+	# Range: 1 ~ 10000
+	globalMaxDepthCap = 100
+	#Multiplier on every block's effective maxWaterDepth at runtime.
+	#Lower = more fragile hulls, higher = tougher hulls.
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	maxDepthMultiplier = 1.0
+	#Multiplier on every block's implosionChance at runtime.
+	#Lower = slower cracking, higher = faster cracking.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	implosionChanceMultiplier = 1.0
+
+[propulsion]
+	#Multiplier on the vertical force ballast tanks apply.
+	#Lower = slower dive/ascend, higher = snappier.
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	ballastForceMultiplier = 1.0
+	#Multiplier on water thruster thrust output.
+	#Lower = weaker propulsion, higher = stronger.
+	# Default: 1.0
+	# Range: 0.1 ~ 10.0
+	waterThrusterPowerMultiplier = 1.0
+
+[experimental]
+	#Enable the experimental Permanent Water Culling test for submarines and boats
+	enablePermanentWaterCullingTest = false

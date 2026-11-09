@@ -1,0 +1,34 @@
+[despawn]
+	#Time in seconds before dropped items despawn.
+	#Vanilla default is 300 seconds (5 minutes).
+	# Default: 300
+	# Range: 1 ~ 86400
+	despawnTimeSeconds = 300
+	#Item registry names (e.g. "minecraft:diamond") that should never despawn.
+	#Items on this list stay on the ground forever, regardless of despawnTimeSeconds.
+	blacklist = ["minecraft:barrier", "minecraft:bedrock"]
+
+[glow]
+	#How close (in blocks) a player must be to a dropped item for its despawn-warning glow to show.
+	# Default: 48
+	# Range: 1 ~ 256
+	rangeBlocks = 48
+	#The despawn-warning glow only appears once this many seconds (or fewer) remain before an
+	#item despawns; it stays green from here down to yellowSeconds.
+	#Example: 300 means the item starts glowing green in its last 300 seconds.
+	# Default: 300
+	# Range: 1 ~ 86400
+	greenSeconds = 300
+	#Seconds remaining at which the glow turns yellow (down to orangeSeconds).
+	# Default: 180
+	# Range: 1 ~ 86400
+	yellowSeconds = 180
+	#Seconds remaining at which the glow turns orange (down to redSeconds).
+	# Default: 90
+	# Range: 1 ~ 86400
+	orangeSeconds = 90
+	#Seconds remaining at which the glow turns red.
+	#Example: 30 means the last 30 seconds before despawn are shown as red.
+	# Default: 30
+	# Range: 1 ~ 86400
+	redSeconds = 30

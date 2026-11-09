@@ -1,0 +1,3 @@
+addedSeconds = 4
+# The amount of additional time that mobs will follow the player. Default: 4.0
+added_seconds = 4.0

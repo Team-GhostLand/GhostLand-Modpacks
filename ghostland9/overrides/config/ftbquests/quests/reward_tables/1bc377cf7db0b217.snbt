@@ -1,0 +1,194 @@
+{
+	id: "1BC377CF7DB0B217"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 2
+			id: "28D281333888095F"
+			item: {
+				count: 1
+				id: "minecraft:andesite"
+			}
+		}
+		{
+			count: 3
+			id: "0F0623E534804499"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+		}
+		{ id: "7C391BFAFA4D0B23", item: { count: 1, id: "create:cogwheel" } }
+		{ id: "24DE407C86F8C74D", item: { count: 1, id: "create:large_cogwheel" } }
+		{
+			count: 2
+			id: "60CA33C0EEF5C3CA"
+			item: {
+				count: 1
+				id: "create:rose_quartz"
+			}
+		}
+		{
+			id: "02EFCADBABACF22D"
+			item: {
+				count: 1
+				id: "create:sturdy_sheet"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "5C39B60681840268"
+			type: "xp"
+			xp: 3
+		}
+		{
+			id: "15C6CEBDF95BD169"
+			type: "xp"
+			xp: 12
+		}
+		{
+			id: "2102EC0D5B6C1D96"
+			item: {
+				count: 1
+				id: "create:schematic_table"
+			}
+			weight: 0.1f
+		}
+		{
+			id: "4C8E09F5AD32561D"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+			random_bonus: 1
+			weight: 0.1f
+		}
+		{
+			count: 2
+			id: "09C68E683123AAB7"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+		}
+		{ id: "1578633DCD6F9809", item: { count: 1, id: "create:dough" } }
+		{
+			count: 3
+			id: "4DF9AB2F4D36B001"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+			random_bonus: 3
+			weight: 0.4f
+		}
+		{
+			id: "4394593215918AF5"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			random_bonus: 3
+		}
+		{
+			count: 3
+			id: "59D03B295C5E05ED"
+			item: {
+				count: 1
+				id: "create:experience_nugget"
+			}
+		}
+		{
+			id: "26E3C314C97FC245"
+			item: {
+				count: 1
+				id: "create:rotation_speed_controller"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 3
+			id: "7F8DE2503C1A1FE4"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+		}
+		{ id: "044589943FDB1E67", item: { count: 1, id: "create:mechanical_piston" } }
+		{ id: "1DC6FB220438A691", item: { count: 1, id: "create:hand_crank" } }
+		{ id: "59816BE49FBCD48D", item: { count: 1, id: "createaddition:spool" } }
+		{
+			count: 4
+			id: "34E84D4E6E2F4A54"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+		}
+		{
+			count: 3
+			id: "22BF0A42421440BC"
+			item: {
+				count: 1
+				id: "create_sa:heap_of_experience"
+			}
+		}
+		{ id: "04052C8A1007E9B8", item: { count: 1, id: "create:encased_fan" } }
+		{
+			count: 2
+			id: "5000D8A63A73F7E2"
+			item: {
+				count: 1
+				id: "create:large_water_wheel"
+			}
+		}
+		{ id: "2FB1BE9413303C96", item: { count: 1, id: "create:water_wheel" } }
+		{
+			count: 5
+			id: "0313B3EC18514154"
+			item: {
+				count: 1
+				id: "create:tree_fertilizer"
+			}
+		}
+		{
+			count: 2
+			id: "3437B535D7A3218A"
+			item: {
+				count: 1
+				id: "create:powdered_obsidian"
+			}
+		}
+		{
+			id: "00EB392C71FBC372"
+			item: {
+				count: 1
+				id: "create:blaze_cake"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 3
+			id: "036B977AE22E56AD"
+			item: {
+				count: 1
+				id: "create:brass_casing"
+			}
+			weight: 0.3f
+		}
+		{
+			count: 3
+			id: "7E0B108B1C2B0798"
+			item: {
+				count: 1
+				id: "create:railway_casing"
+			}
+			weight: 0.2f
+		}
+		{ id: "5A0A7C0BFF997AC2", item: { count: 1, id: "create:schematic_and_quill" } }
+		{ id: "66302F05ABB53A6A", item: { count: 1, id: "create:speedometer" } }
+		{ id: "011472B344C38ADB", item: { count: 1, id: "create:brown_toolbox" } }
+		{ id: "4976B8BB543B0BEA", item: { count: 1, id: "create:stressometer" } }
+	]
+}

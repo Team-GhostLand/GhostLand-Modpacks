@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/chipped/wall_yellow_tube_lantern_2_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/chipped/yellow_tube_lantern"
+		}
+	}
+}

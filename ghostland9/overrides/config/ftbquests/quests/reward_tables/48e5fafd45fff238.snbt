@@ -1,0 +1,164 @@
+{
+	id: "48E5FAFD45FFF238"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 5
+			id: "4B0FFA003B3636C9"
+			item: {
+				components: {
+					"ftbquests:missing_item": "immersiveengineering:ingot_steel"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "06B403FAE06CB801"
+			item: {
+				components: {
+					"ftbquests:missing_item": "immersiveengineering:ingot_aluminum"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			id: "755254E5F8D9C283"
+			item: {
+				components: {
+					"ftbquests:missing_item": "immersiveengineering:electron_tube"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.3f
+		}
+		{
+			id: "65AC6F590A62D8F7"
+			item: {
+				components: {
+					"ftbquests:missing_item": "immersiveengineering:bullet_buckshot"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.2f
+		}
+		{ id: "158EEB4BBB79D7D3", item: { components: { "ftbquests:missing_item": "immersiveengineering:wirecoil_steel" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 4
+			id: "569C96FA87EF8289"
+			item: {
+				components: {
+					"ftbquests:missing_item": "immersiveengineering:sheetmetal_iron"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 2
+			id: "28E0F595EA228536"
+			item: {
+				components: {
+					"ftbquests:missing_item": "immersiveengineering:capacitor_lv"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			id: "2DEED21F46E3C5B1"
+			type: "xp"
+			xp: 100
+		}
+		{
+			id: "08C7ADC137D68BD5"
+			type: "xp"
+			xp: 3
+		}
+		{
+			count: 3
+			id: "73D9FBA6F37D1C7A"
+			item: {
+				components: {
+					"ftbquests:missing_item": "immersiveengineering:wirecoil_structure_rope"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "2F6A835CC591266A"
+			item: {
+				components: {
+					"ftbquests:missing_item": "immersiveengineering:ingot_electrum"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 2
+			id: "6CA5D46C8C2237E2"
+			item: {
+				components: {
+					"ftbquests:missing_item": "immersiveengineering:plate_duroplast"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.1f
+		}
+		{
+			count: 3
+			id: "78EE2CA2298D804A"
+			item: {
+				components: {
+					"ftbquests:missing_item": "immersiveengineering:ingot_hop_graphite"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			weight: 0.4f
+		}
+		{ id: "1B93CD010FC578A2", item: { components: { "ftbquests:missing_item": "immersiveengineering:hammer" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 2
+			id: "729C8A75E6B34122"
+			item: {
+				components: {
+					"ftbquests:missing_item": "immersiveengineering:rs_engineering"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 2
+			id: "122C2EC9572353AB"
+			item: {
+				components: {
+					"ftbquests:missing_item": "immersiveengineering:heavy_engineering"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 2
+			id: "0CE531CD96A2249E"
+			item: {
+				components: {
+					"ftbquests:missing_item": "immersiveengineering:light_engineering"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+	]
+}

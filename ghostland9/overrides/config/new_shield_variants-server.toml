@@ -1,0 +1,2 @@
+# Shields that should be disabled, example: new_shield_variants:tnt_shield
+banned_shields = []

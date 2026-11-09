@@ -1,0 +1,85 @@
+["Smoke Potion"]
+	#Duration in ticks (20 ticks = 1 second)
+	# Default: 200
+	# Range: 20 ~ 6000
+	duration = 200
+	#Radius of smoke cloud in blocks
+	# Default: 5
+	# Range: 1 ~ 20
+	radius = 5
+	#Particle density (higher = denser)
+	# Default: 150
+	# Range: 10 ~ 500
+	particleDensity = 150
+
+["Decoy Potion"]
+	#Health of the decoy
+	# Default: 20.0
+	# Range: 1.0 ~ 100.0
+	health = 20.0
+
+["Knockback Potion"]
+	#Horizontal knockback strength
+	# Default: 3.0
+	# Range: 0.5 ~ 10.0
+	strength = 3.0
+	#Vertical knockback multiplier
+	# Default: 0.5
+	# Range: 0.0 ~ 2.0
+	verticalMultiplier = 0.5
+
+["Phantom Armor Potion"]
+	#Number of hits blocked
+	# Default: 3
+	# Range: 1 ~ 10
+	hitsBlocked = 3
+	#Vulnerable duration in ticks after armor breaks
+	# Default: 100
+	# Range: 20 ~ 600
+	vulnerableDuration = 100
+	#Damage multiplier when vulnerable
+	# Default: 1.5
+	# Range: 1.0 ~ 3.0
+	vulnerableMultiplier = 1.5
+
+["Paralysis Potion"]
+	#Duration in ticks
+	# Default: 100
+	# Range: 20 ~ 600
+	duration = 100
+	#Speed multiplier (0.0 = can't move)
+	# Default: 0.3
+	# Range: 0.0 ~ 0.9
+	speedMultiplier = 0.3
+
+["Projectile Rebound Potion"]
+	#Duration in ticks
+	# Default: 300
+	# Range: 20 ~ 6000
+	duration = 300
+	#Return projectiles with full damage
+	fullDamage = true
+
+["Heat Mark Potion"]
+	#Duration in ticks
+	# Default: 300
+	# Range: 20 ~ 6000
+	duration = 300
+	#Damage multiplier from caster
+	# Default: 1.25
+	# Range: 1.0 ~ 3.0
+	damageMultiplier = 1.25
+	#Glow color (RGB hex, e.g., 0xFF0000 for red)
+	# Default: 16711680
+	# Range: 0 ~ 16777215
+	glowColor = 16711680
+
+["Black Stain Potion"]
+	#Duration in ticks
+	# Default: 150
+	# Range: 20 ~ 600
+	duration = 150
+	#Intensity of the visual effect (0-100)
+	# Default: 5
+	# Range: 0 ~ 100
+	intensity = 5
