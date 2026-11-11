@@ -13,13 +13,54 @@ GhostLand 9 modpack.
 
 ## Changelogs
 
+### 9a2
+- Added:
+    - Reactive Music
+    - Music Notification
+    - 777
+    - Show Your Identity
+    - Just Blahaj
+    - Bridging Mod
+    - Building Wands
+    - Grappling Hook Mod: Skybound
+    - Distant Horizons
+    - Separate Sable Render Distance
+    - Bad Wither No Cookie
+    - Axes Are Weapons
+    - Dungeons And Taverns (all of them)
+    - Vanilla Backport
+    - Vanilla Backport Compat
+    - asynclogger
+    - Simple Discord RPC
+    - Dynamic FPS
+    - Continuity
+    - Subtle Effects
+    - Explosive Enhancement
+    - Better Biome Blend
+    - More Culling
+    - Simple Voice Chat
+    - Sit
+    - Seamless Sleep
+    - Packet Fixer
+    - Create Cobblestone
+    - Create Train Perspective
+    - Create: Big Contraptions
+    - Potion Stacks
+    - Blue Archive Halo
+    - Clear Void
+    - Forgiving Void
+    - Unlocked Void Sea
+- Removed:
+    - BHMenu
+
 ### 9a1
 - git init
 
 ## TODO
 - backend stuff
 - update Soulless
-- music like in gl8 (because it was cool)
+- find seed
+- new background photo
 
 ## Configs
 - idk

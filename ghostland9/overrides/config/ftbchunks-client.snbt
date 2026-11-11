@@ -138,40 +138,40 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"ars_nouveau:whirlisprig": true
-			"minecraft:pig": true
-			"minecraft:squid": true
-			"minecraft:enderman": true
-			"minecraft:zombie_villager": true
-			"minecraft:glow_squid": true
-			"variantsandventures:verdant": true
-			"creeperoverhaul:bamboo_creeper": true
-			"minecraft:chicken": true
 			"minecraft:villager": true
-			"creeperoverhaul:beach_creeper": true
+			"minecraft:glow_squid": true
+			"minecraft:chicken": true
+			"minecraft:cat": true
+			"livingthings:monkey": true
+			"creeperoverhaul:jungle_creeper": true
+			"minecraft:enderman": true
+			"minecraft:axolotl": true
 			"livingthings:raccoon": true
-			"ars_nouveau:starbuncle": true
-			"minecraft:sheep": true
-			"minecraft:skeleton": true
 			"aquaculture:bluegill": false
+			"creeperoverhaul:beach_creeper": true
+			"minecraft:zombie": true
+			"variantsandventures:verdant": true
+			"minecraft:creeper": true
+			"artifacts:mimic": true
+			"ars_nouveau:starbuncle": true
+			"minecraft:bat": true
+			"creeperoverhaul:bamboo_creeper": true
+			"zombie_variants:lush_zombie": true
+			"minecraft:skeleton": true
 			"ars_elemental:flashjack_entity": true
-			"livingthings:owl": true
+			"zombie_variants:jungle_zombie": true
+			"minecraft:spider": true
+			"ars_nouveau:whirlisprig": true
+			"minecraft:cow": true
+			"creeperoverhaul:dark_oak_creeper": true
+			"minecraft:zombie_villager": true
+			"minecraft:squid": true
+			"minecraft:iron_golem": true
+			"minecraft:pig": true
 			"irons_spellbooks:necromancer": true
 			"livingthings:crab": true
-			"creeperoverhaul:dark_oak_creeper": true
-			"minecraft:bat": true
-			"zombie_variants:lush_zombie": true
-			"zombie_variants:jungle_zombie": true
-			"artifacts:mimic": true
-			"creeperoverhaul:jungle_creeper": true
-			"minecraft:creeper": true
-			"minecraft:iron_golem": true
-			"minecraft:axolotl": true
-			"minecraft:cow": true
-			"livingthings:monkey": true
-			"minecraft:cat": true
-			"minecraft:zombie": true
-			"minecraft:spider": true
+			"minecraft:sheep": true
+			"livingthings:owl": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

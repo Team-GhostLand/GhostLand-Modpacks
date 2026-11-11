@@ -1,0 +1,17 @@
+{
+  "renderThirdPersonNameTag": true,
+  "pronounScale": 0.5,
+  "renderPronounsInChat": true,
+  "renderPronounsWithNameTag": true,
+  "renderPronounsInTabList": true,
+  "renderFlagsInChat": true,
+  "renderFlagsWithNameTag": true,
+  "renderFlagsInTabList": true,
+  "slur_filter_url": "https://raw.githubusercontent.com/awdev1/better-profane-words/main/words.json",
+  "renderServerSidePronounsInChat": true,
+  "renderServerSidePronounsWithNameTag": true,
+  "renderServerSidePronounsInTabList": true,
+  "renderServerSideFlagsInChat": true,
+  "renderServerSideFlagsWithNameTag": true,
+  "renderServerSideFlagsInTabList": true
+}

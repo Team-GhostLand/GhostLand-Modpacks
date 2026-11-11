@@ -50,7 +50,7 @@
 	ignoreFabulousWarning = false
 	#.
 	#Disable to prevent being rotated while seated on a Moving Contraption
-	rotateWhenSeated = true
+	rotateWhenSeated = false
 
 	#.
 	#Configure your vision range when submerged in Create's custom fluids

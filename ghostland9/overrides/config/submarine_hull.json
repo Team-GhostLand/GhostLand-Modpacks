@@ -2261,11 +2261,43 @@
     "maxWaterDepth": 20,
     "implosionChance": 0.6
   },
+  "amendments:wall_copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
+  },
+  "amendments:wall_exposed_copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
+  },
   "amendments:wall_lantern": {
     "maxWaterDepth": 54,
     "implosionChance": 0.27459225
   },
+  "amendments:wall_oxidized_copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
+  },
   "amendments:wall_soul_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
+  },
+  "amendments:wall_waxed_copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
+  },
+  "amendments:wall_waxed_exposed_copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
+  },
+  "amendments:wall_waxed_oxidized_copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
+  },
+  "amendments:wall_waxed_weathered_copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
+  },
+  "amendments:wall_weathered_copper_lantern": {
     "maxWaterDepth": 54,
     "implosionChance": 0.27459225
   },
@@ -49665,6 +49697,10 @@
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "createcobblestone:mechanical_generator": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
   "createdeco:andesite_bars": {
     "maxWaterDepth": 101,
     "implosionChance": 0.15540898
@@ -54497,6 +54533,14 @@
     "maxWaterDepth": 44,
     "implosionChance": 0.36137056
   },
+  "diagonalfences:minecraft/pale_oak_fence": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "diagonalfences:minecraft/poplar_fence": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
   "diagonalfences:minecraft/spruce_fence": {
     "maxWaterDepth": 44,
     "implosionChance": 0.36137056
@@ -55909,6 +55953,14 @@
     "maxWaterDepth": 72,
     "implosionChance": 0.30540898
   },
+  "diagonalwalls:minecraft/cinnabar_brick_wall": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "diagonalwalls:minecraft/cinnabar_wall": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
   "diagonalwalls:minecraft/cobbled_deepslate_wall": {
     "maxWaterDepth": 84,
     "implosionChance": 0.23040898
@@ -55961,9 +56013,17 @@
     "maxWaterDepth": 72,
     "implosionChance": 0.30540898
   },
+  "diagonalwalls:minecraft/polished_cinnabar_wall": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
   "diagonalwalls:minecraft/polished_deepslate_wall": {
     "maxWaterDepth": 84,
     "implosionChance": 0.23040898
+  },
+  "diagonalwalls:minecraft/polished_sulfur_wall": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
   },
   "diagonalwalls:minecraft/polished_tuff_wall": {
     "maxWaterDepth": 47,
@@ -55981,12 +56041,24 @@
     "maxWaterDepth": 41,
     "implosionChance": 0.50122136
   },
+  "diagonalwalls:minecraft/resin_brick_wall": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
   "diagonalwalls:minecraft/sandstone_wall": {
     "maxWaterDepth": 41,
     "implosionChance": 0.50122136
   },
   "diagonalwalls:minecraft/stone_brick_wall": {
     "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "diagonalwalls:minecraft/sulfur_brick_wall": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "diagonalwalls:minecraft/sulfur_wall": {
+    "maxWaterDepth": 47,
     "implosionChance": 0.330409
   },
   "diagonalwalls:minecraft/tuff_brick_wall": {
@@ -58285,9 +58357,17 @@
     "maxWaterDepth": 28,
     "implosionChance": 0.55876356
   },
+  "diagonalwindows:minecraft/copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
   "diagonalwindows:minecraft/cyan_stained_glass_pane": {
     "maxWaterDepth": 28,
     "implosionChance": 0.55876356
+  },
+  "diagonalwindows:minecraft/exposed_copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
   },
   "diagonalwindows:minecraft/glass_pane": {
     "maxWaterDepth": 28,
@@ -58325,6 +58405,10 @@
     "maxWaterDepth": 28,
     "implosionChance": 0.55876356
   },
+  "diagonalwindows:minecraft/oxidized_copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
   "diagonalwindows:minecraft/pink_stained_glass_pane": {
     "maxWaterDepth": 28,
     "implosionChance": 0.55876356
@@ -58336,6 +58420,26 @@
   "diagonalwindows:minecraft/red_stained_glass_pane": {
     "maxWaterDepth": 28,
     "implosionChance": 0.55876356
+  },
+  "diagonalwindows:minecraft/waxed_copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
+  "diagonalwindows:minecraft/waxed_exposed_copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
+  "diagonalwindows:minecraft/waxed_oxidized_copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
+  "diagonalwindows:minecraft/waxed_weathered_copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
+  "diagonalwindows:minecraft/weathered_copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
   },
   "diagonalwindows:minecraft/white_stained_glass_pane": {
     "maxWaterDepth": 28,
@@ -68228,6 +68332,134 @@
   "irons_spellbooks:wisewood_planks": {
     "maxWaterDepth": 44,
     "implosionChance": 0.36137056
+  },
+  "just_blahaj:ace_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:aroace_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:aromantic_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:bi_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:black_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:blue_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:brown_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:creeperhaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:cyan_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:enby_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:gay_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:gender_fluid_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:glowhaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:gray_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:green_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:intersex_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:iran_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:lesbian_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:light_gray_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:lime_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:magenta_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:orange_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:palestine_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:panhaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:pink_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:pride_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:purple_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:red_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:trans_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:white_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
+  },
+  "just_blahaj:yellow_blahaj": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.31021047
   },
   "kineticgrip:grip_handle": {
     "maxWaterDepth": 73,
@@ -81549,6 +81781,10 @@
     "maxWaterDepth": 15,
     "implosionChance": 0.6
   },
+  "minecraft:acacia_shelf": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
   "minecraft:acacia_sign": {
     "maxWaterDepth": 32,
     "implosionChance": 0.4806853
@@ -81689,6 +81925,10 @@
     "maxWaterDepth": 29,
     "implosionChance": 0.4806853
   },
+  "minecraft:bamboo_shelf": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
   "minecraft:bamboo_sign": {
     "maxWaterDepth": 32,
     "implosionChance": 0.4806853
@@ -81797,6 +82037,10 @@
     "maxWaterDepth": 15,
     "implosionChance": 0.6
   },
+  "minecraft:birch_shelf": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
   "minecraft:birch_sign": {
     "maxWaterDepth": 32,
     "implosionChance": 0.4806853
@@ -81853,6 +82097,14 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:black_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:black_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:black_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
@@ -81878,6 +82130,14 @@
     "implosionChance": 0.4806853
   },
   "minecraft:black_wool": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:black_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:black_wool_stairs": {
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
@@ -81929,6 +82189,14 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:blue_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:blue_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:blue_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
@@ -81962,6 +82230,14 @@
     "implosionChance": 0.4806853
   },
   "minecraft:blue_wool": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:blue_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:blue_wool_stairs": {
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
@@ -82037,6 +82313,14 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:brown_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:brown_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:brown_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
@@ -82073,6 +82357,14 @@
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
+  "minecraft:brown_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:brown_wool_stairs": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
   "minecraft:bubble_column": {
     "maxWaterDepth": 15,
     "implosionChance": 0.6
@@ -82097,9 +82389,17 @@
     "maxWaterDepth": 35,
     "implosionChance": 0.43337092
   },
+  "minecraft:bush": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
   "minecraft:cactus": {
     "maxWaterDepth": 21,
     "implosionChance": 0.5463528
+  },
+  "minecraft:cactus_flower": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
   },
   "minecraft:cake": {
     "maxWaterDepth": 23,
@@ -82197,6 +82497,10 @@
     "maxWaterDepth": 15,
     "implosionChance": 0.6
   },
+  "minecraft:cherry_shelf": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
   "minecraft:cherry_sign": {
     "maxWaterDepth": 32,
     "implosionChance": 0.4806853
@@ -82237,6 +82541,10 @@
     "maxWaterDepth": 35,
     "implosionChance": 0.43337092
   },
+  "minecraft:chiseled_cinnabar": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
   "minecraft:chiseled_copper": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
@@ -82261,12 +82569,20 @@
     "maxWaterDepth": 41,
     "implosionChance": 0.50122136
   },
+  "minecraft:chiseled_resin_bricks": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
   "minecraft:chiseled_sandstone": {
     "maxWaterDepth": 41,
     "implosionChance": 0.50122136
   },
   "minecraft:chiseled_stone_bricks": {
     "maxWaterDepth": 68,
+    "implosionChance": 0.330409
+  },
+  "minecraft:chiseled_sulfur": {
+    "maxWaterDepth": 47,
     "implosionChance": 0.330409
   },
   "minecraft:chiseled_tuff": {
@@ -82285,9 +82601,45 @@
     "maxWaterDepth": 25,
     "implosionChance": 0.5463528
   },
+  "minecraft:cinnabar": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:cinnabar_brick_slab": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:cinnabar_brick_stairs": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:cinnabar_brick_wall": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:cinnabar_bricks": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:cinnabar_slab": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:cinnabar_stairs": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:cinnabar_wall": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
   "minecraft:clay": {
     "maxWaterDepth": 24,
     "implosionChance": 0.52299964
+  },
+  "minecraft:closed_eyeblossom": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
   },
   "minecraft:coal_block": {
     "maxWaterDepth": 96,
@@ -82357,6 +82709,10 @@
     "maxWaterDepth": 71,
     "implosionChance": 0.31137055
   },
+  "minecraft:copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
   "minecraft:copper_block": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
@@ -82365,21 +82721,45 @@
     "maxWaterDepth": 56,
     "implosionChance": 0.25540897
   },
+  "minecraft:copper_chain": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.15540898
+  },
+  "minecraft:copper_chest": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
   "minecraft:copper_door": {
     "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "minecraft:copper_golem_statue": {
+    "maxWaterDepth": 56,
     "implosionChance": 0.25540897
   },
   "minecraft:copper_grate": {
     "maxWaterDepth": 56,
     "implosionChance": 0.25540897
   },
+  "minecraft:copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
+  },
   "minecraft:copper_ore": {
     "maxWaterDepth": 71,
     "implosionChance": 0.31137055
   },
+  "minecraft:copper_torch": {
+    "maxWaterDepth": 20,
+    "implosionChance": 0.6
+  },
   "minecraft:copper_trapdoor": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
+  },
+  "minecraft:copper_wall_torch": {
+    "maxWaterDepth": 20,
+    "implosionChance": 0.6
   },
   "minecraft:cornflower": {
     "maxWaterDepth": 15,
@@ -82412,6 +82792,10 @@
   "minecraft:crafting_table": {
     "maxWaterDepth": 45,
     "implosionChance": 0.3497237
+  },
+  "minecraft:creaking_heart": {
+    "maxWaterDepth": 104,
+    "implosionChance": 0.05
   },
   "minecraft:creeper_head": {
     "maxWaterDepth": 29,
@@ -82464,6 +82848,10 @@
   "minecraft:crimson_roots": {
     "maxWaterDepth": 15,
     "implosionChance": 0.6
+  },
+  "minecraft:crimson_shelf": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
   },
   "minecraft:crimson_sign": {
     "maxWaterDepth": 32,
@@ -82553,6 +82941,14 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:cyan_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:cyan_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:cyan_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
@@ -82578,6 +82974,14 @@
     "implosionChance": 0.4806853
   },
   "minecraft:cyan_wool": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:cyan_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:cyan_wool_stairs": {
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
@@ -82628,6 +83032,10 @@
   "minecraft:dark_oak_sapling": {
     "maxWaterDepth": 15,
     "implosionChance": 0.6
+  },
+  "minecraft:dark_oak_shelf": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
   },
   "minecraft:dark_oak_sign": {
     "maxWaterDepth": 32,
@@ -82881,6 +83289,10 @@
     "maxWaterDepth": 29,
     "implosionChance": 0.4806853
   },
+  "minecraft:dried_ghast": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
   "minecraft:dried_kelp_block": {
     "maxWaterDepth": 33,
     "implosionChance": 0.4497237
@@ -82953,17 +83365,37 @@
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:exposed_copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
   "minecraft:exposed_copper_bulb": {
     "maxWaterDepth": 56,
+    "implosionChance": 0.25540897
+  },
+  "minecraft:exposed_copper_chain": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.15540898
+  },
+  "minecraft:exposed_copper_chest": {
+    "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
   "minecraft:exposed_copper_door": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:exposed_copper_golem_statue": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25540897
+  },
   "minecraft:exposed_copper_grate": {
     "maxWaterDepth": 56,
     "implosionChance": 0.25540897
+  },
+  "minecraft:exposed_copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
   },
   "minecraft:exposed_copper_trapdoor": {
     "maxWaterDepth": 85,
@@ -82978,6 +83410,10 @@
     "implosionChance": 0.25540897
   },
   "minecraft:exposed_cut_copper_stairs": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "minecraft:exposed_lightning_rod": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
@@ -83006,6 +83442,10 @@
     "implosionChance": 0.6
   },
   "minecraft:fire_coral_wall_fan": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "minecraft:firefly_bush": {
     "maxWaterDepth": 15,
     "implosionChance": 0.6
   },
@@ -83117,6 +83557,14 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:gray_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:gray_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:gray_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
@@ -83142,6 +83590,14 @@
     "implosionChance": 0.4806853
   },
   "minecraft:gray_wool": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:gray_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:gray_wool_stairs": {
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
@@ -83173,6 +83629,14 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:green_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:green_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:green_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
@@ -83198,6 +83662,14 @@
     "implosionChance": 0.4806853
   },
   "minecraft:green_wool": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:green_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:green_wool_stairs": {
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
@@ -83353,6 +83825,10 @@
     "maxWaterDepth": 15,
     "implosionChance": 0.6
   },
+  "minecraft:jungle_shelf": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
   "minecraft:jungle_sign": {
     "maxWaterDepth": 32,
     "implosionChance": 0.4806853
@@ -83421,6 +83897,10 @@
     "maxWaterDepth": 59,
     "implosionChance": 0.39013878
   },
+  "minecraft:leaf_litter": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
   "minecraft:lectern": {
     "maxWaterDepth": 45,
     "implosionChance": 0.3497237
@@ -83461,6 +83941,14 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:light_blue_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:light_blue_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:light_blue_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
@@ -83486,6 +83974,14 @@
     "implosionChance": 0.4806853
   },
   "minecraft:light_blue_wool": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:light_blue_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:light_blue_wool_stairs": {
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
@@ -83517,6 +84013,14 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:light_gray_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:light_gray_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:light_gray_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
@@ -83542,6 +84046,14 @@
     "implosionChance": 0.4806853
   },
   "minecraft:light_gray_wool": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:light_gray_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:light_gray_wool_stairs": {
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
@@ -83593,6 +84105,14 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:lime_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:lime_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:lime_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
@@ -83618,6 +84138,14 @@
     "implosionChance": 0.4806853
   },
   "minecraft:lime_wool": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:lime_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:lime_wool_stairs": {
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
@@ -83657,6 +84185,14 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:magenta_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:magenta_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:magenta_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
@@ -83682,6 +84218,14 @@
     "implosionChance": 0.4806853
   },
   "minecraft:magenta_wool": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:magenta_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:magenta_wool_stairs": {
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
@@ -83732,6 +84276,10 @@
   "minecraft:mangrove_roots": {
     "maxWaterDepth": 26,
     "implosionChance": 0.5119372
+  },
+  "minecraft:mangrove_shelf": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
   },
   "minecraft:mangrove_sign": {
     "maxWaterDepth": 32,
@@ -83945,6 +84493,10 @@
     "maxWaterDepth": 15,
     "implosionChance": 0.6
   },
+  "minecraft:oak_shelf": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
   "minecraft:oak_sign": {
     "maxWaterDepth": 32,
     "implosionChance": 0.4806853
@@ -83985,6 +84537,10 @@
     "maxWaterDepth": 20,
     "implosionChance": 0.55876356
   },
+  "minecraft:open_eyeblossom": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
   "minecraft:orange_banner": {
     "maxWaterDepth": 32,
     "implosionChance": 0.4806853
@@ -84013,9 +84569,21 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:orange_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:orange_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:orange_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
+  },
+  "minecraft:orange_poplar_leaves": {
+    "maxWaterDepth": 18,
+    "implosionChance": 0.57176787
   },
   "minecraft:orange_shulker_box": {
     "maxWaterDepth": 59,
@@ -84045,6 +84613,14 @@
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
+  "minecraft:orange_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:orange_wool_stairs": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
   "minecraft:oxeye_daisy": {
     "maxWaterDepth": 15,
     "implosionChance": 0.6
@@ -84057,17 +84633,37 @@
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:oxidized_copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
   "minecraft:oxidized_copper_bulb": {
     "maxWaterDepth": 56,
+    "implosionChance": 0.25540897
+  },
+  "minecraft:oxidized_copper_chain": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.15540898
+  },
+  "minecraft:oxidized_copper_chest": {
+    "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
   "minecraft:oxidized_copper_door": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:oxidized_copper_golem_statue": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25540897
+  },
   "minecraft:oxidized_copper_grate": {
     "maxWaterDepth": 56,
     "implosionChance": 0.25540897
+  },
+  "minecraft:oxidized_copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
   },
   "minecraft:oxidized_copper_trapdoor": {
     "maxWaterDepth": 85,
@@ -84085,6 +84681,10 @@
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:oxidized_lightning_rod": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
   "minecraft:packed_ice": {
     "maxWaterDepth": 30,
     "implosionChance": 0.5344535
@@ -84092,6 +84692,90 @@
   "minecraft:packed_mud": {
     "maxWaterDepth": 38,
     "implosionChance": 0.41137058
+  },
+  "minecraft:pale_hanging_moss": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "minecraft:pale_moss_block": {
+    "maxWaterDepth": 17,
+    "implosionChance": 0.585469
+  },
+  "minecraft:pale_moss_carpet": {
+    "maxWaterDepth": 17,
+    "implosionChance": 0.585469
+  },
+  "minecraft:pale_oak_button": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "minecraft:pale_oak_door": {
+    "maxWaterDepth": 49,
+    "implosionChance": 0.31137055
+  },
+  "minecraft:pale_oak_fence": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "minecraft:pale_oak_fence_gate": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "minecraft:pale_oak_hanging_sign": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "minecraft:pale_oak_leaves": {
+    "maxWaterDepth": 18,
+    "implosionChance": 0.57176787
+  },
+  "minecraft:pale_oak_log": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "minecraft:pale_oak_planks": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "minecraft:pale_oak_pressure_plate": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "minecraft:pale_oak_sapling": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "minecraft:pale_oak_shelf": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "minecraft:pale_oak_sign": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.4806853
+  },
+  "minecraft:pale_oak_slab": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "minecraft:pale_oak_stairs": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "minecraft:pale_oak_trapdoor": {
+    "maxWaterDepth": 49,
+    "implosionChance": 0.31137055
+  },
+  "minecraft:pale_oak_wall_hanging_sign": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "minecraft:pale_oak_wall_sign": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.4806853
+  },
+  "minecraft:pale_oak_wood": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
   },
   "minecraft:pearlescent_froglight": {
     "maxWaterDepth": 20,
@@ -84141,6 +84825,14 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:pink_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:pink_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:pink_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
@@ -84174,6 +84866,14 @@
     "implosionChance": 0.4806853
   },
   "minecraft:pink_wool": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:pink_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:pink_wool_stairs": {
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
@@ -84265,6 +84965,22 @@
     "maxWaterDepth": 72,
     "implosionChance": 0.30540898
   },
+  "minecraft:polished_cinnabar": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:polished_cinnabar_slab": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:polished_cinnabar_stairs": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:polished_cinnabar_wall": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
   "minecraft:polished_deepslate": {
     "maxWaterDepth": 84,
     "implosionChance": 0.23040898
@@ -84305,6 +85021,22 @@
     "maxWaterDepth": 68,
     "implosionChance": 0.330409
   },
+  "minecraft:polished_sulfur": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:polished_sulfur_slab": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:polished_sulfur_stairs": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:polished_sulfur_wall": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
   "minecraft:polished_tuff": {
     "maxWaterDepth": 47,
     "implosionChance": 0.330409
@@ -84321,6 +85053,74 @@
     "maxWaterDepth": 47,
     "implosionChance": 0.330409
   },
+  "minecraft:poplar_button": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "minecraft:poplar_door": {
+    "maxWaterDepth": 49,
+    "implosionChance": 0.31137055
+  },
+  "minecraft:poplar_fence": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "minecraft:poplar_fence_gate": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "minecraft:poplar_hanging_sign": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "minecraft:poplar_log": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "minecraft:poplar_planks": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "minecraft:poplar_pressure_plate": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.5344535
+  },
+  "minecraft:poplar_sapling": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "minecraft:poplar_shelf": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "minecraft:poplar_sign": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.4806853
+  },
+  "minecraft:poplar_slab": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "minecraft:poplar_stairs": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
+  "minecraft:poplar_trapdoor": {
+    "maxWaterDepth": 49,
+    "implosionChance": 0.31137055
+  },
+  "minecraft:poplar_wall_hanging_sign": {
+    "maxWaterDepth": 29,
+    "implosionChance": 0.4806853
+  },
+  "minecraft:poplar_wall_sign": {
+    "maxWaterDepth": 32,
+    "implosionChance": 0.4806853
+  },
+  "minecraft:poplar_wood": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
   "minecraft:poppy": {
     "maxWaterDepth": 15,
     "implosionChance": 0.6
@@ -84328,6 +85128,10 @@
   "minecraft:potatoes": {
     "maxWaterDepth": 15,
     "implosionChance": 0.6
+  },
+  "minecraft:potent_sulfur": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
   },
   "minecraft:potted_acacia_sapling": {
     "maxWaterDepth": 25,
@@ -84366,6 +85170,10 @@
     "implosionChance": 0.6
   },
   "minecraft:potted_cherry_sapling": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
+  "minecraft:potted_closed_eyeblossom": {
     "maxWaterDepth": 25,
     "implosionChance": 0.6
   },
@@ -84417,6 +85225,10 @@
     "maxWaterDepth": 25,
     "implosionChance": 0.6
   },
+  "minecraft:potted_open_eyeblossom": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
   "minecraft:potted_orange_tulip": {
     "maxWaterDepth": 25,
     "implosionChance": 0.6
@@ -84425,7 +85237,15 @@
     "maxWaterDepth": 25,
     "implosionChance": 0.6
   },
+  "minecraft:potted_pale_oak_sapling": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
   "minecraft:potted_pink_tulip": {
+    "maxWaterDepth": 25,
+    "implosionChance": 0.6
+  },
+  "minecraft:potted_poplar_sapling": {
     "maxWaterDepth": 25,
     "implosionChance": 0.6
   },
@@ -84541,6 +85361,14 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:purple_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:purple_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:purple_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
@@ -84566,6 +85394,14 @@
     "implosionChance": 0.4806853
   },
   "minecraft:purple_wool": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:purple_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:purple_wool_stairs": {
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
@@ -84649,6 +85485,14 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:red_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:red_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:red_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
@@ -84677,6 +85521,10 @@
     "maxWaterDepth": 72,
     "implosionChance": 0.30540898
   },
+  "minecraft:red_poplar_leaves": {
+    "maxWaterDepth": 18,
+    "implosionChance": 0.57176787
+  },
   "minecraft:red_sand": {
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
@@ -84696,6 +85544,10 @@
   "minecraft:red_sandstone_wall": {
     "maxWaterDepth": 41,
     "implosionChance": 0.50122136
+  },
+  "minecraft:red_shrub": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
   },
   "minecraft:red_shulker_box": {
     "maxWaterDepth": 59,
@@ -84722,6 +85574,14 @@
     "implosionChance": 0.4806853
   },
   "minecraft:red_wool": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:red_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:red_wool_stairs": {
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
@@ -84760,6 +85620,30 @@
   "minecraft:repeating_command_block": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
+  },
+  "minecraft:resin_block": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "minecraft:resin_brick_slab": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:resin_brick_stairs": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:resin_brick_wall": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:resin_bricks": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:resin_clump": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
   },
   "minecraft:respawn_anchor": {
     "maxWaterDepth": 100,
@@ -84826,6 +85710,14 @@
     "implosionChance": 0.6
   },
   "minecraft:seagrass": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "minecraft:shelf_mushroom": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "minecraft:short_dry_grass": {
     "maxWaterDepth": 15,
     "implosionChance": 0.6
   },
@@ -85009,6 +85901,10 @@
     "maxWaterDepth": 15,
     "implosionChance": 0.6
   },
+  "minecraft:spruce_shelf": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
   "minecraft:spruce_sign": {
     "maxWaterDepth": 32,
     "implosionChance": 0.4806853
@@ -85081,6 +85977,10 @@
     "maxWaterDepth": 77,
     "implosionChance": 0.27459225
   },
+  "minecraft:straw_bed": {
+    "maxWaterDepth": 18,
+    "implosionChance": 0.57176787
+  },
   "minecraft:stripped_acacia_log": {
     "maxWaterDepth": 41,
     "implosionChance": 0.39013878
@@ -85149,6 +86049,22 @@
     "maxWaterDepth": 41,
     "implosionChance": 0.39013878
   },
+  "minecraft:stripped_pale_oak_log": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "minecraft:stripped_pale_oak_wood": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "minecraft:stripped_poplar_log": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
+  "minecraft:stripped_poplar_wood": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.39013878
+  },
   "minecraft:stripped_spruce_log": {
     "maxWaterDepth": 41,
     "implosionChance": 0.39013878
@@ -85177,6 +86093,42 @@
     "maxWaterDepth": 15,
     "implosionChance": 0.6
   },
+  "minecraft:sulfur": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:sulfur_brick_slab": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:sulfur_brick_stairs": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:sulfur_brick_wall": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:sulfur_bricks": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:sulfur_slab": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:sulfur_spike": {
+    "maxWaterDepth": 41,
+    "implosionChance": 0.38637057
+  },
+  "minecraft:sulfur_stairs": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
+  "minecraft:sulfur_wall": {
+    "maxWaterDepth": 47,
+    "implosionChance": 0.330409
+  },
   "minecraft:sunflower": {
     "maxWaterDepth": 15,
     "implosionChance": 0.6
@@ -85190,6 +86142,10 @@
     "implosionChance": 0.56518567
   },
   "minecraft:sweet_berry_bush": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
+  },
+  "minecraft:tall_dry_grass": {
     "maxWaterDepth": 15,
     "implosionChance": 0.6
   },
@@ -85365,6 +86321,10 @@
     "maxWaterDepth": 15,
     "implosionChance": 0.6
   },
+  "minecraft:warped_shelf": {
+    "maxWaterDepth": 44,
+    "implosionChance": 0.36137056
+  },
   "minecraft:warped_sign": {
     "maxWaterDepth": 32,
     "implosionChance": 0.4806853
@@ -85409,6 +86369,10 @@
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:waxed_copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
   "minecraft:waxed_copper_block": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
@@ -85417,13 +86381,29 @@
     "maxWaterDepth": 56,
     "implosionChance": 0.25540897
   },
+  "minecraft:waxed_copper_chain": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.15540898
+  },
+  "minecraft:waxed_copper_chest": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
   "minecraft:waxed_copper_door": {
     "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "minecraft:waxed_copper_golem_statue": {
+    "maxWaterDepth": 56,
     "implosionChance": 0.25540897
   },
   "minecraft:waxed_copper_grate": {
     "maxWaterDepth": 56,
     "implosionChance": 0.25540897
+  },
+  "minecraft:waxed_copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
   },
   "minecraft:waxed_copper_trapdoor": {
     "maxWaterDepth": 85,
@@ -85449,17 +86429,37 @@
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:waxed_exposed_copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
   "minecraft:waxed_exposed_copper_bulb": {
     "maxWaterDepth": 56,
+    "implosionChance": 0.25540897
+  },
+  "minecraft:waxed_exposed_copper_chain": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.15540898
+  },
+  "minecraft:waxed_exposed_copper_chest": {
+    "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
   "minecraft:waxed_exposed_copper_door": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:waxed_exposed_copper_golem_statue": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25540897
+  },
   "minecraft:waxed_exposed_copper_grate": {
     "maxWaterDepth": 56,
     "implosionChance": 0.25540897
+  },
+  "minecraft:waxed_exposed_copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
   },
   "minecraft:waxed_exposed_copper_trapdoor": {
     "maxWaterDepth": 85,
@@ -85477,6 +86477,14 @@
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:waxed_exposed_lightning_rod": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "minecraft:waxed_lightning_rod": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
   "minecraft:waxed_oxidized_chiseled_copper": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
@@ -85485,17 +86493,37 @@
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:waxed_oxidized_copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
   "minecraft:waxed_oxidized_copper_bulb": {
     "maxWaterDepth": 56,
+    "implosionChance": 0.25540897
+  },
+  "minecraft:waxed_oxidized_copper_chain": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.15540898
+  },
+  "minecraft:waxed_oxidized_copper_chest": {
+    "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
   "minecraft:waxed_oxidized_copper_door": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:waxed_oxidized_copper_golem_statue": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25540897
+  },
   "minecraft:waxed_oxidized_copper_grate": {
     "maxWaterDepth": 56,
     "implosionChance": 0.25540897
+  },
+  "minecraft:waxed_oxidized_copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
   },
   "minecraft:waxed_oxidized_copper_trapdoor": {
     "maxWaterDepth": 85,
@@ -85513,6 +86541,10 @@
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:waxed_oxidized_lightning_rod": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
   "minecraft:waxed_weathered_chiseled_copper": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
@@ -85521,17 +86553,37 @@
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:waxed_weathered_copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
   "minecraft:waxed_weathered_copper_bulb": {
     "maxWaterDepth": 56,
+    "implosionChance": 0.25540897
+  },
+  "minecraft:waxed_weathered_copper_chain": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.15540898
+  },
+  "minecraft:waxed_weathered_copper_chest": {
+    "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
   "minecraft:waxed_weathered_copper_door": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:waxed_weathered_copper_golem_statue": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25540897
+  },
   "minecraft:waxed_weathered_copper_grate": {
     "maxWaterDepth": 56,
     "implosionChance": 0.25540897
+  },
+  "minecraft:waxed_weathered_copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
   },
   "minecraft:waxed_weathered_copper_trapdoor": {
     "maxWaterDepth": 85,
@@ -85549,6 +86601,10 @@
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:waxed_weathered_lightning_rod": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
   "minecraft:weathered_chiseled_copper": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
@@ -85557,17 +86613,37 @@
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:weathered_copper_bars": {
+    "maxWaterDepth": 101,
+    "implosionChance": 0.15540898
+  },
   "minecraft:weathered_copper_bulb": {
     "maxWaterDepth": 56,
+    "implosionChance": 0.25540897
+  },
+  "minecraft:weathered_copper_chain": {
+    "maxWaterDepth": 68,
+    "implosionChance": 0.15540898
+  },
+  "minecraft:weathered_copper_chest": {
+    "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
   "minecraft:weathered_copper_door": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
+  "minecraft:weathered_copper_golem_statue": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.25540897
+  },
   "minecraft:weathered_copper_grate": {
     "maxWaterDepth": 56,
     "implosionChance": 0.25540897
+  },
+  "minecraft:weathered_copper_lantern": {
+    "maxWaterDepth": 54,
+    "implosionChance": 0.27459225
   },
   "minecraft:weathered_copper_trapdoor": {
     "maxWaterDepth": 85,
@@ -85582,6 +86658,10 @@
     "implosionChance": 0.25540897
   },
   "minecraft:weathered_cut_copper_stairs": {
+    "maxWaterDepth": 85,
+    "implosionChance": 0.25540897
+  },
+  "minecraft:weathered_lightning_rod": {
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
@@ -85629,6 +86709,14 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:white_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:white_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:white_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
@@ -85660,6 +86748,18 @@
   "minecraft:white_wool": {
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
+  },
+  "minecraft:white_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:white_wool_stairs": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:wildflowers": {
+    "maxWaterDepth": 15,
+    "implosionChance": 0.6
   },
   "minecraft:wither_rose": {
     "maxWaterDepth": 15,
@@ -85701,9 +86801,21 @@
     "maxWaterDepth": 23,
     "implosionChance": 0.5344535
   },
+  "minecraft:yellow_concrete_slab": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
+  "minecraft:yellow_concrete_stairs": {
+    "maxWaterDepth": 56,
+    "implosionChance": 0.40703806
+  },
   "minecraft:yellow_glazed_terracotta": {
     "maxWaterDepth": 50,
     "implosionChance": 0.44245312
+  },
+  "minecraft:yellow_poplar_leaves": {
+    "maxWaterDepth": 18,
+    "implosionChance": 0.57176787
   },
   "minecraft:yellow_shulker_box": {
     "maxWaterDepth": 59,
@@ -85726,6 +86838,14 @@
     "implosionChance": 0.4806853
   },
   "minecraft:yellow_wool": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:yellow_wool_slab": {
+    "maxWaterDepth": 27,
+    "implosionChance": 0.50122136
+  },
+  "minecraft:yellow_wool_stairs": {
     "maxWaterDepth": 27,
     "implosionChance": 0.50122136
   },
@@ -113616,6 +114736,10 @@
   "sauce:source_jar_valve": {
     "maxWaterDepth": 71,
     "implosionChance": 0.31137055
+  },
+  "seamlesssleep:sleep_barrier": {
+    "maxWaterDepth": 267,
+    "implosionChance": 0.05
   },
   "secretdoors:secret_acacia_log_door": {
     "maxWaterDepth": 49,

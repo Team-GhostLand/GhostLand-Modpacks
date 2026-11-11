@@ -1,0 +1,9 @@
+{
+	"loader": "amendments:wall_lantern",
+	"support": {
+		"parent": "amendments:block/wall_oxidized_copper_lantern_2_template",
+		"textures": {
+			"1": "amendments:block/wall_lanterns/oxidized_copper_lantern"
+		}
+	}
+}
